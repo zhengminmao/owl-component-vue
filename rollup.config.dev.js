@@ -79,7 +79,7 @@ export default {
       'process.env.NODE_ENV': JSON.stringify('development')
     }),
     image({
-      exclude: 'assets'
+      exclude: 'lib'
     }),
     html({
       fileName: 'index.html',
