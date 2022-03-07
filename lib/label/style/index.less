@@ -1,0 +1,25 @@
+.owl-label{
+  display: inline-block;
+  overflow: hidden;
+  &::before{
+    float: left;
+    content: '';
+    height: 100%;
+    width: 24px;
+  }
+  .line-label{
+    float: right;
+    margin-left: -24px;
+    width: 100%;
+    word-break: break-all;
+  }
+  .after{
+    float: right;
+    position: relative;
+    left: 100%;
+    width: 24px;
+    transform: translate(-100%, -100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) , white 50%);
+    text-align: right;
+  }
+}

@@ -8445,26 +8445,6 @@
     }, 0);
   }
 
-  var App = {
-    methods: {
-      clickHandler() {
-        this.$router.push({
-          name: 'home'
-        });
-      }
-
-    },
-
-    render(h) {
-      return h('div', [h('span', 'hello world12'), h('button', {
-        on: {
-          click: this.clickHandler
-        }
-      }, '跳转'), h('router-view')]);
-    }
-
-  };
-
   /*!
     * vue-router v3.5.3
     * (c) 2021 Evan You
@@ -9750,12 +9730,12 @@
 
   var _Vue;
 
-  function install(Vue) {
-    if (install.installed && _Vue === Vue) {
+  function install$1(Vue) {
+    if (install$1.installed && _Vue === Vue) {
       return;
     }
 
-    install.installed = true;
+    install$1.installed = true;
     _Vue = Vue;
 
     var isDef = function (v) {
@@ -11299,7 +11279,7 @@
   /* Vue component instance */
   ) {
     var this$1$1 = this;
-    assert(install.installed, "not installed. Make sure to call `Vue.use(VueRouter)` " + "before creating root instance.");
+    assert(install$1.installed, "not installed. Make sure to call `Vue.use(VueRouter)` " + "before creating root instance.");
     this.apps.push(app); // set up app destroyed handler
     // https://github.com/vuejs/vue-router/issues/2639
 
@@ -11485,7 +11465,7 @@
     return base ? cleanPath(base + '/' + path) : path;
   }
 
-  VueRouter.install = install;
+  VueRouter.install = install$1;
   VueRouter.version = '3.5.3';
   VueRouter.isNavigationFailure = isNavigationFailure;
   VueRouter.NavigationFailureType = NavigationFailureType;
@@ -11508,31 +11488,212 @@
 
   // import pic from  "@/assets/xxxx.jpg"
   var Index = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"indexPage"},[_c('h1',[_vm._v("\n    this is index page heelo12222\n  ")]),_vm._v(" "),_c('owl-swiper',{attrs:{"list":_vm.swiperList}}),_vm._v(" "),_c('owl-button',[_vm._v("12")])],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"indexPage"},[_c('h1',[_vm._v("this is index page heelo12222")]),_vm._v(" "),_c('owl-button',[_vm._v("12")])],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        
+      }
+    }
+  };
+
+  var Swiper$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Swiper 轮播图")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('div',{staticClass:"swiper-wrap"},[_c('owl-swiper',{attrs:{"list":_vm.swiperList}})],1),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
   staticRenderFns: [],
     data(){
       return {
         swiperList: [
           {link: '', path: 'https://www.msoffer.hk/appMyFile/files/2022/01/11/f60ff7b0-c703-40d1-b49e-e12c1c1e4dae.jpg',},
           {link: '', path: 'https://www.msoffer.hk/appMyFile/files/2021/07/05/15066cb8-1b33-471b-85e7-7ecc47eb3225.jpg'}
+        ],
+        propsCol: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '说明', key: 'introduce'},
+        ],
+        propsData: [
+          {name: 'list', types: '{path: string, link: string}[]', introduce: 'path：图片路径， link：点击图片跳转的地址'},
+          {name: 'object-fit', types: '\'cover\'', introduce: 'css的object-fit属性，默认值是\'cover\''},
         ]
       }
     }
   };
 
+  var Label$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"label-page"},[_c('h2',[_vm._v("文本省略")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('div',{staticClass:"label1"},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-bgm-color":"#fff"}})],1),_vm._v(" "),_c('h3',[_vm._v("省略号颜色和背景")]),_vm._v(" "),_c('div',{staticClass:"label2"},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-color":"var(--owl-primary-color)","ellipsis-bgm-color":"#f7e8e8"}})],1),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '说明', key: 'introduce'},
+        ],
+        list: [
+          {name: 'height', types: 'string', introduce: '文本的高度。如果文本超出高度会省略'},
+          {name: 'label', types: 'string', introduce: '文本'},
+          {name: 'ellipsisColor', types: 'string', introduce: '省略的颜色'},
+          {name: 'ellipsisBgmColor', types: 'string', introduce: '省略蒙层的背景色，从左到右是透明到蒙层背景色'},
+        ]
+      }
+    }
+  };
+
+  var Tabs$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"tabs-page"},[_c('h2',[_vm._v("Tabs 标签页")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-tabs',{staticClass:"tabs1",attrs:{"list":_vm.list},model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}}),_vm._v(" "),_c('code',{staticClass:"owl-code",domProps:{"innerHTML":_vm._s(_vm.tabs1Code)}}),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"columns":_vm.columns,"data":_vm.data}})],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        list: [
+          {label: '英国', key: 'England'},
+          {label: '加拿大', key: 'Canada'},
+          {label: '美国', key: 'USA'},
+          {label: '澳大利亚', key: 'Australia'},
+        ],
+        value: 'England',
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '说明', key: 'introduce'},
+        ],
+        data: [
+          {name: 'list', types: 'any[]', introduce: 'tabs列表'},
+          {name: 'config', types: "{label: string, key: string}", introduce: "label显示的名称，key选择的值。默认值是{label: 'label', key: 'key'}"},
+          {name: 'value/v-model', types: 'string | number', introduce: '当前选中的值'},
+          {name: 'type', types: "'line' | 'border'", introduce: '下划线或边框样式'},
+        ],
+        tabs1Code:`
+&lt;template&gt;
+  &lt;owl-tabs :list="list" v-model="value"/&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  data(){
+    return {
+      list: [
+        {label: '英国', key: 'England'},
+        {label: '加拿大', key: 'Canada'},
+        {label: '美国', key: 'USA'},
+        {label: '澳大利亚', key: 'Australia'},
+      ],
+      value: 'England',
+    }
+  }
+}
+&lt;script/&gt;
+      `
+      }
+    }
+  };
+
   Vue.use(VueRouter$1);
+  const routes = [{
+    path: '/',
+    name: 'index',
+    component: Index,
+    meta: {
+      title: '首页'
+    }
+  }, {
+    path: '/home',
+    name: 'home',
+    component: Home,
+    meta: {
+      slide: true,
+      title: 'Introduce 概述'
+    }
+  }, {
+    path: '/swiper',
+    name: 'swiper',
+    component: Swiper$1,
+    meta: {
+      title: 'Swiper 轮播图',
+      slide: true
+    }
+  }, {
+    path: '/label',
+    name: 'label',
+    component: Label$1,
+    meta: {
+      title: 'Label 文本省略',
+      slide: true
+    }
+  }, {
+    path: '/tabs',
+    name: 'tabs',
+    component: Tabs$1,
+    meta: {
+      title: 'Tabs 标签页',
+      slide: true
+    }
+  }];
   var router = new VueRouter$1({
     mode: 'hash',
-    routes: [{
-      path: '/',
-      name: 'index',
-      component: Index
-    }, {
-      path: '/home',
-      name: 'home',
-      component: Home
-    }]
+    routes: routes
   });
+
+  var Slider = {
+    data() {
+      return {
+        list: []
+      };
+    },
+
+    created() {
+      this.list = routes.filter(item => item.meta.slide);
+    },
+
+    render: function (h) {
+      return h('div', {
+        class: 'slider'
+      }, this.list.map(item => {
+        return h('router-link', {
+          class: 'item',
+          key: item.name,
+          props: {
+            to: {
+              name: item.name
+            }
+          }
+        }, [h('span', item.meta.title), h('span', {
+          class: 'arrow'
+        })]);
+      }));
+    }
+  };
+  var App = {
+    components: {
+      'slider': Slider
+    },
+    methods: {
+      clickHandler() {
+        this.$router.push({
+          name: 'home'
+        });
+      }
+
+    },
+
+    render(h) {
+      return h('div', {
+        class: 'owl-container'
+      }, [h('header', {
+        class: 'header-wrap'
+      }, [h('div', {
+        class: 'header'
+      }, [h('h1', {
+        class: 'office-tit'
+      }, 'Owl Component Vue')])]), h('div', {
+        class: 'content'
+      }, [h('slider'), h('div', {
+        class: 'main'
+      }, [h('router-view')])]), h('footer', {
+        class: 'footer'
+      })]);
+    }
+
+  };
 
   var Button = {
     name: 'OwlButton',
@@ -11597,10 +11758,8 @@
     mounted() {
       this.$nextTick(() => {
         const width = this.$refs.swiperDom.clientWidth;
-        console.log(this.bannerList);
         if (!width) return;
         this.bannerInfo.width = width;
-        this.bannerStatus = true;
         window.addEventListener('resize', this.windowSizeChange);
 
         if (this.list.length <= 1) {
@@ -11763,12 +11922,8 @@
     },
 
     render(h) {
-      console.log(1);
       return h('div', {
         class: 'owl-swiper',
-        style: {
-          'opacity': this.bannerStatus ? 1 : 0
-        },
         ref: 'swiperDom'
       }, [h('div', {
         class: 'owl-swiper-wrap',
@@ -11817,8 +11972,233 @@
     Vue.component(Swiper.name, Swiper);
   };
 
-  Vue.use(Button);
-  Vue.use(Swiper);
+  var Label = {
+    name: 'OwlLabel',
+    functional: true,
+    props: {
+      height: String,
+      label: String,
+      ellipsisColor: String,
+      ellipsisBgmColor: String
+    },
+    render: function (h, ctx) {
+      const props = ctx.props;
+      return h('div', {
+        class: 'owl-label',
+        style: {
+          height: props.height
+        }
+      }, [h('span', {
+        class: 'line-label'
+      }, props.label), h('span', {
+        class: 'after',
+        style: {
+          'color': props && props.ellipsisColor ? props.ellipsisColor : '#333333',
+          'background': `linear-gradient(to right, rgba(255,255,255,0), ${props && props.ellipsisBgmColor || 'white'} 50%) `
+        }
+      }, '...')]);
+    }
+  };
+
+  Label.install = function (Vue) {
+    Vue.component(Label.name, Label);
+  };
+
+  var Tabs = {
+    name: 'OwlTabs',
+    model: {
+      prop: 'value',
+      event: 'change'
+    },
+    props: {
+      list: Array,
+      value: [Number, String],
+      config: {
+        default: () => ({
+          label: 'label',
+          key: 'key'
+        }),
+        require: false
+      },
+      type: {
+        default: 'line',
+        validator: function (val) {
+          return ['line', 'border'].indexOf(val) !== -1;
+        }
+      }
+    },
+
+    data() {
+      return {
+        line: {
+          width: 1,
+          left: 0
+        },
+        isOverflow: false // 是否需要滚动
+
+      };
+    },
+
+    computed: {
+      justify() {
+        return this.isOverflow ? 'unset' : 'space-around';
+      }
+
+    },
+    watch: {
+      list: {
+        handler() {
+          setTimeout(() => {
+            const wrapDom = this.$refs.wrapDom;
+            if (!wrapDom || !wrapDom.children) return;
+            const itemDom = wrapDom.querySelector(`[data-key=${this.value}]`);
+
+            if (itemDom) {
+              this.line.width = itemDom.clientWidth;
+              this.line.left = itemDom.offsetLeft;
+            }
+
+            if (wrapDom.scrollWidth > wrapDom.clientWidth) {
+              this.isOverflow = true;
+            } else {
+              this.isOverflow = false;
+            }
+          });
+        },
+
+        immediate: true,
+        deep: true
+      },
+
+      value(val) {
+        const wrapDom = this.$refs.wrapDom;
+        if (!wrapDom || !wrapDom.children) return;
+        const itemDom = wrapDom.querySelector(`[data-key=${val}]`);
+        this.line.width = itemDom.clientWidth;
+        this.line.left = itemDom.offsetLeft;
+
+        if (this.isOverflow) {
+          const left = itemDom.offsetLeft - (wrapDom.clientWidth - itemDom.clientWidth) / 2;
+          wrapDom.scrollTo({
+            left,
+            behavior: 'smooth'
+          });
+        }
+      }
+
+    },
+
+    render(h) {
+      let children = [];
+
+      if (this.isOverflow) {
+        children.push(h('div', {
+          class: 'left-shadow'
+        }));
+        children.push(h('div', {
+          class: 'right-shadow'
+        }));
+      }
+
+      if (this.list && this.list.length) {
+        const tabs = this.list.map((item, index) => {
+          return h('div', {
+            key: index,
+            on: {
+              'click': () => this.$emit('change', item[this.config.key])
+            },
+            class: ['item', this.value == item[this.config.key] && 'active'],
+            attrs: {
+              'data-key': item[this.config.key]
+            },
+            style: {
+              'margin-right': index == this.list.length - 1 && this.type === 'line' && '0px'
+            }
+          }, [h('span', item[this.config.label])]);
+        });
+
+        if (this.type === 'line') {
+          tabs.push(h('div', {
+            class: 'line',
+            style: `transform: translateX(${this.line.left}px) scaleX(${this.line.width}); transform-origin: 0 50%`
+          }));
+        }
+
+        children.push(h('div', {
+          class: 'category-wrap',
+          style: {
+            'justify-content': this.justify
+          },
+          ref: 'wrapDom'
+        }, tabs));
+      }
+
+      return h('div', {
+        class: ['owl-tabs', this.type]
+      }, children);
+    }
+
+  };
+
+  Tabs.install = function (Vue) {
+    Vue.component(Tabs.name, Tabs);
+  };
+
+  const components = {
+    Button,
+    Swiper,
+    Label,
+    Tabs
+  };
+
+  const install = function (Vue) {
+    for (let key in components) {
+      Vue.component(components[key].name, components[key]);
+    }
+  };
+
+  var OwlUI = {
+    install,
+    components
+  };
+
+  var OwlTable = {
+    name: 'OwlTable',
+    functional: true,
+    props: {
+      columns: {
+        type: Array,
+        default: () => []
+      },
+      data: {
+        type: Array,
+        require: false,
+        default: () => []
+      }
+    },
+
+    render(h, ctx) {
+      const props = ctx.props;
+      return h('table', {
+        class: 'owl-table'
+      }, [h('tr', props.columns.map((item, index) => h('th', {
+        key: index,
+        style: {
+          width: item.width || 'auto'
+        }
+      }, item.title))), ...props.data.map((item, index) => {
+        return h('tr', {
+          key: index
+        }, props.columns.map((jtem, jndex) => h('td', {
+          key: jndex
+        }, item[jtem.key])));
+      })]);
+    }
+
+  };
+
+  Vue.component('owl-table', OwlTable);
+  Vue.use(OwlUI);
   new Vue({
     router: router,
     render: h => h(App)

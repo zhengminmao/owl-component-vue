@@ -6,6 +6,7 @@
   --owl-primary-color: #0076D1;
   --owl-primary-darken-color: darken(#0076D1, 4%);
   --owl-primary-lighten-color: lighten(#0076D1, 4%);
+  --owl-primary-bgm-color: fade(#0076D1, 6%);
   --owl-success-color: #FF9600;
   --owl-success-darken-color: darken(#FF9600, 4%);
   --owl-success-lighten-color: lighten(#FF9600, 4%);
@@ -19,4 +20,15 @@ input,button{
 }
 button{
   cursor: pointer;
+}
+a{
+  color: var(--owl-primary-color);
+  text-decoration: none;
+  transition: color .25s;
+  &:hover{
+    color: var(--owl-primary-lighten-color);
+  }
+  &:active{
+    color: var(--owl-primary-darken-color);
+  }
 }
