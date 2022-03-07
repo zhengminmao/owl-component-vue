@@ -10,6 +10,7 @@ import path from 'path'
 import image from '@rollup/plugin-image'
 import vue from 'rollup-plugin-vue2'
 import html from '@rollup/plugin-html'
+import commonjs from 'rollup-plugin-commonjs';
 
 const resolveDir = dir => path.join(__dirname,dir)
 
@@ -90,6 +91,9 @@ export default {
       }
     }),
     livereload(),
+    commonjs({
+      include: 'node_modules/highlight.js/**'
+    }),
     serve({
       open: true,
       port: 8888,

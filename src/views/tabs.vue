@@ -2,8 +2,9 @@
   <div class="tabs-page">
     <h2>Tabs 标签页</h2>
     <h3>基础用法</h3>
-    <owl-tabs class="tabs1" :list="list" v-model="value"/>
-    <code v-html="tabs1Code" class="owl-code"></code>
+    <owl-code-example :code="tabs1Code">
+      <owl-tabs class="tabs1" :list="list" v-model="value"/>
+    </owl-code-example>
     <h3>Props</h3>
     <owl-table :columns="columns" :data="data" />
   </div>
@@ -31,8 +32,7 @@ export default {
         {name: 'value/v-model', types: 'string | number', introduce: '当前选中的值'},
         {name: 'type', types: "'line' | 'border'", introduce: '下划线或边框样式'},
       ],
-      tabs1Code:`
-&lt;template&gt;
+      tabs1Code:`&lt;template&gt;
   &lt;owl-tabs :list="list" v-model="value"/&gt;
 &lt;/template&gt;
 
@@ -62,13 +62,5 @@ export default {
   .tabs1{
     text-align: left;
   }
-  .owl-code{
-    white-space: pre;
-    background: #fff;
-    display: block;
-    margin: 24px 0;
-    padding: 12px;
-  }
-
 }
 </style>

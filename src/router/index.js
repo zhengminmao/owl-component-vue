@@ -5,6 +5,7 @@ import Index from '@/views/index.vue'
 import Swiper from '@/views/swiper.vue'
 import Label from '@/views/label.vue'
 import Tabs from '@/views/tabs.vue'
+import Input from '@/views/input.vue'
 Vue.use(VueRouter)
 
 export const routes = [
@@ -23,6 +24,15 @@ export const routes = [
     meta: {
       slide: true,
       title: 'Introduce 概述'
+    }
+  },
+  {
+    path: '/input',
+    name: 'input',
+    component: Input,
+    meta: {
+      title: 'Input 输入框',
+      slide: true
     }
   },
   {

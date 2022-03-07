@@ -1,0 +1,81 @@
+.owl-input{
+  border-bottom: 1px solid #ddd;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .input{
+    flex-grow: 1;
+    width: 0;
+    padding: 10px;
+    border: 0;
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+    &:focus{
+      outline: unset;
+    }
+    &::placeholder{
+      color: #999;
+    }
+  }
+  .suffix-icon{
+    font-size: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+    color: #999;
+    transition: color .25s ease-in;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    &:hover{
+      color: #333;
+    }
+  }
+  .active-line{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: var(--owl-primary-color);
+    transform: scaleX(0);
+    opacity: 0;
+    transition: all .3s ease-in;
+  }
+  .tip{
+    color: #ff4d4f;
+    font-size: 12px;
+    bottom: 3px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    overflow: hidden;
+    padding: 0 10px;
+    span{
+      display: inline-block;
+      transform: translateY(-20px);
+      line-height: 14px;
+      transition: all .3s ease;
+    }
+  }
+  &:focus-within{
+    .active-line{
+      opacity: 1;
+      transform: scaleX(1);
+    }
+  }
+  &.error{
+    .active-line{
+      opacity: 1;
+      background-color: #ff4d4f;
+      transform: scaleX(1);
+    }
+    .tip{
+      span{
+        transform: translateY(0px);
+      }
+    }
+  }
+}
