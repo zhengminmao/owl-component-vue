@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>输入框</h2>
+    <h2>Input 输入框</h2>
     <h3>基础用法</h3>
     <owl-code-example :code="code1">
       <div class="input1">
@@ -34,6 +34,26 @@
         :rule="validate"
       />
     </owl-code-example>
+    <h3>Slots</h3>
+    <owl-code-example :code="code4">
+      <div class="input-account-wrap">
+        <div class="input-account">
+          <div class="title">前缀插槽</div>
+          <owl-input placeholder="请输入账号" v-model="userVal">
+            <template slot="prefix"><span class="iconfont owl-user" style="font-size: 16px;"></span></template>
+          </owl-input>
+          <owl-input placeholder="请输入密码" v-model="passwordVal" type="password">
+            <template slot="prefix"><span class="iconfont owl-mima" style="font-size: 16px;"></span></template>
+          </owl-input>
+        </div>
+        <div class="input-account">
+          <div class="title">后缀插槽</div>
+          <owl-input  placeholder="请输入关键字" v-model="searchVal">
+            <template slot="suffix"><span class="iconfont owl-search"></span></template>
+          </owl-input>
+        </div>
+      </div>
+    </owl-code-example>
     <h3>Props</h3>
     <owl-table :data="propsData" :columns="propsCol" />
   </div>
@@ -47,6 +67,9 @@ export default {
       input3: '',
       input4: '',
       input5: '',
+      userVal: '',
+      passwordVal: '',
+      searchVal: '',
       propsCol: [
         {title: '名称', key: 'name', width: '180px'},
         {title: '类型', key: 'types'},
@@ -122,6 +145,32 @@ export default {
   }
 }
 &lt;/script&gt; 
+`,
+      code4: `&lt;template&gt;
+  <div class="input-account-wrap">
+    <div class="input-account">
+      <div class="title">前缀插槽</div>
+      <owl-input placeholder="请输入账号" v-model="userVal">
+        <template slot="prefix">
+          <span class="iconfont owl-user" style="font-size: 16px;"></span>
+        </template>
+      </owl-input>
+      <owl-input placeholder="请输入密码" v-model="passwordVal" type="password">
+        <template slot="prefix">
+          <span class="iconfont owl-mima" style="font-size: 16px;"></span>
+        </template>
+      </owl-input>
+    </div>
+    <div class="input-account">
+      <div class="title">后缀插槽</div>
+      <owl-input  placeholder="请输入关键字" v-model="searchVal">
+        <template slot="suffix">
+          <span class="iconfont owl-search"></span>
+        </template>
+      </owl-input>
+    </div>
+  </div>
+&lt;/template&gt;
 `
     }
   }
@@ -139,5 +188,18 @@ export default {
 }
 .input2-csm{
   width: 280px;
+}
+.input-account-wrap{
+  display: flex;
+}
+.input-account{
+  width: 380px;
+  .title{
+    font-size: 14px;
+    color: #999;
+  }
+  &:last-child{
+    margin-left: 24px;
+  }
 }
 </style>

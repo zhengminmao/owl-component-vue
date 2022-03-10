@@ -12,11 +12,27 @@ export default {
       type: String,
     }
   },
+  data(){
+    return {
+      showCode: false,
+      codeHeight: 0,
+    }
+  },
+  computed:{
+    highlightedCode(){
+      if(!this.code) return '';
+      let cpCode = this.code.replace(/\&lt;/g, '<').replace(/\&gt;/g, '>')
+      return hljs.highlight(cpCode, {language: 'javascript'}).value
+    },
+    currentCodeHeight(){
+      if(!this.showCode) return 0;
+      return this.codeHeight;
+    },
+  },
   mounted(){
-    if(!this.code) return;
-    let cpCode = this.code.replace(/\&lt;/g, '<').replace(/\&gt;/g, '>')
-    const highlightedCode = hljs.highlight(cpCode, {language: 'javascript'}).value
-    this.$refs.codeDom.innerHTML =  highlightedCode
+    this.$nextTick(()=>{
+      this.codeHeight = this.$refs.codeDom.clientHeight
+    })
   },
   render(h){
     return h(
@@ -25,7 +41,19 @@ export default {
         this.$slots.introduce || this.introduce ? 
           h('div', {class: 'introduce'}, this.$slots.introduce || this.introduce)
           : null,
-        h('code', {class: 'owl-code', ref: 'codeDom'},),
+        h('div', {class: 'code-wrap', style:{height: this.currentCodeHeight+'px'}}, [
+          h('code', {class: 'owl-code', ref:'codeDom', domProps: {innerHTML: this.highlightedCode}},),
+        ]),
+        h(
+          'div', 
+          {
+            class: ['owl-arrow-wrap', this.showCode && 'active'],
+            on: {
+              click:()=>(this.showCode = !this.showCode)
+            }
+          }, 
+          [ h('span', {class: 'arrow'}), !this.showCode? '显示代码': '隐藏代码' ],
+        ),
       ]
     ) 
   }

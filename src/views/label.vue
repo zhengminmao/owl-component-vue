@@ -1,6 +1,6 @@
 <template functional>
   <div class="label-page">
-    <h2>文本省略</h2>
+    <h2>Label 文本省略</h2>
     <h3>基础用法</h3>
     <owl-code-example :code="code1">
       <owl-label
@@ -16,7 +16,7 @@
         <owl-label 
           height="42px"
           label="这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本"
-          ellipsis-color="var(--owl-primary-color)"
+          ellipsis-color="var(--owl-success-color)"
           ellipsis-bgm-color="#f7e8e8"
         />
       </div>
@@ -84,7 +84,7 @@ export default {
     padding: 20px;
     background-color: #f7e8e8;
     .owl-label{
-      color: var(--owl-primary-color)
+      color: var(--owl-success-color)
     }
   }
 }

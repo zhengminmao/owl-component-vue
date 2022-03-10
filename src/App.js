@@ -1,10 +1,12 @@
 import './App.less'
+import Icon from './assets/icon.png'
 import {routes} from './router'
 
 var Slider = {
   data(){
     return {
       list: [],
+      value: '',
     }
   },
   created(){
@@ -36,7 +38,16 @@ export default {
       { class: 'owl-container' },
       [
         h('header', {class: 'header-wrap'}, [
-          h('div', {class: 'header'}, [h('h1', {class: 'office-tit'}, 'Owl Component Vue')] )
+          h('div', {class: 'header'}, [
+            h('img',{attrs: {src: Icon,}, class: 'header-icon' }),
+            h('h1', {class: 'office-tit'}, 'Owl Component Vue'),
+            h('owl-input', {
+              class: 'slide-search',
+              props:{value: this.value, placeholder: '输入关键字查找'},
+            }, [
+              h('span', {class:'iconfont owl-search', slot: 'suffix', style:{'font-size': '20px'}})
+            ])
+          ]),
         ]),
         h('div',{class: 'content'}, [
           h('slider'),

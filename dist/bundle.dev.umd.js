@@ -8445,6 +8445,8 @@
     }, 0);
   }
 
+  var img = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAuCAYAAACh8K6vAAAKQ2lDQ1BJQ0MgcHJvZmlsZQAAeNqdU3dYk/cWPt/3ZQ9WQtjwsZdsgQAiI6wIyBBZohCSAGGEEBJAxYWIClYUFRGcSFXEgtUKSJ2I4qAouGdBiohai1VcOO4f3Ke1fXrv7e371/u855zn/M55zw+AERImkeaiagA5UoU8Otgfj09IxMm9gAIVSOAEIBDmy8JnBcUAAPADeXh+dLA//AGvbwACAHDVLiQSx+H/g7pQJlcAIJEA4CIS5wsBkFIAyC5UyBQAyBgAsFOzZAoAlAAAbHl8QiIAqg0A7PRJPgUA2KmT3BcA2KIcqQgAjQEAmShHJAJAuwBgVYFSLALAwgCgrEAiLgTArgGAWbYyRwKAvQUAdo5YkA9AYACAmUIszAAgOAIAQx4TzQMgTAOgMNK/4KlfcIW4SAEAwMuVzZdL0jMUuJXQGnfy8ODiIeLCbLFCYRcpEGYJ5CKcl5sjE0jnA0zODAAAGvnRwf44P5Dn5uTh5mbnbO/0xaL+a/BvIj4h8d/+vIwCBAAQTs/v2l/l5dYDcMcBsHW/a6lbANpWAGjf+V0z2wmgWgrQevmLeTj8QB6eoVDIPB0cCgsL7SViob0w44s+/zPhb+CLfvb8QB7+23rwAHGaQJmtwKOD/XFhbnauUo7nywRCMW735yP+x4V//Y4p0eI0sVwsFYrxWIm4UCJNx3m5UpFEIcmV4hLpfzLxH5b9CZN3DQCshk/ATrYHtctswH7uAQKLDljSdgBAfvMtjBoLkQAQZzQyefcAAJO/+Y9AKwEAzZek4wAAvOgYXKiUF0zGCAAARKCBKrBBBwzBFKzADpzBHbzAFwJhBkRADCTAPBBCBuSAHAqhGJZBGVTAOtgEtbADGqARmuEQtMExOA3n4BJcgetwFwZgGJ7CGLyGCQRByAgTYSE6iBFijtgizggXmY4EImFINJKApCDpiBRRIsXIcqQCqUJqkV1II/ItchQ5jVxA+pDbyCAyivyKvEcxlIGyUQPUAnVAuagfGorGoHPRdDQPXYCWomvRGrQePYC2oqfRS+h1dAB9io5jgNExDmaM2WFcjIdFYIlYGibHFmPlWDVWjzVjHVg3dhUbwJ5h7wgkAouAE+wIXoQQwmyCkJBHWExYQ6gl7CO0EroIVwmDhDHCJyKTqE+0JXoS+cR4YjqxkFhGrCbuIR4hniVeJw4TX5NIJA7JkuROCiElkDJJC0lrSNtILaRTpD7SEGmcTCbrkG3J3uQIsoCsIJeRt5APkE+S+8nD5LcUOsWI4kwJoiRSpJQSSjVlP+UEpZ8yQpmgqlHNqZ7UCKqIOp9aSW2gdlAvU4epEzR1miXNmxZDy6Qto9XQmmlnafdoL+l0ugndgx5Fl9CX0mvoB+nn6YP0dwwNhg2Dx0hiKBlrGXsZpxi3GS+ZTKYF05eZyFQw1zIbmWeYD5hvVVgq9ip8FZHKEpU6lVaVfpXnqlRVc1U/1XmqC1SrVQ+rXlZ9pkZVs1DjqQnUFqvVqR1Vu6k2rs5Sd1KPUM9RX6O+X/2C+mMNsoaFRqCGSKNUY7fGGY0hFsYyZfFYQtZyVgPrLGuYTWJbsvnsTHYF+xt2L3tMU0NzqmasZpFmneZxzQEOxrHg8DnZnErOIc4NznstAy0/LbHWaq1mrX6tN9p62r7aYu1y7Rbt69rvdXCdQJ0snfU6bTr3dQm6NrpRuoW623XP6j7TY+t56Qn1yvUO6d3RR/Vt9KP1F+rv1u/RHzcwNAg2kBlsMThj8MyQY+hrmGm40fCE4agRy2i6kcRoo9FJoye4Ju6HZ+M1eBc+ZqxvHGKsNN5l3Gs8YWJpMtukxKTF5L4pzZRrmma60bTTdMzMyCzcrNisyeyOOdWca55hvtm82/yNhaVFnMVKizaLx5balnzLBZZNlvesmFY+VnlW9VbXrEnWXOss623WV2xQG1ebDJs6m8u2qK2brcR2m23fFOIUjynSKfVTbtox7PzsCuya7AbtOfZh9iX2bfbPHcwcEh3WO3Q7fHJ0dcx2bHC866ThNMOpxKnD6VdnG2ehc53zNRemS5DLEpd2lxdTbaeKp26fesuV5RruutK10/Wjm7ub3K3ZbdTdzD3Ffav7TS6bG8ldwz3vQfTw91jicczjnaebp8LzkOcvXnZeWV77vR5Ps5wmntYwbcjbxFvgvct7YDo+PWX6zukDPsY+Ap96n4e+pr4i3z2+I37Wfpl+B/ye+zv6y/2P+L/hefIW8U4FYAHBAeUBvYEagbMDawMfBJkEpQc1BY0FuwYvDD4VQgwJDVkfcpNvwBfyG/ljM9xnLJrRFcoInRVaG/owzCZMHtYRjobPCN8Qfm+m+UzpzLYIiOBHbIi4H2kZmRf5fRQpKjKqLupRtFN0cXT3LNas5Fn7Z72O8Y+pjLk722q2cnZnrGpsUmxj7Ju4gLiquIF4h/hF8ZcSdBMkCe2J5MTYxD2J43MC52yaM5zkmlSWdGOu5dyiuRfm6c7Lnnc8WTVZkHw4hZgSl7I/5YMgQlAvGE/lp25NHRPyhJuFT0W+oo2iUbG3uEo8kuadVpX2ON07fUP6aIZPRnXGMwlPUit5kRmSuSPzTVZE1t6sz9lx2S05lJyUnKNSDWmWtCvXMLcot09mKyuTDeR55m3KG5OHyvfkI/lz89sVbIVM0aO0Uq5QDhZML6greFsYW3i4SL1IWtQz32b+6vkjC4IWfL2QsFC4sLPYuHhZ8eAiv0W7FiOLUxd3LjFdUrpkeGnw0n3LaMuylv1Q4lhSVfJqedzyjlKD0qWlQyuCVzSVqZTJy26u9Fq5YxVhlWRV72qX1VtWfyoXlV+scKyorviwRrjm4ldOX9V89Xlt2treSrfK7etI66Trbqz3Wb+vSr1qQdXQhvANrRvxjeUbX21K3nShemr1js20zcrNAzVhNe1bzLas2/KhNqP2ep1/XctW/a2rt77ZJtrWv913e/MOgx0VO97vlOy8tSt4V2u9RX31btLugt2PGmIbur/mft24R3dPxZ6Pe6V7B/ZF7+tqdG9s3K+/v7IJbVI2jR5IOnDlm4Bv2pvtmne1cFoqDsJB5cEn36Z8e+NQ6KHOw9zDzd+Zf7f1COtIeSvSOr91rC2jbaA9ob3v6IyjnR1eHUe+t/9+7zHjY3XHNY9XnqCdKD3x+eSCk+OnZKeenU4/PdSZ3Hn3TPyZa11RXb1nQ8+ePxd07ky3X/fJ897nj13wvHD0Ivdi2yW3S609rj1HfnD94UivW2/rZffL7Vc8rnT0Tes70e/Tf/pqwNVz1/jXLl2feb3vxuwbt24m3Ry4Jbr1+Hb27Rd3Cu5M3F16j3iv/L7a/eoH+g/qf7T+sWXAbeD4YMBgz8NZD+8OCYee/pT/04fh0kfMR9UjRiONj50fHxsNGr3yZM6T4aeypxPPyn5W/3nrc6vn3/3i+0vPWPzY8Av5i8+/rnmp83Lvq6mvOscjxx+8znk98ab8rc7bfe+477rfx70fmSj8QP5Q89H6Y8en0E/3Pud8/vwv94Tz+4A5JREAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADhGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOmMxN2IyNTIxLThhZTItMzQ0ZC05MTUwLTllYzJmNmFiNDZkZiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyMTEwRTg1NEIzOUIxMUVCOEIxNkM5MzBDRTY0QTdCNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyMTEwRTg1M0IzOUIxMUVCOEIxNkM5MzBDRTY0QTdCNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4NjAxZjJkNC03OGZmLTZiNGQtYTJiMC0wMzkyNzU0Njk1YWUiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDowMzBlMTQzNy0zNjJjLWRkNGYtYjNhYS02MjlmY2FkNGRmMjkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/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";
+
   /*!
     * vue-router v3.5.3
     * (c) 2021 Evan You
@@ -11478,12 +11480,9 @@
   var VueRouter$1 = VueRouter;
 
   var Home = {
-    render(h) {
-      return h('div', [h('h1', {
-        class: 'home-title'
-      }, 'this is Home page')]);
-    }
-
+  render: function(){var _vm=this;var _h=_vm.$createElement;_vm._self._c||_h;return _vm._m(0)},
+  staticRenderFns: [function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home-page"},[_c('h2',[_vm._v("Introduce 概述")]),_vm._v(" "),_c('p',[_vm._v("Owl Component Vue组件库是由"),_c('a',{attrs:{"href":"https://www.msoffer.hk","target":"__blank"}},[_vm._v("MSO海外升学智选平台")]),_vm._v("提取出来的通用组件，因此专门服务于MSO，为MSO量身定做，大部分组件剔除了其它组件库不必要的功能，因此载入JS和CSS的包资源小。")]),_vm._v(" "),_c('p',[_vm._v("作者水平有限，组件库的代码仅供参考和学习")])])}],
+    
   };
 
   // import pic from  "@/assets/xxxx.jpg"
@@ -11536,7 +11535,7 @@
   };
 
   var Label$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"label-page"},[_c('h2',[_vm._v("文本省略")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-bgm-color":"#fff"}})],1),_vm._v(" "),_c('h3',[_vm._v("省略号颜色和背景")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('div',{staticClass:"label2"},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-color":"var(--owl-primary-color)","ellipsis-bgm-color":"#f7e8e8"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"label-page"},[_c('h2',[_vm._v("Label 文本省略")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-bgm-color":"#fff"}})],1),_vm._v(" "),_c('h3',[_vm._v("省略号颜色和背景")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('div',{staticClass:"label2"},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-color":"var(--owl-success-color)","ellipsis-bgm-color":"#f7e8e8"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11631,7 +11630,7 @@ export default {
   };
 
   var Input$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("输入框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"input1"},[_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的姓名"},model:{value:(_vm.input1),callback:function ($$v) {_vm.input1=$$v;},expression:"input1"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的手机号码"},model:{value:(_vm.input2),callback:function ($$v) {_vm.input2=$$v;},expression:"input2"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("密码框")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-input',{staticClass:"input2-csm",attrs:{"type":"password","placeholder":"请输入您的密码"},model:{value:(_vm.input3),callback:function ($$v) {_vm.input3=$$v;},expression:"input3"}})],1),_vm._v(" "),_c('h3',[_vm._v("验证")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code3,"introduce":"当触发input的onblur事件时，组件会检验rule属性，如果有值且长度大于一且其中一个validate返回的是false，则会出现红色的提示语和红色下划线"}},[_c('owl-input',{staticClass:"input2-csm",attrs:{"placeholder":"请输入您的手机号","rule":_vm.validate},model:{value:(_vm.input4),callback:function ($$v) {_vm.input4=$$v;},expression:"input4"}})],1),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Input 输入框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"input1"},[_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的姓名"},model:{value:(_vm.input1),callback:function ($$v) {_vm.input1=$$v;},expression:"input1"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的手机号码"},model:{value:(_vm.input2),callback:function ($$v) {_vm.input2=$$v;},expression:"input2"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("密码框")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-input',{staticClass:"input2-csm",attrs:{"type":"password","placeholder":"请输入您的密码"},model:{value:(_vm.input3),callback:function ($$v) {_vm.input3=$$v;},expression:"input3"}})],1),_vm._v(" "),_c('h3',[_vm._v("验证")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code3,"introduce":"当触发input的onblur事件时，组件会检验rule属性，如果有值且长度大于一且其中一个validate返回的是false，则会出现红色的提示语和红色下划线"}},[_c('owl-input',{staticClass:"input2-csm",attrs:{"placeholder":"请输入您的手机号","rule":_vm.validate},model:{value:(_vm.input4),callback:function ($$v) {_vm.input4=$$v;},expression:"input4"}})],1),_vm._v(" "),_c('h3',[_vm._v("Slots")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code4}},[_c('div',{staticClass:"input-account-wrap"},[_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("前缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入账号"},model:{value:(_vm.userVal),callback:function ($$v) {_vm.userVal=$$v;},expression:"userVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"iconfont owl-user",staticStyle:{"font-size":"16px"}})])],2),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入密码","type":"password"},model:{value:(_vm.passwordVal),callback:function ($$v) {_vm.passwordVal=$$v;},expression:"passwordVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"iconfont owl-mima",staticStyle:{"font-size":"16px"}})])],2)],1),_vm._v(" "),_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("后缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入关键字"},model:{value:(_vm.searchVal),callback:function ($$v) {_vm.searchVal=$$v;},expression:"searchVal"}},[_c('template',{slot:"suffix"},[_c('span',{staticClass:"iconfont owl-search"})])],2)],1)])]),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11640,6 +11639,9 @@ export default {
         input3: '',
         input4: '',
         input5: '',
+        userVal: '',
+        passwordVal: '',
+        searchVal: '',
         propsCol: [
           {title: '名称', key: 'name', width: '180px'},
           {title: '类型', key: 'types'},
@@ -11715,9 +11717,256 @@ export default {
   }
 }
 &lt;/script&gt; 
+`,
+        code4: `&lt;template&gt;
+  <div class="input-account-wrap">
+    <div class="input-account">
+      <div class="title">前缀插槽</div>
+      <owl-input placeholder="请输入账号" v-model="userVal">
+        <template slot="prefix">
+          <span class="iconfont owl-user" style="font-size: 16px;"></span>
+        </template>
+      </owl-input>
+      <owl-input placeholder="请输入密码" v-model="passwordVal" type="password">
+        <template slot="prefix">
+          <span class="iconfont owl-mima" style="font-size: 16px;"></span>
+        </template>
+      </owl-input>
+    </div>
+    <div class="input-account">
+      <div class="title">后缀插槽</div>
+      <owl-input  placeholder="请输入关键字" v-model="searchVal">
+        <template slot="suffix">
+          <span class="iconfont owl-search"></span>
+        </template>
+      </owl-input>
+    </div>
+  </div>
+&lt;/template&gt;
 `
       }
     }
+  };
+
+  var Slide$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"slide-page"},[_c('h2',[_vm._v("Slide 滑块")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[[_c('div',{staticClass:"slide"},[_c('owl-slide',{attrs:{"width":400},model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}}),_vm._v(" "),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.value))])],1),_vm._v(" "),_c('div',{staticClass:"slide"},[_c('owl-slide',{attrs:{"width":320},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}}),_vm._v(" "),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.value1))])],1)]],2),_vm._v(" "),_c('h3',[_vm._v("显示文本")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[[_c('div',{staticClass:"slide2"},[_c('owl-slide',{attrs:{"width":400,"options":_vm.options},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}}),_vm._v(" "),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.value2))])],1)]],2),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        value: 0,
+        value1: 5,
+        value2: 5,
+        options: [
+          {label: '差', value: 0},
+          {label: '较差', value: 1},
+          {label: '普通', value: 2},
+          {label: '较好', value: 3},
+          {label: '好', value: 4},
+          {label: '非常好', value: 5},
+        ],
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '说明', key: 'introduce'},
+        ],
+        list: [
+          {name: 'width', types: 'string | number', introduce: 'slide组件宽度默认100%'},
+          {name: 'value/v-model', types: 'number', introduce: '当前滑块的值默认取值是value∈[0,10]'},
+          {name: 'options', types: 'Array<{label: string, value: number}>', introduce: '显示文本参数option.value的值等于组件的滑块的值高亮'},
+        ],
+        code1: `&lt;template&gt;
+  <div class="slide">
+    <owl-slide v-model="value" :width="400"/>
+    <span class="value">{{value}}</span>
+  </div>
+  <div class="slide">
+    <owl-slide v-model="value1" :width="320"/>
+    <span class="value">{{value1}}</span>
+  </div>
+&lt;/template&gt;
+`,
+        code2: `&lt;template&gt;
+  <owl-slide v-model="value2" :width="400" :options="options"/>
+&lt;/template&gt;
+&lt;script&gt;
+  export default {
+    data(){
+      return {
+        value2: 5,
+        options: [
+          {label: '差', value: 0},
+          {label: '较差', value: 1},
+          {label: '普通', value: 2},
+          {label: '较好', value: 3},
+          {label: '好', value: 4},
+          {label: '非常好', value: 5},
+        ],
+      }
+    }
+  }
+&lt;/script&gt;
+`
+      }
+    }
+  };
+
+  var Modal$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-page"},[_c('h2',[_vm._v("Modal 弹窗")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('div',{staticClass:"lookdetail1",on:{"click":function($event){_vm.visible1 = true;}}},[_vm._v("点击查看")])]),_vm._v(" "),_c('h3',[_vm._v("使用默认Slot自定义弹窗内容")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('div',{staticClass:"lookdetail1",on:{"click":function($event){_vm.visible2 = true;}}},[_vm._v("点击查看")])]),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}}),_vm._v(" "),_c('owl-modal',{attrs:{"visible":_vm.visible1},on:{"update:visible":function($event){_vm.visible1=$event;}}}),_vm._v(" "),_c('owl-modal',{attrs:{"visible":_vm.visible2},on:{"update:visible":function($event){_vm.visible2=$event;}}},[_c('div',{staticClass:"modal-body-custom"},[_vm._v("自定义内容")])])],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        visible1: false,
+        visible2: false,
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '默认值', key: 'default'},
+          {title: '说明', key: 'introduce'},
+        ],
+        list: [
+          {name: 'visible', types: 'boolean', default: 'false', introduce: '是否显示，支持.sync'},
+          {name: 'shrink-menu', types: 'boolean', default: 'true', introduce: '是否显示菜单"减号"'},
+          {name: 'middle', types: 'boolean', default: 'true', introduce: '是否居中'},
+          {name: 'top', types: 'string', default: '200px', introduce: '如果不居中，则距离顶部200px'},
+          {name: 'width', types: 'string', default: '680px', introduce: '是否居中'},
+        ],
+        code: `&lt;template&gt;
+  <owl-modal :visible.sync="visible1">
+    <div class="modal-body-custom">自定义内容</div>
+  </owl-modal>
+&lt;/template&gt;
+
+&lt;script&gt;
+  export default {
+    data(){
+      return {
+        visible1: false,
+      }
+    }
+  }
+&lt;/script&gt;
+`,
+        code1:`
+&lt;template&gt;
+  <owl-modal :visible.sync="visible1">
+
+  </owl-modal>
+&lt;/template&gt;
+`
+      }
+    }
+  };
+
+  var Proccess$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"proccess-page"},[_c('h2',[_vm._v("Proccess 进度条")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('div',{staticClass:"proccess-wrap"},[_c('owl-proccess',{attrs:{"id":"circle1","proccess":25,"color":"#FFAB30","subColor":"#FF4D35","label":"今日任务"}}),_vm._v(" "),_c('owl-proccess',{attrs:{"id":"circle1","proccess":50,"color":"#FFAB30","subColor":"#FF4D35","label":"今日任务1"}}),_vm._v(" "),_c('owl-proccess',{attrs:{"id":"circle1","proccess":75,"color":"#FFAB30","subColor":"#FF4D35","label":"今日任务2"}}),_vm._v(" "),_c('owl-proccess',{attrs:{"id":"circle1","proccess":100,"color":"#FFAB30","subColor":"#FF4D35","label":"今日任务3"}})],1)]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        code: `&lt;template&gt;
+  <div class="proccess-wrap">
+    <owl-proccess id="circle1" :proccess="25" color="#FFAB30" subColor="#FF4D35" label="今日任务" />
+    <owl-proccess id="circle1" :proccess="50" color="#FFAB30" subColor="#FF4D35" label="今日任务1" />
+    <owl-proccess id="circle1" :proccess="75" color="#FFAB30" subColor="#FF4D35" label="今日任务2" />
+    <owl-proccess id="circle1" :proccess="100" color="#FFAB30" subColor="#FF4D35" label="今日任务3" />
+  </div>  
+&lt;/template&gt;
+`,
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '说明', key: 'introduce'},
+        ],
+        list: [
+          {name: 'id', types: 'string', introduce: '唯一标识符'},
+          {name: 'proccess', types: 'number', introduce: '当前进度'},
+          {name: 'label', types: 'string', introduce: '中间文字显示'},
+          {name: 'color', types: 'string', introduce: '主色'},
+          {name: 'subColor', types: 'string', introduce: '副色'},
+        ],
+      }
+    }
+  };
+
+  var Select$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"select-page"},[_c('h2',[_vm._v("Select 下拉框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[[_c('owl-select',{attrs:{"list":_vm.list},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}}),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list1,"word-wrap":"nowrap"},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}})]],2),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList,"columns":_vm.columns}})],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        value1: '',
+        value2: '',
+        value3: [],
+        list: [
+          {label: '中国', value: 'China'},
+          {label: '中国-香港', value: 'Hongkong'},
+          {label: '中国-台湾', value: 'Taiwan'},
+          {label: '加拿大', value: 'Canada'},
+          {label: '澳大利亚', value: 'Australia'},
+          {label: '一段很长很长很长很长很长很长的国家名', value: 'other'},
+        ],
+        list1: [
+          {label: '中国', value: 'China'},
+          {label: '中国-香港', value: 'Hongkong'},
+          {label: '中国-台湾', value: 'Taiwan'},
+          {label: '加拿大', value: 'Canada'},
+          {label: '澳大利亚', value: 'Australia'},
+          {label: '美国', value: 'USA'},
+          {label: '英国', value: 'UK'},
+          {label: '日本', value: 'Japan'},
+          {label: '一段很长很长很长很长很长很长的国家名', value: 'other'},
+        ],
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '默认值', key: 'default'},
+          {title: '说明', key: 'introduce'},
+        ],
+        propsList: [
+          {name: 'list', types: 'Array<any>', introduce: '下拉列表'},
+          {name: 'config', types: '{label: string, value: string}', introduce: '配置'},
+          {name: 'value/v-model', types: 'string', introduce: '当前值'},
+          {name: 'placeholder', types: 'string',default: '请输入 Please select', introduce: '空字符占位符'},
+          {name: 'word-wrap', types: '"wrap"|"nowrap"',default: 'wrap', introduce: '是否换行，默认换行'},
+          {name: 'multiple', types: 'boolean',default: 'false', introduce: '是否多选'},
+        ],
+
+        code:`&lt;template&gt;
+  <div class="proccess-wrap">
+    <owl-select :list="list" v-model="value1"></owl-select>
+    <owl-select :list="list1" v-model="value2"></owl-select>
+  </div>  
+&lt;/template&gt;
+
+&lt;script&gt;
+  export default {
+    data(){
+      return {
+        value1: '',
+        value2: '',
+        list: [
+          {label: '中国', value: 'China'},
+          {label: '中国-香港', value: 'Hongkong'},
+          {label: '中国-台湾', value: 'Taiwan'},
+          {label: '加拿大', value: 'Canada'},
+          {label: '澳大利亚', value: 'Australia'},
+        ],
+        list1: [
+          {label: '中国', value: 'China'},
+          {label: '中国-香港', value: 'Hongkong'},
+          {label: '中国-台湾', value: 'Taiwan'},
+          {label: '加拿大', value: 'Canada'},
+          {label: '澳大利亚', value: 'Australia'},
+          {label: '美国', value: 'USA'},
+          {label: '英国', value: 'UK'},
+          {label: '日本', value: 'Japan'},
+        ],
+      }
+    }
+  }
+&lt;/script&gt;
+`
+      }
+    },
+    
   };
 
   Vue.use(VueRouter$1);
@@ -11745,6 +11994,22 @@ export default {
       slide: true
     }
   }, {
+    path: '/select',
+    name: 'select',
+    component: Select$1,
+    meta: {
+      title: 'Select 下拉框',
+      slide: true
+    }
+  }, {
+    path: '/slide',
+    name: 'slide',
+    component: Slide$1,
+    meta: {
+      title: 'Slide 滑块',
+      slide: true
+    }
+  }, {
     path: '/swiper',
     name: 'swiper',
     component: Swiper$1,
@@ -11768,6 +12033,22 @@ export default {
       title: 'Tabs 标签页',
       slide: true
     }
+  }, {
+    path: '/modal',
+    name: 'modal',
+    component: Modal$1,
+    meta: {
+      title: 'Modal 弹窗',
+      slide: true
+    }
+  }, {
+    path: '/proccess',
+    name: 'proccess',
+    component: Proccess$1,
+    meta: {
+      title: 'Proccess 进度条',
+      slide: true
+    }
   }];
   var router = new VueRouter$1({
     mode: 'hash',
@@ -11777,7 +12058,8 @@ export default {
   var Slider = {
     data() {
       return {
-        list: []
+        list: [],
+        value: ''
       };
     },
 
@@ -11823,9 +12105,26 @@ export default {
         class: 'header-wrap'
       }, [h('div', {
         class: 'header'
-      }, [h('h1', {
+      }, [h('img', {
+        attrs: {
+          src: img
+        },
+        class: 'header-icon'
+      }), h('h1', {
         class: 'office-tit'
-      }, 'Owl Component Vue')])]), h('div', {
+      }, 'Owl Component Vue'), h('owl-input', {
+        class: 'slide-search',
+        props: {
+          value: this.value,
+          placeholder: '输入关键字查找'
+        }
+      }, [h('span', {
+        class: 'iconfont owl-search',
+        slot: 'suffix',
+        style: {
+          'font-size': '20px'
+        }
+      })])])]), h('div', {
         class: 'content'
       }, [h('slider'), h('div', {
         class: 'main'
@@ -12344,7 +12643,7 @@ export default {
     render: function (h) {
       return h('label', {
         class: ['owl-input', this.showTip && 'error']
-      }, [this.$slots.prefox, h('input', {
+      }, [this.$slots.prefix, h('input', {
         class: 'input',
         attrs: {
           type: this.type != 'password' ? this.type : this.showPassword ? 'text' : 'password',
@@ -12358,7 +12657,7 @@ export default {
           focus: this.onFocus,
           blur: this.onBlur
         }
-      }), this.$slots.suffix || this.type !== 'password' ? this.value && h('span', {
+      }), this.$slots.suffix ? this.$slots.suffix : this.type !== 'password' ? this.value && h('span', {
         class: 'suffix-icon iconfont owl-close',
         on: {
           click: () => this.$emit('change', '')
@@ -12378,12 +12677,684 @@ export default {
     }
   };
 
+  var Slide = {
+    name: 'owlSlide',
+    model: {
+      prop: 'value',
+      event: 'changed'
+    },
+    props: {
+      options: Array,
+      width: {
+        type: [Number, String],
+        default: '100%'
+      },
+      value: Number //0~100
+
+    },
+
+    data() {
+      return {
+        translateX: 0,
+        startX: 0,
+        moveX: 0,
+        moveActive: false,
+        wrapWidth: 0
+      };
+    },
+
+    computed: {
+      btnX() {
+        let x = this.translateX + this.moveX;
+
+        if (x == 0) {
+          return 5;
+        } else if (x == this.wrapWidth) {
+          return x - 5;
+        } else {
+          return x;
+        }
+      },
+
+      marks() {
+        let arr = new Array(11).fill(0);
+
+        if (this.options && this.options.length > 1) {
+          const first = this.options[0].value;
+          const last = this.options[this.options.length - 1].value;
+          const dis = (last - first) / 10;
+          return arr.map((_, index) => {
+            return first + Number((index * dis).toFixed(1));
+          });
+        } else {
+          return arr.map((_, index) => index);
+        }
+      },
+
+      domWidth() {
+        if (typeof this.width === 'number') {
+          return this.width + 'px';
+        }
+
+        return this.width;
+      }
+
+    },
+
+    mounted() {
+      this.getWrapWidth();
+      this.translateX = this.value2px(this.value);
+    },
+
+    watch: {
+      value(newVal) {
+        this.$nextTick(() => {
+          this.translateX = this.value2px(newVal);
+        });
+      },
+
+      width() {
+        this.$nextTick(() => {
+          this.getWrapWidth();
+        });
+      }
+
+    },
+    methods: {
+      getWrapWidth() {
+        if (typeof this.width === 'number') {
+          this.wrapWidth = this.width;
+        } else if (this.width.indexOf('px') >= 0) {
+          this.wrapWidth = this.width.replace('px', '');
+        } else if (this.$refs.slidebox) {
+          this.wrapWidth = this.$refs.slidebox.clientWidth;
+        }
+      },
+
+      onMouseDown(e) {
+        e.stopPropagation();
+        this.moveActive = true;
+        this.startX = e.clientX || e.changedTouches && e.changedTouches[0].clientX;
+
+        if (e.clientX != undefined) {
+          document.body.addEventListener('mouseup', this.onMouseEnd);
+          document.body.addEventListener('mousemove', this.onMouseMove);
+        }
+
+        if (e.changedTouches) {
+          document.body.addEventListener('touchend', this.onMouseEnd);
+          document.body.addEventListener('touchmove', this.onMouseMove);
+        }
+      },
+
+      onMouseMove(e) {
+        e.preventDefault();
+        if (!this.moveActive) return;
+        let moveX = (e.clientX || e.changedTouches && e.changedTouches[0].clientX) - this.startX;
+
+        if (moveX + this.translateX <= 0) {
+          return;
+        }
+
+        if (moveX + this.translateX > this.wrapWidth) {
+          return;
+        }
+
+        this.moveX = moveX;
+      },
+
+      onMouseEnd(e) {
+        e.preventDefault();
+        if (!this.moveActive) return;
+        this.moveActive = false;
+        this.translateX += this.moveX;
+        this.startX = 0;
+        this.moveX = 0;
+        this.$emit('changed', this.px2Value(this.translateX));
+
+        if (e.clientX != undefined) {
+          document.body.removeEventListener('mouseup', this.onMouseEnd);
+          document.body.removeEventListener('mousemove', this.onMouseMove);
+        }
+
+        if (e.changedTouches) {
+          document.body.addEventListener('touchend', this.onMouseEnd);
+          document.body.addEventListener('touchmove', this.onMouseMove);
+        }
+      },
+
+      onClickSlide(e) {
+        let x = e.offsetX;
+
+        if (x) {
+          this.translateX = x;
+          this.$emit('changed', this.px2Value(this.translateX));
+        }
+      },
+
+      /* px:number */
+      px2Value(px) {
+        return this.marks[Math.round(px / (this.wrapWidth / 10))];
+      },
+
+      /* value:number */
+      value2px(value) {
+        const index = this.marks.indexOf(value);
+        return (index >= 0 ? index : 0) * (this.wrapWidth / 10);
+      }
+
+    },
+
+    render(h) {
+      let children = [];
+
+      if (this.options && this.options.length) {
+        const slideTips = h('div', {
+          class: 'slide-tip'
+        }, this.options.map((item, key) => h('span', {
+          key,
+          class: ['tip', item.value == this.value && 'active']
+        }, item.label)));
+        children.push(slideTips);
+      }
+
+      const slideBox = h('div', {
+        class: 'slide-box',
+        ref: 'slidebox',
+        on: {
+          '~touchmove': this.onMouseMove,
+          'click': this.onClickSlide
+        }
+      }, [h('div', {
+        class: 'slide-active',
+        style: {
+          width: this.translateX + this.moveX + 'px'
+        }
+      }), h('div', {
+        class: 'circle-btn',
+        style: `transform: translate3d(${this.btnX}px, 0, 0)`,
+        on: {
+          'click': e => e.stopPropagation(),
+          '~touchstart': this.onMouseDown,
+          'mousedown': this.onMouseDown
+        }
+      })]);
+      children.push(slideBox);
+      return h('div', {
+        class: 'owl-slide',
+        style: {
+          width: this.domWidth
+        }
+      }, children);
+    }
+
+  };
+
+  Slide.install = function (Vue) {
+    Vue.component(Slide.name, Slide);
+  };
+
+  var Modal = {
+    name: 'OwlModal',
+    props: {
+      visible: Boolean,
+      shrinkMenu: {
+        type: Boolean,
+        default: true
+      },
+      middle: {
+        type: Boolean,
+        default: true
+      },
+      width: {
+        type: String,
+        default: '680px'
+      },
+      top: {
+        type: String,
+        default: '200px'
+      }
+    },
+
+    mounted() {
+      document.body.appendChild(this.$el);
+    },
+
+    beforeDestroy() {
+      document.body.removeChild(this.$el);
+    },
+
+    methods: {
+      close() {
+        this.$emit('update:visible', false);
+      }
+
+    },
+
+    render(h) {
+      return h('div', {
+        class: ['owl-modal', this.middle && 'middle', this.visible && 'active'],
+        on: {
+          click: this.close
+        }
+      }, [h('div', {
+        class: 'modal-contain-wrap',
+        on: {
+          click: e => e.stopPropagation()
+        },
+        style: {
+          width: this.width,
+          'margin-top': this.middle ? '' : this.top
+        }
+      }, [this.shrinkMenu ? h('span', {
+        class: 'modal-menu icon-shrink iconfont owl-jian',
+        on: {
+          click: this.$emit('on-shrink')
+        }
+      }) : null, h('span', {
+        class: 'modal-menu icon-closable iconfont owl-cheng',
+        on: {
+          click: this.close
+        }
+      }), h('div', {
+        class: 'modal-body'
+      }, [this.$slots.default])])]);
+    }
+
+  };
+
+  Modal.install = function (Vue) {
+    Vue.component(Modal.name, Modal);
+  };
+
+  var Proccess = {
+    name: 'owlProccess',
+    props: {
+      label: String,
+      proccess: Number,
+      // 0 - 100 完成度
+      color: String,
+      subColor: String,
+      id: String
+    },
+
+    data() {
+      return {
+        dashoffset: 315
+      };
+    },
+
+    watch: {
+      proccess: {
+        handler(newVal) {
+          setTimeout(() => {
+            this.dashoffset = 315 - newVal * 3.15;
+          });
+        },
+
+        immediate: true
+      }
+    },
+
+    render(h) {
+      return h('div', {
+        class: 'owl-proccess'
+      }, [h('div', {
+        class: 'circle-wrap'
+      }, [h('svg', {
+        attrs: {
+          xmlns: 'http://www.w3.org/2000/svg',
+          version: '1.1'
+        },
+        class: 'circle'
+      }, [h('defs', [h('linearGradient', {
+        attrs: {
+          id: this.id + 'bgm',
+          x1: '0%',
+          y1: '0%',
+          x2: '0%',
+          y2: '100%'
+        }
+      }, [h('stop', {
+        attrs: {
+          offset: '0%'
+        },
+        style: `stop-color:${this.subColor};stop-opacity:1`
+      }), h('stop', {
+        attrs: {
+          offset: '100%'
+        },
+        style: `stop-color:${this.color};stop-opacity:1`
+      })]), h('linearGradient', {
+        attrs: {
+          id: 'circleBorderBtm',
+          x1: '0%',
+          y1: '0%',
+          x2: '0%',
+          y2: '100%'
+        }
+      }, [h('stop', {
+        attrs: {
+          offset: '0%'
+        },
+        style: `stop-color:#595959;stop-opacity:1`
+      }), h('stop', {
+        attrs: {
+          offset: '100%'
+        },
+        style: `stop-color:#C2C2C2;stop-opacity:1`
+      })])]), h('path', {
+        attrs: {
+          d: "m5, 55 a50 50 0 1 1 100 0a50 50 0 1 1 -100 0",
+          stroke: `url(#circleBorderBtm)`,
+          fill: "transparent",
+          'stroke-width': "10"
+        },
+        class: "bgm-path"
+      }), h('path', {
+        attrs: {
+          d: "m5, 55 a50 50 0 1 1 100 0a50 50 0 1 1 -100 0",
+          stroke: `url(#${this.id}bgm)`,
+          fill: "transparent",
+          'stroke-width': "10"
+        },
+        class: "fgm-path",
+        style: {
+          'stroke-dashoffset': this.dashoffset
+        }
+      })]), h('div', {
+        class: 'label-wrap',
+        style: {
+          color: this.proccess == 100 ? this.color : ''
+        }
+      }, this.label || '')]), h('div', {
+        class: 'compelete',
+        style: {
+          color: this.proccess == 100 ? this.color : ''
+        }
+      }, this.proccess + '%')]);
+    }
+
+  };
+
+  Proccess.install = function (Vue) {
+    Vue.component(Proccess.name, Proccess);
+  };
+
+  let currentSelect = null; // 用一个全局变量存select
+
+  const OwlSelectCover = {
+    props: {
+      visible: {
+        type: Boolean,
+        default: false
+      }
+    },
+
+    mounted() {
+      document.body.appendChild(this.$el);
+    },
+
+    beforeDestroy() {
+      document.body.removeChild(this.$el);
+    },
+
+    watch: {
+      visible(val) {
+        if (val) {
+          if (currentSelect && currentSelect !== this) {
+            currentSelect.onVisibled();
+            currentSelect = null;
+          }
+
+          currentSelect = this;
+          document.body.addEventListener('click', this.onVisibled, false);
+        } else {
+          document.body.removeEventListener('click', this.onVisibled, false);
+        }
+      }
+
+    },
+    methods: {
+      onVisibled() {
+        this.$emit('change', false);
+        currentSelect = null;
+        document.body.removeEventListener('click', this.onVisibled, false);
+      }
+
+    },
+
+    render(h) {
+      return h('div', {
+        class: ['owl-select-cover', this.visible && 'active']
+      }, [this.$slots.default]);
+    }
+
+  };
+  var Select = {
+    name: 'OwlSelect',
+    components: {
+      OwlSelectCover
+    },
+    model: {
+      prop: 'value',
+      event: 'change'
+    },
+    props: {
+      list: Array,
+      config: {
+        type: Object,
+        default: () => ({
+          label: 'label',
+          value: 'value'
+        })
+      },
+      value: {
+        type: [Number, String, undefined, null, Array],
+        default: null
+      },
+      placeholder: {
+        type: String,
+        default: '请选择 Please select'
+      },
+      wordWrap: {
+        type: String,
+        default: '',
+
+        validator(val) {
+          return ['wrap', 'nowrap', ''].indexOf(val) >= 0;
+        }
+
+      },
+      multiple: {
+        require: false,
+        type: Boolean,
+        default: false
+      }
+    },
+
+    data() {
+      return {
+        showSelect: false,
+        currentLabel: '',
+        // 当前的显示文本值
+        filterValue: '',
+        // 过滤文本值
+        listMinWidth: '',
+        listTop: 0,
+        listLeft: 0,
+        clearTime: ''
+      };
+    },
+
+    computed: {
+      filterList() {
+        if (this.filterValue) {
+          return this.list.filter(item => {
+            return (item[this.config.label] + '').toLowerCase().indexOf(this.filterValue.toLowerCase()) >= 0;
+          });
+        }
+
+        return this.list;
+      }
+
+    },
+
+    mounted() {
+      const dom = this.$refs.selectWrapDom;
+      const domOffset = this.getOffset(dom);
+      this.listMinWidth = dom.clientWidth;
+      this.listTop = domOffset.offsetTop + dom.clientHeight + 8;
+      this.listLeft = domOffset.offsetLeft;
+    },
+
+    methods: {
+      selectWrapClick(e) {
+        e.stopPropagation();
+        const dom = e.currentTarget.querySelector('input');
+        this.showSelect = true;
+        dom && dom.focus();
+      },
+
+      getOffset(dom) {
+        function getParent(dom, offsetTop = 0, offsetLeft = 0) {
+          if (dom.offsetParent) {
+            offsetTop += dom.offsetParent.offsetTop;
+            offsetLeft += dom.offsetParent.offsetLeft;
+            getParent(dom.offsetParent, offsetTop, offsetLeft);
+          }
+
+          return {
+            offsetTop,
+            offsetLeft
+          };
+        }
+
+        return getParent(dom, dom.offsetTop, dom.offsetLeft);
+      },
+
+      choosed(val, label) {
+        this.currentLabel = label;
+        this.recover();
+        this.$emit('change', val);
+      },
+
+      clearValue(e) {
+        e.stopPropagation();
+        this.currentLabel = '';
+        this.recover();
+        this.$emit('change', undefined);
+      },
+
+      recover() {
+        if (!this.showSelect) return;
+        this.showSelect = false;
+        this.clearTime && clearTimeout(this.clearTime);
+        this.clearTime = setTimeout(() => {
+          this.filterValue = '';
+        }, 250);
+      }
+
+    },
+
+    render(h) {
+      let listChildren = [];
+      const valueKey = this.config.value;
+      const labelKey = this.config.label;
+
+      if (!this.filterList.length) {
+        listChildren.push(h('div', {
+          class: 'empty-data',
+          style: {
+            'width': this.listMinWidth + 'px'
+          }
+        }, [h('span', {
+          class: 'iconfont owl-kongshuju'
+        }), h('span', {
+          class: 'label'
+        }, 'Empty')]));
+      } else {
+        listChildren = this.filterList.map(item => {
+          return h('div', {
+            key: item[valueKey],
+            class: ['owl-select-option', item[valueKey] === this.value ? 'active' : ''],
+            on: {
+              click: () => this.choosed(item[valueKey], item[labelKey])
+            }
+          }, item[labelKey]);
+        });
+      }
+
+      let placeholder = this.currentLabel || this.placeholder;
+      return h('div', {
+        class: 'owl-select',
+        ref: 'selectWrapDom',
+        on: {
+          'click': this.selectWrapClick
+        }
+      }, [h('div', {
+        class: ['owl-select-wrap', this.showSelect && 'active', this.value && 'clear']
+      }, [h('div', {
+        class: ['owl-select-plchld', this.currentLabel && 'active']
+      }, this.filterValue ? '' : placeholder), h('input', {
+        class: 'owl-select-npt',
+        domProps: {
+          value: this.filterValue
+        },
+        on: {
+          input: e => this.filterValue = e.target.value
+        }
+      }), h('span', {
+        class: 'suffix-icon owl-arrow-xia iconfont',
+        on: {
+          click: e => {
+            e.stopPropagation();
+            this.recover();
+          }
+        }
+      }), h('span', {
+        class: 'suffix-icon owl-close iconfont',
+        on: {
+          click: this.clearValue
+        }
+      })]), h('owl-select-cover', {
+        props: {
+          visible: this.showSelect
+        },
+        on: {
+          change: val => {
+            !val ? this.recover() : this.showSelect = val;
+          }
+        }
+      }, [h('div', {
+        class: ['owl-select-list-wrap', this.wordWrap],
+        style: {
+          'min-width': this.listMinWidth + 'px',
+          top: this.listTop + 'px',
+          left: this.listLeft + 'px'
+        },
+        on: {
+          click: e => e.stopPropagation()
+        }
+      }, listChildren)])]);
+    }
+
+  };
+
+  Select.install = function (Vue) {
+    Vue.component(Select.name, Select);
+  };
+
   const components = {
     Button,
     Swiper,
     Label,
     Tabs,
-    Input
+    Input,
+    Slide,
+    Modal,
+    Proccess,
+    Select
   };
 
   const install = function (Vue) {
@@ -34736,13 +35707,33 @@ export default {
       }
     },
 
+    data() {
+      return {
+        showCode: false,
+        codeHeight: 0
+      };
+    },
+
+    computed: {
+      highlightedCode() {
+        if (!this.code) return '';
+        let cpCode = this.code.replace(/\&lt;/g, '<').replace(/\&gt;/g, '>');
+        return lib.highlight(cpCode, {
+          language: 'javascript'
+        }).value;
+      },
+
+      currentCodeHeight() {
+        if (!this.showCode) return 0;
+        return this.codeHeight;
+      }
+
+    },
+
     mounted() {
-      if (!this.code) return;
-      let cpCode = this.code.replace(/\&lt;/g, '<').replace(/\&gt;/g, '>');
-      const highlightedCode = lib.highlight(cpCode, {
-        language: 'javascript'
-      }).value;
-      this.$refs.codeDom.innerHTML = highlightedCode;
+      this.$nextTick(() => {
+        this.codeHeight = this.$refs.codeDom.clientHeight;
+      });
     },
 
     render(h) {
@@ -34752,10 +35743,25 @@ export default {
         class: 'sample'
       }, this.$slots.default), this.$slots.introduce || this.introduce ? h('div', {
         class: 'introduce'
-      }, this.$slots.introduce || this.introduce) : null, h('code', {
+      }, this.$slots.introduce || this.introduce) : null, h('div', {
+        class: 'code-wrap',
+        style: {
+          height: this.currentCodeHeight + 'px'
+        }
+      }, [h('code', {
         class: 'owl-code',
-        ref: 'codeDom'
-      })]);
+        ref: 'codeDom',
+        domProps: {
+          innerHTML: this.highlightedCode
+        }
+      })]), h('div', {
+        class: ['owl-arrow-wrap', this.showCode && 'active'],
+        on: {
+          click: () => this.showCode = !this.showCode
+        }
+      }, [h('span', {
+        class: 'arrow'
+      }), !this.showCode ? '显示代码' : '隐藏代码'])]);
     }
 
   };
