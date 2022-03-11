@@ -11888,7 +11888,7 @@ export default {
   };
 
   var Select$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"select-page"},[_c('h2',[_vm._v("Select 下拉框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[[_c('owl-select',{attrs:{"list":_vm.list},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}}),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list1,"word-wrap":"nowrap"},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}})]],2),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList,"columns":_vm.columns}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"select-page"},[_c('h2',[_vm._v("Select 下拉框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[[_c('div',[_c('p',[_vm._v("选择护照国家：")]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}})],1),_vm._v(" "),_c('div',[_c('p',[_vm._v("选择目的地国家：")]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list1,"word-wrap":"nowrap"},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}})],1)]],2),_vm._v(" "),_c('h3',[_vm._v("多选")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[[_c('p',[_vm._v("选择英语成绩类型：已选择"+_vm._s(_vm.value3.join(',')))]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list2,"config":_vm.config,"multiple":true},model:{value:(_vm.value3),callback:function ($$v) {_vm.value3=$$v;},expression:"value3"}})]],2),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList,"columns":_vm.columns}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11914,6 +11914,20 @@ export default {
           {label: '日本', value: 'Japan'},
           {label: '一段很长很长很长很长很长很长的国家名', value: 'other'},
         ],
+        list2: [
+          { "id": 2, "levelName": "Pre-sessional English", },
+          { "id": 3, "levelName": "Other English Course", },
+          { "id": 19, "levelName": "Other Academic Course", },
+          { "id": 4, "levelName": "Foundation", },
+          { "id": 5, "levelName": "Certificate", },
+          { "id": 6, "levelName": "Diploma", },
+          { "id": 28, "levelName": "International Year One", },
+          { "id": 29, "levelName": "International Year Two", },
+        ],
+        config:{
+          label: 'levelName',
+          value: 'id'
+        },
         columns: [
           {title: '名称', key: 'name'},
           {title: '类型', key: 'types'},
@@ -11924,15 +11938,19 @@ export default {
           {name: 'list', types: 'Array<any>', introduce: '下拉列表'},
           {name: 'config', types: '{label: string, value: string}', introduce: '配置'},
           {name: 'value/v-model', types: 'string', introduce: '当前值'},
-          {name: 'placeholder', types: 'string',default: '请输入 Please select', introduce: '空字符占位符'},
+          {name: 'placeholder', types: 'string',default: '请选择 Please select', introduce: '空字符占位符'},
           {name: 'word-wrap', types: '"wrap"|"nowrap"',default: 'wrap', introduce: '是否换行，默认换行'},
           {name: 'multiple', types: 'boolean',default: 'false', introduce: '是否多选'},
         ],
 
         code:`&lt;template&gt;
-  <div class="proccess-wrap">
-    <owl-select :list="list" v-model="value1"></owl-select>
-    <owl-select :list="list1" v-model="value2"></owl-select>
+  <div>
+    <p>选择护照国家：</p>
+    <owl-select :list="list" v-model="value1" ></owl-select>
+  </div>
+  <div>
+    <p>选择目的地国家：</p>
+    <owl-select :list="list1" v-model="value2" word-wrap="nowrap"></owl-select>
   </div>  
 &lt;/template&gt;
 
@@ -11963,9 +11981,107 @@ export default {
     }
   }
 &lt;/script&gt;
+`,
+        code1: `&lt;template&gt;
+  <p>选择英语成绩类型：已选择{{value3.join(',')}}</p>
+  <owl-select :list="list2" v-model="value3" :config="config" :multiple="true" ></owl-select>  
+&lt;/template&gt;
+
+&lt;script&gt;
+  export default {
+    data(){
+      return {
+        list2: [
+          { "id": 2, "levelName": "Pre-sessional English", },
+          { "id": 3, "levelName": "Other English Course", },
+          { "id": 19, "levelName": "Other Academic Course", },
+          { "id": 4, "levelName": "Foundation", },
+          { "id": 5, "levelName": "Certificate", },
+          { "id": 6, "levelName": "Diploma", },
+          { "id": 28, "levelName": "International Year One", },
+          { "id": 29, "levelName": "International Year Two", },
+        ],
+        config:{
+          label: 'levelName',
+          value: 'id'
+        },
+      }
+    }
+  }
+&lt;/script&gt;
 `
+
+
       }
     },
+    
+  };
+
+  var Collapse$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"collapse-page"},[_c('h2',[_vm._v("Collapse 手风琴")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('owl-collapse',{model:{value:(_vm.active),callback:function ($$v) {_vm.active=$$v;},expression:"active"}},[_c('owl-collapse-panel',{attrs:{"value":"value1","header":"手风琴1"}}),_vm._v(" "),_c('owl-collapse-panel',{attrs:{"value":"value2","header":"手风琴2"}})],1)],1),_vm._v(" "),_c('h3',[_vm._v("设置默认展开项")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-collapse',{model:{value:(_vm.active1),callback:function ($$v) {_vm.active1=$$v;},expression:"active1"}},[_c('owl-collapse-panel',{attrs:{"value":"value1","header":"我该如何报名？"}},[_c('p',{staticStyle:{"margin":"0","font-size":"14px"}},[_vm._v("您可到英國學校列表和澳洲學校列表選擇心儀的學校，然後按立刻申請按鈕。或者您心目中已有目標的學校，可直接進入申請系統報名。")])]),_vm._v(" "),_c('owl-collapse-panel',{attrs:{"value":"value2","header":"申请流程是怎么样的？"}},[_c('p',{staticStyle:{"margin":"0","font-size":"14px"}},[_vm._v("進入申請系統報名-->資料無誤後我們將送出申請-->等待學校批審結果-->獲得學校錄取-->支付留位費-->學校發出學位確認書(COE)-->申請簽證-->開始升學之旅")])]),_vm._v(" "),_c('owl-collapse-panel',{attrs:{"value":"value3","header":"什么时候知道结果？"}},[_c('p',{staticStyle:{"margin":"0","font-size":"14px"}},[_vm._v("一般而言，您將會在兩至三星期內收到由院校發出的申請結果通知，具體時間將視乎情況而定。請定期登入以下申請系統查詢狀態。")])])],1)],1),_vm._v(" "),_c('h3',[_vm._v("Collapse Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsCol,"columns":_vm.collapseCol}}),_vm._v(" "),_c('h3',[_vm._v("Collapse Panel Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsPanel,"columns":_vm.panelCol}})],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        active: [],
+        active1: ['value1'],
+        code: `&lt;template&gt;
+  <owl-collapse >
+    <owl-collapse-panel value="value1" header="手风琴1">
+    </owl-collapse-panel>
+    <owl-collapse-panel value="value2" header="手风琴2">
+    </owl-collapse-panel>
+  </owl-collapse>
+&lt;/template&gt;
+`,
+        code1:`&lt;template&gt;
+  <owl-collapse v-model="active1">
+    <owl-collapse-panel value="value1" header="我该如何报名？">
+      <p  style="margin: 0;font-size: 14px;">您可到英國學校列表和澳洲學校列表選擇心儀的學校，然後按立刻申請按鈕。或者您心目中已有目標的學校，可直接進入申請系統報名。</p>
+    </owl-collapse-panel>
+    <owl-collapse-panel value="value2" header="申请流程是怎么样的？">
+      <p  style="margin: 0;font-size: 14px;">進入申請系統報名-->資料無誤後我們將送出申請-->等待學校批審結果-->獲得學校錄取-->支付留位費-->學校發出學位確認書(COE)-->申請簽證-->開始升學之旅</p>
+    </owl-collapse-panel>
+    <owl-collapse-panel value="value3" header="什么时候知道结果？">
+      <p style="margin: 0;font-size: 14px;">一般而言，您將會在兩至三星期內收到由院校發出的申請結果通知，具體時間將視乎情況而定。請定期登入以下申請系統查詢狀態。</p>
+    </owl-collapse-panel>
+  </owl-collapse>
+&lt;/template&gt;
+&lt;script&gt;
+  export default {
+    data(){
+      return {
+        active1: ['value1'],
+      }
+    }
+  }
+&lt;/script&gt;
+      `,
+        collapseCol: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '默认值', key: 'default'},
+          {title: '说明', key: 'introduce'},
+        ],
+        propsCol: [
+          {name: 'expand', types: 'Boolean', default: 'false', introduce: '是否展开全部'},
+          {name: 'value/v-model', types: 'string', default: '[]', introduce: '当前值'},
+        ],
+        panelCol: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '说明', key: 'introduce'},
+        ],
+        propsPanel: [
+          {name: 'header', types: 'String', default: '', introduce: '面板标题'},
+          {name: 'value', types: 'string', default: '', introduce: '当前面板的唯一标识，必填'},
+        ],
+      }
+    }
+  };
+
+  var Checkbox = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c("div")},
+  staticRenderFns: [],
     
   };
 
@@ -11991,6 +12107,14 @@ export default {
     component: Input$1,
     meta: {
       title: 'Input 输入框',
+      slide: true
+    }
+  }, {
+    path: '/checkbox',
+    name: 'checkbox',
+    component: Checkbox,
+    meta: {
+      title: 'Checkbox 复选框',
       slide: true
     }
   }, {
@@ -12039,6 +12163,14 @@ export default {
     component: Modal$1,
     meta: {
       title: 'Modal 弹窗',
+      slide: true
+    }
+  }, {
+    path: '/collapse',
+    name: 'collapse',
+    component: Collapse$1,
+    meta: {
+      title: 'Collapse 手风琴',
       slide: true
     }
   }, {
@@ -13150,7 +13282,7 @@ export default {
         })
       },
       value: {
-        type: [Number, String, undefined, null, Array],
+        type: [Number, String, Array],
         default: null
       },
       placeholder: {
@@ -13196,24 +13328,52 @@ export default {
         }
 
         return this.list;
-      }
+      },
 
+      _value: {
+        get() {
+          if (this.multiple && !(this.value instanceof Array)) {
+            return [];
+          }
+
+          return this.value;
+        },
+
+        set(val) {
+          this.$emit('change', val);
+        }
+
+      }
     },
 
     mounted() {
-      const dom = this.$refs.selectWrapDom;
-      const domOffset = this.getOffset(dom);
-      this.listMinWidth = dom.clientWidth;
-      this.listTop = domOffset.offsetTop + dom.clientHeight + 8;
-      this.listLeft = domOffset.offsetLeft;
+      this.getListPos();
+      window.addEventListener('resize', this.onWinResize);
+      this.$once("hook:beforeDestroy", () => {
+        window.removeEventListener('resize', this.onWinResize);
+      });
     },
 
     methods: {
+      onWinResize() {
+        this.recover();
+        this.getListPos();
+      },
+
       selectWrapClick(e) {
-        e.stopPropagation();
+        e && e.stopPropagation();
+        this.getListPos();
         const dom = e.currentTarget.querySelector('input');
         this.showSelect = true;
         dom && dom.focus();
+      },
+
+      getListPos() {
+        const dom = this.$refs.selectWrapDom;
+        const domOffset = this.getOffset(dom);
+        this.listMinWidth = dom.clientWidth;
+        this.listTop = domOffset.offsetTop + dom.clientHeight + 8;
+        this.listLeft = domOffset.offsetLeft;
       },
 
       getOffset(dom) {
@@ -13234,16 +13394,41 @@ export default {
       },
 
       choosed(val, label) {
-        this.currentLabel = label;
-        this.recover();
-        this.$emit('change', val);
+        if (this.multiple) {
+          if (!this.value || !this.value.length) {
+            // 如果没值或者是空数组
+            this._value = [val];
+            this.currentLabel = [label];
+            return;
+          }
+
+          const index = this.value.indexOf(val);
+
+          if (index >= 0) {
+            this._value.splice(index, 1);
+
+            this.currentLabel.splice(index, 1);
+
+            if (this._value.length == 0) {
+              this.currentLabel = '';
+            }
+          } else {
+            this.currentLabel.push(label);
+
+            this._value.push(val);
+          }
+        } else {
+          this.recover();
+          this.currentLabel = label;
+          this._value = val;
+        }
       },
 
       clearValue(e) {
         e.stopPropagation();
         this.currentLabel = '';
         this.recover();
-        this.$emit('change', undefined);
+        this._value = this.multiple ? [] : undefined;
       },
 
       recover() {
@@ -13261,6 +13446,13 @@ export default {
       let listChildren = [];
       const valueKey = this.config.value;
       const labelKey = this.config.label;
+      let shouldClear = false; // 是否可以清空
+
+      if (this.value instanceof Array) {
+        shouldClear = this.value.length !== 0;
+      } else {
+        shouldClear = Boolean(this.value);
+      }
 
       if (!this.filterList.length) {
         listChildren.push(h('div', {
@@ -13275,17 +13467,32 @@ export default {
         }, 'Empty')]));
       } else {
         listChildren = this.filterList.map(item => {
+          const key = item[valueKey];
+          const isActive = this.multiple ? this.value.indexOf(key) >= 0 : key === this.value;
           return h('div', {
-            key: item[valueKey],
-            class: ['owl-select-option', item[valueKey] === this.value ? 'active' : ''],
+            key,
+            class: ['owl-select-option', isActive ? 'active' : ''],
             on: {
-              click: () => this.choosed(item[valueKey], item[labelKey])
+              click: () => this.choosed(key, item[labelKey])
             }
           }, item[labelKey]);
         });
       }
 
-      let placeholder = this.currentLabel || this.placeholder;
+      let multipleDom = null;
+
+      if (this.multiple && this._value && this._value.length) {
+        // 如果选了多选
+        multipleDom = h('div', {
+          class: 'owl-multiple-box'
+        }, [h('div', {
+          class: 'owl-multiple-item'
+        }, this.currentLabel[0] + '...'), this._value.length > 1 ? h('div', {
+          class: 'owl-multiple-item count'
+        }, '+' + (this._value.length - 1)) : '']);
+      }
+
+      let placeholder = this.multiple && this._value.length > 0 ? '' : this.filterValue ? '' : this.currentLabel || this.placeholder;
       return h('div', {
         class: 'owl-select',
         ref: 'selectWrapDom',
@@ -13293,10 +13500,10 @@ export default {
           'click': this.selectWrapClick
         }
       }, [h('div', {
-        class: ['owl-select-wrap', this.showSelect && 'active', this.value && 'clear']
+        class: ['owl-select-wrap', this.showSelect && 'active', shouldClear && 'clear']
       }, [h('div', {
         class: ['owl-select-plchld', this.currentLabel && 'active']
-      }, this.filterValue ? '' : placeholder), h('input', {
+      }, placeholder), multipleDom, h('input', {
         class: 'owl-select-npt',
         domProps: {
           value: this.filterValue
@@ -13345,6 +13552,123 @@ export default {
     Vue.component(Select.name, Select);
   };
 
+  var Collapse = {
+    name: 'owlCollapse',
+    model: {
+      prop: 'value',
+      event: 'change'
+    },
+    props: {
+      value: {
+        type: Array,
+        default: () => []
+      },
+      expand: Boolean
+    },
+
+    provide() {
+      return {
+        changeVisible: val => this.changeVisible(val)
+      };
+    },
+
+    mounted() {
+      for (let item of this.$children) {
+        if (this.expand || this.value.indexOf(item.value) >= 0) {
+          item.switchVisible && item.switchVisible();
+        }
+      }
+    },
+
+    methods: {
+      changeVisible(val) {
+        setTimeout(() => {
+          const index = this.value.indexOf(val);
+
+          const _value = JSON.parse(JSON.stringify(this.value));
+
+          if (index >= 0) {
+            _value.splice(index);
+          } else {
+            _value.push(val);
+          }
+
+          this.$emit('change', _value);
+        });
+      }
+
+    },
+
+    render(h) {
+      return h('div', {
+        class: 'owl-collapse'
+      }, this.$slots.default);
+    }
+
+  };
+  const CollapsePanel = {
+    name: 'owlCollapsePanel',
+    props: {
+      value: [String, Number],
+      header: String
+    },
+    inject: ['changeVisible'],
+
+    data() {
+      return {
+        height: 0,
+        visible: false
+      };
+    },
+
+    methods: {
+      switchVisible() {
+        if (this.visible) {
+          this.visible = false;
+          this.height = 0;
+        } else {
+          this.visible = true;
+          this.height = this.$refs.panelDom.clientHeight;
+        }
+
+        this.changeVisible(this.value);
+      }
+
+    },
+
+    render(h) {
+      return h('div', {
+        class: 'owl-collapse-panel'
+      }, [h('div', {
+        class: ['owl-collapse-panel-header', this.visible && 'active'],
+        on: {
+          click: this.switchVisible
+        }
+      }, [h('span', {
+        class: 'iconfont owl-arrow-xia'
+      }), h('span', {
+        class: 'panel-title'
+      }, this.header)]), h('div', {
+        class: 'owl-collapse-contain-wrap',
+        style: {
+          height: this.height + 'px'
+        }
+      }, [h('div', {
+        class: 'owl-collapse-panel-contain',
+        ref: 'panelDom'
+      }, this.$slots.default)])]);
+    }
+
+  };
+
+  Collapse.install = function (Vue) {
+    Vue.component(Collapse.name, Collapse);
+  };
+
+  CollapsePanel.install = function (Vue) {
+    Vue.component(CollapsePanel.name, CollapsePanel);
+  };
+
   const components = {
     Button,
     Swiper,
@@ -13354,7 +13678,9 @@ export default {
     Slide,
     Modal,
     Proccess,
-    Select
+    Select,
+    Collapse,
+    CollapsePanel
   };
 
   const install = function (Vue) {

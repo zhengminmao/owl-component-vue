@@ -10,6 +10,8 @@ import Slide from '@/views/slide.vue'
 import Modal from "@/views/modal.vue";
 import Proccess from "@/views/proccess.vue";
 import Select from "@/views/select.vue";
+import Collapse from "@/views/collapse.vue";
+import Checkbox from "@/views/checkbox.vue";
 Vue.use(VueRouter)
 
 export const routes = [
@@ -36,6 +38,14 @@ export const routes = [
     component: Input,
     meta: {
       title: 'Input 输入框',
+      slide: true
+    }
+  },{
+    path: '/checkbox',
+    name: 'checkbox',
+    component: Checkbox,
+    meta: {
+      title: 'Checkbox 复选框',
       slide: true
     }
   },{
@@ -87,6 +97,15 @@ export const routes = [
     component: Modal,
     meta: {
       title: 'Modal 弹窗',
+      slide: true
+    }
+  },
+  {
+    path: '/collapse',
+    name: 'collapse',
+    component: Collapse,
+    meta: {
+      title: 'Collapse 手风琴',
       slide: true
     }
   },

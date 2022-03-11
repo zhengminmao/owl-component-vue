@@ -1,0 +1,40 @@
+.owl-collapse-panel{
+  .owl-collapse-panel-header{
+    height: 48px;
+    border-bottom: 1px solid #e1e1e1;
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+    color: #666;
+    transition: opacity .25s;
+    cursor: pointer;
+    .panel-title{
+      font-size: 16px;
+      transition: color .25s;
+    }
+    .iconfont{
+      transform: rotate(-90deg);
+      margin-right: 14px;
+      font-size: 14px;
+      transition: all .25s;
+    }
+    &:hover{
+      opacity: .8;
+    }
+    &.active{
+      color: var(--owl-success-color);
+      .iconfont{
+        transform: rotate(0deg);
+      }
+    }
+  }
+  .owl-collapse-contain-wrap{
+    overflow: hidden;
+    transition: height .25s;
+  }
+  .owl-collapse-panel-contain{
+    padding: 12px 24px 0;
+    
+  }
+}
+

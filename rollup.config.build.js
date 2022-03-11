@@ -4,6 +4,8 @@ import postcss from 'rollup-plugin-postcss'
 import { terser } from 'rollup-plugin-terser'
 import alias from '@rollup/plugin-alias';
 import path from "path";
+import image from '@rollup/plugin-image'
+import commonjs from 'rollup-plugin-commonjs';
 
 const resolveDir = dir => path.join(__dirname,dir)
 
@@ -11,7 +13,7 @@ export default {
   input: './index.js',
   output: [
     {
-      file: 'dist/bundle.umd.min.js',
+      file: 'dist/bundle.build.umd.min.js',
       format: 'umd',
       name: 'file',
       minify: true,
@@ -33,6 +35,12 @@ export default {
       entries: [
         {find: '@', replacement: resolveDir('src')}
       ]
+    }),
+    image({
+      exclude: 'lib'
+    }),
+    commonjs({
+      include: 'node_modules/highlight.js/**'
     }),
   ]
 }

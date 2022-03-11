@@ -38,9 +38,11 @@
       flex-direction: column;
       justify-content: center;
       .iconfont{
+        color: #ddd;
         font-size: 34px;
       }
       .label{
+        color: #ddd;
         padding-top: 6px;
         font-size: 14px;
       }
@@ -79,6 +81,30 @@
     display: flex;
     align-items: center;
     transition: all .25s;
+    .owl-multiple-box{
+      width: 70%;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      padding: 4px 0;
+      .owl-multiple-item{
+        height: 100%;
+        width: 100%;
+        font-size: 14px;
+        padding: 3px 4px;
+        color: #666;
+        margin:0 2px;
+        border-radius: 2px;
+        border: 1px solid #e1e1e1;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        &.count{
+          width: 34px;
+          min-width: 34px;
+        }
+      }
+    }
     .owl-select-plchld{
       position: absolute;
       z-index: 1;
