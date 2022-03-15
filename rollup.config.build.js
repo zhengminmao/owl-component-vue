@@ -10,7 +10,7 @@ import commonjs from 'rollup-plugin-commonjs';
 const resolveDir = dir => path.join(__dirname,dir)
 
 export default {
-  input: './index.js',
+  input: './lib/index.js',
   output: [
     {
       file: 'dist/bundle.build.umd.min.js',

@@ -5,7 +5,7 @@
     <owl-code-example :code="tabs1Code">
       <owl-tabs class="tabs1" :list="list" v-model="value"/>
     </owl-code-example>
-    <h3>Props</h3>
+    <h3>属性</h3>
     <owl-table :columns="columns" :data="data" />
   </div>
 </template>

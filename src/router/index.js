@@ -1,7 +1,6 @@
 import VueRouter from "vue-router";
 import Vue from 'vue'
 import Home from '@/views/home.vue'
-import Index from '@/views/index.vue'
 import Swiper from '@/views/swiper.vue'
 import Label from '@/views/label.vue'
 import Tabs from '@/views/tabs.vue'
@@ -12,19 +11,13 @@ import Proccess from "@/views/proccess.vue";
 import Select from "@/views/select.vue";
 import Collapse from "@/views/collapse.vue";
 import Checkbox from "@/views/checkbox.vue";
+import Date from "@/views/date.vue";
 Vue.use(VueRouter)
 
 export const routes = [
+
   {
     path: '/',
-    name: 'index',
-    component: Index,
-    meta: {
-      title: '首页'
-    }
-  },
-  {
-    path: '/home',
     name: 'home',
     component: Home,
     meta: {
@@ -54,6 +47,14 @@ export const routes = [
     component: Select,
     meta: {
       title: 'Select 下拉框',
+      slide: true
+    }
+  },{
+    path: '/date',
+    name: 'date',
+    component: Date,
+    meta: {
+      title: 'Date 日期选择',
       slide: true
     }
   },{

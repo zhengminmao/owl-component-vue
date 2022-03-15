@@ -54,7 +54,7 @@
         </div>
       </div>
     </owl-code-example>
-    <h3>Props</h3>
+    <h3>属性</h3>
     <owl-table :data="propsData" :columns="propsCol" />
   </div>
 </template>

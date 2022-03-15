@@ -24,9 +24,9 @@
         </owl-collapse-panel>
       </owl-collapse>
     </owl-code-example>
-    <h3>Collapse Props</h3>
+    <h3>Collapse 属性</h3>
     <owl-table :data="propsCol" :columns="collapseCol" />
-    <h3>Collapse Panel Props</h3>
+    <h3>Collapse Panel 属性</h3>
     <owl-table :data="propsPanel" :columns="panelCol" />
   </div>
 </template>
@@ -38,7 +38,7 @@ export default {
       active: [],
       active1: ['value1'],
       code: `&lt;template&gt;
-  <owl-collapse >
+  <owl-collapse>
     <owl-collapse-panel value="value1" header="手风琴1">
     </owl-collapse-panel>
     <owl-collapse-panel value="value2" header="手风琴2">

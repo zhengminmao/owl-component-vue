@@ -92,7 +92,7 @@ export default {
     }),
     livereload(),
     commonjs({
-      include: 'node_modules/highlight.js/**'
+      include: ['node_modules/highlight.js/**', 'node_modules/dayjs/**'],
     }),
     serve({
       open: true,

@@ -9,7 +9,7 @@
     <owl-code-example :code="code">
       <div class="lookdetail1" @click="visible2 = true">点击查看</div>
     </owl-code-example>
-    <h3>Props</h3>
+    <h3>属性</h3>
     <owl-table :data="list" :columns="columns" />
     <owl-modal :visible.sync="visible1"></owl-modal>
     <owl-modal :visible.sync="visible2">

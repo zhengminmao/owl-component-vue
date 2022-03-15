@@ -8,10 +8,6 @@
           <owl-slide v-model="value" :width="400"/>
           <span class="value">{{value}}</span>
         </div>
-        <div class="slide">
-          <owl-slide v-model="value1" :width="320"/>
-          <span class="value">{{value1}}</span>
-        </div>
       </template>
     </owl-code-example>
     <h3>显示文本</h3>
@@ -23,7 +19,7 @@
         </div>
       </template>
     </owl-code-example>
-    <h3>Props</h3>
+    <h3>属性</h3>
     <owl-table :data="list" :columns="columns" />
   </div>
 </template>

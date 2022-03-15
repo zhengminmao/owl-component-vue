@@ -21,7 +21,7 @@
         <owl-select :list="list2" v-model="value3" :config="config" :multiple="true" ></owl-select>
       </template>
     </owl-code-example>
-    <h3>Props</h3>
+    <h3>属性</h3>
     <owl-table :data="propsList" :columns="columns" />
   </div>
 </template>

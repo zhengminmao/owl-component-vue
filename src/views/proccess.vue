@@ -10,6 +10,7 @@
         <owl-proccess id="circle1" :proccess="100" color="#FFAB30" subColor="#FF4D35" label="今日任务3" />
       </div>
     </owl-code-example>
+    <h3>属性</h3>
     <owl-table :data="list" :columns="columns" />
   </div>
 </template>

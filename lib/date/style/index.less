@@ -1,0 +1,139 @@
+.owl-date-wrap{
+  padding: 12px;
+  width: 380px;
+  height: auto;
+  .owl-date-title{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    .title-wrap{
+      flex:1;
+      text-align: center;
+
+      .title{
+        cursor: pointer;
+        padding: 0 3px;
+        color: #333;
+        transition: color .25s;
+        font-size: 14px;
+        &:hover{
+          color: var(--owl-primary-color)
+        }
+      }
+    }
+    .iconfont{
+      cursor: pointer;
+      color: #333;
+      transition: color .25s;
+      &:hover{
+        color: var(--owl-primary-color)
+      }
+    }
+    .left{
+      transform: rotate(180deg);
+    }
+  }
+  .owl-date-week,
+  .owl-date-day{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .date-blc{
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+  }
+  .date-itm{
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    transition: color .25s;
+    &.light{
+      color: #333;
+      &:hover{
+        color: var(--owl-primary-color);
+      }
+    }
+    &.today{
+      color: var(--owl-primary-color);
+    }
+    
+  }
+  .owl-date-week{
+    border-bottom: 1px solid #e1e1e1;
+    .date-itm{
+      color: #666;
+      font-size: 12px;
+    }
+  }
+  .owl-date-day{
+    .date-itm{
+      span{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50%;
+      }
+      &.active{
+        
+        span{
+          background-color: var(--owl-primary-color);
+          color: #fff;
+        }
+        &:hover{
+          color: #fff;
+        }
+      }
+    }
+  }
+  .owl-week-wrap{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .owl-week-item{
+      width: 33.3%;
+      height: 48px;
+      text-align: center;
+      line-height: 48px;
+      color: #666;
+      font-size: 14px;
+      cursor: pointer;
+      transition: color .25s;
+      &:hover{
+        color: var(--owl-primary-color)
+      }
+    }
+  }
+  .owl-date-quickly{
+    position: absolute;
+    left: 0;
+    transform: translateX(-100%);
+    top: 0;
+    background-color: #fff;
+    height: 100%;
+    width: 110px;
+    border-right: 1px solid #e1e1e1;
+    box-shadow: -3px 6px 8px 0 rgb(0 0 0 / 6%);
+    border-radius: 2px 0 0 2px;
+    padding: 16px 0;
+    .owl-date-quickly-item{
+      padding: 8px 0;
+      font-size: 14px;
+      color: #333;
+      transition: color .25s;
+      text-align: center;
+      cursor: pointer;
+      &:hover{
+        color: var(--owl-primary-color);
+      }
+    }
+  }
+}

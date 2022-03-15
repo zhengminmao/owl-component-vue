@@ -11485,19 +11485,8 @@
     
   };
 
-  // import pic from  "@/assets/xxxx.jpg"
-  var Index = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"indexPage"},[_c('h1',[_vm._v("this is index page heelo12222")]),_vm._v(" "),_c('owl-button',[_vm._v("12")])],1)},
-  staticRenderFns: [],
-    data(){
-      return {
-        
-      }
-    }
-  };
-
   var Swiper$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Swiper 轮播图")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"swiper-wrap"},[_c('owl-swiper',{attrs:{"list":_vm.swiperList}})],1)]),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Swiper 轮播图")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"swiper-wrap"},[_c('owl-swiper',{attrs:{"list":_vm.swiperList}})],1)]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11535,7 +11524,7 @@
   };
 
   var Label$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"label-page"},[_c('h2',[_vm._v("Label 文本省略")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-bgm-color":"#fff"}})],1),_vm._v(" "),_c('h3',[_vm._v("省略号颜色和背景")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('div',{staticClass:"label2"},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-color":"var(--owl-success-color)","ellipsis-bgm-color":"#f7e8e8"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"label-page"},[_c('h2',[_vm._v("Label 文本省略")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-bgm-color":"#fff"}})],1),_vm._v(" "),_c('h3',[_vm._v("省略号颜色和背景")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('div',{staticClass:"label2"},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-color":"var(--owl-success-color)","ellipsis-bgm-color":"#f7e8e8"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11583,7 +11572,7 @@
   };
 
   var Tabs$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"tabs-page"},[_c('h2',[_vm._v("Tabs 标签页")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.tabs1Code}},[_c('owl-tabs',{staticClass:"tabs1",attrs:{"list":_vm.list},model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}})],1),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"columns":_vm.columns,"data":_vm.data}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"tabs-page"},[_c('h2',[_vm._v("Tabs 标签页")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.tabs1Code}},[_c('owl-tabs',{staticClass:"tabs1",attrs:{"list":_vm.list},model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}})],1),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"columns":_vm.columns,"data":_vm.data}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11630,7 +11619,7 @@ export default {
   };
 
   var Input$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Input 输入框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"input1"},[_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的姓名"},model:{value:(_vm.input1),callback:function ($$v) {_vm.input1=$$v;},expression:"input1"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的手机号码"},model:{value:(_vm.input2),callback:function ($$v) {_vm.input2=$$v;},expression:"input2"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("密码框")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-input',{staticClass:"input2-csm",attrs:{"type":"password","placeholder":"请输入您的密码"},model:{value:(_vm.input3),callback:function ($$v) {_vm.input3=$$v;},expression:"input3"}})],1),_vm._v(" "),_c('h3',[_vm._v("验证")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code3,"introduce":"当触发input的onblur事件时，组件会检验rule属性，如果有值且长度大于一且其中一个validate返回的是false，则会出现红色的提示语和红色下划线"}},[_c('owl-input',{staticClass:"input2-csm",attrs:{"placeholder":"请输入您的手机号","rule":_vm.validate},model:{value:(_vm.input4),callback:function ($$v) {_vm.input4=$$v;},expression:"input4"}})],1),_vm._v(" "),_c('h3',[_vm._v("Slots")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code4}},[_c('div',{staticClass:"input-account-wrap"},[_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("前缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入账号"},model:{value:(_vm.userVal),callback:function ($$v) {_vm.userVal=$$v;},expression:"userVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"iconfont owl-user",staticStyle:{"font-size":"16px"}})])],2),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入密码","type":"password"},model:{value:(_vm.passwordVal),callback:function ($$v) {_vm.passwordVal=$$v;},expression:"passwordVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"iconfont owl-mima",staticStyle:{"font-size":"16px"}})])],2)],1),_vm._v(" "),_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("后缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入关键字"},model:{value:(_vm.searchVal),callback:function ($$v) {_vm.searchVal=$$v;},expression:"searchVal"}},[_c('template',{slot:"suffix"},[_c('span',{staticClass:"iconfont owl-search"})])],2)],1)])]),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Input 输入框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"input1"},[_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的姓名"},model:{value:(_vm.input1),callback:function ($$v) {_vm.input1=$$v;},expression:"input1"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的手机号码"},model:{value:(_vm.input2),callback:function ($$v) {_vm.input2=$$v;},expression:"input2"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("密码框")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-input',{staticClass:"input2-csm",attrs:{"type":"password","placeholder":"请输入您的密码"},model:{value:(_vm.input3),callback:function ($$v) {_vm.input3=$$v;},expression:"input3"}})],1),_vm._v(" "),_c('h3',[_vm._v("验证")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code3,"introduce":"当触发input的onblur事件时，组件会检验rule属性，如果有值且长度大于一且其中一个validate返回的是false，则会出现红色的提示语和红色下划线"}},[_c('owl-input',{staticClass:"input2-csm",attrs:{"placeholder":"请输入您的手机号","rule":_vm.validate},model:{value:(_vm.input4),callback:function ($$v) {_vm.input4=$$v;},expression:"input4"}})],1),_vm._v(" "),_c('h3',[_vm._v("Slots")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code4}},[_c('div',{staticClass:"input-account-wrap"},[_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("前缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入账号"},model:{value:(_vm.userVal),callback:function ($$v) {_vm.userVal=$$v;},expression:"userVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"iconfont owl-user",staticStyle:{"font-size":"16px"}})])],2),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入密码","type":"password"},model:{value:(_vm.passwordVal),callback:function ($$v) {_vm.passwordVal=$$v;},expression:"passwordVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"iconfont owl-mima",staticStyle:{"font-size":"16px"}})])],2)],1),_vm._v(" "),_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("后缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入关键字"},model:{value:(_vm.searchVal),callback:function ($$v) {_vm.searchVal=$$v;},expression:"searchVal"}},[_c('template',{slot:"suffix"},[_c('span',{staticClass:"iconfont owl-search"})])],2)],1)])]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11749,7 +11738,7 @@ export default {
   };
 
   var Slide$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"slide-page"},[_c('h2',[_vm._v("Slide 滑块")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[[_c('div',{staticClass:"slide"},[_c('owl-slide',{attrs:{"width":400},model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}}),_vm._v(" "),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.value))])],1),_vm._v(" "),_c('div',{staticClass:"slide"},[_c('owl-slide',{attrs:{"width":320},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}}),_vm._v(" "),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.value1))])],1)]],2),_vm._v(" "),_c('h3',[_vm._v("显示文本")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[[_c('div',{staticClass:"slide2"},[_c('owl-slide',{attrs:{"width":400,"options":_vm.options},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}}),_vm._v(" "),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.value2))])],1)]],2),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"slide-page"},[_c('h2',[_vm._v("Slide 滑块")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[[_c('div',{staticClass:"slide"},[_c('owl-slide',{attrs:{"width":400},model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}}),_vm._v(" "),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.value))])],1)]],2),_vm._v(" "),_c('h3',[_vm._v("显示文本")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[[_c('div',{staticClass:"slide2"},[_c('owl-slide',{attrs:{"width":400,"options":_vm.options},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}}),_vm._v(" "),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.value2))])],1)]],2),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11811,7 +11800,7 @@ export default {
   };
 
   var Modal$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-page"},[_c('h2',[_vm._v("Modal 弹窗")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('div',{staticClass:"lookdetail1",on:{"click":function($event){_vm.visible1 = true;}}},[_vm._v("点击查看")])]),_vm._v(" "),_c('h3',[_vm._v("使用默认Slot自定义弹窗内容")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('div',{staticClass:"lookdetail1",on:{"click":function($event){_vm.visible2 = true;}}},[_vm._v("点击查看")])]),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}}),_vm._v(" "),_c('owl-modal',{attrs:{"visible":_vm.visible1},on:{"update:visible":function($event){_vm.visible1=$event;}}}),_vm._v(" "),_c('owl-modal',{attrs:{"visible":_vm.visible2},on:{"update:visible":function($event){_vm.visible2=$event;}}},[_c('div',{staticClass:"modal-body-custom"},[_vm._v("自定义内容")])])],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-page"},[_c('h2',[_vm._v("Modal 弹窗")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('div',{staticClass:"lookdetail1",on:{"click":function($event){_vm.visible1 = true;}}},[_vm._v("点击查看")])]),_vm._v(" "),_c('h3',[_vm._v("使用默认Slot自定义弹窗内容")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('div',{staticClass:"lookdetail1",on:{"click":function($event){_vm.visible2 = true;}}},[_vm._v("点击查看")])]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}}),_vm._v(" "),_c('owl-modal',{attrs:{"visible":_vm.visible1},on:{"update:visible":function($event){_vm.visible1=$event;}}}),_vm._v(" "),_c('owl-modal',{attrs:{"visible":_vm.visible2},on:{"update:visible":function($event){_vm.visible2=$event;}}},[_c('div',{staticClass:"modal-body-custom"},[_vm._v("自定义内容")])])],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11858,7 +11847,7 @@ export default {
   };
 
   var Proccess$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"proccess-page"},[_c('h2',[_vm._v("Proccess 进度条")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('div',{staticClass:"proccess-wrap"},[_c('owl-proccess',{attrs:{"id":"circle1","proccess":25,"color":"#FFAB30","subColor":"#FF4D35","label":"今日任务"}}),_vm._v(" "),_c('owl-proccess',{attrs:{"id":"circle1","proccess":50,"color":"#FFAB30","subColor":"#FF4D35","label":"今日任务1"}}),_vm._v(" "),_c('owl-proccess',{attrs:{"id":"circle1","proccess":75,"color":"#FFAB30","subColor":"#FF4D35","label":"今日任务2"}}),_vm._v(" "),_c('owl-proccess',{attrs:{"id":"circle1","proccess":100,"color":"#FFAB30","subColor":"#FF4D35","label":"今日任务3"}})],1)]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"proccess-page"},[_c('h2',[_vm._v("Proccess 进度条")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('div',{staticClass:"proccess-wrap"},[_c('owl-proccess',{attrs:{"id":"circle1","proccess":25,"color":"#FFAB30","subColor":"#FF4D35","label":"今日任务"}}),_vm._v(" "),_c('owl-proccess',{attrs:{"id":"circle1","proccess":50,"color":"#FFAB30","subColor":"#FF4D35","label":"今日任务1"}}),_vm._v(" "),_c('owl-proccess',{attrs:{"id":"circle1","proccess":75,"color":"#FFAB30","subColor":"#FF4D35","label":"今日任务2"}}),_vm._v(" "),_c('owl-proccess',{attrs:{"id":"circle1","proccess":100,"color":"#FFAB30","subColor":"#FF4D35","label":"今日任务3"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11888,7 +11877,7 @@ export default {
   };
 
   var Select$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"select-page"},[_c('h2',[_vm._v("Select 下拉框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[[_c('div',[_c('p',[_vm._v("选择护照国家：")]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}})],1),_vm._v(" "),_c('div',[_c('p',[_vm._v("选择目的地国家：")]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list1,"word-wrap":"nowrap"},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}})],1)]],2),_vm._v(" "),_c('h3',[_vm._v("多选")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[[_c('p',[_vm._v("选择英语成绩类型：已选择"+_vm._s(_vm.value3.join(',')))]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list2,"config":_vm.config,"multiple":true},model:{value:(_vm.value3),callback:function ($$v) {_vm.value3=$$v;},expression:"value3"}})]],2),_vm._v(" "),_c('h3',[_vm._v("Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList,"columns":_vm.columns}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"select-page"},[_c('h2',[_vm._v("Select 下拉框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[[_c('div',[_c('p',[_vm._v("选择护照国家：")]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}})],1),_vm._v(" "),_c('div',[_c('p',[_vm._v("选择目的地国家：")]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list1,"word-wrap":"nowrap"},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}})],1)]],2),_vm._v(" "),_c('h3',[_vm._v("多选")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[[_c('p',[_vm._v("选择英语成绩类型：已选择"+_vm._s(_vm.value3.join(',')))]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list2,"config":_vm.config,"multiple":true},model:{value:(_vm.value3),callback:function ($$v) {_vm.value3=$$v;},expression:"value3"}})]],2),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList,"columns":_vm.columns}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -12018,14 +12007,14 @@ export default {
   };
 
   var Collapse$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"collapse-page"},[_c('h2',[_vm._v("Collapse 手风琴")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('owl-collapse',{model:{value:(_vm.active),callback:function ($$v) {_vm.active=$$v;},expression:"active"}},[_c('owl-collapse-panel',{attrs:{"value":"value1","header":"手风琴1"}}),_vm._v(" "),_c('owl-collapse-panel',{attrs:{"value":"value2","header":"手风琴2"}})],1)],1),_vm._v(" "),_c('h3',[_vm._v("设置默认展开项")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-collapse',{model:{value:(_vm.active1),callback:function ($$v) {_vm.active1=$$v;},expression:"active1"}},[_c('owl-collapse-panel',{attrs:{"value":"value1","header":"我该如何报名？"}},[_c('p',{staticStyle:{"margin":"0","font-size":"14px"}},[_vm._v("您可到英國學校列表和澳洲學校列表選擇心儀的學校，然後按立刻申請按鈕。或者您心目中已有目標的學校，可直接進入申請系統報名。")])]),_vm._v(" "),_c('owl-collapse-panel',{attrs:{"value":"value2","header":"申请流程是怎么样的？"}},[_c('p',{staticStyle:{"margin":"0","font-size":"14px"}},[_vm._v("進入申請系統報名-->資料無誤後我們將送出申請-->等待學校批審結果-->獲得學校錄取-->支付留位費-->學校發出學位確認書(COE)-->申請簽證-->開始升學之旅")])]),_vm._v(" "),_c('owl-collapse-panel',{attrs:{"value":"value3","header":"什么时候知道结果？"}},[_c('p',{staticStyle:{"margin":"0","font-size":"14px"}},[_vm._v("一般而言，您將會在兩至三星期內收到由院校發出的申請結果通知，具體時間將視乎情況而定。請定期登入以下申請系統查詢狀態。")])])],1)],1),_vm._v(" "),_c('h3',[_vm._v("Collapse Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsCol,"columns":_vm.collapseCol}}),_vm._v(" "),_c('h3',[_vm._v("Collapse Panel Props")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsPanel,"columns":_vm.panelCol}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"collapse-page"},[_c('h2',[_vm._v("Collapse 手风琴")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('owl-collapse',{model:{value:(_vm.active),callback:function ($$v) {_vm.active=$$v;},expression:"active"}},[_c('owl-collapse-panel',{attrs:{"value":"value1","header":"手风琴1"}}),_vm._v(" "),_c('owl-collapse-panel',{attrs:{"value":"value2","header":"手风琴2"}})],1)],1),_vm._v(" "),_c('h3',[_vm._v("设置默认展开项")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-collapse',{model:{value:(_vm.active1),callback:function ($$v) {_vm.active1=$$v;},expression:"active1"}},[_c('owl-collapse-panel',{attrs:{"value":"value1","header":"我该如何报名？"}},[_c('p',{staticStyle:{"margin":"0","font-size":"14px"}},[_vm._v("您可到英國學校列表和澳洲學校列表選擇心儀的學校，然後按立刻申請按鈕。或者您心目中已有目標的學校，可直接進入申請系統報名。")])]),_vm._v(" "),_c('owl-collapse-panel',{attrs:{"value":"value2","header":"申请流程是怎么样的？"}},[_c('p',{staticStyle:{"margin":"0","font-size":"14px"}},[_vm._v("進入申請系統報名-->資料無誤後我們將送出申請-->等待學校批審結果-->獲得學校錄取-->支付留位費-->學校發出學位確認書(COE)-->申請簽證-->開始升學之旅")])]),_vm._v(" "),_c('owl-collapse-panel',{attrs:{"value":"value3","header":"什么时候知道结果？"}},[_c('p',{staticStyle:{"margin":"0","font-size":"14px"}},[_vm._v("一般而言，您將會在兩至三星期內收到由院校發出的申請結果通知，具體時間將視乎情況而定。請定期登入以下申請系統查詢狀態。")])])],1)],1),_vm._v(" "),_c('h3',[_vm._v("Collapse 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsCol,"columns":_vm.collapseCol}}),_vm._v(" "),_c('h3',[_vm._v("Collapse Panel 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsPanel,"columns":_vm.panelCol}})],1)},
   staticRenderFns: [],
     data(){
       return {
         active: [],
         active1: ['value1'],
         code: `&lt;template&gt;
-  <owl-collapse >
+  <owl-collapse>
     <owl-collapse-panel value="value1" header="手风琴1">
     </owl-collapse-panel>
     <owl-collapse-panel value="value2" header="手风琴2">
@@ -12079,22 +12068,113 @@ export default {
     }
   };
 
-  var Checkbox = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c("div")},
+  var Checkbox$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Checkbox 复选框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('p',[_vm._v("选择喜欢的运动：")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"name":"favorite","value":"sports"},model:{value:(_vm.favorite),callback:function ($$v) {_vm.favorite=$$v;},expression:"favorite"}},[_vm._v("跑步运动")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"name":"favorite","value":"fitness"},model:{value:(_vm.favorite),callback:function ($$v) {_vm.favorite=$$v;},expression:"favorite"}},[_vm._v("健身运动")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"name":"favorite","value":"badminton"},model:{value:(_vm.favorite),callback:function ($$v) {_vm.favorite=$$v;},expression:"favorite"}},[_vm._v("羽毛球运动")]),_vm._v(" "),_c('p',{staticStyle:{"font-size":"14px"}},[_vm._v("已选值"+_vm._s(JSON.stringify(_vm.favorite)))])],1),_vm._v(" "),_c('h3',[_vm._v("使用Checkbox Group")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('p',[_vm._v("选择喜欢的水果：")]),_vm._v(" "),_c('owl-checkbox-group',{attrs:{"direction":"vertical"},model:{value:(_vm.fruite),callback:function ($$v) {_vm.fruite=$$v;},expression:"fruite"}},[_c('owl-checkbox',{attrs:{"value":"apple"}},[_vm._v("苹果")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"origin"}},[_vm._v("橙子")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"tangeine"}},[_vm._v("橘子")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"banana"}},[_vm._v("香蕉")])],1),_vm._v(" "),_c('p',{staticStyle:{"font-size":"14px"}},[_vm._v("已选值"+_vm._s(JSON.stringify(_vm.fruite)))])],1),_vm._v(" "),_c('h3',[_vm._v("Checkbox 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList,"columns":_vm.columns}}),_vm._v(" "),_c('h3',[_vm._v("Checkbox group 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList1,"columns":_vm.columns}})],1)},
   staticRenderFns: [],
-    
+    data(){
+      return {
+        favorite: [],
+        fruite: [],
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '说明', key: 'introduce'},
+        ],
+        propsList: [
+          {name: 'name', types: 'string', introduce: 'input属性'},
+          {name: 'label', types: 'string', introduce: '文字，如果有scope则优先使用scope'},
+          {name: 'v-model', types: 'Array<any>', introduce: '已选择的值'},
+          {name: 'value', types: 'string', introduce: '当前input类型checkbox的value值'},
+        ],
+        propsList1:[
+          {name: 'v-model', types: 'Array<any>', introduce: '已选择的值'},
+          {name: 'direction', types: '"horizontal" | "vertical"', introduce: 'checkbox排列的方向，默认是水平方向'},
+        ],
+        code1:`&lt;template&gt;
+  <p>选择喜欢的运动：</p>
+  <owl-checkbox name="favorite" value="sports" v-model="favorite">跑步运动</owl-checkbox>
+  <owl-checkbox name="favorite" value="fitness" v-model="favorite">健身运动</owl-checkbox>
+  <owl-checkbox name="favorite" value="badminton" v-model="favorite">羽毛球运动</owl-checkbox>
+  <p style="font-size:14px">已选值{{JSON.stringify(favorite)}}</p>
+&lt;/template&gt;
+      `,
+        code2: `&lt;template&gt;
+  <p>选择喜欢的水果：</p>
+  <owl-checkbox-group v-model="fruite" direction="vertical">
+    <owl-checkbox value="apple">苹果</owl-checkbox>
+    <owl-checkbox value="origin">橙子</owl-checkbox>
+    <owl-checkbox value="tangeine">橘子</owl-checkbox>
+    <owl-checkbox value="banana">香蕉</owl-checkbox>
+  </owl-checkbox-group>
+  <p style="font-size:14px">已选值{{JSON.stringify(fruite)}}</p>
+&lt;/template&gt;`
+      }
+    }
+  };
+
+  var Date$2 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Date 日期选择")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('owl-date',{model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}})],1),_vm._v(" "),_c('h3',[_vm._v("修改日期显示和返回值格式")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-date',{attrs:{"value-format":"YYYY/MM/DD","format":"YYYY/MM/DD"},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}})],1),_vm._v(" "),_c('h3',[_vm._v("快捷选项")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-date',{attrs:{"quickly-choose":[
+        {label: '2000-01-01', value: '2000-01-01'}, 
+        {label: '2010-01-01', value: '2010-01-01'},
+        {label: '2020-01-01', value: '2020-01-01'} ]},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}})],1),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        value: '2022-04-01',
+        value1: '2022-04-01',
+        value2: '',
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '默认值', key: 'default'},
+          {title: '说明', key: 'introduce'},
+        ],
+        list: [
+          {name: 'v-model', default: '', types: 'string', introduce: '日期值'},
+          {name: 'placeholder', types: 'string', default:'请选择日期 Please pick date', introduce: '占位符'},
+          {name: 'format', types: 'string', default:'YYYY-MM-DD', introduce: '文本框显示的日期格式'},
+          {name: 'valueFormat', types: 'string', default:'YYYY-MM-DD', introduce: '返回值的日期格式'},
+          {name: 'quicklyChoose', default: '[]', types: 'Array<{label: string, value: string}>', introduce: '提供快捷选择日期，label是选择的文本，value是选择后的值'},
+        ],
+        code:`&lt;template&gt;
+  &lt;owl-date v-model="value" /&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+  export default {
+    data(){
+      return {
+        value: '2022-04-01',
+      }
+    }
+  }
+&lt;/script&gt;`,
+        code1: `&lt;template&gt;
+  &lt;owl-date v-model="value1" value-format="YYYY/MM/DD" format="YYYY/MM/DD"/&gt;
+&lt;/template&gt;
+&lt;script&gt;
+  export default {
+    data(){
+      return {
+        value1: '2022-04-01',
+      }
+    }
+  }
+&lt;/script&gt;`,
+        code2: `&lt;template&gt;
+  <owl-date v-model="value2" :quickly-choose="[
+    {label: '2000-01-01', value: '2000-01-01'}, 
+    {label: '2010-01-01', value: '2010-01-01'},
+    {label: '2020-01-01', value: '2020-01-01'},
+  ]" />
+&lt;/script&gt;`
+      }
+    }
   };
 
   Vue.use(VueRouter$1);
   const routes = [{
     path: '/',
-    name: 'index',
-    component: Index,
-    meta: {
-      title: '首页'
-    }
-  }, {
-    path: '/home',
     name: 'home',
     component: Home,
     meta: {
@@ -12112,7 +12192,7 @@ export default {
   }, {
     path: '/checkbox',
     name: 'checkbox',
-    component: Checkbox,
+    component: Checkbox$1,
     meta: {
       title: 'Checkbox 复选框',
       slide: true
@@ -12123,6 +12203,14 @@ export default {
     component: Select$1,
     meta: {
       title: 'Select 下拉框',
+      slide: true
+    }
+  }, {
+    path: '/date',
+    name: 'date',
+    component: Date$2,
+    meta: {
+      title: 'Date 日期选择',
       slide: true
     }
   }, {
@@ -12809,6 +12897,10 @@ export default {
     }
   };
 
+  Input.install = function (Vue) {
+    Vue.component(Input.name, Input);
+  };
+
   var Slide = {
     name: 'owlSlide',
     model: {
@@ -13213,6 +13305,23 @@ export default {
     Vue.component(Proccess.name, Proccess);
   };
 
+  function getOffset(dom) {
+    function getParent(dom, offsetTop = 0, offsetLeft = 0) {
+      if (dom.offsetParent) {
+        offsetTop += dom.offsetParent.offsetTop;
+        offsetLeft += dom.offsetParent.offsetLeft;
+        getParent(dom.offsetParent, offsetTop, offsetLeft);
+      }
+
+      return {
+        offsetTop,
+        offsetLeft
+      };
+    }
+
+    return getParent(dom, dom.offsetTop, dom.offsetLeft);
+  }
+
   let currentSelect = null; // 用一个全局变量存select
 
   const OwlSelectCover = {
@@ -13370,27 +13479,10 @@ export default {
 
       getListPos() {
         const dom = this.$refs.selectWrapDom;
-        const domOffset = this.getOffset(dom);
+        const domOffset = getOffset(dom);
         this.listMinWidth = dom.clientWidth;
         this.listTop = domOffset.offsetTop + dom.clientHeight + 8;
         this.listLeft = domOffset.offsetLeft;
-      },
-
-      getOffset(dom) {
-        function getParent(dom, offsetTop = 0, offsetLeft = 0) {
-          if (dom.offsetParent) {
-            offsetTop += dom.offsetParent.offsetTop;
-            offsetLeft += dom.offsetParent.offsetLeft;
-            getParent(dom.offsetParent, offsetTop, offsetLeft);
-          }
-
-          return {
-            offsetTop,
-            offsetLeft
-          };
-        }
-
-        return getParent(dom, dom.offsetTop, dom.offsetLeft);
       },
 
       choosed(val, label) {
@@ -13669,6 +13761,900 @@ export default {
     Vue.component(CollapsePanel.name, CollapsePanel);
   };
 
+  var Checkbox = {
+    name: 'OwlCheckbox',
+    model: {
+      prop: 'checked',
+      event: 'change'
+    },
+    props: {
+      name: String,
+      value: String,
+      label: String,
+      checked: Array
+    },
+    computed: {
+      isActive() {
+        if (this.isInGroup) {
+          return this.$parent.checked.indexOf(this.value) >= 0;
+        }
+
+        if (!this.checked) return false;
+        return this.checked.indexOf(this.value) >= 0;
+      },
+
+      isInGroup() {
+        return this.$parent && this.$parent.$options._componentTag === 'owl-checkbox-group';
+      }
+
+    },
+    methods: {
+      changed() {
+        if (this.isInGroup) {
+          this.$parent.changed(this.value);
+          return;
+        }
+
+        const index = this.checked.indexOf(this.value);
+
+        if (this.checked && index >= 0) {
+          this.$emit('change', this.checked.filter(item => item !== this.value));
+        } else {
+          this.$emit('change', this.checked.concat(this.value));
+        }
+      }
+
+    },
+
+    render(h) {
+      return h('div', {
+        class: 'owl-checkbox',
+        scopedSlots: {
+          default: () => h('span', this.label)
+        }
+      }, [h('label', {
+        class: 'owl-checkbox-label',
+        attrs: {
+          for: this.value
+        }
+      }, [h('input', {
+        attrs: {
+          id: this.value,
+          name: this.name,
+          value: this.value,
+          type: 'checkbox',
+          checked: this.isActive
+        },
+        on: {
+          change: this.changed
+        }
+      }), h('div', {
+        class: 'owl-chk-crc'
+      }, [h('span', {
+        class: 'iconfont owl-gougou'
+      })]), h('div', {
+        class: 'owl-chk-lbl'
+      }, this.$slots.default)])]);
+    }
+
+  };
+  const CheckboxGroup = {
+    name: 'owlCheckboxGroup',
+    model: {
+      prop: 'checked',
+      event: 'change'
+    },
+    props: {
+      checked: {
+        required: true,
+        type: Array
+      },
+      direction: {
+        type: String,
+        default: 'horizontal',
+
+        validator(val) {
+          return ['horizontal', 'vertical'].indexOf(val) >= 0;
+        }
+
+      }
+    },
+    methods: {
+      changed(val) {
+        const index = this.checked.indexOf(val);
+
+        if (index >= 0) {
+          this.$emit('change', this.checked.filter(item => item !== val));
+        } else {
+          this.$emit('change', this.checked.concat(val));
+        }
+      }
+
+    },
+
+    render(h) {
+      return h('div', {
+        class: ['owl-checkbox-group', this.direction === 'vertical' && 'vertical']
+      }, this.$slots.default);
+    }
+
+  };
+
+  Checkbox.install = function (vue) {
+    vue.component(Checkbox.name, Checkbox);
+  };
+
+  CheckboxGroup.install = function (vue) {
+    vue.component(CheckboxGroup.name, CheckboxGroup);
+  };
+
+  var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
+
+  function createCommonjsModule(fn, module) {
+  	return module = { exports: {} }, fn(module, module.exports), module.exports;
+  }
+
+  var dayjs_min = createCommonjsModule(function (module, exports) {
+  !function (t, e) {
+    module.exports = e() ;
+  }(commonjsGlobal, function () {
+
+    var t = 1e3,
+        e = 6e4,
+        n = 36e5,
+        r = "millisecond",
+        i = "second",
+        s = "minute",
+        u = "hour",
+        a = "day",
+        o = "week",
+        f = "month",
+        h = "quarter",
+        c = "year",
+        d = "date",
+        $ = "Invalid Date",
+        l = /^(\d{4})[-/]?(\d{1,2})?[-/]?(\d{0,2})[Tt\s]*(\d{1,2})?:?(\d{1,2})?:?(\d{1,2})?[.:]?(\d+)?$/,
+        y = /\[([^\]]+)]|Y{1,4}|M{1,4}|D{1,2}|d{1,4}|H{1,2}|h{1,2}|a|A|m{1,2}|s{1,2}|Z{1,2}|SSS/g,
+        M = {
+      name: "en",
+      weekdays: "Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday".split("_"),
+      months: "January_February_March_April_May_June_July_August_September_October_November_December".split("_")
+    },
+        m = function (t, e, n) {
+      var r = String(t);
+      return !r || r.length >= e ? t : "" + Array(e + 1 - r.length).join(n) + t;
+    },
+        g = {
+      s: m,
+      z: function (t) {
+        var e = -t.utcOffset(),
+            n = Math.abs(e),
+            r = Math.floor(n / 60),
+            i = n % 60;
+        return (e <= 0 ? "+" : "-") + m(r, 2, "0") + ":" + m(i, 2, "0");
+      },
+      m: function t(e, n) {
+        if (e.date() < n.date()) return -t(n, e);
+        var r = 12 * (n.year() - e.year()) + (n.month() - e.month()),
+            i = e.clone().add(r, f),
+            s = n - i < 0,
+            u = e.clone().add(r + (s ? -1 : 1), f);
+        return +(-(r + (n - i) / (s ? i - u : u - i)) || 0);
+      },
+      a: function (t) {
+        return t < 0 ? Math.ceil(t) || 0 : Math.floor(t);
+      },
+      p: function (t) {
+        return {
+          M: f,
+          y: c,
+          w: o,
+          d: a,
+          D: d,
+          h: u,
+          m: s,
+          s: i,
+          ms: r,
+          Q: h
+        }[t] || String(t || "").toLowerCase().replace(/s$/, "");
+      },
+      u: function (t) {
+        return void 0 === t;
+      }
+    },
+        D = "en",
+        v = {};
+
+    v[D] = M;
+
+    var p = function (t) {
+      return t instanceof _;
+    },
+        S = function (t, e, n) {
+      var r;
+      if (!t) return D;
+      if ("string" == typeof t) v[t] && (r = t), e && (v[t] = e, r = t);else {
+        var i = t.name;
+        v[i] = t, r = i;
+      }
+      return !n && r && (D = r), r || !n && D;
+    },
+        w = function (t, e) {
+      if (p(t)) return t.clone();
+      var n = "object" == typeof e ? e : {};
+      return n.date = t, n.args = arguments, new _(n);
+    },
+        O = g;
+
+    O.l = S, O.i = p, O.w = function (t, e) {
+      return w(t, {
+        locale: e.$L,
+        utc: e.$u,
+        x: e.$x,
+        $offset: e.$offset
+      });
+    };
+
+    var _ = function () {
+      function M(t) {
+        this.$L = S(t.locale, null, !0), this.parse(t);
+      }
+
+      var m = M.prototype;
+      return m.parse = function (t) {
+        this.$d = function (t) {
+          var e = t.date,
+              n = t.utc;
+          if (null === e) return new Date(NaN);
+          if (O.u(e)) return new Date();
+          if (e instanceof Date) return new Date(e);
+
+          if ("string" == typeof e && !/Z$/i.test(e)) {
+            var r = e.match(l);
+
+            if (r) {
+              var i = r[2] - 1 || 0,
+                  s = (r[7] || "0").substring(0, 3);
+              return n ? new Date(Date.UTC(r[1], i, r[3] || 1, r[4] || 0, r[5] || 0, r[6] || 0, s)) : new Date(r[1], i, r[3] || 1, r[4] || 0, r[5] || 0, r[6] || 0, s);
+            }
+          }
+
+          return new Date(e);
+        }(t), this.$x = t.x || {}, this.init();
+      }, m.init = function () {
+        var t = this.$d;
+        this.$y = t.getFullYear(), this.$M = t.getMonth(), this.$D = t.getDate(), this.$W = t.getDay(), this.$H = t.getHours(), this.$m = t.getMinutes(), this.$s = t.getSeconds(), this.$ms = t.getMilliseconds();
+      }, m.$utils = function () {
+        return O;
+      }, m.isValid = function () {
+        return !(this.$d.toString() === $);
+      }, m.isSame = function (t, e) {
+        var n = w(t);
+        return this.startOf(e) <= n && n <= this.endOf(e);
+      }, m.isAfter = function (t, e) {
+        return w(t) < this.startOf(e);
+      }, m.isBefore = function (t, e) {
+        return this.endOf(e) < w(t);
+      }, m.$g = function (t, e, n) {
+        return O.u(t) ? this[e] : this.set(n, t);
+      }, m.unix = function () {
+        return Math.floor(this.valueOf() / 1e3);
+      }, m.valueOf = function () {
+        return this.$d.getTime();
+      }, m.startOf = function (t, e) {
+        var n = this,
+            r = !!O.u(e) || e,
+            h = O.p(t),
+            $ = function (t, e) {
+          var i = O.w(n.$u ? Date.UTC(n.$y, e, t) : new Date(n.$y, e, t), n);
+          return r ? i : i.endOf(a);
+        },
+            l = function (t, e) {
+          return O.w(n.toDate()[t].apply(n.toDate("s"), (r ? [0, 0, 0, 0] : [23, 59, 59, 999]).slice(e)), n);
+        },
+            y = this.$W,
+            M = this.$M,
+            m = this.$D,
+            g = "set" + (this.$u ? "UTC" : "");
+
+        switch (h) {
+          case c:
+            return r ? $(1, 0) : $(31, 11);
+
+          case f:
+            return r ? $(1, M) : $(0, M + 1);
+
+          case o:
+            var D = this.$locale().weekStart || 0,
+                v = (y < D ? y + 7 : y) - D;
+            return $(r ? m - v : m + (6 - v), M);
+
+          case a:
+          case d:
+            return l(g + "Hours", 0);
+
+          case u:
+            return l(g + "Minutes", 1);
+
+          case s:
+            return l(g + "Seconds", 2);
+
+          case i:
+            return l(g + "Milliseconds", 3);
+
+          default:
+            return this.clone();
+        }
+      }, m.endOf = function (t) {
+        return this.startOf(t, !1);
+      }, m.$set = function (t, e) {
+        var n,
+            o = O.p(t),
+            h = "set" + (this.$u ? "UTC" : ""),
+            $ = (n = {}, n[a] = h + "Date", n[d] = h + "Date", n[f] = h + "Month", n[c] = h + "FullYear", n[u] = h + "Hours", n[s] = h + "Minutes", n[i] = h + "Seconds", n[r] = h + "Milliseconds", n)[o],
+            l = o === a ? this.$D + (e - this.$W) : e;
+
+        if (o === f || o === c) {
+          var y = this.clone().set(d, 1);
+          y.$d[$](l), y.init(), this.$d = y.set(d, Math.min(this.$D, y.daysInMonth())).$d;
+        } else $ && this.$d[$](l);
+
+        return this.init(), this;
+      }, m.set = function (t, e) {
+        return this.clone().$set(t, e);
+      }, m.get = function (t) {
+        return this[O.p(t)]();
+      }, m.add = function (r, h) {
+        var d,
+            $ = this;
+        r = Number(r);
+
+        var l = O.p(h),
+            y = function (t) {
+          var e = w($);
+          return O.w(e.date(e.date() + Math.round(t * r)), $);
+        };
+
+        if (l === f) return this.set(f, this.$M + r);
+        if (l === c) return this.set(c, this.$y + r);
+        if (l === a) return y(1);
+        if (l === o) return y(7);
+        var M = (d = {}, d[s] = e, d[u] = n, d[i] = t, d)[l] || 1,
+            m = this.$d.getTime() + r * M;
+        return O.w(m, this);
+      }, m.subtract = function (t, e) {
+        return this.add(-1 * t, e);
+      }, m.format = function (t) {
+        var e = this,
+            n = this.$locale();
+        if (!this.isValid()) return n.invalidDate || $;
+
+        var r = t || "YYYY-MM-DDTHH:mm:ssZ",
+            i = O.z(this),
+            s = this.$H,
+            u = this.$m,
+            a = this.$M,
+            o = n.weekdays,
+            f = n.months,
+            h = function (t, n, i, s) {
+          return t && (t[n] || t(e, r)) || i[n].substr(0, s);
+        },
+            c = function (t) {
+          return O.s(s % 12 || 12, t, "0");
+        },
+            d = n.meridiem || function (t, e, n) {
+          var r = t < 12 ? "AM" : "PM";
+          return n ? r.toLowerCase() : r;
+        },
+            l = {
+          YY: String(this.$y).slice(-2),
+          YYYY: this.$y,
+          M: a + 1,
+          MM: O.s(a + 1, 2, "0"),
+          MMM: h(n.monthsShort, a, f, 3),
+          MMMM: h(f, a),
+          D: this.$D,
+          DD: O.s(this.$D, 2, "0"),
+          d: String(this.$W),
+          dd: h(n.weekdaysMin, this.$W, o, 2),
+          ddd: h(n.weekdaysShort, this.$W, o, 3),
+          dddd: o[this.$W],
+          H: String(s),
+          HH: O.s(s, 2, "0"),
+          h: c(1),
+          hh: c(2),
+          a: d(s, u, !0),
+          A: d(s, u, !1),
+          m: String(u),
+          mm: O.s(u, 2, "0"),
+          s: String(this.$s),
+          ss: O.s(this.$s, 2, "0"),
+          SSS: O.s(this.$ms, 3, "0"),
+          Z: i
+        };
+
+        return r.replace(y, function (t, e) {
+          return e || l[t] || i.replace(":", "");
+        });
+      }, m.utcOffset = function () {
+        return 15 * -Math.round(this.$d.getTimezoneOffset() / 15);
+      }, m.diff = function (r, d, $) {
+        var l,
+            y = O.p(d),
+            M = w(r),
+            m = (M.utcOffset() - this.utcOffset()) * e,
+            g = this - M,
+            D = O.m(this, M);
+        return D = (l = {}, l[c] = D / 12, l[f] = D, l[h] = D / 3, l[o] = (g - m) / 6048e5, l[a] = (g - m) / 864e5, l[u] = g / n, l[s] = g / e, l[i] = g / t, l)[y] || g, $ ? D : O.a(D);
+      }, m.daysInMonth = function () {
+        return this.endOf(f).$D;
+      }, m.$locale = function () {
+        return v[this.$L];
+      }, m.locale = function (t, e) {
+        if (!t) return this.$L;
+        var n = this.clone(),
+            r = S(t, e, !0);
+        return r && (n.$L = r), n;
+      }, m.clone = function () {
+        return O.w(this.$d, this);
+      }, m.toDate = function () {
+        return new Date(this.valueOf());
+      }, m.toJSON = function () {
+        return this.isValid() ? this.toISOString() : null;
+      }, m.toISOString = function () {
+        return this.$d.toISOString();
+      }, m.toString = function () {
+        return this.$d.toUTCString();
+      }, M;
+    }(),
+        b = _.prototype;
+
+    return w.prototype = b, [["$ms", r], ["$s", i], ["$m", s], ["$H", u], ["$W", a], ["$M", f], ["$y", c], ["$D", d]].forEach(function (t) {
+      b[t[1]] = function (e) {
+        return this.$g(e, t[0], t[1]);
+      };
+    }), w.extend = function (t, e) {
+      return t.$i || (t(e, _, w), t.$i = !0), w;
+    }, w.locale = S, w.isDayjs = p, w.unix = function (t) {
+      return w(1e3 * t);
+    }, w.en = v[D], w.Ls = v, w.p = {}, w;
+  });
+  });
+
+  var Date$1 = {
+    name: 'OwlDate',
+    model: {
+      prop: 'value',
+      event: 'change'
+    },
+    components: {
+      OwlSelectCover
+    },
+    props: {
+      value: String,
+      placeholder: String,
+      format: {
+        type: String,
+        default: 'YYYY-MM-DD'
+      },
+      valueFormat: {
+        type: String,
+        default: 'YYYY-MM-DD'
+      },
+      quicklyChoose: Array
+    },
+
+    data() {
+      return {
+        filterVal: '',
+        visible: false,
+        listTop: 0,
+        listLeft: 0,
+        dates: new Array(42).fill(0),
+        getDatesKey: '',
+        weeks: ['Sun.', 'Mon.', 'Tues.', 'Wed.', 'Thur.', 'Fri.', 'Sat.'],
+        months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
+        years: [],
+        weeksNum: [0, 1, 2, 3, 4, 5, 6],
+        currentYear: 2000,
+        currentMonth: 1,
+        currentDate: 1,
+        today: 1,
+        currentShow: 'date' // date, month, year 当前默认显示日期选择
+
+      };
+    },
+
+    mounted() {
+      this.getListPos();
+      window.addEventListener('resize', this.onWinResize);
+      this.$once("hook:beforeDestroy", () => {
+        window.removeEventListener('resize', this.onWinResize);
+      });
+      const hasVal = this.value && dayjs_min(this.value).isValid();
+      const hadDayjs = hasVal ? dayjs_min(this.value) : null;
+      const newDayjs = dayjs_min();
+      this.currentYear = hadDayjs ? hadDayjs.get('year') : newDayjs.get('year');
+      this.currentMonth = (hadDayjs ? hadDayjs.get('month') : newDayjs.get('month')) + 1;
+      this.today = newDayjs.format('YYYY-MM-DD');
+      const str = `${this.currentYear}-${this.currentMonth}-01`;
+
+      if (hasVal) {
+        this.currentDate = hadDayjs.get('date');
+        this.filterVal = hadDayjs.format(this.format);
+      }
+
+      this.getDates(str);
+    },
+
+    methods: {
+      onWinResize() {
+        this.getListPos();
+      },
+
+      clearValue(e) {
+        e && e.stopPropagation();
+        this.$emit('change', '');
+        this.filterVal = '';
+        this.visible = false;
+      },
+
+      onBlur() {
+        if (!this.filterVal) {
+          this.$emit('change', '');
+          return false;
+        }
+
+        const newDayjs = dayjs_min(this.filterVal);
+
+        if (!newDayjs.isValid()) {
+          if (this.value) this.filterVal = this.value;
+          return false;
+        }
+
+        const d = newDayjs.get('date');
+        const m = newDayjs.get('month') + 1;
+        const y = newDayjs.get('year');
+        this.setDate(d, m, y);
+      },
+
+      close() {
+        this.visible = false;
+      },
+
+      // 点击日期下拉
+      dateWrapClick(e) {
+        e && e.stopPropagation();
+        this.getListPos();
+        const dom = e.currentTarget.querySelector('input');
+        this.visible = true;
+        this.recoverByValue();
+        dom && dom.focus();
+      },
+
+      getListPos() {
+        const dom = this.$refs.selectWrapDom;
+        const domOffset = getOffset(dom);
+        this.listTop = domOffset.offsetTop + dom.clientHeight + 8;
+        this.listLeft = domOffset.offsetLeft;
+      },
+
+      // 渲染dates数组 str:某月的第一天
+      getDates(str) {
+        if (this.getDatesKey === str) {
+          return;
+        }
+
+        this.getDatesKey = str;
+        let arr = [];
+        const firstDate = dayjs_min(str);
+        const firstDay = firstDate.get('day');
+        let prefixNum = this.weeksNum.indexOf(firstDay);
+        prefixNum === 0 && (prefixNum = 7);
+        const bMonth = firstDate.subtract(24, 'hour').get('month') + 1;
+        const aMonth = firstDate.add(1, 'month').get('month') + 1;
+        const bYear = firstDate.subtract(24, 'hour').get('year');
+        const aYear = firstDate.add(1, 'month').get('year');
+
+        while (prefixNum > 0) {
+          arr.push({
+            v: firstDate.subtract(24 * prefixNum, 'hour').get('date'),
+            a: 0,
+            m: bMonth,
+            y: bYear
+          });
+          prefixNum--;
+        }
+
+        const lastDay = firstDate.add(1, 'month').subtract(24, 'hour').get('date');
+        let i = 0;
+
+        while (i < lastDay) {
+          arr.push({
+            v: ++i,
+            a: 1,
+            m: firstDate.get('month') + 1,
+            y: firstDate.get('year')
+          });
+        }
+
+        i = 0;
+
+        while (arr.length < 42) {
+          arr.push({
+            v: ++i,
+            a: 0,
+            m: aMonth,
+            y: aYear
+          });
+        }
+
+        this.dates = arr;
+      },
+
+      // 赋值给value，重新赋值dates数组
+      setDate(d, m, y) {
+        this.currentDate = d;
+        this.currentMonth = m;
+        this.currentYear = y;
+        const str = `${y}-${m < 10 ? '0' + m : m}-${d < 10 ? '0' + d : d}`;
+        this.getDates(`${y}-${m < 10 ? '0' + m : m}-01`);
+        this.$nextTick(() => {
+          this.filterVal = dayjs_min(str).format(this.format);
+          this.$emit('change', dayjs_min(str).format(this.valueFormat));
+        });
+      },
+
+      changeMonth(type) {
+        if (type === 'prev') {
+          if (this.currentMonth === 1) {
+            this.currentMonth = 12;
+            this.currentYear--;
+          } else {
+            this.currentMonth--;
+          }
+        }
+
+        if (type === 'next') {
+          if (this.currentMonth === 12) {
+            this.currentMonth = 1;
+            this.currentYear++;
+          } else {
+            this.currentMonth++;
+          }
+        }
+
+        this.getDates(`${this.currentYear}-${this.currentMonth}-01`);
+      },
+
+      commonPrev() {
+        switch (this.currentShow) {
+          case 'year':
+            this.setYears(this.years[0] - 12);
+            break;
+
+          case 'month':
+            this.currentYear--;
+            break;
+
+          case 'date':
+            this.changeMonth('prev');
+            break;
+        }
+      },
+
+      commonNext() {
+        switch (this.currentShow) {
+          case 'year':
+            this.setYears(this.years[11] + 1);
+            break;
+
+          case 'month':
+            this.currentYear++;
+            break;
+
+          case 'date':
+            this.changeMonth('next');
+            break;
+        }
+      },
+
+      // 复原
+      recoverByValue() {
+        const curVal = !this.value ? dayjs_min(this.today) : dayjs_min(this.value);
+        this.currentMonth = curVal.get('month') + 1;
+        this.currentYear = curVal.get('year');
+        this.currentDate = curVal.get('date');
+        this.currentShow = 'date';
+        this.getDates(`${this.currentYear}-${this.currentMonth}-01`);
+      },
+
+      // 点击月份列其中一个月的事件
+      onChooseMonth(index) {
+        this.currentMonth = index + 1;
+        this.getDates(`${this.currentYear}-${this.currentMonth}-01`);
+        this.currentShow = 'date';
+      },
+
+      // 显示年份面板
+      showYearPanel() {
+        this.setYears(this.currentYear - 6);
+        this.currentShow = 'year';
+      },
+
+      setYears(startYear) {
+        let arr = [];
+        let i = 0;
+
+        while (i < 12) {
+          arr.push(startYear++);
+          i++;
+        }
+
+        this.years = arr;
+      },
+
+      // 点击年份列其中一个年的事件
+      onChooseYear(year) {
+        this.currentYear = year;
+        this.currentShow = 'month';
+      },
+
+      onQuiklyClick(val) {
+        const newdayjs = dayjs_min(val);
+
+        if (newdayjs.isValid()) {
+          this.setDate(newdayjs.get('date'), newdayjs.get('month') + 1, newdayjs.get('year'));
+          this.close();
+        }
+      }
+
+    },
+
+    render(h) {
+      let mstr = this.currentMonth < 10 ? '0' + this.currentMonth : this.currentMonth;
+      let placeholder = this.value ? '' : this.placeholder || '请选择日期 Please pick date';
+      const commonTitle = h('div', {
+        class: 'owl-date-title'
+      }, [h('span', {
+        class: 'iconfont owl-arrow-you left',
+        on: {
+          click: this.commonPrev
+        }
+      }), h('div', {
+        class: 'title-wrap'
+      }, [h('span', {
+        class: 'title',
+        on: {
+          click: this.showYearPanel
+        }
+      }, this.currentYear + 'Y'), h('span', {
+        class: 'title',
+        on: {
+          click: () => this.currentShow = 'month'
+        }
+      }, mstr + 'M')]), h('span', {
+        class: 'iconfont owl-arrow-you',
+        on: {
+          click: this.commonNext
+        }
+      })]);
+      let OwlWrapChildren = [];
+
+      if (this.currentShow === 'date') {
+        OwlWrapChildren = [commonTitle, h('div', {
+          class: 'owl-date-week date-blc'
+        }, this.weeks.map(item => h('div', {
+          key: item,
+          class: 'date-itm'
+        }, [h('span', item)]))), h('div', {
+          class: 'owl-date-day date-blc'
+        }, this.dates.map((item, key) => {
+          const str = `${item.y}-${item.m < 10 ? '0' + item.m : item.m}-${item.v < 10 ? '0' + item.v : item.v}`;
+          const isActive = dayjs_min(this.value).format('YYYY-MM-DD') == str;
+          return h('div', {
+            key,
+            class: ['date-itm', item.a && 'light', str === this.today && 'today', isActive && 'active'],
+            on: {
+              click: () => {
+                this.setDate(item.v, item.m, item.y);
+                this.close();
+              }
+            }
+          }, [h('span', item.v)]);
+        })), this.quicklyChoose && this.quicklyChoose.length ? h('div', {
+          class: 'owl-date-quickly'
+        }, [this.quicklyChoose.map((item, key) => h('div', {
+          key,
+          class: 'owl-date-quickly-item',
+          on: {
+            click: () => this.onQuiklyClick(item.value)
+          }
+        }, item.label))]) : ''];
+      }
+
+      if (this.currentShow === 'month') {
+        OwlWrapChildren = [commonTitle, h('div', {
+          class: 'owl-week-wrap'
+        }, [this.months.map((item, index) => {
+          return h('div', {
+            key: item,
+            class: 'owl-week-item',
+            on: {
+              click: () => this.onChooseMonth(index)
+            }
+          }, item);
+        })])];
+      }
+
+      if (this.currentShow === 'year') {
+        OwlWrapChildren = [commonTitle, h('div', {
+          class: 'owl-week-wrap'
+        }, [this.years.map((item, index) => {
+          return h('div', {
+            key: index,
+            class: 'owl-week-item',
+            on: {
+              click: () => this.onChooseYear(item)
+            }
+          }, item);
+        })])];
+      }
+
+      const OwlWrap = h('div', {
+        class: 'owl-date-wrap',
+        style: {
+          left: this.listLeft + 'px',
+          top: this.listTop + 'px',
+          width: '304px'
+        },
+        on: {
+          'click': e => e.stopPropagation()
+        }
+      }, OwlWrapChildren);
+      return h('div', {
+        class: 'owl-date owl-select',
+        on: {
+          click: this.dateWrapClick
+        },
+        ref: 'selectWrapDom'
+      }, [h('div', {
+        class: ['owl-select-wrap', this.visible && 'active', this.value && 'clear']
+      }, [h('div', {
+        class: ['owl-select-plchld']
+      }, placeholder), h('input', {
+        class: 'owl-select-npt',
+        domProps: {
+          value: this.filterVal
+        },
+        on: {
+          input: e => this.filterVal = e.target.value,
+          blur: this.onBlur,
+          keyup: e => (e.keyCode == 13 && this.onBlur(), this.close())
+        }
+      }), h('span', {
+        class: 'suffix-icon owl-date-icon iconfont'
+      }), h('span', {
+        class: 'suffix-icon owl-close iconfont',
+        on: {
+          click: this.clearValue
+        }
+      })]), h('owl-select-cover', {
+        props: {
+          visible: this.visible
+        },
+        on: {
+          change: this.close
+        }
+      }, [OwlWrap])]);
+    }
+
+  };
+
+  Date$1.install = function (Vue) {
+    Vue.component(Date$1.name, Date$1);
+  };
+
   const components = {
     Button,
     Swiper,
@@ -13680,7 +14666,10 @@ export default {
     Proccess,
     Select,
     Collapse,
-    CollapsePanel
+    CollapsePanel,
+    Checkbox,
+    CheckboxGroup,
+    Date: Date$1
   };
 
   const install = function (Vue) {

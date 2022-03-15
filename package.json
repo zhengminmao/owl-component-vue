@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "axios": "^0.26.0",
+    "dayjs": "^1.10.8",
     "highlight.js": "^11.4.0"
   }
 }

@@ -6,16 +6,19 @@
   transform: translateY(-2000px);
   opacity: 0;
   transition: all 0s .25s;
+  .owl-date-wrap,
   .owl-select-list-wrap{
     position: absolute;
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.06);
-    max-height: 180px;
     background-color: #fff;
     transform: scaleY(.6);
     transform-origin: 50% 0%;
     opacity: 0;
     transition: all .25s;
+  }
+  .owl-select-list-wrap{
     overflow-y: auto;
+    max-height: 180px;
     .owl-select-option{
       color: #666;
       padding: 6px 10px;
@@ -61,8 +64,12 @@
   &.active{
     transform: translateY(0px);
     opacity: 1;
-    transition: all 0s 0s;
+    transition: all 0s;
     .owl-select-list-wrap{
+      opacity: 1;
+      transform: scaleY(1);
+    }
+    .owl-date-wrap{
       opacity: 1;
       transform: scaleY(1);
     }
@@ -70,7 +77,6 @@
 }
 .owl-select{
   display: inline-block;
-  
   .owl-select-wrap{
     border-radius: 4px;
     height: 40px;
@@ -148,6 +154,9 @@
         display: none;
         z-index: 3;
       }
+      &.owl-date-icon{
+        font-size: 16px;
+      }
     }
     &:hover{
       border-color: var(--owl-primary-color);
@@ -169,6 +178,9 @@
           display: block;
         }
         .owl-arrow-xia{
+          display: none;
+        }
+        .owl-date-icon{
           display: none;
         }
       }
