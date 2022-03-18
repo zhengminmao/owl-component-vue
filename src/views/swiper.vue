@@ -9,6 +9,8 @@
     </owl-code-example>
     <h3>属性</h3>
     <owl-table :data="propsData" :columns="propsCol" />
+     <h3>事件</h3>
+    <owl-table :data="propsData1" :columns="propsCol" />
   </div>
 </template>
 
@@ -28,6 +30,9 @@ export default {
       propsData: [
         {name: 'list', types: '{path: string, link: string}[]', introduce: 'path：图片路径， link：点击图片跳转的地址'},
         {name: 'object-fit', types: '\'cover\'', introduce: 'css的object-fit属性，默认值是\'cover\''},
+      ],
+      propsData1:[
+        {name: 'changed', types: '(val: number) => void', introduce: '当前跳转的轮播图索引'},
       ],
       code1:`&lt;template&gt;
   &lt;owl-swiper :list="swiperList" /&gt;

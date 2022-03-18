@@ -1,6 +1,6 @@
 <template functional>
   <div class="label-page">
-    <h2>Label 文本省略</h2>
+    <h2>Label 文本</h2>
     <h3>基础用法</h3>
     <owl-code-example :code="code1">
       <owl-label

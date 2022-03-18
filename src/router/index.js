@@ -14,6 +14,8 @@ import Checkbox from "@/views/checkbox.vue";
 import Date from "@/views/date.vue";
 import Button from "@/views/button.vue";
 import Radio from "@/views/radio.vue";
+import Pagination from "@/views/pagination.vue";
+import Form from "@/views/form.vue";
 Vue.use(VueRouter)
 
 export const routes = [
@@ -31,6 +33,15 @@ export const routes = [
       title: '表单组件',
       slide: true,
       subtitle: true,
+    }
+  },
+  {
+    path: '/label',
+    name: 'label',
+    component: Label,
+    meta: {
+      title: 'Label 文本',
+      slide: true
     }
   },
   {
@@ -91,10 +102,28 @@ export const routes = [
     }
   },
   {
+    path: '/form',
+    name: 'form',
+    component: Form,
+    meta: {
+      title: 'Form 表单',
+      slide: true
+    }
+  },
+  {
     meta: {
       title: '页面组件',
       slide: true,
       subtitle: true,
+    }
+  },
+  {
+    path: '/pagination',
+    name: 'pagination',
+    component: Pagination,
+    meta: {
+      title: 'Pagination 分页',
+      slide: true
     }
   },
   {
@@ -106,15 +135,7 @@ export const routes = [
       slide: true
     }
   },
-  {
-    path: '/label',
-    name: 'label',
-    component: Label,
-    meta: {
-      title: 'Label 文本省略',
-      slide: true
-    }
-  },
+  
   {
     path: '/tabs',
     name: 'tabs',

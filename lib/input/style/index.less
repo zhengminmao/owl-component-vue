@@ -76,23 +76,31 @@
       border: 1px solid var(--owl-primary-color);
       background-color: transparent;
       transition: opacity .25s, box-shadow .25s;
+      transform: unset;
+      
     }
-    &:hover{
-      .active-line{
-        opacity: 1;
-      }
-    }
+    
     &.owl-large{
       height: 40px;
     }
     &.owl-small{
       height: 30px;
     }
+    &:hover{
+      .active-line{
+        opacity: 1;
+      }
+    }
   }
   &:focus-within{
     .active-line{
       opacity: 1;
       transform: scaleX(1);
+    }
+    &.border {
+      .active-line{
+        box-shadow: 0 0 4px var(--owl-primary-lighten-color);
+      }
     }
   }
   &.error{
@@ -117,5 +125,5 @@
       }
     }
   }
-  
+ 
 }

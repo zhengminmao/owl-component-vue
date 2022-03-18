@@ -40,13 +40,21 @@
         />
       </div>
     </owl-code-example>
-    <h3>密码框</h3>
+    <h3>密码和数字输入</h3>
     <owl-code-example :code="code2">
+      <p class="subtitle">密码：</p>
       <owl-input
         class="input2-csm"
         type="password"
         placeholder="请输入您的密码"
         v-model="input3"
+      />
+      <p class="subtitle">数字：</p>
+      <owl-input
+        class="input2-csm"
+        type="number"
+        placeholder="请输入您的年龄"
+        v-model="inputNum"
       />
     </owl-code-example>
     <h3>验证</h3>
@@ -111,6 +119,8 @@ export default {
       borderInput2: '',
       borderInput3: '',
       borderInput4: '',
+      
+      inputNum: '',
       propsCol: [
         {title: '名称', key: 'name', width: '180px'},
         {title: '类型', key: 'types'},
@@ -171,11 +181,19 @@ export default {
 &lt;/template&gt;
 `,
       code2:`&lt;template&gt;
+  <p class="subtitle">密码：</p>
   <owl-input
     class="input2-csm"
     type="password"
     placeholder="请输入您的密码"
-    v-model="input1"
+    v-model="input3"
+  />
+  <p class="subtitle">数字：</p>
+  <owl-input
+    class="input2-csm"
+    type="number"
+    placeholder="请输入您的年龄"
+    v-model="inputNum"
   />
 &lt;/template&gt;
 `,
@@ -229,7 +247,8 @@ export default {
     </div>
   </div>
 &lt;/template&gt;
-`
+`,
+      codeNumber: ``
     }
   }
 }

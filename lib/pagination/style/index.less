@@ -1,0 +1,98 @@
+.owl-pagination{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  li{
+    list-style-type: none;
+  }
+  .owl-pagination-item{
+    box-sizing: content-box;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #d9d9d9;
+    line-height: 30px;
+    text-align: center;
+    color: #666;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 6px;
+    cursor: pointer;
+    transition: color .25s, border-color .25s, background-color .25s;
+    
+    &:last-child{
+      margin-right: 0;
+    }
+    &.prev .owl-arrow-you{
+      transform: rotate(180deg);
+      display: inline-block;
+    }
+    &:hover{
+      color: var(--owl-success-color);
+      border-color: var(--owl-success-color);
+    }
+    &.disabled{
+      opacity: .8;
+      cursor: no-drop;
+      color: #999;
+      border-color: #d9d9d9;
+    }
+    &.active{
+      color: #fff;
+      border-color: var(--owl-success-color);
+      background-color: var(--owl-success-color);
+      &:hover{
+        background-color: var(--owl-success-lighten-color);
+      }
+    }
+  }
+  .owl-pagination-ellipse{
+    width: 32px;
+    height: 30px;
+    margin-right: 6px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+    &.prev{
+      .owlfont{
+        display: inline-block;
+        transform: rotate(180deg);
+      }
+    }
+    .owlfont{
+      opacity: 0;
+      transition: opacity .25s;
+      color: var(--owl-success-color);
+    }
+    .more{
+      position: absolute;
+      opacity: 1;
+      transition: opacity .25s;
+      left: 50%;
+      margin-left: -2px;
+      top: 50%;
+      margin-top: -2px;
+      background-color: #999;
+      box-shadow: 6px 0px #d9d9d9, -6px 0px #d9d9d9;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+    }
+    &:hover{
+      .owlfont{
+        opacity: 1;
+      }
+      .more{
+        opacity: 0;
+      }
+    }
+  }
+  .owl-pagination-total{
+    font-size: 14px;
+    color: #333;
+    padding-left: 12px;
+  }
+}

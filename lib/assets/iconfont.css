@@ -1,8 +1,8 @@
 @font-face {
   font-family: "owlfont"; /* Project id 3227481 */
-  src: url('iconfont.woff2?t=1647404987085') format('woff2'),
-       url('iconfont.woff?t=1647404987085') format('woff'),
-       url('iconfont.ttf?t=1647404987085') format('truetype');
+  src: url('iconfont.woff2?t=1647577428586') format('woff2'),
+       url('iconfont.woff?t=1647577428586') format('woff'),
+       url('iconfont.ttf?t=1647577428586') format('truetype');
 }
 
 .owlfont {
@@ -19,6 +19,10 @@
 
 .owl-loading:before {
   content: "\e73c";
+}
+
+.owl-double-arrow-you:before {
+  content: "\ea50";
 }
 
 .owl-date-icon:before {

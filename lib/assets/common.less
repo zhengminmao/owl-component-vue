@@ -2,6 +2,11 @@
   box-sizing: border-box;
   outline: unset;
 }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance:textfield;
+}
 :root{
   --owl-primary-color: #0076D1;
   --owl-primary-darken-color: darken(#0076D1, 4%);

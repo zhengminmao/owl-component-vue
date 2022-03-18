@@ -11486,7 +11486,7 @@
   };
 
   var Swiper$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Swiper 轮播图")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"swiper-wrap"},[_c('owl-swiper',{attrs:{"list":_vm.swiperList}})],1)]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Swiper 轮播图")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"swiper-wrap"},[_c('owl-swiper',{attrs:{"list":_vm.swiperList}})],1)]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}}),_vm._v(" "),_c('h3',[_vm._v("事件")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData1,"columns":_vm.propsCol}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11502,6 +11502,9 @@
         propsData: [
           {name: 'list', types: '{path: string, link: string}[]', introduce: 'path：图片路径， link：点击图片跳转的地址'},
           {name: 'object-fit', types: '\'cover\'', introduce: 'css的object-fit属性，默认值是\'cover\''},
+        ],
+        propsData1:[
+          {name: 'changed', types: '(val: number) => void', introduce: '当前跳转的轮播图索引'},
         ],
         code1:`&lt;template&gt;
   &lt;owl-swiper :list="swiperList" /&gt;
@@ -11524,7 +11527,7 @@
   };
 
   var Label$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"label-page"},[_c('h2',[_vm._v("Label 文本省略")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-bgm-color":"#fff"}})],1),_vm._v(" "),_c('h3',[_vm._v("省略号颜色和背景")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('div',{staticClass:"label2"},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-color":"var(--owl-success-color)","ellipsis-bgm-color":"#f7e8e8"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"label-page"},[_c('h2',[_vm._v("Label 文本")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-bgm-color":"#fff"}})],1),_vm._v(" "),_c('h3',[_vm._v("省略号颜色和背景")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('div',{staticClass:"label2"},[_c('owl-label',{attrs:{"height":"42px","label":"这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本","ellipsis-color":"var(--owl-success-color)","ellipsis-bgm-color":"#f7e8e8"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11619,7 +11622,7 @@ export default {
   };
 
   var Input$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Input 输入框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"input1"},[_c('div',{staticClass:"subt"},[_vm._v("Default版：")]),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的姓名"},model:{value:(_vm.input1),callback:function ($$v) {_vm.input1=$$v;},expression:"input1"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的手机号码"},model:{value:(_vm.input2),callback:function ($$v) {_vm.input2=$$v;},expression:"input2"}})],1),_vm._v(" "),_c('div',{staticClass:"input1"},[_c('div',{staticClass:"subt"},[_vm._v("Border版：")]),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"border":"","size":"large","placeholder":"大输入框"},model:{value:(_vm.borderInput1),callback:function ($$v) {_vm.borderInput1=$$v;},expression:"borderInput1"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"border":"","placeholder":"中输入框"},model:{value:(_vm.borderInput2),callback:function ($$v) {_vm.borderInput2=$$v;},expression:"borderInput2"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"border":"","size":"small","placeholder":"小输入框"},model:{value:(_vm.borderInput3),callback:function ($$v) {_vm.borderInput3=$$v;},expression:"borderInput3"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("密码框")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-input',{staticClass:"input2-csm",attrs:{"type":"password","placeholder":"请输入您的密码"},model:{value:(_vm.input3),callback:function ($$v) {_vm.input3=$$v;},expression:"input3"}})],1),_vm._v(" "),_c('h3',[_vm._v("验证")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code3,"introduce":"当触发input的onblur事件时，组件会检验rule属性，如果有值且长度大于一且其中一个validate返回的是false，则会出现红色的提示语和红色下划线"}},[_c('div',{staticClass:"input2"},[_c('div',{staticClass:"subt"},[_vm._v("Default版：")]),_vm._v(" "),_c('owl-input',{staticClass:"input3-csm",attrs:{"placeholder":"请输入您的手机号","rule":_vm.validate},model:{value:(_vm.input4),callback:function ($$v) {_vm.input4=$$v;},expression:"input4"}})],1),_vm._v(" "),_c('div',{staticClass:"input2"},[_c('div',{staticClass:"subt"},[_vm._v("Border版：")]),_vm._v(" "),_c('owl-input',{staticClass:"input3-csm",attrs:{"border":"","placeholder":"请输入您的手机号","rule":_vm.validate},model:{value:(_vm.borderInput4),callback:function ($$v) {_vm.borderInput4=$$v;},expression:"borderInput4"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("Slots")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code4}},[_c('div',{staticClass:"input-account-wrap"},[_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("前缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入账号"},model:{value:(_vm.userVal),callback:function ($$v) {_vm.userVal=$$v;},expression:"userVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"owlfont owl-user",staticStyle:{"font-size":"16px"}})])],2),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入密码","type":"password"},model:{value:(_vm.passwordVal),callback:function ($$v) {_vm.passwordVal=$$v;},expression:"passwordVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"owlfont owl-mima",staticStyle:{"font-size":"16px"}})])],2)],1),_vm._v(" "),_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("后缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"border":"","placeholder":"请输入关键字"},model:{value:(_vm.searchVal),callback:function ($$v) {_vm.searchVal=$$v;},expression:"searchVal"}},[_c('template',{slot:"suffix"},[_c('span',{staticClass:"owlfont owl-search suffix-icon"})])],2)],1)])]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Input 输入框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"input1"},[_c('div',{staticClass:"subt"},[_vm._v("Default版：")]),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的姓名"},model:{value:(_vm.input1),callback:function ($$v) {_vm.input1=$$v;},expression:"input1"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的手机号码"},model:{value:(_vm.input2),callback:function ($$v) {_vm.input2=$$v;},expression:"input2"}})],1),_vm._v(" "),_c('div',{staticClass:"input1"},[_c('div',{staticClass:"subt"},[_vm._v("Border版：")]),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"border":"","size":"large","placeholder":"大输入框"},model:{value:(_vm.borderInput1),callback:function ($$v) {_vm.borderInput1=$$v;},expression:"borderInput1"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"border":"","placeholder":"中输入框"},model:{value:(_vm.borderInput2),callback:function ($$v) {_vm.borderInput2=$$v;},expression:"borderInput2"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"border":"","size":"small","placeholder":"小输入框"},model:{value:(_vm.borderInput3),callback:function ($$v) {_vm.borderInput3=$$v;},expression:"borderInput3"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("密码和数字输入")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('p',{staticClass:"subtitle"},[_vm._v("密码：")]),_vm._v(" "),_c('owl-input',{staticClass:"input2-csm",attrs:{"type":"password","placeholder":"请输入您的密码"},model:{value:(_vm.input3),callback:function ($$v) {_vm.input3=$$v;},expression:"input3"}}),_vm._v(" "),_c('p',{staticClass:"subtitle"},[_vm._v("数字：")]),_vm._v(" "),_c('owl-input',{staticClass:"input2-csm",attrs:{"type":"number","placeholder":"请输入您的年龄"},model:{value:(_vm.inputNum),callback:function ($$v) {_vm.inputNum=$$v;},expression:"inputNum"}})],1),_vm._v(" "),_c('h3',[_vm._v("验证")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code3,"introduce":"当触发input的onblur事件时，组件会检验rule属性，如果有值且长度大于一且其中一个validate返回的是false，则会出现红色的提示语和红色下划线"}},[_c('div',{staticClass:"input2"},[_c('div',{staticClass:"subt"},[_vm._v("Default版：")]),_vm._v(" "),_c('owl-input',{staticClass:"input3-csm",attrs:{"placeholder":"请输入您的手机号","rule":_vm.validate},model:{value:(_vm.input4),callback:function ($$v) {_vm.input4=$$v;},expression:"input4"}})],1),_vm._v(" "),_c('div',{staticClass:"input2"},[_c('div',{staticClass:"subt"},[_vm._v("Border版：")]),_vm._v(" "),_c('owl-input',{staticClass:"input3-csm",attrs:{"border":"","placeholder":"请输入您的手机号","rule":_vm.validate},model:{value:(_vm.borderInput4),callback:function ($$v) {_vm.borderInput4=$$v;},expression:"borderInput4"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("Slots")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code4}},[_c('div',{staticClass:"input-account-wrap"},[_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("前缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入账号"},model:{value:(_vm.userVal),callback:function ($$v) {_vm.userVal=$$v;},expression:"userVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"owlfont owl-user",staticStyle:{"font-size":"16px"}})])],2),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入密码","type":"password"},model:{value:(_vm.passwordVal),callback:function ($$v) {_vm.passwordVal=$$v;},expression:"passwordVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"owlfont owl-mima",staticStyle:{"font-size":"16px"}})])],2)],1),_vm._v(" "),_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("后缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"border":"","placeholder":"请输入关键字"},model:{value:(_vm.searchVal),callback:function ($$v) {_vm.searchVal=$$v;},expression:"searchVal"}},[_c('template',{slot:"suffix"},[_c('span',{staticClass:"owlfont owl-search suffix-icon"})])],2)],1)])]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11635,6 +11638,8 @@ export default {
         borderInput2: '',
         borderInput3: '',
         borderInput4: '',
+        
+        inputNum: '',
         propsCol: [
           {title: '名称', key: 'name', width: '180px'},
           {title: '类型', key: 'types'},
@@ -11695,11 +11700,19 @@ export default {
 &lt;/template&gt;
 `,
         code2:`&lt;template&gt;
+  <p class="subtitle">密码：</p>
   <owl-input
     class="input2-csm"
     type="password"
     placeholder="请输入您的密码"
-    v-model="input1"
+    v-model="input3"
+  />
+  <p class="subtitle">数字：</p>
+  <owl-input
+    class="input2-csm"
+    type="number"
+    placeholder="请输入您的年龄"
+    v-model="inputNum"
   />
 &lt;/template&gt;
 `,
@@ -11753,7 +11766,8 @@ export default {
     </div>
   </div>
 &lt;/template&gt;
-`
+`,
+        codeNumber: ``
       }
     }
   };
@@ -12289,6 +12303,63 @@ export default {
     }
   };
 
+  var Pagination$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Pagination 分页")]),_vm._v(" "),_c('h3',[_vm._v("基本用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-pagination',{attrs:{"totalResult":_vm.totalResult,"showCount":_vm.showCount,"currentPage":_vm.currentPage},on:{"change":function (val){ return _vm.currentPage = val; }}})],1),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}}),_vm._v(" "),_c('h3',[_vm._v("事件")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list1,"columns":_vm.columns}})],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        totalResult: 50,
+        showCount: 5,
+        currentPage: 1,
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '默认值', key: 'default'},
+          {title: '说明', key: 'introduce'},
+        ],
+        list: [
+          {name: 'totalResult', types: 'boolean', default: 'false', introduce: '数据总共多少条'},
+          {name: 'showCount', types: 'boolean', default: 'true', introduce: '一页显示多少数据'},
+          {name: 'currentPage', types: 'boolean', default: 'true', introduce: '当前的页数'},
+        ],
+        list1: [
+          {name: 'change', types: '(val: number) => void', default: '', introduce: '当前页数发生改变'},
+        ],
+        code1: `&lt;template&gt;
+  <owl-pagination 
+    :totalResult="totalResult" 
+    :showCount="showCount" 
+    :currentPage="currentPage" 
+    @change="val=>currentPage = val"
+  />
+&lt;/template&gt;
+
+&lt;script&gt;
+  export default {
+    data(){
+      return {
+        totalResult:50,
+        showCount: 5,
+        currentPage: 1,
+      }
+    }
+  }
+&lt;/script&gt;
+      `
+      }
+    }
+  };
+
+  var Form$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;_vm._self._c||_h;return _vm._m(0)},
+  staticRenderFns: [function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Form 表单")])])}],
+    data(){
+      return {
+        
+      }
+    }
+  };
+
   Vue.use(VueRouter$1);
   const routes = [{
     path: '/',
@@ -12303,6 +12374,14 @@ export default {
       title: '表单组件',
       slide: true,
       subtitle: true
+    }
+  }, {
+    path: '/label',
+    name: 'label',
+    component: Label$1,
+    meta: {
+      title: 'Label 文本',
+      slide: true
     }
   }, {
     path: '/input',
@@ -12361,10 +12440,26 @@ export default {
       slide: true
     }
   }, {
+    path: '/form',
+    name: 'form',
+    component: Form$1,
+    meta: {
+      title: 'Form 表单',
+      slide: true
+    }
+  }, {
     meta: {
       title: '页面组件',
       slide: true,
       subtitle: true
+    }
+  }, {
+    path: '/pagination',
+    name: 'pagination',
+    component: Pagination$1,
+    meta: {
+      title: 'Pagination 分页',
+      slide: true
     }
   }, {
     path: '/swiper',
@@ -12372,14 +12467,6 @@ export default {
     component: Swiper$1,
     meta: {
       title: 'Swiper 轮播图',
-      slide: true
-    }
-  }, {
-    path: '/label',
-    name: 'label',
-    component: Label$1,
-    meta: {
-      title: 'Label 文本省略',
       slide: true
     }
   }, {
@@ -12711,6 +12798,7 @@ export default {
         setTimeout(() => {
           this.bannerInfo.transition = false;
           this.recoverPosition();
+          this.$emit('changed', this.currentIndex);
         }, 500);
       },
 
@@ -13002,7 +13090,11 @@ export default {
       value: String,
       type: {
         default: 'text',
-        type: String
+
+        validator(val) {
+          return ['number', 'text', 'password'].indexOf(val) !== -1;
+        }
+
       },
       border: Boolean,
       rule: Array,
@@ -13053,6 +13145,10 @@ export default {
         }
 
         return true;
+      },
+
+      onInput(val) {
+        this.$emit('change', this.type === 'number' ? val.replace(/\D+/g, '') : val);
       }
 
     },
@@ -13062,14 +13158,14 @@ export default {
       }, [this.$slots.prefix, h('input', {
         class: 'input',
         attrs: {
-          type: this.type != 'password' ? this.type : this.showPassword ? 'text' : 'password',
+          type: this.type,
           placeholder: this.placeholder
         },
         domProps: {
           value: this.value
         },
         on: {
-          input: e => this.$emit('change', e.target.value),
+          input: e => this.onInput(e.target.value),
           focus: this.onFocus,
           blur: this.onBlur
         }
@@ -13972,9 +14068,6 @@ export default {
 
   Collapse.install = function (Vue) {
     Vue.component(Collapse.name, Collapse);
-  };
-
-  CollapsePanel.install = function (Vue) {
     Vue.component(CollapsePanel.name, CollapsePanel);
   };
 
@@ -14099,9 +14192,6 @@ export default {
 
   Checkbox.install = function (vue) {
     vue.component(Checkbox.name, Checkbox);
-  };
-
-  CheckboxGroup.install = function (vue) {
     vue.component(CheckboxGroup.name, CheckboxGroup);
   };
 
@@ -14993,10 +15083,181 @@ export default {
 
   Radio.install = function (Vue) {
     Vue.component(Radio.name, Radio);
+    Vue.component(RadioGroup.name, RadioGroup);
   };
 
-  RadioGroup.install = function (vue) {
-    vue.component(RadioGroup.name, RadioGroup);
+  var Pagination = {
+    name: 'owlPagination',
+    props: {
+      totalResult: Number,
+      showCount: Number,
+      currentPage: Number
+    },
+    computed: {
+      size() {
+        return Math.ceil(this.totalResult / this.showCount);
+      },
+
+      page() {
+        let arr = [];
+
+        if (this.size <= 2) {
+          return [];
+        }
+
+        const currentPage = this.currentPage > this.size ? 1 : this.currentPage;
+        let first = 1;
+
+        if (currentPage > 3) {
+          first = currentPage - 2;
+        }
+
+        if (currentPage + 3 > this.size && this.size > 5) {
+          first = this.size - 4;
+        }
+
+        if (first !== 1) {
+          // 如果第一个有值
+          arr.push(first);
+        }
+
+        let max = 5 - (currentPage <= 3 ? 1 : 0);
+
+        while (arr.length < max && this.size > first + 1) {
+          arr.push(++first);
+        }
+
+        return arr;
+      }
+
+    },
+
+    mounted() {
+      console.log(this.page);
+    },
+
+    methods: {
+      changeCurrent(val) {
+        this.$emit('change', val);
+      },
+
+      substractPage() {
+        if (this.currentPage === 1) return;
+        this.$emit('change', this.currentPage - 1);
+      },
+
+      addPage() {
+        if (this.size === this.currentPage) return;
+        this.$emit('change', this.currentPage + 1);
+      }
+
+    },
+
+    render(h) {
+      let children = [h('li', {
+        class: ['owl-pagination-item prev', this.currentPage === 1 && 'disabled'],
+        on: {
+          click: this.substractPage
+        }
+      }, [h('span', {
+        class: 'owlfont owl-arrow-you'
+      })]), h('li', {
+        class: ['owl-pagination-item', this.currentPage === 1 && 'active'],
+        on: {
+          click: () => this.changeCurrent(1)
+        }
+      }, 1)];
+
+      if (this.page && this.page.length) {
+        if (this.page[0] - 1 > 1) {
+          children.push(h('li', {
+            class: 'owl-pagination-ellipse prev',
+            on: {
+              click: () => this.changeCurrent(this.currentPage - 5 < 1 ? 1 : this.currentPage - 5)
+            },
+            attrs: {
+              title: 'Subtract 5 pages'
+            }
+          }, [h('span', {
+            class: 'owlfont owl-double-arrow-you'
+          }), h('span', {
+            class: 'more'
+          })]));
+        }
+
+        children.push(...this.page.map(item => h('li', {
+          key: item,
+          class: ['owl-pagination-item', this.currentPage === item && 'active'],
+          on: {
+            click: () => this.changeCurrent(item)
+          }
+        }, item)));
+
+        if (this.size - this.page[this.page.length - 1] > 1) {
+          children.push(h('li', {
+            class: 'owl-pagination-ellipse next',
+            on: {
+              click: () => this.changeCurrent(this.currentPage + 5 > this.size ? this.size : this.currentPage + 5)
+            },
+            attrs: {
+              title: 'Add 5 pages'
+            }
+          }, [h('span', {
+            class: 'owlfont owl-double-arrow-you'
+          }), h('span', {
+            class: 'more'
+          })]));
+        }
+      }
+
+      children.push(h('li', {
+        class: ['owl-pagination-item', this.currentPage === this.size && 'active'],
+        on: {
+          click: () => this.changeCurrent(this.size)
+        }
+      }, this.size));
+      children.push(h('li', {
+        class: ['owl-pagination-item next', this.currentPage === this.size && 'disabled'],
+        on: {
+          click: this.addPage
+        }
+      }, [h('span', {
+        class: 'owlfont owl-arrow-you'
+      })]));
+      children.push(this.$slots.total || h('li', {
+        class: 'owl-pagination-total'
+      }, this.totalResult + ' in total'));
+      return h('ul', {
+        class: 'owl-pagination'
+      }, children);
+    }
+
+  };
+
+  Pagination.install = function (Vue) {
+    Vue.component(Pagination.name, Pagination);
+  };
+
+  var Form = {
+    name: 'owlForm',
+
+    data() {
+      return {};
+    }
+
+  };
+  const FormItem = {
+    name: 'owlFormItem',
+
+    data() {
+      return {};
+    }
+
+  };
+
+  Form.install = function (Vue) {
+    Vue.component(Form.name, Form);
+    Vue.component(FormItem.name, FormItem);
   };
 
   const components = {
@@ -15010,17 +15271,16 @@ export default {
     Proccess,
     Select,
     Collapse,
-    CollapsePanel,
     Checkbox,
-    CheckboxGroup,
     Date: Date$1,
     Radio,
-    RadioGroup
+    Pagination,
+    Form
   };
 
   const install = function (Vue) {
     for (let key in components) {
-      Vue.component(components[key].name, components[key]);
+      components[key].install(Vue);
     }
   };
 
