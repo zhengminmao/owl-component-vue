@@ -12,10 +12,11 @@ import Select from "@/views/select.vue";
 import Collapse from "@/views/collapse.vue";
 import Checkbox from "@/views/checkbox.vue";
 import Date from "@/views/date.vue";
+import Button from "@/views/button.vue";
+import Radio from "@/views/radio.vue";
 Vue.use(VueRouter)
 
 export const routes = [
-
   {
     path: '/',
     name: 'home',
@@ -26,11 +27,34 @@ export const routes = [
     }
   },
   {
+    meta: {
+      title: '表单组件',
+      slide: true,
+      subtitle: true,
+    }
+  },
+  {
     path: '/input',
     name: 'input',
     component: Input,
     meta: {
       title: 'Input 输入框',
+      slide: true
+    }
+  },{
+    path: '/button',
+    name: 'button',
+    component: Button,
+    meta: {
+      title: 'Button 按钮',
+      slide: true
+    }
+  },{
+    path: '/radio',
+    name: 'radio',
+    component: Radio,
+    meta: {
+      title: 'Radio 单选框',
       slide: true
     }
   },{
@@ -65,7 +89,15 @@ export const routes = [
       title: 'Slide 滑块',
       slide: true
     }
-  },{
+  },
+  {
+    meta: {
+      title: '页面组件',
+      slide: true,
+      subtitle: true,
+    }
+  },
+  {
     path: '/swiper',
     name: 'swiper',
     component: Swiper,
@@ -122,5 +154,5 @@ export const routes = [
 ]
 export default new VueRouter({
   mode: 'hash',
-  routes: routes
+  routes: routes.filter(item=>!!item.component)
 })

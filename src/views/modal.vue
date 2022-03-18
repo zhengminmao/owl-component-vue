@@ -6,7 +6,7 @@
       <div class="lookdetail1" @click="visible1 = true">点击查看</div>
     </owl-code-example>
     <h3>使用默认Slot自定义弹窗内容</h3>
-    <owl-code-example :code="code">
+    <owl-code-example :code="code1">
       <div class="lookdetail1" @click="visible2 = true">点击查看</div>
     </owl-code-example>
     <h3>属性</h3>
@@ -35,12 +35,10 @@ export default {
         {name: 'shrink-menu', types: 'boolean', default: 'true', introduce: '是否显示菜单"减号"'},
         {name: 'middle', types: 'boolean', default: 'true', introduce: '是否居中'},
         {name: 'top', types: 'string', default: '200px', introduce: '如果不居中，则距离顶部200px'},
-        {name: 'width', types: 'string', default: '680px', introduce: '是否居中'},
+        {name: 'width', types: 'string', default: '680px', introduce: '宽度'},
       ],
       code: `&lt;template&gt;
-  <owl-modal :visible.sync="visible1">
-    <div class="modal-body-custom">自定义内容</div>
-  </owl-modal>
+  <owl-modal :visible.sync="visible"></owl-modal>
 &lt;/template&gt;
 
 &lt;script&gt;
@@ -56,7 +54,7 @@ export default {
       code1:`
 &lt;template&gt;
   <owl-modal :visible.sync="visible1">
-
+    <div class="modal-body-custom">自定义内容</div>
   </owl-modal>
 &lt;/template&gt;
 `

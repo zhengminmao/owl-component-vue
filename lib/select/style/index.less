@@ -18,13 +18,14 @@
   }
   .owl-select-list-wrap{
     overflow-y: auto;
-    max-height: 180px;
+    max-height: 210px;
     .owl-select-option{
       color: #666;
       padding: 6px 10px;
       min-height: 32px;
       font-size: 14px;
       transition: all .25s;
+      margin: 4px 0;
       cursor: pointer;
       &:hover{
         background-color: var(--owl-primary-bgm-color);
@@ -40,7 +41,7 @@
       align-items: center;
       flex-direction: column;
       justify-content: center;
-      .iconfont{
+      .owlfont{
         color: #ddd;
         font-size: 34px;
       }
@@ -79,7 +80,7 @@
   display: inline-block;
   .owl-select-wrap{
     border-radius: 4px;
-    height: 40px;
+    height: 34px;
     width: 240px;
     border: 1px solid #e1e1e1;
     position: relative;
@@ -87,6 +88,7 @@
     display: flex;
     align-items: center;
     transition: all .25s;
+    
     .owl-multiple-box{
       width: 70%;
       display: flex;
@@ -105,9 +107,22 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        position: relative;
         &.count{
           width: 34px;
           min-width: 34px;
+        }
+        .close{
+          position: absolute;
+          right: 0px;
+          top: 50%;
+          transform: translateY(-50%);
+          background: #fff;
+          padding: 4px;
+          cursor: pointer;
+          &:hover{
+            color: var(--owl-primary-color)
+          }
         }
       }
     }
@@ -185,6 +200,16 @@
         }
       }
       
+    }
+  }
+  &.owl-large{
+    .owl-select-wrap{
+      height: 40px;
+    }
+  }
+  &.owl-small{
+    .owl-select-wrap{
+      height: 30px;
     }
   }
 }

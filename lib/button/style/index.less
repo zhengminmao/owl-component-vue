@@ -1,14 +1,105 @@
 .owl-button{
-  line-height: 1.18;
-  font-size: 14px;
   border-radius: 4px;
-  background-color: var(--owl-primary-color);
-  padding: 4px 8px;
-  transition: background-color .25s;
-  &:hover{
-    background-color: var(--owl-primary-lighten-color);
+  cursor: pointer;
+  font-size: 0;
+  display: inline-block;
+  text-align: center;
+  transition: background-color .25s, border-color .25s;
+  &+.owl-button{
+    margin-left: 12px;
   }
-  &:active{
-    background-color: var(--owl-primary-darken-color);
+  .owl-inner-button{
+    font-size: 14px;
+    padding: 0 16px;
+    color: #fff;
+    transition: color .25s;
+    line-height: 1.499;
+    font-size: inherit;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .inner-text{
+    vertical-align: middle;
+  }
+  .suffix-icon{
+    color: #fff;
+    transition: color .25s;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+  }
+  .owl-loading{
+    animation: circle 1s infinite;
+  }
+  &.owl-default{
+    height: 34px;
+    .owl-inner-button {
+      font-size: 14px;
+    }
+  }
+  &.owl-small{
+    height: 30px;
+    .owl-inner-button {
+      font-size: 12px;
+    }
+  }
+  &.owl-large{
+    height: 40px;
+    .owl-inner-button {
+      font-size: 16px;
+    }
+  }
+  &.type-primary{
+    background-color: var(--owl-primary-color);
+    &:hover{
+      border-color: var(--owl-primary-lighten-color);
+      background-color: var(--owl-primary-lighten-color);
+    }
+    &:active{
+      border-color: var(--owl-primary-darken-color);
+      background-color: var(--owl-primary-darken-color);
+    }
+  }
+  &.type-success{
+    background-color: var(--owl-success-color);
+    &:hover{
+      border-color: var(--owl-success-lighten-color);
+      background-color: var(--owl-success-lighten-color);
+    }
+    &:active{
+      border-color: var(--owl-success-darken-color);
+      background-color: var(--owl-success-darken-color);
+    }
+  }
+  &.type-error{
+    background-color: var(--owl-error-color);
+    &:hover{
+      border-color: var(--owl-error-lighten-color);
+      background-color: var(--owl-error-lighten-color);
+    }
+    &:active{
+      border-color: var(--owl-error-darken-color);
+      background-color: var(--owl-error-darken-color);
+    }
+  }
+  &.plain{
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    .owl-inner-button {
+      color: #333;
+    }
+    &:hover{
+      .owl-inner-button {
+        color: #fff;
+      }
+    }
+  }
+}
+@keyframes circle {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

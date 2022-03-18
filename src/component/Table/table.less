@@ -2,6 +2,7 @@
   width: 100%;
   border-collapse: collapse;
   margin: 24px 0;
+  border-top: 1px solid #ff9700;
   tr th{
     background-color: #fffaf2;
     text-align: left;
@@ -9,9 +10,14 @@
     font-weight: bold;
     color: #ff9700;
   }
-  tr th, tr td{
-    padding: 10px 12px;
-    font-size: 14px;
-    border: 1px solid #ff9700;
+  tr{
+    th, td{
+      padding: 10px 12px;
+      font-size: 14px;
+      border-bottom: 1px solid #e1e1e1;
+    }
+    &:hover{
+      background-color: #fffaf2;
+    }
   }
 }

@@ -14,7 +14,9 @@ var Slider = {
   },
   render: function(h){
     return h('div', {class: 'slider'}, this.list.map(item => {
-      return h('router-link', {
+      return item.meta && item.meta.subtitle ? h('div', {
+        class: 'subtitle',
+      }, item.meta.title): h('router-link', {
         class: 'item', 
         key: item.name, 
         props: { to: {name: item.name} }
@@ -45,7 +47,7 @@ export default {
               class: 'slide-search',
               props:{value: this.value, placeholder: '输入关键字查找'},
             }, [
-              h('span', {class:'iconfont owl-search', slot: 'suffix', style:{'font-size': '20px'}})
+              h('span', {class:'owlfont owl-search', slot: 'suffix', style:{'font-size': '20px'}})
             ])
           ]),
         ]),

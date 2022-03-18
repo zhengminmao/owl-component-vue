@@ -4,20 +4,16 @@
     <h3>基础用法</h3>
     <owl-code-example :code="code">
       <template>
-        <div>
-          <p>选择护照国家：</p>
+          <p class="subtitle">选择护照国家：</p>
           <owl-select :list="list" v-model="value1" ></owl-select>
-        </div>
-        <div>
-          <p>选择目的地国家：</p>
+          <p class="subtitle">选择目的地国家：</p>
           <owl-select :list="list1" v-model="value2" word-wrap="nowrap"></owl-select>
-        </div>
       </template>
     </owl-code-example>
     <h3>多选</h3>
     <owl-code-example :code="code1">
       <template>
-        <p>选择英语成绩类型：已选择{{value3.join(',')}}</p>
+        <p class="subtitle">选择英语成绩类型：已选择{{value3.join(',')}}</p>
         <owl-select :list="list2" v-model="value3" :config="config" :multiple="true" ></owl-select>
       </template>
     </owl-code-example>
@@ -77,6 +73,7 @@ export default {
         {name: 'value/v-model', types: 'string', introduce: '当前值'},
         {name: 'placeholder', types: 'string',default: '请选择 Please select', introduce: '空字符占位符'},
         {name: 'word-wrap', types: '"wrap"|"nowrap"',default: 'wrap', introduce: '是否换行，默认换行'},
+        {name: 'size', types: '"large"|"default"|"small"', default:'default', introduce: '尺寸'},
         {name: 'multiple', types: 'boolean',default: 'false', introduce: '是否多选'},
       ],
 
@@ -84,8 +81,6 @@ export default {
   <div>
     <p>选择护照国家：</p>
     <owl-select :list="list" v-model="value1" ></owl-select>
-  </div>
-  <div>
     <p>选择目的地国家：</p>
     <owl-select :list="list1" v-model="value2" word-wrap="nowrap"></owl-select>
   </div>  

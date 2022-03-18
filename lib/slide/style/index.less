@@ -5,7 +5,7 @@
   .slide-tip{
     position: absolute;
     padding: 0 6px;
-    top: -26px;
+    top: 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -13,7 +13,6 @@
     .tip{
       font-size: 14px;
       color: #999;
-      width: 48px;
       text-align: center;
       white-space: nowrap;
       &.active{
@@ -57,6 +56,10 @@
         box-shadow: 0 0 6px 4px rgb(167 111 33 / 28%);
       }
     }
+    
+  }
+  &.options{
+    padding-top: 26px;
   }
 }
 @media screen and(max-width: 750px){

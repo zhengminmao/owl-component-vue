@@ -1,16 +1,28 @@
 @font-face {
-  font-family: "iconfont"; /* Project id 3227481 */
-  src: url('iconfont.woff2?t=1647227153543') format('woff2'),
-       url('iconfont.woff?t=1647227153543') format('woff'),
-       url('iconfont.ttf?t=1647227153543') format('truetype');
+  font-family: "owlfont"; /* Project id 3227481 */
+  src: url('iconfont.woff2?t=1647404987085') format('woff2'),
+       url('iconfont.woff?t=1647404987085') format('woff'),
+       url('iconfont.ttf?t=1647404987085') format('truetype');
 }
 
-.iconfont {
-  font-family: "iconfont" !important;
+.owlfont {
+  font-family: "owlfont" !important;
   font-size: inherit;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.owl-search:before {
+  content: "\e623";
+}
+
+.owl-loading:before {
+  content: "\e73c";
+}
+
+.owl-date-icon:before {
+  content: "\e71d";
 }
 
 .owl-gougou:before {
@@ -43,10 +55,6 @@
 
 .owl-mima:before {
   content: "\e8b2";
-}
-
-.owl-search:before {
-  content: "\e67d";
 }
 
 .owl-close:before {

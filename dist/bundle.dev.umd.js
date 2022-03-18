@@ -11619,7 +11619,7 @@ export default {
   };
 
   var Input$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Input 输入框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"input1"},[_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的姓名"},model:{value:(_vm.input1),callback:function ($$v) {_vm.input1=$$v;},expression:"input1"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的手机号码"},model:{value:(_vm.input2),callback:function ($$v) {_vm.input2=$$v;},expression:"input2"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("密码框")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-input',{staticClass:"input2-csm",attrs:{"type":"password","placeholder":"请输入您的密码"},model:{value:(_vm.input3),callback:function ($$v) {_vm.input3=$$v;},expression:"input3"}})],1),_vm._v(" "),_c('h3',[_vm._v("验证")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code3,"introduce":"当触发input的onblur事件时，组件会检验rule属性，如果有值且长度大于一且其中一个validate返回的是false，则会出现红色的提示语和红色下划线"}},[_c('owl-input',{staticClass:"input2-csm",attrs:{"placeholder":"请输入您的手机号","rule":_vm.validate},model:{value:(_vm.input4),callback:function ($$v) {_vm.input4=$$v;},expression:"input4"}})],1),_vm._v(" "),_c('h3',[_vm._v("Slots")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code4}},[_c('div',{staticClass:"input-account-wrap"},[_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("前缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入账号"},model:{value:(_vm.userVal),callback:function ($$v) {_vm.userVal=$$v;},expression:"userVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"iconfont owl-user",staticStyle:{"font-size":"16px"}})])],2),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入密码","type":"password"},model:{value:(_vm.passwordVal),callback:function ($$v) {_vm.passwordVal=$$v;},expression:"passwordVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"iconfont owl-mima",staticStyle:{"font-size":"16px"}})])],2)],1),_vm._v(" "),_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("后缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入关键字"},model:{value:(_vm.searchVal),callback:function ($$v) {_vm.searchVal=$$v;},expression:"searchVal"}},[_c('template',{slot:"suffix"},[_c('span',{staticClass:"iconfont owl-search"})])],2)],1)])]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Input 输入框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"input1"},[_c('div',{staticClass:"subt"},[_vm._v("Default版：")]),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的姓名"},model:{value:(_vm.input1),callback:function ($$v) {_vm.input1=$$v;},expression:"input1"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"placeholder":"请输入您的手机号码"},model:{value:(_vm.input2),callback:function ($$v) {_vm.input2=$$v;},expression:"input2"}})],1),_vm._v(" "),_c('div',{staticClass:"input1"},[_c('div',{staticClass:"subt"},[_vm._v("Border版：")]),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"border":"","size":"large","placeholder":"大输入框"},model:{value:(_vm.borderInput1),callback:function ($$v) {_vm.borderInput1=$$v;},expression:"borderInput1"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"border":"","placeholder":"中输入框"},model:{value:(_vm.borderInput2),callback:function ($$v) {_vm.borderInput2=$$v;},expression:"borderInput2"}}),_vm._v(" "),_c('owl-input',{staticClass:"input1-csm",attrs:{"border":"","size":"small","placeholder":"小输入框"},model:{value:(_vm.borderInput3),callback:function ($$v) {_vm.borderInput3=$$v;},expression:"borderInput3"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("密码框")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-input',{staticClass:"input2-csm",attrs:{"type":"password","placeholder":"请输入您的密码"},model:{value:(_vm.input3),callback:function ($$v) {_vm.input3=$$v;},expression:"input3"}})],1),_vm._v(" "),_c('h3',[_vm._v("验证")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code3,"introduce":"当触发input的onblur事件时，组件会检验rule属性，如果有值且长度大于一且其中一个validate返回的是false，则会出现红色的提示语和红色下划线"}},[_c('div',{staticClass:"input2"},[_c('div',{staticClass:"subt"},[_vm._v("Default版：")]),_vm._v(" "),_c('owl-input',{staticClass:"input3-csm",attrs:{"placeholder":"请输入您的手机号","rule":_vm.validate},model:{value:(_vm.input4),callback:function ($$v) {_vm.input4=$$v;},expression:"input4"}})],1),_vm._v(" "),_c('div',{staticClass:"input2"},[_c('div',{staticClass:"subt"},[_vm._v("Border版：")]),_vm._v(" "),_c('owl-input',{staticClass:"input3-csm",attrs:{"border":"","placeholder":"请输入您的手机号","rule":_vm.validate},model:{value:(_vm.borderInput4),callback:function ($$v) {_vm.borderInput4=$$v;},expression:"borderInput4"}})],1)]),_vm._v(" "),_c('h3',[_vm._v("Slots")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code4}},[_c('div',{staticClass:"input-account-wrap"},[_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("前缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入账号"},model:{value:(_vm.userVal),callback:function ($$v) {_vm.userVal=$$v;},expression:"userVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"owlfont owl-user",staticStyle:{"font-size":"16px"}})])],2),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入密码","type":"password"},model:{value:(_vm.passwordVal),callback:function ($$v) {_vm.passwordVal=$$v;},expression:"passwordVal"}},[_c('template',{slot:"prefix"},[_c('span',{staticClass:"owlfont owl-mima",staticStyle:{"font-size":"16px"}})])],2)],1),_vm._v(" "),_c('div',{staticClass:"input-account"},[_c('div',{staticClass:"title"},[_vm._v("后缀插槽")]),_vm._v(" "),_c('owl-input',{attrs:{"border":"","placeholder":"请输入关键字"},model:{value:(_vm.searchVal),callback:function ($$v) {_vm.searchVal=$$v;},expression:"searchVal"}},[_c('template',{slot:"suffix"},[_c('span',{staticClass:"owlfont owl-search suffix-icon"})])],2)],1)])]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11631,14 +11631,21 @@ export default {
         userVal: '',
         passwordVal: '',
         searchVal: '',
+        borderInput1: '',
+        borderInput2: '',
+        borderInput3: '',
+        borderInput4: '',
         propsCol: [
           {title: '名称', key: 'name', width: '180px'},
           {title: '类型', key: 'types'},
+          {title: '默认', key: 'default'},
           {title: '说明', key: 'introduce'},
         ],
         propsData: [
-          {name: 'value/v-model', types: 'string', introduce: '输入框的值'},
-          {name: 'type', types: '"text"|"password"|"number"', introduce: '输入框的类型，默认是text'},
+          {name: 'value/v-model', types: 'string', default: '', introduce: '输入框的值，必填'},
+          {name: 'type', types: '"text"|"password"|"number"', default:'text', introduce: '输入框的类型'},
+          {name: 'border', types: 'boolean', default:'false', introduce: '是否是border框，默认是下划线'},
+          {name: 'size', types: '"large"|"default"|"small"', default:'default', introduce: 'border框类型的输入框尺寸'},
           {name: 'placeholder', types: 'string', introduce: '原生placeholder属性'},
           {name: 'rule', types: 'Array<{require: boolean, tip: string, validate: (value)=>boolean}>', introduce: '验证规则，"require"是否必填，"tip"提示语，"validate"验证规则函数，函数的参数是当前值，返回值是boolean类型'},
         ],
@@ -11650,6 +11657,7 @@ export default {
         ],
         code1:`&lt;template&gt;
   <div class="input1">
+    <div class="subt">Default版：</div>
     <owl-input
       class="input1-csm"
       placeholder="请输入您的姓名"
@@ -11661,17 +11669,30 @@ export default {
       v-model="input2"
     />
   </div>
+  <div class="input1">
+    <div class="subt">Border版：</div>
+    <owl-input
+      border
+      class="input1-csm"
+      size="large"
+      placeholder="大输入框"
+      v-model="borderInput1"
+    />
+    <owl-input
+      border
+      class="input1-csm"
+      placeholder="中输入框"
+      v-model="borderInput2"
+    />
+    <owl-input
+      border
+      size="small"
+      class="input1-csm"
+      placeholder="小输入框"
+      v-model="borderInput3"
+    />
+  </div>
 &lt;/template&gt;
-&lt;script&gt;
-  export default {
-    data(){
-      return {
-        input1: '',
-        input2: '',
-      }
-    }
-  }
-&lt;/script&gt;
 `,
         code2:`&lt;template&gt;
   <owl-input
@@ -11713,12 +11734,12 @@ export default {
       <div class="title">前缀插槽</div>
       <owl-input placeholder="请输入账号" v-model="userVal">
         <template slot="prefix">
-          <span class="iconfont owl-user" style="font-size: 16px;"></span>
+          <span class="owlfont owl-user" style="font-size: 16px;"></span>
         </template>
       </owl-input>
       <owl-input placeholder="请输入密码" v-model="passwordVal" type="password">
         <template slot="prefix">
-          <span class="iconfont owl-mima" style="font-size: 16px;"></span>
+          <span class="owlfont owl-mima" style="font-size: 16px;"></span>
         </template>
       </owl-input>
     </div>
@@ -11726,7 +11747,7 @@ export default {
       <div class="title">后缀插槽</div>
       <owl-input  placeholder="请输入关键字" v-model="searchVal">
         <template slot="suffix">
-          <span class="iconfont owl-search"></span>
+          <span class="owlfont owl-search"></span>
         </template>
       </owl-input>
     </div>
@@ -11738,7 +11759,7 @@ export default {
   };
 
   var Slide$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"slide-page"},[_c('h2',[_vm._v("Slide 滑块")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[[_c('div',{staticClass:"slide"},[_c('owl-slide',{attrs:{"width":400},model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}}),_vm._v(" "),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.value))])],1)]],2),_vm._v(" "),_c('h3',[_vm._v("显示文本")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[[_c('div',{staticClass:"slide2"},[_c('owl-slide',{attrs:{"width":400,"options":_vm.options},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}}),_vm._v(" "),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.value2))])],1)]],2),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"slide-page"},[_c('h2',[_vm._v("Slide 滑块")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[[_c('p',{staticClass:"subtitle"},[_vm._v("您需要的校园环境")]),_vm._v(" "),_c('div',{staticClass:"slide"},[_c('owl-slide',{attrs:{"width":400},model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}}),_vm._v(" "),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.value))])],1)]],2),_vm._v(" "),_c('h3',[_vm._v("显示文本")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[[_c('p',{staticClass:"subtitle"},[_vm._v("您需要的工作待遇")]),_vm._v(" "),_c('div',{staticClass:"slide2"},[_c('owl-slide',{attrs:{"width":400,"options":_vm.options},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}}),_vm._v(" "),_c('span',{staticClass:"value"},[_vm._v(_vm._s(_vm.value2))])],1)]],2),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11800,7 +11821,7 @@ export default {
   };
 
   var Modal$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-page"},[_c('h2',[_vm._v("Modal 弹窗")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('div',{staticClass:"lookdetail1",on:{"click":function($event){_vm.visible1 = true;}}},[_vm._v("点击查看")])]),_vm._v(" "),_c('h3',[_vm._v("使用默认Slot自定义弹窗内容")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('div',{staticClass:"lookdetail1",on:{"click":function($event){_vm.visible2 = true;}}},[_vm._v("点击查看")])]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}}),_vm._v(" "),_c('owl-modal',{attrs:{"visible":_vm.visible1},on:{"update:visible":function($event){_vm.visible1=$event;}}}),_vm._v(" "),_c('owl-modal',{attrs:{"visible":_vm.visible2},on:{"update:visible":function($event){_vm.visible2=$event;}}},[_c('div',{staticClass:"modal-body-custom"},[_vm._v("自定义内容")])])],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"modal-page"},[_c('h2',[_vm._v("Modal 弹窗")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('div',{staticClass:"lookdetail1",on:{"click":function($event){_vm.visible1 = true;}}},[_vm._v("点击查看")])]),_vm._v(" "),_c('h3',[_vm._v("使用默认Slot自定义弹窗内容")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"lookdetail1",on:{"click":function($event){_vm.visible2 = true;}}},[_vm._v("点击查看")])]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}}),_vm._v(" "),_c('owl-modal',{attrs:{"visible":_vm.visible1},on:{"update:visible":function($event){_vm.visible1=$event;}}}),_vm._v(" "),_c('owl-modal',{attrs:{"visible":_vm.visible2},on:{"update:visible":function($event){_vm.visible2=$event;}}},[_c('div',{staticClass:"modal-body-custom"},[_vm._v("自定义内容")])])],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11817,12 +11838,10 @@ export default {
           {name: 'shrink-menu', types: 'boolean', default: 'true', introduce: '是否显示菜单"减号"'},
           {name: 'middle', types: 'boolean', default: 'true', introduce: '是否居中'},
           {name: 'top', types: 'string', default: '200px', introduce: '如果不居中，则距离顶部200px'},
-          {name: 'width', types: 'string', default: '680px', introduce: '是否居中'},
+          {name: 'width', types: 'string', default: '680px', introduce: '宽度'},
         ],
         code: `&lt;template&gt;
-  <owl-modal :visible.sync="visible1">
-    <div class="modal-body-custom">自定义内容</div>
-  </owl-modal>
+  <owl-modal :visible.sync="visible"></owl-modal>
 &lt;/template&gt;
 
 &lt;script&gt;
@@ -11838,7 +11857,7 @@ export default {
         code1:`
 &lt;template&gt;
   <owl-modal :visible.sync="visible1">
-
+    <div class="modal-body-custom">自定义内容</div>
   </owl-modal>
 &lt;/template&gt;
 `
@@ -11877,7 +11896,7 @@ export default {
   };
 
   var Select$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"select-page"},[_c('h2',[_vm._v("Select 下拉框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[[_c('div',[_c('p',[_vm._v("选择护照国家：")]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}})],1),_vm._v(" "),_c('div',[_c('p',[_vm._v("选择目的地国家：")]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list1,"word-wrap":"nowrap"},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}})],1)]],2),_vm._v(" "),_c('h3',[_vm._v("多选")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[[_c('p',[_vm._v("选择英语成绩类型：已选择"+_vm._s(_vm.value3.join(',')))]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list2,"config":_vm.config,"multiple":true},model:{value:(_vm.value3),callback:function ($$v) {_vm.value3=$$v;},expression:"value3"}})]],2),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList,"columns":_vm.columns}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"select-page"},[_c('h2',[_vm._v("Select 下拉框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[[_c('p',{staticClass:"subtitle"},[_vm._v("选择护照国家：")]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}}),_vm._v(" "),_c('p',{staticClass:"subtitle"},[_vm._v("选择目的地国家：")]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list1,"word-wrap":"nowrap"},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}})]],2),_vm._v(" "),_c('h3',[_vm._v("多选")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[[_c('p',{staticClass:"subtitle"},[_vm._v("选择英语成绩类型：已选择"+_vm._s(_vm.value3.join(',')))]),_vm._v(" "),_c('owl-select',{attrs:{"list":_vm.list2,"config":_vm.config,"multiple":true},model:{value:(_vm.value3),callback:function ($$v) {_vm.value3=$$v;},expression:"value3"}})]],2),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList,"columns":_vm.columns}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11929,6 +11948,7 @@ export default {
           {name: 'value/v-model', types: 'string', introduce: '当前值'},
           {name: 'placeholder', types: 'string',default: '请选择 Please select', introduce: '空字符占位符'},
           {name: 'word-wrap', types: '"wrap"|"nowrap"',default: 'wrap', introduce: '是否换行，默认换行'},
+          {name: 'size', types: '"large"|"default"|"small"', default:'default', introduce: '尺寸'},
           {name: 'multiple', types: 'boolean',default: 'false', introduce: '是否多选'},
         ],
 
@@ -11936,8 +11956,6 @@ export default {
   <div>
     <p>选择护照国家：</p>
     <owl-select :list="list" v-model="value1" ></owl-select>
-  </div>
-  <div>
     <p>选择目的地国家：</p>
     <owl-select :list="list1" v-model="value2" word-wrap="nowrap"></owl-select>
   </div>  
@@ -12069,7 +12087,7 @@ export default {
   };
 
   var Checkbox$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Checkbox 复选框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('p',[_vm._v("选择喜欢的运动：")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"name":"favorite","value":"sports"},model:{value:(_vm.favorite),callback:function ($$v) {_vm.favorite=$$v;},expression:"favorite"}},[_vm._v("跑步运动")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"name":"favorite","value":"fitness"},model:{value:(_vm.favorite),callback:function ($$v) {_vm.favorite=$$v;},expression:"favorite"}},[_vm._v("健身运动")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"name":"favorite","value":"badminton"},model:{value:(_vm.favorite),callback:function ($$v) {_vm.favorite=$$v;},expression:"favorite"}},[_vm._v("羽毛球运动")]),_vm._v(" "),_c('p',{staticStyle:{"font-size":"14px"}},[_vm._v("已选值"+_vm._s(JSON.stringify(_vm.favorite)))])],1),_vm._v(" "),_c('h3',[_vm._v("使用Checkbox Group")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('p',[_vm._v("选择喜欢的水果：")]),_vm._v(" "),_c('owl-checkbox-group',{attrs:{"direction":"vertical"},model:{value:(_vm.fruite),callback:function ($$v) {_vm.fruite=$$v;},expression:"fruite"}},[_c('owl-checkbox',{attrs:{"value":"apple"}},[_vm._v("苹果")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"origin"}},[_vm._v("橙子")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"tangeine"}},[_vm._v("橘子")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"banana"}},[_vm._v("香蕉")])],1),_vm._v(" "),_c('p',{staticStyle:{"font-size":"14px"}},[_vm._v("已选值"+_vm._s(JSON.stringify(_vm.fruite)))])],1),_vm._v(" "),_c('h3',[_vm._v("Checkbox 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList,"columns":_vm.columns}}),_vm._v(" "),_c('h3',[_vm._v("Checkbox group 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList1,"columns":_vm.columns}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Checkbox 复选框")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('p',{staticClass:"subtitle"},[_vm._v("选择您喜欢的运动：")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"name":"favorite","value":"sports"},model:{value:(_vm.favorite),callback:function ($$v) {_vm.favorite=$$v;},expression:"favorite"}},[_vm._v("跑步运动")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"name":"favorite","value":"fitness"},model:{value:(_vm.favorite),callback:function ($$v) {_vm.favorite=$$v;},expression:"favorite"}},[_vm._v("健身运动")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"name":"favorite","value":"badminton"},model:{value:(_vm.favorite),callback:function ($$v) {_vm.favorite=$$v;},expression:"favorite"}},[_vm._v("羽毛球运动")]),_vm._v(" "),_c('p',{staticStyle:{"font-size":"14px"}},[_vm._v("已选值"+_vm._s(JSON.stringify(_vm.favorite)))])],1),_vm._v(" "),_c('h3',[_vm._v("使用Checkbox Group")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('p',{staticClass:"subtitle"},[_vm._v("选择您喜欢的水果：")]),_vm._v(" "),_c('owl-checkbox-group',{attrs:{"direction":"vertical"},model:{value:(_vm.fruite),callback:function ($$v) {_vm.fruite=$$v;},expression:"fruite"}},[_c('owl-checkbox',{attrs:{"value":"apple"}},[_vm._v("苹果")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"origin"}},[_vm._v("橙子")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"tangeine"}},[_vm._v("橘子")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"banana"}},[_vm._v("香蕉")])],1),_vm._v(" "),_c('p',{staticStyle:{"font-size":"14px"}},[_vm._v("已选值"+_vm._s(JSON.stringify(_vm.fruite)))])],1),_vm._v(" "),_c('h3',[_vm._v("Checkbox 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList,"columns":_vm.columns}}),_vm._v(" "),_c('h3',[_vm._v("Checkbox group 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList1,"columns":_vm.columns}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -12113,7 +12131,7 @@ export default {
   };
 
   var Date$2 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Date 日期选择")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('owl-date',{model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}})],1),_vm._v(" "),_c('h3',[_vm._v("修改日期显示和返回值格式")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-date',{attrs:{"value-format":"YYYY/MM/DD","format":"YYYY/MM/DD"},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}})],1),_vm._v(" "),_c('h3',[_vm._v("快捷选项")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-date',{attrs:{"quickly-choose":[
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Date 日期选择")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('p',{staticClass:"subtitle"},[_vm._v("您的生日是?")]),_vm._v(" "),_c('owl-date',{model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}})],1),_vm._v(" "),_c('h3',[_vm._v("修改日期显示和返回值格式")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-date',{attrs:{"value-format":"YYYY/MM/DD","format":"YYYY/MM/DD"},model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}})],1),_vm._v(" "),_c('h3',[_vm._v("快捷选项")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-date',{attrs:{"quickly-choose":[
         {label: '2000-01-01', value: '2000-01-01'}, 
         {label: '2010-01-01', value: '2010-01-01'},
         {label: '2020-01-01', value: '2020-01-01'} ]},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}})],1),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
@@ -12134,6 +12152,7 @@ export default {
           {name: 'placeholder', types: 'string', default:'请选择日期 Please pick date', introduce: '占位符'},
           {name: 'format', types: 'string', default:'YYYY-MM-DD', introduce: '文本框显示的日期格式'},
           {name: 'valueFormat', types: 'string', default:'YYYY-MM-DD', introduce: '返回值的日期格式'},
+          {name: 'size', types: '"large"|"default"|"small"', default:'default', introduce: '尺寸'},
           {name: 'quicklyChoose', default: '[]', types: 'Array<{label: string, value: string}>', introduce: '提供快捷选择日期，label是选择的文本，value是选择后的值'},
         ],
         code:`&lt;template&gt;
@@ -12172,6 +12191,104 @@ export default {
     }
   };
 
+  var Button$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Button 按钮")]),_vm._v(" "),_c('h3',[_vm._v("基本用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('p',[_vm._v("三种尺寸")]),_vm._v(" "),_c('div',{staticStyle:{"font-size":"0"}},[_c('owl-button',{attrs:{"size":"small"}},[_vm._v("确定")]),_vm._v(" "),_c('owl-button',{attrs:{"size":"default"}},[_vm._v("确定")]),_vm._v(" "),_c('owl-button',{attrs:{"size":"large"}},[_vm._v("确定")])],1),_vm._v(" "),_c('p',[_vm._v("三种颜色")]),_vm._v(" "),_c('div',{staticStyle:{"font-size":"0"}},[_c('owl-button',{attrs:{"type":"primary"}},[_vm._v("确定")]),_vm._v(" "),_c('owl-button',{attrs:{"type":"success"}},[_vm._v("确定")]),_vm._v(" "),_c('owl-button',{attrs:{"type":"error"}},[_vm._v("确定")])],1),_vm._v(" "),_c('p',[_vm._v("简易")]),_vm._v(" "),_c('div',{staticStyle:{"font-size":"0"}},[_c('owl-button',{attrs:{"type":"primary","plain":""}},[_vm._v("确定")]),_vm._v(" "),_c('owl-button',{attrs:{"type":"success","plain":""}},[_vm._v("确定")]),_vm._v(" "),_c('owl-button',{attrs:{"type":"error","plain":""}},[_vm._v("确定")])],1)]),_vm._v(" "),_c('h3',[_vm._v("图标后缀")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-button',{attrs:{"search":"","loading":_vm.loading},on:{"click":_vm.search}},[_vm._v("查询")]),_vm._v(" "),_c('br'),_vm._v(" "),_c('br'),_vm._v(" "),_c('owl-button',[_c('span',[_vm._v("新增人员")]),_vm._v(" "),_c('span',{staticClass:"suffix-icon owlfont owl-user",attrs:{"slot":"suffix-icon"},slot:"suffix-icon"})])],1),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        loading: false,
+        propsCol: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '默认', key: 'default'},
+          {title: '说明', key: 'introduce'},
+        ],
+        propsData: [
+          {name: 'loading', types: 'boolean', default: 'false', introduce: '显示loading，如果有slot图标优先级是slot'},
+          {name: 'search', types: 'boolean', default: 'false', introduce: '显示查询图标，如果loading为true默认则显示loading'},
+          {name: 'type', types: '"primary"|"success"|"error"', default: 'primary', introduce: '颜色'},
+          {name: 'plain', types: 'boolean', default: 'false', introduce: '是否为简易版'},
+          {name: 'size', types: '"large"|"small"|"default"', default: 'default', introduce: '尺寸'},
+        ],
+        code1:`&lt;template&gt;
+  <p>三种尺寸</p>
+  <div>
+    <owl-button size="small">确定</owl-button>
+    <owl-button size="default">确定</owl-button>
+    <owl-button size="large">确定</owl-button>
+  </div>
+  <p>三种颜色</p>
+  <div>
+    <owl-button type="primary">确定</owl-button>
+    <owl-button type="success">确定</owl-button>
+    <owl-button type="error" >确定</owl-button>
+  </div>
+  <p>简易</p>
+  <div>
+    <owl-button type="primary" plain>确定</owl-button>
+    <owl-button type="success" plain>确定</owl-button>
+    <owl-button type="error" plain>确定</owl-button>
+  </div>
+&lt;/template&gt;`,
+        code2:`&lt;template&gt;
+  <owl-button search :loading="loading" @click="search">查询</owl-button>
+  <br/>
+  <br/>
+  <owl-button @click="search">
+    <span>新增人员</span>
+    <span class="suffix-icon owlfont owl-user" slot="suffix-icon"></span>
+  </owl-button>
+&lt;/template&gt;`
+      }
+    },
+    methods: {
+      search(){
+        this.loading = true;
+        setTimeout(()=>{
+          this.loading = false;
+        },1000);
+      }
+    }
+  };
+
+  var Radio$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Radio 单选框")]),_vm._v(" "),_c('h3',[_vm._v("基本用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('p',{staticClass:"subtitle"},[_vm._v("是否喜欢编程?")]),_vm._v(" "),_c('owl-radio',{attrs:{"name":"code","value":true},model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}},[_vm._v("是")]),_vm._v(" "),_c('owl-radio',{attrs:{"name":"code","value":false},model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}},[_vm._v("否")])],1),_vm._v(" "),_c('h3',[_vm._v("Radio group")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('p',{staticClass:"subtitle"},[_vm._v("是否热爱运动?")]),_vm._v(" "),_c('owl-radio-group',{model:{value:(_vm.value1),callback:function ($$v) {_vm.value1=$$v;},expression:"value1"}},[_c('owl-radio',{attrs:{"name":"sport","value":true}},[_vm._v("是")]),_vm._v(" "),_c('owl-radio',{attrs:{"name":"sport","value":false}},[_vm._v("否")])],1)],1),_vm._v(" "),_c('h3',[_vm._v("Radio 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList,"columns":_vm.columns}}),_vm._v(" "),_c('h3',[_vm._v("Radio group 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsList1,"columns":_vm.columns}})],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        value: '',
+        value1: '',
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '说明', key: 'introduce'},
+        ],
+        propsList: [
+          {name: 'name', types: 'string', introduce: 'input属性'},
+          {name: 'label', types: 'string', introduce: '文字，如果有scope则优先使用scope'},
+          {name: 'v-model', types: 'string | number | boolean', introduce: '已选择的值'},
+          {name: 'value', types: 'string', introduce: '当前input类型radio的value值'},
+        ],
+        propsList1:[
+          {name: 'v-model', types: 'string | number | boolean', introduce: '已选择的值'},
+          {name: 'direction', types: '"horizontal" | "vertical"', introduce: 'radio排列的方向，默认是水平方向'},
+        ],
+        code1: `&lt;template&gt;
+  <p>是否喜欢编程?</p>
+  <owl-radio name="favorite" :value="true" v-model="value">是</owl-radio>
+  <owl-radio name="favorite" :value="false" v-model="value">否</owl-radio>
+&lt;/template&gt;`,
+        code2: `&lt;template&gt;
+  <p>是否热爱运动?</p>
+  <owl-radio-group v-model="value1">
+    <owl-radio name="sport" :value="true">是</owl-radio>
+    <owl-radio name="sport" :value="false">否</owl-radio>
+  </owl-radio-group>
+&lt;/template&gt;`
+      }
+    }
+  };
+
   Vue.use(VueRouter$1);
   const routes = [{
     path: '/',
@@ -12182,11 +12299,33 @@ export default {
       title: 'Introduce 概述'
     }
   }, {
+    meta: {
+      title: '表单组件',
+      slide: true,
+      subtitle: true
+    }
+  }, {
     path: '/input',
     name: 'input',
     component: Input$1,
     meta: {
       title: 'Input 输入框',
+      slide: true
+    }
+  }, {
+    path: '/button',
+    name: 'button',
+    component: Button$1,
+    meta: {
+      title: 'Button 按钮',
+      slide: true
+    }
+  }, {
+    path: '/radio',
+    name: 'radio',
+    component: Radio$1,
+    meta: {
+      title: 'Radio 单选框',
       slide: true
     }
   }, {
@@ -12220,6 +12359,12 @@ export default {
     meta: {
       title: 'Slide 滑块',
       slide: true
+    }
+  }, {
+    meta: {
+      title: '页面组件',
+      slide: true,
+      subtitle: true
     }
   }, {
     path: '/swiper',
@@ -12272,7 +12417,7 @@ export default {
   }];
   var router = new VueRouter$1({
     mode: 'hash',
-    routes: routes
+    routes: routes.filter(item => !!item.component)
   });
 
   var Slider = {
@@ -12291,7 +12436,9 @@ export default {
       return h('div', {
         class: 'slider'
       }, this.list.map(item => {
-        return h('router-link', {
+        return item.meta && item.meta.subtitle ? h('div', {
+          class: 'subtitle'
+        }, item.meta.title) : h('router-link', {
           class: 'item',
           key: item.name,
           props: {
@@ -12339,7 +12486,7 @@ export default {
           placeholder: '输入关键字查找'
         }
       }, [h('span', {
-        class: 'iconfont owl-search',
+        class: 'owlfont owl-search',
         slot: 'suffix',
         style: {
           'font-size': '20px'
@@ -12357,14 +12504,54 @@ export default {
 
   var Button = {
     name: 'OwlButton',
+    props: {
+      loading: Boolean,
+      search: Boolean,
+      type: {
+        default: 'primary',
+
+        validator(val) {
+          return ['primary', 'success', 'error', 'normal'].indexOf(val) !== -1;
+        }
+
+      },
+      plain: Boolean,
+      size: {
+        default: 'default',
+
+        validator(val) {
+          return ['large', 'default', 'small'].indexOf(val) !== -1;
+        }
+
+      }
+    },
     data: function data() {
       return {};
     },
 
     render(h) {
-      return h('button', {
-        'class': 'owl-button'
-      }, this.$slots.default);
+      let suffix = '';
+
+      if (this.$slots['suffix-icon']) {
+        suffix = this.$slots['suffix-icon'];
+      } else if (this.loading) {
+        suffix = h('span', {
+          class: 'suffix-icon owlfont owl-loading'
+        });
+      } else if (this.search) {
+        suffix = h('span', {
+          class: 'suffix-icon owlfont owl-search'
+        });
+      }
+
+      return h('div', {
+        'class': ['owl-button', 'owl-' + this.size, 'type-' + this.type, this.plain ? 'plain' : ''],
+        on: this.$listeners
+      }, [h('button', {
+        class: 'owl-inner-button'
+      }, [h('span', {
+        class: 'inner-text'
+      }, this.$slots.default), suffix])]);
     }
 
   };
@@ -12817,7 +13004,16 @@ export default {
         default: 'text',
         type: String
       },
-      rule: Array
+      border: Boolean,
+      rule: Array,
+      size: {
+        default: 'default',
+
+        validator(val) {
+          return ['large', 'default', 'small'].indexOf(val) !== -1;
+        }
+
+      }
     },
 
     data() {
@@ -12862,7 +13058,7 @@ export default {
     },
     render: function (h) {
       return h('label', {
-        class: ['owl-input', this.showTip && 'error']
+        class: ['owl-input', this.showTip && 'error', this.border && 'border', 'owl-' + this.size]
       }, [this.$slots.prefix, h('input', {
         class: 'input',
         attrs: {
@@ -12878,12 +13074,12 @@ export default {
           blur: this.onBlur
         }
       }), this.$slots.suffix ? this.$slots.suffix : this.type !== 'password' ? this.value && h('span', {
-        class: 'suffix-icon iconfont owl-close',
+        class: 'suffix-icon owlfont owl-close',
         on: {
           click: () => this.$emit('change', '')
         }
       }) : this.value && h('span', {
-        class: ['suffix-icon iconfont', this.showPassword ? 'owl-yanjing1' : 'owl-yanjing'],
+        class: ['suffix-icon owlfont', this.showPassword ? 'owl-yanjing1' : 'owl-yanjing'],
         on: {
           click: () => {
             this.showPassword = !this.showPassword;
@@ -13105,7 +13301,7 @@ export default {
       })]);
       children.push(slideBox);
       return h('div', {
-        class: 'owl-slide',
+        class: ['owl-slide', this.options && this.options.length ? 'options' : ''],
         style: {
           width: this.domWidth
         }
@@ -13171,12 +13367,12 @@ export default {
           'margin-top': this.middle ? '' : this.top
         }
       }, [this.shrinkMenu ? h('span', {
-        class: 'modal-menu icon-shrink iconfont owl-jian',
+        class: 'modal-menu icon-shrink owlfont owl-jian',
         on: {
           click: this.$emit('on-shrink')
         }
       }) : null, h('span', {
-        class: 'modal-menu icon-closable iconfont owl-cheng',
+        class: 'modal-menu icon-closable owlfont owl-cheng',
         on: {
           click: this.close
         }
@@ -13411,6 +13607,14 @@ export default {
         require: false,
         type: Boolean,
         default: false
+      },
+      size: {
+        default: 'default',
+
+        validator(val) {
+          return ['large', 'default', 'small'].indexOf(val) !== -1;
+        }
+
       }
     },
 
@@ -13418,7 +13622,7 @@ export default {
       return {
         showSelect: false,
         currentLabel: '',
-        // 当前的显示文本值
+        // 当前的显示文本值 string[] | ''
         filterValue: '',
         // 过滤文本值
         listMinWidth: '',
@@ -13530,6 +13734,14 @@ export default {
         this.clearTime = setTimeout(() => {
           this.filterValue = '';
         }, 250);
+      },
+
+      onRemoveFirst(e) {
+        e.stopPropagation();
+
+        this._value.shift();
+
+        this.currentLabel.shift();
       }
 
     },
@@ -13553,7 +13765,7 @@ export default {
             'width': this.listMinWidth + 'px'
           }
         }, [h('span', {
-          class: 'iconfont owl-kongshuju'
+          class: 'owlfont owl-kongshuju'
         }), h('span', {
           class: 'label'
         }, 'Empty')]));
@@ -13579,14 +13791,19 @@ export default {
           class: 'owl-multiple-box'
         }, [h('div', {
           class: 'owl-multiple-item'
-        }, this.currentLabel[0] + '...'), this._value.length > 1 ? h('div', {
+        }, [h('span', this.currentLabel[0]), h('span', {
+          class: 'owlfont owl-cheng close',
+          on: {
+            click: this.onRemoveFirst
+          }
+        })]), this._value.length > 1 ? h('div', {
           class: 'owl-multiple-item count'
         }, '+' + (this._value.length - 1)) : '']);
       }
 
       let placeholder = this.multiple && this._value.length > 0 ? '' : this.filterValue ? '' : this.currentLabel || this.placeholder;
       return h('div', {
-        class: 'owl-select',
+        class: ['owl-select', 'owl-' + this.size],
         ref: 'selectWrapDom',
         on: {
           'click': this.selectWrapClick
@@ -13604,7 +13821,7 @@ export default {
           input: e => this.filterValue = e.target.value
         }
       }), h('span', {
-        class: 'suffix-icon owl-arrow-xia iconfont',
+        class: 'suffix-icon owl-arrow-xia owlfont',
         on: {
           click: e => {
             e.stopPropagation();
@@ -13612,7 +13829,7 @@ export default {
           }
         }
       }), h('span', {
-        class: 'suffix-icon owl-close iconfont',
+        class: 'suffix-icon owl-close owlfont',
         on: {
           click: this.clearValue
         }
@@ -13737,7 +13954,7 @@ export default {
           click: this.switchVisible
         }
       }, [h('span', {
-        class: 'iconfont owl-arrow-xia'
+        class: 'owlfont owl-arrow-xia'
       }), h('span', {
         class: 'panel-title'
       }, this.header)]), h('div', {
@@ -13831,7 +14048,7 @@ export default {
       }), h('div', {
         class: 'owl-chk-crc'
       }, [h('span', {
-        class: 'iconfont owl-gougou'
+        class: 'owlfont owl-gougou'
       })]), h('div', {
         class: 'owl-chk-lbl'
       }, this.$slots.default)])]);
@@ -14241,7 +14458,15 @@ export default {
         type: String,
         default: 'YYYY-MM-DD'
       },
-      quicklyChoose: Array
+      quicklyChoose: Array,
+      size: {
+        default: 'default',
+
+        validator(val) {
+          return ['large', 'default', 'small'].indexOf(val) !== -1;
+        }
+
+      }
     },
 
     data() {
@@ -14517,7 +14742,7 @@ export default {
       const commonTitle = h('div', {
         class: 'owl-date-title'
       }, [h('span', {
-        class: 'iconfont owl-arrow-you left',
+        class: 'owlfont owl-arrow-you left',
         on: {
           click: this.commonPrev
         }
@@ -14534,7 +14759,7 @@ export default {
           click: () => this.currentShow = 'month'
         }
       }, mstr + 'M')]), h('span', {
-        class: 'iconfont owl-arrow-you',
+        class: 'owlfont owl-arrow-you',
         on: {
           click: this.commonNext
         }
@@ -14613,7 +14838,7 @@ export default {
         }
       }, OwlWrapChildren);
       return h('div', {
-        class: 'owl-date owl-select',
+        class: ['owl-date owl-select', 'owl-' + this.size],
         on: {
           click: this.dateWrapClick
         },
@@ -14633,9 +14858,9 @@ export default {
           keyup: e => (e.keyCode == 13 && this.onBlur(), this.close())
         }
       }), h('span', {
-        class: 'suffix-icon owl-date-icon iconfont'
+        class: 'suffix-icon owl-date-icon owlfont'
       }), h('span', {
-        class: 'suffix-icon owl-close iconfont',
+        class: 'suffix-icon owl-close owlfont',
         on: {
           click: this.clearValue
         }
@@ -14655,6 +14880,125 @@ export default {
     Vue.component(Date$1.name, Date$1);
   };
 
+  var Radio = {
+    name: 'OwlRadio',
+    model: {
+      prop: 'checked',
+      event: 'change'
+    },
+    props: {
+      name: String,
+      value: [String, Number, Boolean],
+      label: String,
+      checked: [String, Number, Boolean]
+    },
+    computed: {
+      isActive() {
+        if (this.isInGroup) {
+          return this.$parent.checked === this.value;
+        }
+
+        return this.checked === this.value;
+      },
+
+      isInGroup() {
+        return this.$parent && this.$parent.$options._componentTag === 'owl-radio-group';
+      }
+
+    },
+    methods: {
+      changed() {
+        if (this.isInGroup) {
+          this.$parent.changed(this.value);
+          return;
+        }
+
+        this.$emit('change', this.isActive ? '' : this.value);
+      }
+
+    },
+
+    render(h) {
+      return h('div', {
+        class: ['owl-radio', this.isActive ? 'active' : ''],
+        scopedSlots: {
+          default: () => h('span', this.label)
+        },
+        on: {
+          '!click': this.changed
+        }
+      }, [h('label', {
+        class: 'owl-radio-label',
+        attrs: {
+          for: this.value
+        },
+        on: {
+          'click': e => {
+            e.preventDefault() && e.stopPropagation();
+          }
+        }
+      }, [h('input', {
+        attrs: {
+          id: this.value,
+          name: this.name,
+          value: this.value,
+          type: 'radio',
+          checked: this.isActive
+        }
+      }), h('div', {
+        class: 'owl-rd-crc'
+      }, [h('span', {
+        class: 'owlfont owl-gougou'
+      })]), h('div', {
+        class: 'owl-rd-lbl'
+      }, this.$slots.default)])]);
+    }
+
+  };
+  const RadioGroup = {
+    name: 'owlRadioGroup',
+    model: {
+      prop: 'checked',
+      event: 'change'
+    },
+    props: {
+      checked: {
+        required: true,
+        type: [String, Number, Boolean]
+      },
+      direction: {
+        type: String,
+        default: 'horizontal',
+
+        validator(val) {
+          return ['horizontal', 'vertical'].indexOf(val) >= 0;
+        }
+
+      }
+    },
+    methods: {
+      changed(val) {
+        this.$emit('change', val === this.checked ? '' : val);
+      }
+
+    },
+
+    render(h) {
+      return h('div', {
+        class: ['owl-radio-group', this.direction === 'vertical' && 'vertical']
+      }, this.$slots.default);
+    }
+
+  };
+
+  Radio.install = function (Vue) {
+    Vue.component(Radio.name, Radio);
+  };
+
+  RadioGroup.install = function (vue) {
+    vue.component(RadioGroup.name, RadioGroup);
+  };
+
   const components = {
     Button,
     Swiper,
@@ -14669,7 +15013,9 @@ export default {
     CollapsePanel,
     Checkbox,
     CheckboxGroup,
-    Date: Date$1
+    Date: Date$1,
+    Radio,
+    RadioGroup
   };
 
   const install = function (Vue) {
@@ -14679,8 +15025,7 @@ export default {
   };
 
   var OwlUI = {
-    install,
-    components
+    install
   };
 
   var OwlTable = {

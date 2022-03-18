@@ -3,6 +3,7 @@
     <h2>Date 日期选择</h2>
     <h3>基础用法</h3>
     <owl-code-example :code="code">
+      <p class="subtitle">您的生日是?</p>
       <owl-date v-model="value" />
     </owl-code-example>
     <h3>修改日期显示和返回值格式</h3>
@@ -40,6 +41,7 @@ export default {
         {name: 'placeholder', types: 'string', default:'请选择日期 Please pick date', introduce: '占位符'},
         {name: 'format', types: 'string', default:'YYYY-MM-DD', introduce: '文本框显示的日期格式'},
         {name: 'valueFormat', types: 'string', default:'YYYY-MM-DD', introduce: '返回值的日期格式'},
+        {name: 'size', types: '"large"|"default"|"small"', default:'default', introduce: '尺寸'},
         {name: 'quicklyChoose', default: '[]', types: 'Array<{label: string, value: string}>', introduce: '提供快捷选择日期，label是选择的文本，value是选择后的值'},
       ],
       code:`&lt;template&gt;

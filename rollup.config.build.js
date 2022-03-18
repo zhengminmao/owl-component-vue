@@ -4,8 +4,8 @@ import postcss from 'rollup-plugin-postcss'
 import { terser } from 'rollup-plugin-terser'
 import alias from '@rollup/plugin-alias';
 import path from "path";
-import image from '@rollup/plugin-image'
 import commonjs from 'rollup-plugin-commonjs';
+import replace from 'rollup-plugin-replace'
 
 const resolveDir = dir => path.join(__dirname,dir)
 
@@ -13,7 +13,7 @@ export default {
   input: './lib/index.js',
   output: [
     {
-      file: 'dist/bundle.build.umd.min.js',
+      file: 'dist/owlui.min.js',
       format: 'umd',
       name: 'file',
       minify: true,
@@ -25,22 +25,23 @@ export default {
     terser(),
     babel({
       exclude: 'node_modules',
+      include: 'lib',
       babelHelpers: 'bundled'
     }),
     postcss({
       minimize: true,
-      extract: 'bundle.build.min.css'
+      extract: 'owlui.min.css'
     }),
     alias({
       entries: [
         {find: '@', replacement: resolveDir('src')}
       ]
     }),
-    image({
-      exclude: 'lib'
+    replace({
+      'process.env.NODE_ENV': JSON.stringify('production')
     }),
     commonjs({
-      include: 'node_modules/highlight.js/**'
+      include: ['node_modules/highlight.js/**', 'node_modules/dayjs/**']
     }),
   ]
 }

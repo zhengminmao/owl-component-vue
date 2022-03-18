@@ -4,6 +4,7 @@
     <h3>基础用法</h3>
     <owl-code-example :code="code1">
       <template>
+        <p class="subtitle">您需要的校园环境</p>
         <div class="slide">
           <owl-slide v-model="value" :width="400"/>
           <span class="value">{{value}}</span>
@@ -13,6 +14,7 @@
     <h3>显示文本</h3>
     <owl-code-example :code="code2">
       <template>
+        <p class="subtitle">您需要的工作待遇</p>
         <div class="slide2">
           <owl-slide v-model="value2" :width="400" :options="options"/>
           <span class="value">{{value2}}</span>

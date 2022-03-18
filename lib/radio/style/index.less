@@ -1,0 +1,24 @@
+.owl-radio{
+  .owl-radio-label{
+    .owl-rd-crc{
+      border-radius: 50%;
+      font-size: 12px;
+      line-height: 1.33;
+      &::before{
+        border-radius: 50%;
+      }
+    }
+  }
+  &.active{
+    .owl-rd-crc{
+      border-color: var(--owl-primary-color);
+      background-color: var(--owl-primary-color);
+      &::before{
+        animation: boxwave .5s forwards;
+      }
+    }
+    .owl-rd-lbl{
+      color: var(--owl-primary-color);
+    }
+  }
+}

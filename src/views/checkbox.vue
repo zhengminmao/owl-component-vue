@@ -3,7 +3,7 @@
     <h2>Checkbox 复选框</h2>
     <h3>基础用法</h3>
     <owl-code-example :code="code1">
-      <p>选择喜欢的运动：</p>
+      <p class="subtitle">选择您喜欢的运动：</p>
       <owl-checkbox name="favorite" value="sports" v-model="favorite">跑步运动</owl-checkbox>
       <owl-checkbox name="favorite" value="fitness" v-model="favorite">健身运动</owl-checkbox>
       <owl-checkbox name="favorite" value="badminton" v-model="favorite">羽毛球运动</owl-checkbox>
@@ -11,7 +11,7 @@
     </owl-code-example>
     <h3>使用Checkbox Group</h3>
     <owl-code-example :code="code2">
-      <p>选择喜欢的水果：</p>
+      <p class="subtitle">选择您喜欢的水果：</p>
       <owl-checkbox-group v-model="fruite" direction="vertical">
         <owl-checkbox value="apple">苹果</owl-checkbox>
         <owl-checkbox value="origin">橙子</owl-checkbox>

@@ -23,7 +23,7 @@
       padding: 0 48px;
       height: 100%;
       .slide-search{
-        width: 200px;
+        width: 240px;
         margin-left: auto;
         input { font-size: 14px; }
       }
@@ -46,11 +46,18 @@
     .slider{
       background-color: #fff;
       float: left;
-      width: 300px;
-      height: calc(100vh - 188px);
+      width: 260px;
+      height: calc(100vh - 100px);
       position: sticky;
       top: 88px;
       padding: 12px 0;
+      overflow-y: auto;
+      .subtitle{
+        padding: 10px 0 10px 32px;
+        margin: 4px 0;
+        color: #999;
+        font-size: 14px;
+      }
       .item{
         padding: 10px 0 10px 20px;
         margin: 4px 0;
@@ -81,8 +88,8 @@
       }
     }
     .main{
-      margin-left: 300px;
-      min-height: calc(100vh - 188px);
+      margin-left: 260px;
+      min-height: calc(100vh - 100px);
       padding: 12px;
     }
   }
