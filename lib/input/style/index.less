@@ -5,6 +5,8 @@
   align-items: center;
   position: relative;
   background-color: #fff;
+  width: 240px;
+  transition: border-color .25s;
   .input{
     flex-grow: 1;
     width: 0;
@@ -87,6 +89,7 @@
       height: 30px;
     }
     &:hover{
+      border-color: transparent;
       .active-line{
         opacity: 1;
       }

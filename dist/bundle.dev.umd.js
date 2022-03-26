@@ -12351,11 +12351,216 @@ export default {
   };
 
   var Form$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;_vm._self._c||_h;return _vm._m(0)},
-  staticRenderFns: [function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Form 表单")])])}],
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Form 表单")]),_vm._v(" "),_c('h3',[_vm._v("基本用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('owl-form',{attrs:{"model":_vm.form,"width":"60%","size":"large"}},[_c('owl-form-item',{attrs:{"prop":"name","label":"您的姓名:"}},[_c('owl-input',{attrs:{"border":""},model:{value:(_vm.form.name),callback:function ($$v) {_vm.$set(_vm.form, "name", $$v);},expression:"form.name"}})],1),_vm._v(" "),_c('owl-form-item',{attrs:{"prop":"email","label":"邮件:"}},[_c('owl-input',{attrs:{"border":""},model:{value:(_vm.form.email),callback:function ($$v) {_vm.$set(_vm.form, "email", $$v);},expression:"form.email"}})],1),_vm._v(" "),_c('owl-form-item',{attrs:{"prop":"phone","label":"手机号:"}},[_c('owl-input',{attrs:{"border":""}})],1),_vm._v(" "),_c('owl-form-item',{attrs:{"prop":"phone","label":"生日:"}},[_c('owl-date',{attrs:{"placeholder":"请选择生日"},model:{value:(_vm.form.birthday),callback:function ($$v) {_vm.$set(_vm.form, "birthday", $$v);},expression:"form.birthday"}})],1),_vm._v(" "),_c('owl-form-item',{attrs:{"prop":"phone","label":"出生地:"}},[_c('owl-select',{attrs:{"placeholder":"请选择地址","list":[
+              {label: '湖南', value: '湖南'},
+              {label: '湖北', value: '湖北'},
+              {label: '广东', value: '广东'} ]},model:{value:(_vm.form.country),callback:function ($$v) {_vm.$set(_vm.form, "country", $$v);},expression:"form.country"}})],1),_vm._v(" "),_c('owl-form-item',{attrs:{"prop":"gender","label":"性别:"}},[_c('owl-radio-group',{model:{value:(_vm.form.gender),callback:function ($$v) {_vm.$set(_vm.form, "gender", $$v);},expression:"form.gender"}},[_c('owl-radio',{attrs:{"value":0}},[_vm._v("女")]),_vm._v(" "),_c('owl-radio',{attrs:{"value":1}},[_vm._v("男")])],1)],1),_vm._v(" "),_c('owl-form-item',{attrs:{"prop":"area","label":"升学目的国家/地区:"}},[_c('owl-checkbox-group',{model:{value:(_vm.form.aim),callback:function ($$v) {_vm.$set(_vm.form, "aim", $$v);},expression:"form.aim"}},[_c('owl-checkbox',{attrs:{"value":"uk"}},[_vm._v("英国")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"us"}},[_vm._v("美国")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"au"}},[_vm._v("澳大利亚")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"ca"}},[_vm._v("加拿大")]),_vm._v(" "),_c('owl-checkbox',{attrs:{"value":"hk"}},[_vm._v("香港")])],1)],1),_vm._v(" "),_c('owl-form-item',{attrs:{"label":"教学环境:"}},[_c('owl-slide',{attrs:{"width":400},model:{value:(_vm.form.teach),callback:function ($$v) {_vm.$set(_vm.form, "teach", $$v);},expression:"form.teach"}})],1),_vm._v(" "),_c('owl-form-item',{attrs:{"label":"安全指数:"}},[_c('owl-slide',{attrs:{"width":400},model:{value:(_vm.form.safe),callback:function ($$v) {_vm.$set(_vm.form, "safe", $$v);},expression:"form.safe"}})],1),_vm._v(" "),_c('owl-form-item',{attrs:{"label":"生活舒适:"}},[_c('owl-slide',{attrs:{"width":400},model:{value:(_vm.form.life),callback:function ($$v) {_vm.$set(_vm.form, "life", $$v);},expression:"form.life"}})],1),_vm._v(" "),_c('owl-form-item',[_c('owl-button',[_vm._v("确定")]),_vm._v(" "),_c('owl-button',{attrs:{"type":"success","plain":""}},[_vm._v("重置")])],1)],1)],1),_vm._v(" "),_c('h3',[_vm._v("内联")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-form',{attrs:{"model":_vm.form1,"inline":"","label-position":"right"}},[_c('owl-form-item',{attrs:{"prop":"name","label":"您的姓名:"}},[_c('owl-input',{attrs:{"border":""},model:{value:(_vm.form.name),callback:function ($$v) {_vm.$set(_vm.form, "name", $$v);},expression:"form.name"}})],1),_vm._v(" "),_c('owl-form-item',{attrs:{"prop":"email","label":"邮件:"}},[_c('owl-input',{attrs:{"border":""},model:{value:(_vm.form.email),callback:function ($$v) {_vm.$set(_vm.form, "email", $$v);},expression:"form.email"}})],1),_vm._v(" "),_c('owl-button',[_vm._v("确定")])],1)],1),_vm._v(" "),_c('h3',[_vm._v("验证")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-form',{ref:"form2",attrs:{"model":_vm.form2,"label-position":"right"}},[_c('owl-form-item',{attrs:{"prop":"account","label":"账号:","rule":[
+          {required: true},
+          {validator: function (val){
+            return /^\d+$/.test(val)? true: false;
+          }, tip: '账号必须是数字'}
+        ]}},[_c('owl-input',{attrs:{"border":""},model:{value:(_vm.form2.account),callback:function ($$v) {_vm.$set(_vm.form2, "account", $$v);},expression:"form2.account"}})],1),_vm._v(" "),_c('owl-form-item',{attrs:{"prop":"password","label":"密码:","rule":[
+          {required: true},
+          {validator: function (val){
+            return val.length < 6? false: true;
+          }, tip: '密码长度不能小于6'}
+        ]}},[_c('owl-input',{attrs:{"border":""},model:{value:(_vm.form2.password),callback:function ($$v) {_vm.$set(_vm.form2, "password", $$v);},expression:"form2.password"}})],1),_vm._v(" "),_c('owl-form-item',[_c('owl-button',{on:{"click":_vm.login}},[_vm._v("登录")]),_vm._v(" "),_c('owl-button',{attrs:{"plain":""},on:{"click":_vm.clearform2}},[_vm._v("清空")])],1)],1)],1),_vm._v(" "),_c('h3',[_vm._v("Form 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}}),_vm._v(" "),_c('h3',[_vm._v("FormItem 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list1,"columns":_vm.columns}})],1)},
+  staticRenderFns: [],
     data(){
       return {
-        
+        form: {
+          name: '',
+          email: '',
+          phone: '',
+          gender: 0,
+          aim: [],
+          teach: 0,
+          safe: 0,
+          life: 0,
+          birthday: '',
+          country: '',
+        },
+        form1: {
+          name: '',
+          email: '',
+        },
+        form2: {
+          account: '',
+          pwd: '',
+        },
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '默认值', key: 'default'},
+          {title: '说明', key: 'introduce'},
+        ],
+        list: [
+          {name: 'model', default: '', types: 'Object', introduce: '表单的值'},
+          {name: 'labelPosition', types: '"left"|"top"|"right"', default:'left', introduce: '显示文本的位置'},
+          {name: 'inline', types: 'boolean', default:'false', introduce: '是否内联'},
+          {name: 'width', types: 'string', default:'100%', introduce: '表单宽度'},
+          {name: 'size', types: '"large"|"default"|"small"', default:'default', introduce: '尺寸'},
+        ],
+        list1: [
+          {name: 'label', default: '', types: 'string', introduce: '表单标题'},
+          {name: 'prop', types: 'string', default:'', introduce: '表单检验的值'},
+          {name: 'labelWidth', types: 'string | number', default:'', introduce: '文本宽度'},
+          {name: 'rule', types: '{required: boolean, validator(str)=> boolean, tip: string}[]', default:'[]', introduce: '检验规则'},
+        ],
+        code: `&lt;template&gt;
+  <owl-form :model="form" width="60%" size="large">
+    <owl-form-item prop="name" label="您的姓名:">
+      <owl-input border v-model="form.name"></owl-input>
+    </owl-form-item>
+    <owl-form-item prop="email" label="邮件:">
+      <owl-input border v-model="form.email"></owl-input>
+    </owl-form-item>
+    <owl-form-item prop="phone" label="手机号:">
+      <owl-input border></owl-input>
+    </owl-form-item>
+    <owl-form-item prop="phone" label="生日:">
+      <owl-date v-model="form.birthday" placeholder="请选择生日"></owl-date>
+    </owl-form-item>
+    <owl-form-item prop="phone" label="出生地:">
+      <owl-select 
+        v-model="form.country" 
+        placeholder="请选择地址"
+        :list="[
+          {label: '湖南', value: '湖南'},
+          {label: '湖北', value: '湖北'},
+          {label: '广东', value: '广东'},
+        ]"
+      ></owl-select>
+    </owl-form-item>
+    <owl-form-item prop="gender" label="性别:">
+      <owl-radio-group v-model="form.gender">
+        <owl-radio :value="0">女</owl-radio>
+        <owl-radio :value="1">男</owl-radio>
+      </owl-radio-group>
+    </owl-form-item>
+    <owl-form-item prop="area" label="升学目的国家/地区:">
+      <owl-checkbox-group v-model="form.aim">
+        <owl-checkbox value="uk">英国</owl-checkbox>
+        <owl-checkbox value="us">美国</owl-checkbox>
+        <owl-checkbox value="au">澳大利亚</owl-checkbox>
+        <owl-checkbox value="au">加拿大</owl-checkbox>
+        <owl-checkbox value="hk">香港</owl-checkbox>
+      </owl-checkbox-group>
+    </owl-form-item>
+    <owl-form-item label="教学环境:">
+      <owl-slide v-model="form.teach" :width="400"/>
+    </owl-form-item>
+    <owl-form-item label="安全指数:">
+      <owl-slide v-model="form.safe" :width="400"/>
+    </owl-form-item>
+    <owl-form-item label="生活舒适:">
+      <owl-slide v-model="form.life" :width="400"/>
+    </owl-form-item>
+    <owl-form-item>
+      <owl-button>确定</owl-button>
+      <owl-button type="success" plain>重置</owl-button>
+    </owl-form-item>
+  </owl-form>
+&lt;/template&gt;
+
+&lt;script&gt;
+  export default {
+    data(){
+      return {
+        form: {
+          name: '',
+          email: '',
+          phone: '',
+          gender: 0,
+          aim: [],
+          teach: 0,
+          safe: 0,
+          life: 0,
+          birthday: '',
+          country: '',
+        },
+      }
+    }
+  }
+&lt;/script&gt;`,
+        code1: `&lt;template&gt;
+  <owl-form :model="form1" inline label-position="right">
+    <owl-form-item prop="name" label="您的姓名:">
+      <owl-input border v-model="form.name"></owl-input>
+    </owl-form-item>
+    <owl-form-item prop="email" label="邮件:">
+      <owl-input border v-model="form.email"></owl-input>
+    </owl-form-item>
+      <owl-button>确定</owl-button>
+  </owl-form>
+&lt;/template&gt;
+      `,
+        code2: `&lt;template&gt;
+  <owl-form :model="form2" label-position="right" ref="form2">
+    <owl-form-item prop="account" label="账号:" :rule="[
+      {required: true},
+      {validator: (val)=> {
+        return /^\d+$/.test(val)? true: false;
+      }, tip: '账号必须是数字'}
+    ]">
+      <owl-input border v-model="form2.account"></owl-input>
+    </owl-form-item>
+    <owl-form-item prop="password" label="密码:" :rule="[
+      {required: true},
+      {validator: (val)=> {
+        return val.length < 6? false: true;
+      }, tip: '密码长度不能小于6'}
+    ]">
+      <owl-input border v-model="form2.password"></owl-input>
+    </owl-form-item>
+    <owl-form-item>
+      <owl-button @click="login">登录</owl-button>
+      <owl-button @click="clearform2" plain>清空</owl-button>
+    </owl-form-item>
+  </owl-form>
+&lt;/template&gt;
+
+&lt;script&gt;
+  export default {
+    data(){
+      return {
+        form2: {
+          account: '',
+          pwd: '',
+        },
+      }
+    },
+    methods: {
+      login(){
+        this.$refs.form2.validate((ret)=>{
+          console.log(ret)
+        })
+      },
+      clearform2(){
+        this.$refs.form2.clearValidate();
+        this.form2 = {
+          account: '',
+          pwd: '',
+        }
+      }
+    }
+  }
+&lt;/script&gt;
+`
+      }
+    },
+    methods: {
+      login(){
+        this.$refs.form2.validate((ret)=>{
+          console.log(ret);
+        });
+      },
+      clearform2(){
+        this.$refs.form2.clearValidate();
+        this.form2 = {
+          account: '',
+          pwd: '',
+        };
       }
     }
   };
@@ -12595,39 +12800,34 @@ export default {
       loading: Boolean,
       search: Boolean,
       type: {
-        default: 'primary',
-
-        validator(val) {
+        "default": 'primary',
+        validator: function validator(val) {
           return ['primary', 'success', 'error', 'normal'].indexOf(val) !== -1;
         }
-
       },
       plain: Boolean,
       size: {
-        default: 'default',
-
-        validator(val) {
+        "default": 'default',
+        validator: function validator(val) {
           return ['large', 'default', 'small'].indexOf(val) !== -1;
         }
-
       }
     },
     data: function data() {
       return {};
     },
-
-    render(h) {
-      let suffix = '';
+    render: function render(h) {
+      var suffix = '';
 
       if (this.$slots['suffix-icon']) {
         suffix = this.$slots['suffix-icon'];
       } else if (this.loading) {
         suffix = h('span', {
-          class: 'suffix-icon owlfont owl-loading'
+          "class": 'suffix-icon owlfont owl-loading'
         });
       } else if (this.search) {
         suffix = h('span', {
-          class: 'suffix-icon owlfont owl-search'
+          "class": 'suffix-icon owlfont owl-search'
         });
       }
 
@@ -12635,12 +12835,11 @@ export default {
         'class': ['owl-button', 'owl-' + this.size, 'type-' + this.type, this.plain ? 'plain' : ''],
         on: this.$listeners
       }, [h('button', {
-        class: 'owl-inner-button'
+        "class": 'owl-inner-button'
       }, [h('span', {
-        class: 'inner-text'
-      }, this.$slots.default), suffix])]);
+        "class": 'inner-text'
+      }, this.$slots["default"]), suffix])]);
     }
-
   };
 
   Button.install = function (Vue) {
@@ -12652,16 +12851,15 @@ export default {
     props: {
       list: {
         type: Array,
-        default: [],
+        "default": [],
         require: true
       },
       objectFit: {
         type: String,
-        default: 'cover'
+        "default": 'cover'
       }
     },
-
-    data() {
+    data: function data() {
       return {
         bannerStatus: false,
         bannerInfo: {
@@ -12679,70 +12877,70 @@ export default {
 
       };
     },
-
     computed: {
-      bannerList() {
-        let lng = this.list.length;
+      bannerList: function bannerList() {
+        var lng = this.list.length;
         if (lng <= 1) return this.list;
         return [this.list[lng - 1]].concat(this.list, this.list[0]);
       }
-
     },
+    mounted: function mounted() {
+      var _this = this;
 
-    mounted() {
-      this.$nextTick(() => {
-        const width = this.$refs.swiperDom.clientWidth;
+      this.$nextTick(function () {
+        var width = _this.$refs.swiperDom.clientWidth;
         if (!width) return;
-        this.bannerInfo.width = width;
-        window.addEventListener('resize', this.windowSizeChange);
+        _this.bannerInfo.width = width;
+        window.addEventListener('resize', _this.windowSizeChange);
 
-        if (this.list.length <= 1) {
+        if (_this.list.length <= 1) {
           // 如果小于1张
-          this.count = 4;
+          _this.count = 4;
           return;
         }
 
-        this.bannerInfo.x = -width; // 自动滚动
+        _this.bannerInfo.x = -width; // 自动滚动
 
-        let time = setInterval(() => {
-          if (this.count == 4) {
-            this.count = 0;
-            this.swipeNext();
+        var time = setInterval(function () {
+          if (_this.count == 4) {
+            _this.count = 0;
+
+            _this.swipeNext();
+
             return;
           }
 
-          this.count++;
+          _this.count++;
         }, 1000);
-        this.$once("hook:beforeDestroy", () => {
+
+        _this.$once("hook:beforeDestroy", function () {
           clearInterval(time);
-          window.removeEventListener('resize', this.windowSizeChange);
+          window.removeEventListener('resize', _this.windowSizeChange);
         });
       });
     },
-
     methods: {
-      onBannerDown(e) {
+      onBannerDown: function onBannerDown(e) {
         e.preventDefault();
         if (this.bannerInfo.transition) return;
-        let start = e.clientX || e.changedTouches && e.changedTouches[0].clientX;
+        var start = e.clientX || e.changedTouches && e.changedTouches[0].clientX;
         this.bannerInfo.active = true;
         this.bannerInfo.startTime = Date.now();
         this.bannerInfo.start = start;
       },
-
-      onBannerUp(e) {
+      onBannerUp: function onBannerUp(e) {
         e.preventDefault();
         if (!this.bannerInfo.active) return;
-        const endTime = Date.now();
+        var endTime = Date.now();
         this.bannerInfo.active = false;
-        const winWidth = e.currentTarget.clientWidth;
-        let isSuc = false;
+        var winWidth = e.currentTarget.clientWidth;
+        var isSuc = false;
 
         if (winWidth / 3 < Math.abs(this.bannerInfo.move)) {
           isSuc = true;
         } else {
           // 计算速度 px/ms
-          const v = this.bannerInfo.move / (this.bannerInfo.startTime - endTime);
+          var v = this.bannerInfo.move / (this.bannerInfo.startTime - endTime);
 
           if (v > 1) {
             isSuc = true;
@@ -12772,7 +12970,7 @@ export default {
             }
           }
         } else {
-          let link = this.list[this.currentIndex].link; // 判断是否触发点击事件
+          var link = this.list[this.currentIndex].link; // 判断是否触发点击事件
 
           if (link && Date.now() - this.bannerInfo.startTime < 400 && Math.abs(this.bannerInfo.move) < 10) {
             window.open(link, '_blank');
@@ -12784,27 +12982,28 @@ export default {
         this.bannerInfo.start = 0;
         this.setSwiperMoving();
       },
-
-      onBannerMove(e) {
+      onBannerMove: function onBannerMove(e) {
         e.preventDefault();
         if (!this.bannerInfo.active) return;
         this.count = 0;
-        let move = (e.clientX || e.changedTouches && e.changedTouches[0].clientX) - this.bannerInfo.start;
+        var move = (e.clientX || e.changedTouches && e.changedTouches[0].clientX) - this.bannerInfo.start;
         this.bannerInfo.move = move;
       },
+      setSwiperMoving: function setSwiperMoving() {
+        var _this2 = this;
 
-      setSwiperMoving() {
         this.bannerInfo.transition = true;
-        setTimeout(() => {
-          this.bannerInfo.transition = false;
-          this.recoverPosition();
-          this.$emit('changed', this.currentIndex);
+        setTimeout(function () {
+          _this2.bannerInfo.transition = false;
+
+          _this2.recoverPosition();
+
+          _this2.$emit('changed', _this2.currentIndex);
         }, 500);
       },
-
       // 是否需要复原位置
-      recoverPosition() {
-        const lng = this.bannerList.length;
+      recoverPosition: function recoverPosition() {
+        var lng = this.bannerList.length;
         if (this.list.length <= 1) return;
 
         if (this.bannerInfo.x === 0) {
@@ -12816,10 +13015,9 @@ export default {
           this.bannerInfo.x = this.bannerInfo.width * -1;
         }
       },
-
       // 下一个
-      swipeNext() {
-        const width = this.$refs.swiperDom.clientWidth;
+      swipeNext: function swipeNext() {
+        var width = this.$refs.swiperDom.clientWidth;
 
         if (width) {
           this.bannerInfo.width = width;
@@ -12835,33 +13033,31 @@ export default {
         this.bannerInfo.x = this.bannerInfo.x - this.bannerInfo.width;
         this.setSwiperMoving();
       },
-
       // 点击页数按钮
-      swipeChange(index) {
+      swipeChange: function swipeChange(index) {
         if (this.currentIndex == index) return;
         this.currentIndex = index;
         this.setSwiperMoving();
         this.count = 0;
         this.bannerInfo.x = (this.currentIndex + 1) * -this.bannerInfo.width;
       },
-
-      windowSizeChange() {
+      windowSizeChange: function windowSizeChange() {
         if (this.bannerList.length <= 1) return;
         this.count = 0;
-        const width = this.$refs.swiperDom.clientWidth;
+        var width = this.$refs.swiperDom.clientWidth;
         if (!width || width === this.bannerInfo.width) return;
         this.bannerInfo.width = width;
         this.bannerInfo.x = (this.currentIndex + 1) * -width;
       }
-
     },
+    render: function render(h) {
+      var _this3 = this;
 
-    render(h) {
       return h('div', {
-        class: 'owl-swiper',
+        "class": 'owl-swiper',
         ref: 'swiperDom'
       }, [h('div', {
-        class: 'owl-swiper-wrap',
+        "class": 'owl-swiper-wrap',
         on: {
           '!mousedown': this.onBannerDown,
           '!touchstart': this.onBannerDown,
@@ -12872,35 +13068,40 @@ export default {
           '!touchmove': this.onBannerMove
         },
         style: {
-          transform: `translate3d(${this.bannerInfo.x + this.bannerInfo.move}px,0,0)`,
+          transform: "translate3d(".concat(this.bannerInfo.x + this.bannerInfo.move, "px,0,0)"),
           transition: this.bannerInfo.transition && 'transform .5s ease'
         }
-      }, this.bannerList.map((item, index) => h('div', {
-        class: 'owl-swiper-slide',
-        key: index
-      }, [h('div', {
-        class: 'owl-picture-wrap'
-      }, [h('img', {
-        class: ['owl-banner-bgm', this.objectFit],
-        attrs: {
-          alt: 'picture',
-          src: item.path,
-          loading: 'lazy'
-        }
-      })])]))), h('div', {
-        class: 'owl-pagination-wrap'
-      }, this.list.map((_, index) => h('div', {
-        class: ['owl-pagination', this.currentIndex == index && 'active'],
-        key: index,
-        on: {
-          click: () => this.swipeChange(index)
-        }
-      }, [h('div', {
-        class: 'owl-progress',
-        style: `transform: scaleX(${this.currentIndex == index ? 1 : 0}); transform-origin: 0% 50%;`
-      })])))]);
+      }, this.bannerList.map(function (item, index) {
+        return h('div', {
+          "class": 'owl-swiper-slide',
+          key: index
+        }, [h('div', {
+          "class": 'owl-picture-wrap'
+        }, [h('img', {
+          "class": ['owl-banner-bgm', _this3.objectFit],
+          attrs: {
+            alt: 'picture',
+            src: item.path,
+            loading: 'lazy'
+          }
+        })])]);
+      })), h('div', {
+        "class": 'owl-pagination-wrap'
+      }, this.list.map(function (_, index) {
+        return h('div', {
+          "class": ['owl-pagination', _this3.currentIndex == index && 'active'],
+          key: index,
+          on: {
+            click: function click() {
+              return _this3.swipeChange(index);
+            }
+          }
+        }, [h('div', {
+          "class": 'owl-progress',
+          style: "transform: scaleX(".concat(_this3.currentIndex == index ? 1 : 0, "); transform-origin: 0% 50%;")
+        })]);
+      }))]);
     }
-
   };
 
   Swiper.install = function (Vue) {
@@ -12916,20 +13117,20 @@ export default {
       ellipsisColor: String,
       ellipsisBgmColor: String
     },
-    render: function (h, ctx) {
-      const props = ctx.props;
+    render: function render(h, ctx) {
+      var props = ctx.props;
       return h('div', {
-        class: 'owl-label',
+        "class": 'owl-label',
         style: {
           height: props.height
         }
       }, [h('span', {
-        class: 'line-label'
+        "class": 'line-label'
       }, props.label), h('span', {
-        class: 'after',
+        "class": 'after',
         style: {
           'color': props && props.ellipsisColor ? props.ellipsisColor : '#333333',
-          'background': `linear-gradient(to right, rgba(255,255,255,0), ${props && props.ellipsisBgmColor || 'white'} 50%) `
+          'background': "linear-gradient(to right, rgba(255,255,255,0), ".concat(props && props.ellipsisBgmColor || 'white', " 50%) ")
         }
       }, '...')]);
     }
@@ -12949,21 +13150,22 @@ export default {
       list: Array,
       value: [Number, String],
       config: {
-        default: () => ({
-          label: 'label',
-          key: 'key'
-        }),
+        "default": function _default() {
+          return {
+            label: 'label',
+            key: 'key'
+          };
+        },
         require: false
       },
       type: {
-        default: 'line',
-        validator: function (val) {
+        "default": 'line',
+        validator: function validator(val) {
           return ['line', 'border'].indexOf(val) !== -1;
         }
       }
     },
-
-    data() {
+    data: function data() {
       return {
         line: {
           width: 1,
@@ -12973,94 +13175,94 @@ export default {
 
       };
     },
-
     computed: {
-      justify() {
+      justify: function justify() {
         return this.isOverflow ? 'unset' : 'space-around';
       }
-
     },
     watch: {
       list: {
-        handler() {
-          setTimeout(() => {
-            const wrapDom = this.$refs.wrapDom;
+        handler: function handler() {
+          var _this = this;
+
+          setTimeout(function () {
+            var wrapDom = _this.$refs.wrapDom;
             if (!wrapDom || !wrapDom.children) return;
-            const itemDom = wrapDom.querySelector(`[data-key=${this.value}]`);
+            var itemDom = wrapDom.querySelector("[data-key=".concat(_this.value, "]"));
 
             if (itemDom) {
-              this.line.width = itemDom.clientWidth;
-              this.line.left = itemDom.offsetLeft;
+              _this.line.width = itemDom.clientWidth;
+              _this.line.left = itemDom.offsetLeft;
             }
 
             if (wrapDom.scrollWidth > wrapDom.clientWidth) {
-              this.isOverflow = true;
+              _this.isOverflow = true;
             } else {
-              this.isOverflow = false;
+              _this.isOverflow = false;
             }
           });
         },
-
         immediate: true,
         deep: true
       },
-
-      value(val) {
-        const wrapDom = this.$refs.wrapDom;
+      value: function value(val) {
+        var wrapDom = this.$refs.wrapDom;
         if (!wrapDom || !wrapDom.children) return;
-        const itemDom = wrapDom.querySelector(`[data-key=${val}]`);
+        var itemDom = wrapDom.querySelector("[data-key=".concat(val, "]"));
         this.line.width = itemDom.clientWidth;
         this.line.left = itemDom.offsetLeft;
 
         if (this.isOverflow) {
-          const left = itemDom.offsetLeft - (wrapDom.clientWidth - itemDom.clientWidth) / 2;
+          var left = itemDom.offsetLeft - (wrapDom.clientWidth - itemDom.clientWidth) / 2;
           wrapDom.scrollTo({
-            left,
+            left: left,
             behavior: 'smooth'
           });
         }
       }
-
     },
+    render: function render(h) {
+      var _this2 = this;
 
-    render(h) {
-      let children = [];
+      var children = [];
 
       if (this.isOverflow) {
         children.push(h('div', {
-          class: 'left-shadow'
+          "class": 'left-shadow'
         }));
         children.push(h('div', {
-          class: 'right-shadow'
+          "class": 'right-shadow'
         }));
       }
 
       if (this.list && this.list.length) {
-        const tabs = this.list.map((item, index) => {
+        var tabs = this.list.map(function (item, index) {
           return h('div', {
             key: index,
             on: {
-              'click': () => this.$emit('change', item[this.config.key])
+              'click': function click() {
+                return _this2.$emit('change', item[_this2.config.key]);
+              }
             },
-            class: ['item', this.value == item[this.config.key] && 'active'],
+            "class": ['item', _this2.value == item[_this2.config.key] && 'active'],
             attrs: {
-              'data-key': item[this.config.key]
+              'data-key': item[_this2.config.key]
             },
             style: {
-              'margin-right': index == this.list.length - 1 && this.type === 'line' && '0px'
+              'margin-right': index == _this2.list.length - 1 && _this2.type === 'line' && '0px'
             }
-          }, [h('span', item[this.config.label])]);
+          }, [h('span', item[_this2.config.label])]);
         });
 
         if (this.type === 'line') {
           tabs.push(h('div', {
-            class: 'line',
-            style: `transform: translateX(${this.line.left}px) scaleX(${this.line.width}); transform-origin: 0 50%`
+            "class": 'line',
+            style: "transform: translateX(".concat(this.line.left, "px) scaleX(").concat(this.line.width, "); transform-origin: 0 50%")
           }));
         }
 
         children.push(h('div', {
-          class: 'category-wrap',
+          "class": 'category-wrap',
           style: {
             'justify-content': this.justify
           },
@@ -13069,10 +13271,9 @@ export default {
       }
 
       return h('div', {
-        class: ['owl-tabs', this.type]
+        "class": ['owl-tabs', this.type]
       }, children);
     }
-
   };
 
   Tabs.install = function (Vue) {
@@ -13089,45 +13290,37 @@ export default {
       placeholder: String,
       value: String,
       type: {
-        default: 'text',
-
-        validator(val) {
+        "default": 'text',
+        validator: function validator(val) {
           return ['number', 'text', 'password'].indexOf(val) !== -1;
         }
-
       },
       border: Boolean,
       rule: Array,
       size: {
-        default: 'default',
-
-        validator(val) {
+        "default": 'default',
+        validator: function validator(val) {
           return ['large', 'default', 'small'].indexOf(val) !== -1;
         }
-
       }
     },
-
-    data() {
+    data: function data() {
       return {
         showPassword: false,
         showTip: false,
         tip: ''
       };
     },
-
     methods: {
-      onFocus() {
+      onFocus: function onFocus() {
         this.showTip = false;
       },
-
-      onBlur() {
+      onBlur: function onBlur() {
         this.validateField();
       },
-
-      validateField() {
+      validateField: function validateField() {
         if (this.rule && this.rule.length) {
-          for (let i = 0, lng = this.rule.length; lng > i; i++) {
+          for (var i = 0, lng = this.rule.length; lng > i; i++) {
             if (this.rule[i].require && this.value.length == 0) {
               this.tip = this.rule[i].tip;
               this.showTip = true;
@@ -13146,17 +13339,17 @@ export default {
 
         return true;
       },
-
-      onInput(val) {
+      onInput: function onInput(val) {
         this.$emit('change', this.type === 'number' ? val.replace(/\D+/g, '') : val);
       }
-
     },
-    render: function (h) {
+    render: function render(h) {
+      var _this = this;
+
       return h('label', {
-        class: ['owl-input', this.showTip && 'error', this.border && 'border', 'owl-' + this.size]
+        "class": ['owl-input', this.showTip && 'error', this.border && 'border', 'owl-' + this.size]
       }, [this.$slots.prefix, h('input', {
-        class: 'input',
+        "class": 'input',
         attrs: {
           type: this.type,
           placeholder: this.placeholder
@@ -13165,26 +13358,30 @@ export default {
           value: this.value
         },
         on: {
-          input: e => this.onInput(e.target.value),
+          input: function input(e) {
+            return _this.onInput(e.target.value);
+          },
           focus: this.onFocus,
           blur: this.onBlur
         }
       }), this.$slots.suffix ? this.$slots.suffix : this.type !== 'password' ? this.value && h('span', {
-        class: 'suffix-icon owlfont owl-close',
+        "class": 'suffix-icon owlfont owl-close',
         on: {
-          click: () => this.$emit('change', '')
+          click: function click() {
+            return _this.$emit('change', '');
+          }
         }
       }) : this.value && h('span', {
-        class: ['suffix-icon owlfont', this.showPassword ? 'owl-yanjing1' : 'owl-yanjing'],
+        "class": ['suffix-icon owlfont', this.showPassword ? 'owl-yanjing1' : 'owl-yanjing'],
         on: {
-          click: () => {
-            this.showPassword = !this.showPassword;
+          click: function click() {
+            _this.showPassword = !_this.showPassword;
           }
         }
       }), h('div', {
-        class: 'tip'
+        "class": 'tip'
       }, [h('span', this.tip)]), h('div', {
-        class: 'active-line'
+        "class": 'active-line'
       })]);
     }
   };
@@ -13203,13 +13400,12 @@ export default {
       options: Array,
       width: {
         type: [Number, String],
-        default: '100%'
+        "default": '100%'
       },
       value: Number //0~100
 
     },
-
-    data() {
+    data: function data() {
       return {
         translateX: 0,
         startX: 0,
@@ -13218,10 +13414,9 @@ export default {
         wrapWidth: 0
       };
     },
-
     computed: {
-      btnX() {
-        let x = this.translateX + this.moveX;
+      btnX: function btnX() {
+        var x = this.translateX + this.moveX;
 
         if (x == 0) {
           return 5;
@@ -13231,53 +13426,52 @@ export default {
           return x;
         }
       },
-
-      marks() {
-        let arr = new Array(11).fill(0);
+      marks: function marks() {
+        var arr = new Array(11).fill(0);
 
         if (this.options && this.options.length > 1) {
-          const first = this.options[0].value;
-          const last = this.options[this.options.length - 1].value;
-          const dis = (last - first) / 10;
-          return arr.map((_, index) => {
+          var first = this.options[0].value;
+          var last = this.options[this.options.length - 1].value;
+          var dis = (last - first) / 10;
+          return arr.map(function (_, index) {
             return first + Number((index * dis).toFixed(1));
           });
         } else {
-          return arr.map((_, index) => index);
+          return arr.map(function (_, index) {
+            return index;
+          });
         }
       },
-
-      domWidth() {
+      domWidth: function domWidth() {
         if (typeof this.width === 'number') {
           return this.width + 'px';
         }
 
         return this.width;
       }
-
     },
-
-    mounted() {
+    mounted: function mounted() {
       this.getWrapWidth();
       this.translateX = this.value2px(this.value);
     },
-
     watch: {
-      value(newVal) {
-        this.$nextTick(() => {
-          this.translateX = this.value2px(newVal);
+      value: function value(newVal) {
+        var _this = this;
+
+        this.$nextTick(function () {
+          _this.translateX = _this.value2px(newVal);
         });
       },
+      width: function width() {
+        var _this2 = this;
 
-      width() {
-        this.$nextTick(() => {
-          this.getWrapWidth();
+        this.$nextTick(function () {
+          _this2.getWrapWidth();
         });
       }
-
     },
     methods: {
-      getWrapWidth() {
+      getWrapWidth: function getWrapWidth() {
         if (typeof this.width === 'number') {
           this.wrapWidth = this.width;
         } else if (this.width.indexOf('px') >= 0) {
@@ -13286,8 +13480,7 @@ export default {
           this.wrapWidth = this.$refs.slidebox.clientWidth;
         }
       },
-
-      onMouseDown(e) {
+      onMouseDown: function onMouseDown(e) {
         e.stopPropagation();
         this.moveActive = true;
         this.startX = e.clientX || e.changedTouches && e.changedTouches[0].clientX;
@@ -13302,11 +13495,10 @@ export default {
           document.body.addEventListener('touchmove', this.onMouseMove);
         }
       },
-
-      onMouseMove(e) {
+      onMouseMove: function onMouseMove(e) {
         e.preventDefault();
         if (!this.moveActive) return;
-        let moveX = (e.clientX || e.changedTouches && e.changedTouches[0].clientX) - this.startX;
+        var moveX = (e.clientX || e.changedTouches && e.changedTouches[0].clientX) - this.startX;
 
         if (moveX + this.translateX <= 0) {
           return;
@@ -13318,8 +13510,7 @@ export default {
 
         this.moveX = moveX;
       },
-
-      onMouseEnd(e) {
+      onMouseEnd: function onMouseEnd(e) {
         e.preventDefault();
         if (!this.moveActive) return;
         this.moveActive = false;
@@ -13338,9 +13529,8 @@ export default {
           document.body.addEventListener('touchmove', this.onMouseMove);
         }
       },
-
-      onClickSlide(e) {
-        let x = e.offsetX;
+      onClickSlide: function onClickSlide(e) {
+        var x = e.offsetX;
 
         if (x) {
           this.translateX = x;
@@ -13349,61 +13539,64 @@ export default {
       },
 
       /* px:number */
-      px2Value(px) {
+      px2Value: function px2Value(px) {
         return this.marks[Math.round(px / (this.wrapWidth / 10))];
       },
 
       /* value:number */
-      value2px(value) {
-        const index = this.marks.indexOf(value);
+      value2px: function value2px(value) {
+        var index = this.marks.indexOf(value);
         return (index >= 0 ? index : 0) * (this.wrapWidth / 10);
       }
-
     },
+    render: function render(h) {
+      var _this3 = this;
 
-    render(h) {
-      let children = [];
+      var children = [];
 
       if (this.options && this.options.length) {
-        const slideTips = h('div', {
-          class: 'slide-tip'
-        }, this.options.map((item, key) => h('span', {
-          key,
-          class: ['tip', item.value == this.value && 'active']
-        }, item.label)));
+        var slideTips = h('div', {
+          "class": 'slide-tip'
+        }, this.options.map(function (item, key) {
+          return h('span', {
+            key: key,
+            "class": ['tip', item.value == _this3.value && 'active']
+          }, item.label);
+        }));
         children.push(slideTips);
       }
 
-      const slideBox = h('div', {
-        class: 'slide-box',
+      var slideBox = h('div', {
+        "class": 'slide-box',
         ref: 'slidebox',
         on: {
           '~touchmove': this.onMouseMove,
           'click': this.onClickSlide
         }
       }, [h('div', {
-        class: 'slide-active',
+        "class": 'slide-active',
         style: {
           width: this.translateX + this.moveX + 'px'
         }
       }), h('div', {
-        class: 'circle-btn',
-        style: `transform: translate3d(${this.btnX}px, 0, 0)`,
+        "class": 'circle-btn',
+        style: "transform: translate3d(".concat(this.btnX, "px, 0, 0)"),
         on: {
-          'click': e => e.stopPropagation(),
+          'click': function click(e) {
+            return e.stopPropagation();
+          },
           '~touchstart': this.onMouseDown,
           'mousedown': this.onMouseDown
         }
       })]);
       children.push(slideBox);
       return h('div', {
-        class: ['owl-slide', this.options && this.options.length ? 'options' : ''],
+        "class": ['owl-slide', this.options && this.options.length ? 'options' : ''],
         style: {
           width: this.domWidth
         }
       }, children);
     }
-
   };
 
   Slide.install = function (Vue) {
@@ -13416,67 +13609,63 @@ export default {
       visible: Boolean,
       shrinkMenu: {
         type: Boolean,
-        default: true
+        "default": true
       },
       middle: {
         type: Boolean,
-        default: true
+        "default": true
       },
       width: {
         type: String,
-        default: '680px'
+        "default": '680px'
       },
       top: {
         type: String,
-        default: '200px'
+        "default": '200px'
       }
     },
-
-    mounted() {
+    mounted: function mounted() {
       document.body.appendChild(this.$el);
     },
-
-    beforeDestroy() {
+    beforeDestroy: function beforeDestroy() {
       document.body.removeChild(this.$el);
     },
-
     methods: {
-      close() {
+      close: function close() {
         this.$emit('update:visible', false);
       }
-
     },
-
-    render(h) {
+    render: function render(h) {
       return h('div', {
-        class: ['owl-modal', this.middle && 'middle', this.visible && 'active'],
+        "class": ['owl-modal', this.middle && 'middle', this.visible && 'active'],
         on: {
           click: this.close
         }
       }, [h('div', {
-        class: 'modal-contain-wrap',
+        "class": 'modal-contain-wrap',
         on: {
-          click: e => e.stopPropagation()
+          click: function click(e) {
+            return e.stopPropagation();
+          }
         },
         style: {
           width: this.width,
           'margin-top': this.middle ? '' : this.top
         }
       }, [this.shrinkMenu ? h('span', {
-        class: 'modal-menu icon-shrink owlfont owl-jian',
+        "class": 'modal-menu icon-shrink owlfont owl-jian',
         on: {
           click: this.$emit('on-shrink')
         }
       }) : null, h('span', {
-        class: 'modal-menu icon-closable owlfont owl-cheng',
+        "class": 'modal-menu icon-closable owlfont owl-cheng',
         on: {
           click: this.close
         }
       }), h('div', {
-        class: 'modal-body'
-      }, [this.$slots.default])])]);
+        "class": 'modal-body'
+      }, [this.$slots["default"]])])]);
     }
-
   };
 
   Modal.install = function (Vue) {
@@ -13493,36 +13682,34 @@ export default {
       subColor: String,
       id: String
     },
-
-    data() {
+    data: function data() {
       return {
         dashoffset: 315
       };
     },
-
     watch: {
       proccess: {
-        handler(newVal) {
-          setTimeout(() => {
-            this.dashoffset = 315 - newVal * 3.15;
+        handler: function handler(newVal) {
+          var _this = this;
+
+          setTimeout(function () {
+            _this.dashoffset = 315 - newVal * 3.15;
           });
         },
-
         immediate: true
       }
     },
-
-    render(h) {
+    render: function render(h) {
       return h('div', {
-        class: 'owl-proccess'
+        "class": 'owl-proccess'
       }, [h('div', {
-        class: 'circle-wrap'
+        "class": 'circle-wrap'
       }, [h('svg', {
         attrs: {
           xmlns: 'http://www.w3.org/2000/svg',
           version: '1.1'
         },
-        class: 'circle'
+        "class": 'circle'
       }, [h('defs', [h('linearGradient', {
         attrs: {
           id: this.id + 'bgm',
@@ -13535,12 +13722,12 @@ export default {
         attrs: {
           offset: '0%'
         },
-        style: `stop-color:${this.subColor};stop-opacity:1`
+        style: "stop-color:".concat(this.subColor, ";stop-opacity:1")
       }), h('stop', {
         attrs: {
           offset: '100%'
         },
-        style: `stop-color:${this.color};stop-opacity:1`
+        style: "stop-color:".concat(this.color, ";stop-opacity:1")
       })]), h('linearGradient', {
         attrs: {
           id: 'circleBorderBtm',
@@ -13553,44 +13740,43 @@ export default {
         attrs: {
           offset: '0%'
         },
-        style: `stop-color:#595959;stop-opacity:1`
+        style: "stop-color:#595959;stop-opacity:1"
       }), h('stop', {
         attrs: {
           offset: '100%'
         },
-        style: `stop-color:#C2C2C2;stop-opacity:1`
+        style: "stop-color:#C2C2C2;stop-opacity:1"
       })])]), h('path', {
         attrs: {
           d: "m5, 55 a50 50 0 1 1 100 0a50 50 0 1 1 -100 0",
-          stroke: `url(#circleBorderBtm)`,
+          stroke: "url(#circleBorderBtm)",
           fill: "transparent",
           'stroke-width': "10"
         },
-        class: "bgm-path"
+        "class": "bgm-path"
       }), h('path', {
         attrs: {
           d: "m5, 55 a50 50 0 1 1 100 0a50 50 0 1 1 -100 0",
-          stroke: `url(#${this.id}bgm)`,
+          stroke: "url(#".concat(this.id, "bgm)"),
           fill: "transparent",
           'stroke-width': "10"
         },
-        class: "fgm-path",
+        "class": "fgm-path",
         style: {
           'stroke-dashoffset': this.dashoffset
         }
       })]), h('div', {
-        class: 'label-wrap',
+        "class": 'label-wrap',
         style: {
           color: this.proccess == 100 ? this.color : ''
         }
       }, this.label || '')]), h('div', {
-        class: 'compelete',
+        "class": 'compelete',
         style: {
           color: this.proccess == 100 ? this.color : ''
         }
       }, this.proccess + '%')]);
     }
-
   };
 
   Proccess.install = function (Vue) {
@@ -13598,7 +13784,10 @@ export default {
   };
 
   function getOffset(dom) {
-    function getParent(dom, offsetTop = 0, offsetLeft = 0) {
+    function getParent(dom) {
+      var offsetTop = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+      var offsetLeft = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
+
       if (dom.offsetParent) {
         offsetTop += dom.offsetParent.offsetTop;
         offsetLeft += dom.offsetParent.offsetLeft;
@@ -13606,34 +13795,31 @@ export default {
       }
 
       return {
-        offsetTop,
-        offsetLeft
+        offsetTop: offsetTop,
+        offsetLeft: offsetLeft
       };
     }
 
     return getParent(dom, dom.offsetTop, dom.offsetLeft);
   }
 
-  let currentSelect = null; // 用一个全局变量存select
+  var currentSelect = null; // 用一个全局变量存select
 
-  const OwlSelectCover = {
+  var OwlSelectCover = {
     props: {
       visible: {
         type: Boolean,
-        default: false
+        "default": false
       }
     },
-
-    mounted() {
+    mounted: function mounted() {
       document.body.appendChild(this.$el);
     },
-
-    beforeDestroy() {
+    beforeDestroy: function beforeDestroy() {
       document.body.removeChild(this.$el);
     },
-
     watch: {
-      visible(val) {
+      visible: function visible(val) {
         if (val) {
           if (currentSelect && currentSelect !== this) {
             currentSelect.onVisibled();
@@ -13646,28 +13832,24 @@ export default {
           document.body.removeEventListener('click', this.onVisibled, false);
         }
       }
-
     },
     methods: {
-      onVisibled() {
+      onVisibled: function onVisibled() {
         this.$emit('change', false);
         currentSelect = null;
         document.body.removeEventListener('click', this.onVisibled, false);
       }
-
     },
-
-    render(h) {
+    render: function render(h) {
       return h('div', {
-        class: ['owl-select-cover', this.visible && 'active']
-      }, [this.$slots.default]);
+        "class": ['owl-select-cover', this.visible && 'active']
+      }, [this.$slots["default"]]);
     }
-
   };
   var Select = {
     name: 'OwlSelect',
     components: {
-      OwlSelectCover
+      OwlSelectCover: OwlSelectCover
     },
     model: {
       prop: 'value',
@@ -13677,44 +13859,41 @@ export default {
       list: Array,
       config: {
         type: Object,
-        default: () => ({
-          label: 'label',
-          value: 'value'
-        })
+        "default": function _default() {
+          return {
+            label: 'label',
+            value: 'value'
+          };
+        }
       },
       value: {
         type: [Number, String, Array],
-        default: null
+        "default": null
       },
       placeholder: {
         type: String,
-        default: '请选择 Please select'
+        "default": '请选择 Please select'
       },
       wordWrap: {
         type: String,
-        default: '',
-
-        validator(val) {
+        "default": '',
+        validator: function validator(val) {
           return ['wrap', 'nowrap', ''].indexOf(val) >= 0;
         }
-
       },
       multiple: {
         require: false,
         type: Boolean,
-        default: false
+        "default": false
       },
       size: {
-        default: 'default',
-
-        validator(val) {
+        "default": 'default',
+        validator: function validator(val) {
           return ['large', 'default', 'small'].indexOf(val) !== -1;
         }
-
       }
     },
-
-    data() {
+    data: function data() {
       return {
         showSelect: false,
         currentLabel: '',
@@ -13727,65 +13906,60 @@ export default {
         clearTime: ''
       };
     },
-
     computed: {
-      filterList() {
+      filterList: function filterList() {
+        var _this = this;
+
         if (this.filterValue) {
-          return this.list.filter(item => {
-            return (item[this.config.label] + '').toLowerCase().indexOf(this.filterValue.toLowerCase()) >= 0;
+          return this.list.filter(function (item) {
+            return (item[_this.config.label] + '').toLowerCase().indexOf(_this.filterValue.toLowerCase()) >= 0;
           });
         }
 
         return this.list;
       },
-
       _value: {
-        get() {
+        get: function get() {
           if (this.multiple && !(this.value instanceof Array)) {
             return [];
           }
 
           return this.value;
         },
-
-        set(val) {
+        set: function set(val) {
           this.$emit('change', val);
         }
-
       }
     },
+    mounted: function mounted() {
+      var _this2 = this;
 
-    mounted() {
       this.getListPos();
       window.addEventListener('resize', this.onWinResize);
-      this.$once("hook:beforeDestroy", () => {
-        window.removeEventListener('resize', this.onWinResize);
+      this.$once("hook:beforeDestroy", function () {
+        window.removeEventListener('resize', _this2.onWinResize);
       });
     },
-
     methods: {
-      onWinResize() {
+      onWinResize: function onWinResize() {
         this.recover();
         this.getListPos();
       },
-
-      selectWrapClick(e) {
+      selectWrapClick: function selectWrapClick(e) {
         e && e.stopPropagation();
         this.getListPos();
-        const dom = e.currentTarget.querySelector('input');
+        var dom = e.currentTarget.querySelector('input');
         this.showSelect = true;
         dom && dom.focus();
       },
-
-      getListPos() {
-        const dom = this.$refs.selectWrapDom;
-        const domOffset = getOffset(dom);
+      getListPos: function getListPos() {
+        var dom = this.$refs.selectWrapDom;
+        var domOffset = getOffset(dom);
         this.listMinWidth = dom.clientWidth;
         this.listTop = domOffset.offsetTop + dom.clientHeight + 8;
         this.listLeft = domOffset.offsetLeft;
       },
-
-      choosed(val, label) {
+      choosed: function choosed(val, label) {
         if (this.multiple) {
           if (!this.value || !this.value.length) {
             // 如果没值或者是空数组
@@ -13794,7 +13968,7 @@ export default {
             return;
           }
 
-          const index = this.value.indexOf(val);
+          var index = this.value.indexOf(val);
 
           if (index >= 0) {
             this._value.splice(index, 1);
@@ -13815,38 +13989,37 @@ export default {
           this._value = val;
         }
       },
-
-      clearValue(e) {
+      clearValue: function clearValue(e) {
         e.stopPropagation();
         this.currentLabel = '';
         this.recover();
         this._value = this.multiple ? [] : undefined;
       },
+      recover: function recover() {
+        var _this3 = this;
 
-      recover() {
         if (!this.showSelect) return;
         this.showSelect = false;
         this.clearTime && clearTimeout(this.clearTime);
-        this.clearTime = setTimeout(() => {
-          this.filterValue = '';
+        this.clearTime = setTimeout(function () {
+          _this3.filterValue = '';
         }, 250);
       },
-
-      onRemoveFirst(e) {
+      onRemoveFirst: function onRemoveFirst(e) {
         e.stopPropagation();
 
         this._value.shift();
 
         this.currentLabel.shift();
       }
-
     },
+    render: function render(h) {
+      var _this4 = this;
 
-    render(h) {
-      let listChildren = [];
-      const valueKey = this.config.value;
-      const labelKey = this.config.label;
-      let shouldClear = false; // 是否可以清空
+      var listChildren = [];
+      var valueKey = this.config.value;
+      var labelKey = this.config.label;
+      var shouldClear = false; // 是否可以清空
 
       if (this.value instanceof Array) {
         shouldClear = this.value.length !== 0;
@@ -13856,76 +14029,81 @@ export default {
 
       if (!this.filterList.length) {
         listChildren.push(h('div', {
-          class: 'empty-data',
+          "class": 'empty-data',
           style: {
             'width': this.listMinWidth + 'px'
           }
         }, [h('span', {
-          class: 'owlfont owl-kongshuju'
+          "class": 'owlfont owl-kongshuju'
         }), h('span', {
-          class: 'label'
+          "class": 'label'
         }, 'Empty')]));
       } else {
-        listChildren = this.filterList.map(item => {
-          const key = item[valueKey];
-          const isActive = this.multiple ? this.value.indexOf(key) >= 0 : key === this.value;
+        listChildren = this.filterList.map(function (item) {
+          var key = item[valueKey];
+          var isActive = _this4.multiple ? _this4.value.indexOf(key) >= 0 : key === _this4.value;
           return h('div', {
-            key,
-            class: ['owl-select-option', isActive ? 'active' : ''],
+            key: key,
+            "class": ['owl-select-option', isActive ? 'active' : ''],
             on: {
-              click: () => this.choosed(key, item[labelKey])
+              click: function click() {
+                return _this4.choosed(key, item[labelKey]);
+              }
             }
           }, item[labelKey]);
         });
       }
 
-      let multipleDom = null;
+      var multipleDom = null;
 
       if (this.multiple && this._value && this._value.length) {
         // 如果选了多选
         multipleDom = h('div', {
-          class: 'owl-multiple-box'
+          "class": 'owl-multiple-box'
         }, [h('div', {
-          class: 'owl-multiple-item'
+          "class": 'owl-multiple-item'
         }, [h('span', this.currentLabel[0]), h('span', {
-          class: 'owlfont owl-cheng close',
+          "class": 'owlfont owl-cheng close',
           on: {
             click: this.onRemoveFirst
           }
         })]), this._value.length > 1 ? h('div', {
-          class: 'owl-multiple-item count'
+          "class": 'owl-multiple-item count'
         }, '+' + (this._value.length - 1)) : '']);
       }
 
-      let placeholder = this.multiple && this._value.length > 0 ? '' : this.filterValue ? '' : this.currentLabel || this.placeholder;
+      var placeholder = this.multiple && this._value.length > 0 ? '' : this.filterValue ? '' : this.currentLabel || this.placeholder;
       return h('div', {
-        class: ['owl-select', 'owl-' + this.size],
+        "class": ['owl-select', 'owl-' + this.size],
         ref: 'selectWrapDom',
         on: {
           'click': this.selectWrapClick
         }
       }, [h('div', {
-        class: ['owl-select-wrap', this.showSelect && 'active', shouldClear && 'clear']
+        "class": ['owl-select-wrap', this.showSelect && 'active', shouldClear && 'clear']
       }, [h('div', {
-        class: ['owl-select-plchld', this.currentLabel && 'active']
+        "class": ['owl-select-plchld', this.currentLabel && 'active']
       }, placeholder), multipleDom, h('input', {
-        class: 'owl-select-npt',
+        "class": 'owl-select-npt',
         domProps: {
           value: this.filterValue
         },
         on: {
-          input: e => this.filterValue = e.target.value
-        }
-      }), h('span', {
-        class: 'suffix-icon owl-arrow-xia owlfont',
-        on: {
-          click: e => {
-            e.stopPropagation();
-            this.recover();
+          input: function input(e) {
+            return _this4.filterValue = e.target.value;
           }
         }
       }), h('span', {
-        class: 'suffix-icon owl-close owlfont',
+        "class": 'suffix-icon owl-arrow-xia owlfont',
+        on: {
+          click: function click(e) {
+            e.stopPropagation();
+
+            _this4.recover();
+          }
+        }
+      }), h('span', {
+        "class": 'suffix-icon owl-close owlfont',
         on: {
           click: this.clearValue
         }
@@ -13934,28 +14112,119 @@ export default {
           visible: this.showSelect
         },
         on: {
-          change: val => {
-            !val ? this.recover() : this.showSelect = val;
+          change: function change(val) {
+            !val ? _this4.recover() : _this4.showSelect = val;
           }
         }
       }, [h('div', {
-        class: ['owl-select-list-wrap', this.wordWrap],
+        "class": ['owl-select-list-wrap', this.wordWrap],
         style: {
           'min-width': this.listMinWidth + 'px',
           top: this.listTop + 'px',
           left: this.listLeft + 'px'
         },
         on: {
-          click: e => e.stopPropagation()
+          click: function click(e) {
+            return e.stopPropagation();
+          }
         }
       }, listChildren)])]);
     }
-
   };
 
   Select.install = function (Vue) {
     Vue.component(Select.name, Select);
   };
+
+  function _toConsumableArray(arr) {
+    return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
+  }
+
+  function _arrayWithoutHoles(arr) {
+    if (Array.isArray(arr)) return _arrayLikeToArray(arr);
+  }
+
+  function _iterableToArray(iter) {
+    if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
+  }
+
+  function _unsupportedIterableToArray(o, minLen) {
+    if (!o) return;
+    if (typeof o === "string") return _arrayLikeToArray(o, minLen);
+    var n = Object.prototype.toString.call(o).slice(8, -1);
+    if (n === "Object" && o.constructor) n = o.constructor.name;
+    if (n === "Map" || n === "Set") return Array.from(o);
+    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+  }
+
+  function _arrayLikeToArray(arr, len) {
+    if (len == null || len > arr.length) len = arr.length;
+
+    for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+
+    return arr2;
+  }
+
+  function _nonIterableSpread() {
+    throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+  }
+
+  function _createForOfIteratorHelper(o, allowArrayLike) {
+    var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"];
+
+    if (!it) {
+      if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") {
+        if (it) o = it;
+        var i = 0;
+
+        var F = function () {};
+
+        return {
+          s: F,
+          n: function () {
+            if (i >= o.length) return {
+              done: true
+            };
+            return {
+              done: false,
+              value: o[i++]
+            };
+          },
+          e: function (e) {
+            throw e;
+          },
+          f: F
+        };
+      }
+
+      throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+    }
+
+    var normalCompletion = true,
+        didErr = false,
+        err;
+    return {
+      s: function () {
+        it = it.call(o);
+      },
+      n: function () {
+        var step = it.next();
+        normalCompletion = step.done;
+        return step;
+      },
+      e: function (e) {
+        didErr = true;
+        err = e;
+      },
+      f: function () {
+        try {
+          if (!normalCompletion && it.return != null) it.return();
+        } finally {
+          if (didErr) throw err;
+        }
+      }
+    };
+  }
 
   var Collapse = {
     name: 'owlCollapse',
@@ -13966,31 +14235,47 @@ export default {
     props: {
       value: {
         type: Array,
-        default: () => []
+        "default": function _default() {
+          return [];
+        }
       },
       expand: Boolean
     },
+    provide: function provide() {
+      var _this = this;
 
-    provide() {
       return {
-        changeVisible: val => this.changeVisible(val)
+        changeVisible: function changeVisible(val) {
+          return _this.changeVisible(val);
+        }
       };
     },
+    mounted: function mounted() {
+      var _iterator = _createForOfIteratorHelper(this.$children),
+          _step;
 
-    mounted() {
-      for (let item of this.$children) {
-        if (this.expand || this.value.indexOf(item.value) >= 0) {
-          item.switchVisible && item.switchVisible();
+      try {
+        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+          var item = _step.value;
+
+          if (this.expand || this.value.indexOf(item.value) >= 0) {
+            item.switchVisible && item.switchVisible();
+          }
         }
+      } catch (err) {
+        _iterator.e(err);
+      } finally {
+        _iterator.f();
       }
     },
-
     methods: {
-      changeVisible(val) {
-        setTimeout(() => {
-          const index = this.value.indexOf(val);
+      changeVisible: function changeVisible(val) {
+        var _this2 = this;
 
-          const _value = JSON.parse(JSON.stringify(this.value));
+        setTimeout(function () {
+          var index = _this2.value.indexOf(val);
+
+          var _value = JSON.parse(JSON.stringify(_this2.value));
 
           if (index >= 0) {
             _value.splice(index);
@@ -13998,36 +14283,31 @@ export default {
             _value.push(val);
           }
 
-          this.$emit('change', _value);
+          _this2.$emit('change', _value);
         });
       }
-
     },
-
-    render(h) {
+    render: function render(h) {
       return h('div', {
-        class: 'owl-collapse'
-      }, this.$slots.default);
+        "class": 'owl-collapse'
+      }, this.$slots["default"]);
     }
-
   };
-  const CollapsePanel = {
+  var CollapsePanel = {
     name: 'owlCollapsePanel',
     props: {
       value: [String, Number],
       header: String
     },
     inject: ['changeVisible'],
-
-    data() {
+    data: function data() {
       return {
         height: 0,
         visible: false
       };
     },
-
     methods: {
-      switchVisible() {
+      switchVisible: function switchVisible() {
         if (this.visible) {
           this.visible = false;
           this.height = 0;
@@ -14038,32 +14318,29 @@ export default {
 
         this.changeVisible(this.value);
       }
-
     },
-
-    render(h) {
+    render: function render(h) {
       return h('div', {
-        class: 'owl-collapse-panel'
+        "class": 'owl-collapse-panel'
       }, [h('div', {
-        class: ['owl-collapse-panel-header', this.visible && 'active'],
+        "class": ['owl-collapse-panel-header', this.visible && 'active'],
         on: {
           click: this.switchVisible
         }
       }, [h('span', {
-        class: 'owlfont owl-arrow-xia'
+        "class": 'owlfont owl-arrow-xia'
       }), h('span', {
-        class: 'panel-title'
+        "class": 'panel-title'
       }, this.header)]), h('div', {
-        class: 'owl-collapse-contain-wrap',
+        "class": 'owl-collapse-contain-wrap',
         style: {
           height: this.height + 'px'
         }
       }, [h('div', {
-        class: 'owl-collapse-panel-contain',
+        "class": 'owl-collapse-panel-contain',
         ref: 'panelDom'
-      }, this.$slots.default)])]);
+      }, this.$slots["default"])])]);
     }
-
   };
 
   Collapse.install = function (Vue) {
@@ -14084,7 +14361,7 @@ export default {
       checked: Array
     },
     computed: {
-      isActive() {
+      isActive: function isActive() {
         if (this.isInGroup) {
           return this.$parent.checked.indexOf(this.value) >= 0;
         }
@@ -14092,40 +14369,44 @@ export default {
         if (!this.checked) return false;
         return this.checked.indexOf(this.value) >= 0;
       },
-
-      isInGroup() {
+      isInGroup: function isInGroup() {
         return this.$parent && this.$parent.$options._componentTag === 'owl-checkbox-group';
       }
-
     },
     methods: {
-      changed() {
+      changed: function changed() {
+        var _this = this;
+
         if (this.isInGroup) {
           this.$parent.changed(this.value);
           return;
         }
 
-        const index = this.checked.indexOf(this.value);
+        var index = this.checked.indexOf(this.value);
 
         if (this.checked && index >= 0) {
-          this.$emit('change', this.checked.filter(item => item !== this.value));
+          this.$emit('change', this.checked.filter(function (item) {
+            return item !== _this.value;
+          }));
         } else {
           this.$emit('change', this.checked.concat(this.value));
         }
       }
-
     },
+    render: function render(h) {
+      var _this2 = this;
 
-    render(h) {
       return h('div', {
-        class: 'owl-checkbox',
+        "class": 'owl-checkbox',
         scopedSlots: {
-          default: () => h('span', this.label)
+          "default": function _default() {
+            return h('span', _this2.label);
+          }
         }
       }, [h('label', {
-        class: 'owl-checkbox-label',
+        "class": 'owl-checkbox-label',
         attrs: {
-          for: this.value
+          "for": this.value
         }
       }, [h('input', {
         attrs: {
@@ -14139,16 +14420,15 @@ export default {
           change: this.changed
         }
       }), h('div', {
-        class: 'owl-chk-crc'
+        "class": 'owl-chk-crc'
       }, [h('span', {
-        class: 'owlfont owl-gougou'
+        "class": 'owlfont owl-gougou'
       })]), h('div', {
-        class: 'owl-chk-lbl'
-      }, this.$slots.default)])]);
+        "class": 'owl-chk-lbl'
+      }, this.$slots["default"])])]);
     }
-
   };
-  const CheckboxGroup = {
+  var CheckboxGroup = {
     name: 'owlCheckboxGroup',
     model: {
       prop: 'checked',
@@ -14157,37 +14437,37 @@ export default {
     props: {
       checked: {
         required: true,
-        type: Array
+        type: Array,
+        "default": function _default() {
+          return [];
+        }
       },
       direction: {
         type: String,
-        default: 'horizontal',
-
-        validator(val) {
+        "default": 'horizontal',
+        validator: function validator(val) {
           return ['horizontal', 'vertical'].indexOf(val) >= 0;
         }
-
       }
     },
     methods: {
-      changed(val) {
-        const index = this.checked.indexOf(val);
+      changed: function changed(val) {
+        var index = this.checked.indexOf(val);
 
         if (index >= 0) {
-          this.$emit('change', this.checked.filter(item => item !== val));
+          this.$emit('change', this.checked.filter(function (item) {
+            return item !== val;
+          }));
         } else {
           this.$emit('change', this.checked.concat(val));
         }
       }
-
     },
-
-    render(h) {
+    render: function render(h) {
       return h('div', {
-        class: ['owl-checkbox-group', this.direction === 'vertical' && 'vertical']
-      }, this.$slots.default);
+        "class": ['owl-checkbox-group', this.direction === 'vertical' && 'vertical']
+      }, this.$slots["default"]);
     }
-
   };
 
   Checkbox.install = function (vue) {
@@ -14535,31 +14815,28 @@ export default {
       event: 'change'
     },
     components: {
-      OwlSelectCover
+      OwlSelectCover: OwlSelectCover
     },
     props: {
       value: String,
       placeholder: String,
       format: {
         type: String,
-        default: 'YYYY-MM-DD'
+        "default": 'YYYY-MM-DD'
       },
       valueFormat: {
         type: String,
-        default: 'YYYY-MM-DD'
+        "default": 'YYYY-MM-DD'
       },
       quicklyChoose: Array,
       size: {
-        default: 'default',
-
-        validator(val) {
+        "default": 'default',
+        validator: function validator(val) {
           return ['large', 'default', 'small'].indexOf(val) !== -1;
         }
-
       }
     },
-
-    data() {
+    data: function data() {
       return {
         filterVal: '',
         visible: false,
@@ -14579,20 +14856,21 @@ export default {
 
       };
     },
+    mounted: function mounted() {
+      var _this = this;
 
-    mounted() {
       this.getListPos();
       window.addEventListener('resize', this.onWinResize);
-      this.$once("hook:beforeDestroy", () => {
-        window.removeEventListener('resize', this.onWinResize);
+      this.$once("hook:beforeDestroy", function () {
+        window.removeEventListener('resize', _this.onWinResize);
       });
-      const hasVal = this.value && dayjs_min(this.value).isValid();
-      const hadDayjs = hasVal ? dayjs_min(this.value) : null;
-      const newDayjs = dayjs_min();
+      var hasVal = this.value && dayjs_min(this.value).isValid();
+      var hadDayjs = hasVal ? dayjs_min(this.value) : null;
+      var newDayjs = dayjs_min();
       this.currentYear = hadDayjs ? hadDayjs.get('year') : newDayjs.get('year');
       this.currentMonth = (hadDayjs ? hadDayjs.get('month') : newDayjs.get('month')) + 1;
       this.today = newDayjs.format('YYYY-MM-DD');
-      const str = `${this.currentYear}-${this.currentMonth}-01`;
+      var str = "".concat(this.currentYear, "-").concat(this.currentMonth, "-01");
 
       if (hasVal) {
         this.currentDate = hadDayjs.get('date');
@@ -14601,75 +14879,68 @@ export default {
 
       this.getDates(str);
     },
-
     methods: {
-      onWinResize() {
+      onWinResize: function onWinResize() {
         this.getListPos();
       },
-
-      clearValue(e) {
+      clearValue: function clearValue(e) {
         e && e.stopPropagation();
         this.$emit('change', '');
         this.filterVal = '';
         this.visible = false;
       },
-
-      onBlur() {
+      onBlur: function onBlur() {
         if (!this.filterVal) {
           this.$emit('change', '');
           return false;
         }
 
-        const newDayjs = dayjs_min(this.filterVal);
+        var newDayjs = dayjs_min(this.filterVal);
 
         if (!newDayjs.isValid()) {
           if (this.value) this.filterVal = this.value;
           return false;
         }
 
-        const d = newDayjs.get('date');
-        const m = newDayjs.get('month') + 1;
-        const y = newDayjs.get('year');
+        var d = newDayjs.get('date');
+        var m = newDayjs.get('month') + 1;
+        var y = newDayjs.get('year');
         this.setDate(d, m, y);
       },
-
-      close() {
+      close: function close() {
         this.visible = false;
       },
-
       // 点击日期下拉
-      dateWrapClick(e) {
+      dateWrapClick: function dateWrapClick(e) {
         e && e.stopPropagation();
         this.getListPos();
-        const dom = e.currentTarget.querySelector('input');
+        var dom = e.currentTarget.querySelector('input');
         this.visible = true;
         this.recoverByValue();
         dom && dom.focus();
       },
-
-      getListPos() {
-        const dom = this.$refs.selectWrapDom;
-        const domOffset = getOffset(dom);
+      getListPos: function getListPos() {
+        var dom = this.$refs.selectWrapDom;
+        var domOffset = getOffset(dom);
         this.listTop = domOffset.offsetTop + dom.clientHeight + 8;
         this.listLeft = domOffset.offsetLeft;
       },
-
       // 渲染dates数组 str:某月的第一天
-      getDates(str) {
+      getDates: function getDates(str) {
         if (this.getDatesKey === str) {
           return;
         }
 
         this.getDatesKey = str;
-        let arr = [];
-        const firstDate = dayjs_min(str);
-        const firstDay = firstDate.get('day');
-        let prefixNum = this.weeksNum.indexOf(firstDay);
+        var arr = [];
+        var firstDate = dayjs_min(str);
+        var firstDay = firstDate.get('day');
+        var prefixNum = this.weeksNum.indexOf(firstDay);
         prefixNum === 0 && (prefixNum = 7);
-        const bMonth = firstDate.subtract(24, 'hour').get('month') + 1;
-        const aMonth = firstDate.add(1, 'month').get('month') + 1;
-        const bYear = firstDate.subtract(24, 'hour').get('year');
-        const aYear = firstDate.add(1, 'month').get('year');
+        var bMonth = firstDate.subtract(24, 'hour').get('month') + 1;
+        var aMonth = firstDate.add(1, 'month').get('month') + 1;
+        var bYear = firstDate.subtract(24, 'hour').get('year');
+        var aYear = firstDate.add(1, 'month').get('year');
 
         while (prefixNum > 0) {
           arr.push({
@@ -14681,8 +14952,8 @@ export default {
           prefixNum--;
         }
 
-        const lastDay = firstDate.add(1, 'month').subtract(24, 'hour').get('date');
-        let i = 0;
+        var lastDay = firstDate.add(1, 'month').subtract(24, 'hour').get('date');
+        var i = 0;
 
         while (i < lastDay) {
           arr.push({
@@ -14706,21 +14977,22 @@ export default {
 
         this.dates = arr;
       },
-
       // 赋值给value，重新赋值dates数组
-      setDate(d, m, y) {
+      setDate: function setDate(d, m, y) {
+        var _this2 = this;
+
         this.currentDate = d;
         this.currentMonth = m;
         this.currentYear = y;
-        const str = `${y}-${m < 10 ? '0' + m : m}-${d < 10 ? '0' + d : d}`;
-        this.getDates(`${y}-${m < 10 ? '0' + m : m}-01`);
-        this.$nextTick(() => {
-          this.filterVal = dayjs_min(str).format(this.format);
-          this.$emit('change', dayjs_min(str).format(this.valueFormat));
+        var str = "".concat(y, "-").concat(m < 10 ? '0' + m : m, "-").concat(d < 10 ? '0' + d : d);
+        this.getDates("".concat(y, "-").concat(m < 10 ? '0' + m : m, "-01"));
+        this.$nextTick(function () {
+          _this2.filterVal = dayjs_min(str).format(_this2.format);
+
+          _this2.$emit('change', dayjs_min(str).format(_this2.valueFormat));
         });
       },
-
-      changeMonth(type) {
+      changeMonth: function changeMonth(type) {
         if (type === 'prev') {
           if (this.currentMonth === 1) {
             this.currentMonth = 12;
@@ -14739,10 +15011,9 @@ export default {
           }
         }
 
-        this.getDates(`${this.currentYear}-${this.currentMonth}-01`);
+        this.getDates("".concat(this.currentYear, "-").concat(this.currentMonth, "-01"));
       },
-
-      commonPrev() {
+      commonPrev: function commonPrev() {
         switch (this.currentShow) {
           case 'year':
             this.setYears(this.years[0] - 12);
@@ -14757,8 +15028,7 @@ export default {
             break;
         }
       },
-
-      commonNext() {
+      commonNext: function commonNext() {
         switch (this.currentShow) {
           case 'year':
             this.setYears(this.years[11] + 1);
@@ -14773,33 +15043,29 @@ export default {
             break;
         }
       },
-
       // 复原
-      recoverByValue() {
-        const curVal = !this.value ? dayjs_min(this.today) : dayjs_min(this.value);
+      recoverByValue: function recoverByValue() {
+        var curVal = !this.value ? dayjs_min(this.today) : dayjs_min(this.value);
         this.currentMonth = curVal.get('month') + 1;
         this.currentYear = curVal.get('year');
         this.currentDate = curVal.get('date');
         this.currentShow = 'date';
-        this.getDates(`${this.currentYear}-${this.currentMonth}-01`);
+        this.getDates("".concat(this.currentYear, "-").concat(this.currentMonth, "-01"));
       },
-
       // 点击月份列其中一个月的事件
-      onChooseMonth(index) {
+      onChooseMonth: function onChooseMonth(index) {
         this.currentMonth = index + 1;
-        this.getDates(`${this.currentYear}-${this.currentMonth}-01`);
+        this.getDates("".concat(this.currentYear, "-").concat(this.currentMonth, "-01"));
         this.currentShow = 'date';
       },
-
       // 显示年份面板
-      showYearPanel() {
+      showYearPanel: function showYearPanel() {
         this.setYears(this.currentYear - 6);
         this.currentShow = 'year';
       },
-
-      setYears(startYear) {
-        let arr = [];
-        let i = 0;
+      setYears: function setYears(startYear) {
+        var arr = [];
+        var i = 0;
 
         while (i < 12) {
           arr.push(startYear++);
@@ -14808,95 +15074,104 @@ export default {
 
         this.years = arr;
       },
-
       // 点击年份列其中一个年的事件
-      onChooseYear(year) {
+      onChooseYear: function onChooseYear(year) {
         this.currentYear = year;
         this.currentShow = 'month';
       },
-
-      onQuiklyClick(val) {
-        const newdayjs = dayjs_min(val);
+      onQuiklyClick: function onQuiklyClick(val) {
+        var newdayjs = dayjs_min(val);
 
         if (newdayjs.isValid()) {
           this.setDate(newdayjs.get('date'), newdayjs.get('month') + 1, newdayjs.get('year'));
           this.close();
         }
       }
-
     },
+    render: function render(h) {
+      var _this3 = this;
 
-    render(h) {
-      let mstr = this.currentMonth < 10 ? '0' + this.currentMonth : this.currentMonth;
-      let placeholder = this.value ? '' : this.placeholder || '请选择日期 Please pick date';
-      const commonTitle = h('div', {
-        class: 'owl-date-title'
+      var mstr = this.currentMonth < 10 ? '0' + this.currentMonth : this.currentMonth;
+      var placeholder = this.value ? '' : this.placeholder || '请选择日期 Please pick date';
+      var commonTitle = h('div', {
+        "class": 'owl-date-title'
       }, [h('span', {
-        class: 'owlfont owl-arrow-you left',
+        "class": 'owlfont owl-arrow-you left',
         on: {
           click: this.commonPrev
         }
       }), h('div', {
-        class: 'title-wrap'
+        "class": 'title-wrap'
       }, [h('span', {
-        class: 'title',
+        "class": 'title',
         on: {
           click: this.showYearPanel
         }
       }, this.currentYear + 'Y'), h('span', {
-        class: 'title',
+        "class": 'title',
         on: {
-          click: () => this.currentShow = 'month'
+          click: function click() {
+            return _this3.currentShow = 'month';
+          }
         }
       }, mstr + 'M')]), h('span', {
-        class: 'owlfont owl-arrow-you',
+        "class": 'owlfont owl-arrow-you',
         on: {
           click: this.commonNext
         }
       })]);
-      let OwlWrapChildren = [];
+      var OwlWrapChildren = [];
 
       if (this.currentShow === 'date') {
         OwlWrapChildren = [commonTitle, h('div', {
-          class: 'owl-date-week date-blc'
-        }, this.weeks.map(item => h('div', {
-          key: item,
-          class: 'date-itm'
-        }, [h('span', item)]))), h('div', {
-          class: 'owl-date-day date-blc'
-        }, this.dates.map((item, key) => {
-          const str = `${item.y}-${item.m < 10 ? '0' + item.m : item.m}-${item.v < 10 ? '0' + item.v : item.v}`;
-          const isActive = dayjs_min(this.value).format('YYYY-MM-DD') == str;
+          "class": 'owl-date-week date-blc'
+        }, this.weeks.map(function (item) {
           return h('div', {
-            key,
-            class: ['date-itm', item.a && 'light', str === this.today && 'today', isActive && 'active'],
+            key: item,
+            "class": 'date-itm'
+          }, [h('span', item)]);
+        })), h('div', {
+          "class": 'owl-date-day date-blc'
+        }, this.dates.map(function (item, key) {
+          var str = "".concat(item.y, "-").concat(item.m < 10 ? '0' + item.m : item.m, "-").concat(item.v < 10 ? '0' + item.v : item.v);
+          var isActive = dayjs_min(_this3.value).format('YYYY-MM-DD') == str;
+          return h('div', {
+            key: key,
+            "class": ['date-itm', item.a && 'light', str === _this3.today && 'today', isActive && 'active'],
             on: {
-              click: () => {
-                this.setDate(item.v, item.m, item.y);
-                this.close();
+              click: function click() {
+                _this3.setDate(item.v, item.m, item.y);
+
+                _this3.close();
               }
             }
           }, [h('span', item.v)]);
         })), this.quicklyChoose && this.quicklyChoose.length ? h('div', {
-          class: 'owl-date-quickly'
-        }, [this.quicklyChoose.map((item, key) => h('div', {
-          key,
-          class: 'owl-date-quickly-item',
-          on: {
-            click: () => this.onQuiklyClick(item.value)
-          }
-        }, item.label))]) : ''];
+          "class": 'owl-date-quickly'
+        }, [this.quicklyChoose.map(function (item, key) {
+          return h('div', {
+            key: key,
+            "class": 'owl-date-quickly-item',
+            on: {
+              click: function click() {
+                return _this3.onQuiklyClick(item.value);
+              }
+            }
+          }, item.label);
+        })]) : ''];
       }
 
       if (this.currentShow === 'month') {
         OwlWrapChildren = [commonTitle, h('div', {
-          class: 'owl-week-wrap'
-        }, [this.months.map((item, index) => {
+          "class": 'owl-week-wrap'
+        }, [this.months.map(function (item, index) {
           return h('div', {
             key: item,
-            class: 'owl-week-item',
+            "class": 'owl-week-item',
             on: {
-              click: () => this.onChooseMonth(index)
+              click: function click() {
+                return _this3.onChooseMonth(index);
+              }
             }
           }, item);
         })])];
@@ -14904,53 +15179,61 @@ export default {
 
       if (this.currentShow === 'year') {
         OwlWrapChildren = [commonTitle, h('div', {
-          class: 'owl-week-wrap'
-        }, [this.years.map((item, index) => {
+          "class": 'owl-week-wrap'
+        }, [this.years.map(function (item, index) {
           return h('div', {
             key: index,
-            class: 'owl-week-item',
+            "class": 'owl-week-item',
             on: {
-              click: () => this.onChooseYear(item)
+              click: function click() {
+                return _this3.onChooseYear(item);
+              }
             }
           }, item);
         })])];
       }
 
-      const OwlWrap = h('div', {
-        class: 'owl-date-wrap',
+      var OwlWrap = h('div', {
+        "class": 'owl-date-wrap',
         style: {
           left: this.listLeft + 'px',
           top: this.listTop + 'px',
           width: '304px'
         },
         on: {
-          'click': e => e.stopPropagation()
+          'click': function click(e) {
+            return e.stopPropagation();
+          }
         }
       }, OwlWrapChildren);
       return h('div', {
-        class: ['owl-date owl-select', 'owl-' + this.size],
+        "class": ['owl-date owl-select', 'owl-' + this.size],
         on: {
           click: this.dateWrapClick
         },
         ref: 'selectWrapDom'
       }, [h('div', {
-        class: ['owl-select-wrap', this.visible && 'active', this.value && 'clear']
+        "class": ['owl-select-wrap', this.visible && 'active', this.value && 'clear']
       }, [h('div', {
-        class: ['owl-select-plchld']
+        "class": ['owl-select-plchld']
       }, placeholder), h('input', {
-        class: 'owl-select-npt',
+        "class": 'owl-select-npt',
         domProps: {
           value: this.filterVal
         },
         on: {
-          input: e => this.filterVal = e.target.value,
+          input: function input(e) {
+            return _this3.filterVal = e.target.value;
+          },
           blur: this.onBlur,
-          keyup: e => (e.keyCode == 13 && this.onBlur(), this.close())
+          keyup: function keyup(e) {
+            return e.keyCode == 13 && _this3.onBlur(), _this3.close();
+          }
         }
       }), h('span', {
-        class: 'suffix-icon owl-date-icon owlfont'
+        "class": 'suffix-icon owl-date-icon owlfont'
       }), h('span', {
-        class: 'suffix-icon owl-close owlfont',
+        "class": 'suffix-icon owl-close owlfont',
         on: {
           click: this.clearValue
         }
@@ -14963,7 +15246,6 @@ export default {
         }
       }, [OwlWrap])]);
     }
-
   };
 
   Date$1.install = function (Vue) {
@@ -14983,21 +15265,19 @@ export default {
       checked: [String, Number, Boolean]
     },
     computed: {
-      isActive() {
+      isActive: function isActive() {
         if (this.isInGroup) {
           return this.$parent.checked === this.value;
         }
 
         return this.checked === this.value;
       },
-
-      isInGroup() {
+      isInGroup: function isInGroup() {
         return this.$parent && this.$parent.$options._componentTag === 'owl-radio-group';
       }
-
     },
     methods: {
-      changed() {
+      changed: function changed() {
         if (this.isInGroup) {
           this.$parent.changed(this.value);
           return;
@@ -15005,25 +15285,27 @@ export default {
 
         this.$emit('change', this.isActive ? '' : this.value);
       }
-
     },
+    render: function render(h) {
+      var _this = this;
 
-    render(h) {
       return h('div', {
-        class: ['owl-radio', this.isActive ? 'active' : ''],
+        "class": ['owl-radio', this.isActive ? 'active' : ''],
         scopedSlots: {
-          default: () => h('span', this.label)
+          "default": function _default() {
+            return h('span', _this.label);
+          }
         },
         on: {
           '!click': this.changed
         }
       }, [h('label', {
-        class: 'owl-radio-label',
+        "class": 'owl-radio-label',
         attrs: {
-          for: this.value
+          "for": this.value
         },
         on: {
-          'click': e => {
+          'click': function click(e) {
             e.preventDefault() && e.stopPropagation();
           }
         }
@@ -15036,16 +15318,15 @@ export default {
           checked: this.isActive
         }
       }), h('div', {
-        class: 'owl-rd-crc'
+        "class": 'owl-rd-crc'
       }, [h('span', {
-        class: 'owlfont owl-gougou'
+        "class": 'owlfont owl-gougou'
       })]), h('div', {
-        class: 'owl-rd-lbl'
-      }, this.$slots.default)])]);
+        "class": 'owl-rd-lbl'
+      }, this.$slots["default"])])]);
     }
-
   };
-  const RadioGroup = {
+  var RadioGroup = {
     name: 'owlRadioGroup',
     model: {
       prop: 'checked',
@@ -15058,27 +15339,22 @@ export default {
       },
       direction: {
         type: String,
-        default: 'horizontal',
-
-        validator(val) {
+        "default": 'horizontal',
+        validator: function validator(val) {
           return ['horizontal', 'vertical'].indexOf(val) >= 0;
         }
-
       }
     },
     methods: {
-      changed(val) {
+      changed: function changed(val) {
         this.$emit('change', val === this.checked ? '' : val);
       }
-
     },
-
-    render(h) {
+    render: function render(h) {
       return h('div', {
-        class: ['owl-radio-group', this.direction === 'vertical' && 'vertical']
-      }, this.$slots.default);
+        "class": ['owl-radio-group', this.direction === 'vertical' && 'vertical']
+      }, this.$slots["default"]);
     }
-
   };
 
   Radio.install = function (Vue) {
@@ -15094,19 +15370,18 @@ export default {
       currentPage: Number
     },
     computed: {
-      size() {
+      size: function size() {
         return Math.ceil(this.totalResult / this.showCount);
       },
-
-      page() {
-        let arr = [];
+      page: function page() {
+        var arr = [];
 
         if (this.size <= 2) {
           return [];
         }
 
-        const currentPage = this.currentPage > this.size ? 1 : this.currentPage;
-        let first = 1;
+        var currentPage = this.currentPage > this.size ? 1 : this.currentPage;
+        var first = 1;
 
         if (currentPage > 3) {
           first = currentPage - 2;
@@ -15121,7 +15396,7 @@ export default {
           arr.push(first);
         }
 
-        let max = 5 - (currentPage <= 3 ? 1 : 0);
+        var max = 5 - (currentPage <= 3 ? 1 : 0);
 
         while (arr.length < max && this.size > first + 1) {
           arr.push(++first);
@@ -15129,109 +15404,115 @@ export default {
 
         return arr;
       }
-
     },
-
-    mounted() {
+    mounted: function mounted() {
       console.log(this.page);
     },
-
     methods: {
-      changeCurrent(val) {
+      changeCurrent: function changeCurrent(val) {
         this.$emit('change', val);
       },
-
-      substractPage() {
+      substractPage: function substractPage() {
         if (this.currentPage === 1) return;
         this.$emit('change', this.currentPage - 1);
       },
-
-      addPage() {
+      addPage: function addPage() {
         if (this.size === this.currentPage) return;
         this.$emit('change', this.currentPage + 1);
       }
-
     },
+    render: function render(h) {
+      var _this = this;
 
-    render(h) {
-      let children = [h('li', {
-        class: ['owl-pagination-item prev', this.currentPage === 1 && 'disabled'],
+      var children = [h('li', {
+        "class": ['owl-pagination-item prev', this.currentPage === 1 && 'disabled'],
         on: {
           click: this.substractPage
         }
       }, [h('span', {
-        class: 'owlfont owl-arrow-you'
+        "class": 'owlfont owl-arrow-you'
       })]), h('li', {
-        class: ['owl-pagination-item', this.currentPage === 1 && 'active'],
+        "class": ['owl-pagination-item', this.currentPage === 1 && 'active'],
         on: {
-          click: () => this.changeCurrent(1)
+          click: function click() {
+            return _this.changeCurrent(1);
+          }
         }
       }, 1)];
 
       if (this.page && this.page.length) {
         if (this.page[0] - 1 > 1) {
           children.push(h('li', {
-            class: 'owl-pagination-ellipse prev',
+            "class": 'owl-pagination-ellipse prev',
             on: {
-              click: () => this.changeCurrent(this.currentPage - 5 < 1 ? 1 : this.currentPage - 5)
+              click: function click() {
+                return _this.changeCurrent(_this.currentPage - 5 < 1 ? 1 : _this.currentPage - 5);
+              }
             },
             attrs: {
               title: 'Subtract 5 pages'
             }
           }, [h('span', {
-            class: 'owlfont owl-double-arrow-you'
+            "class": 'owlfont owl-double-arrow-you'
           }), h('span', {
-            class: 'more'
+            "class": 'more'
           })]));
         }
 
-        children.push(...this.page.map(item => h('li', {
-          key: item,
-          class: ['owl-pagination-item', this.currentPage === item && 'active'],
-          on: {
-            click: () => this.changeCurrent(item)
-          }
-        }, item)));
+        children.push.apply(children, _toConsumableArray(this.page.map(function (item) {
+          return h('li', {
+            key: item,
+            "class": ['owl-pagination-item', _this.currentPage === item && 'active'],
+            on: {
+              click: function click() {
+                return _this.changeCurrent(item);
+              }
+            }
+          }, item);
+        })));
 
         if (this.size - this.page[this.page.length - 1] > 1) {
           children.push(h('li', {
-            class: 'owl-pagination-ellipse next',
+            "class": 'owl-pagination-ellipse next',
             on: {
-              click: () => this.changeCurrent(this.currentPage + 5 > this.size ? this.size : this.currentPage + 5)
+              click: function click() {
+                return _this.changeCurrent(_this.currentPage + 5 > _this.size ? _this.size : _this.currentPage + 5);
+              }
             },
             attrs: {
               title: 'Add 5 pages'
             }
           }, [h('span', {
-            class: 'owlfont owl-double-arrow-you'
+            "class": 'owlfont owl-double-arrow-you'
           }), h('span', {
-            class: 'more'
+            "class": 'more'
           })]));
         }
       }
 
       children.push(h('li', {
-        class: ['owl-pagination-item', this.currentPage === this.size && 'active'],
+        "class": ['owl-pagination-item', this.currentPage === this.size && 'active'],
         on: {
-          click: () => this.changeCurrent(this.size)
+          click: function click() {
+            return _this.changeCurrent(_this.size);
+          }
         }
       }, this.size));
       children.push(h('li', {
-        class: ['owl-pagination-item next', this.currentPage === this.size && 'disabled'],
+        "class": ['owl-pagination-item next', this.currentPage === this.size && 'disabled'],
         on: {
           click: this.addPage
         }
       }, [h('span', {
-        class: 'owlfont owl-arrow-you'
+        "class": 'owlfont owl-arrow-you'
       })]));
       children.push(this.$slots.total || h('li', {
-        class: 'owl-pagination-total'
+        "class": 'owl-pagination-total'
       }, this.totalResult + ' in total'));
       return h('ul', {
-        class: 'owl-pagination'
+        "class": 'owl-pagination'
       }, children);
     }
-
   };
 
   Pagination.install = function (Vue) {
@@ -15240,19 +15521,167 @@ export default {
 
   var Form = {
     name: 'owlForm',
+    props: {
+      model: {
+        validator: function validator() {
+          return true;
+        }
+      },
+      size: {
+        "default": 'default',
+        validator: function validator(val) {
+          return ['large', 'default', 'small'].indexOf(val) !== -1;
+        }
+      },
+      labelPosition: {
+        "default": 'left',
+        validator: function validator(val) {
+          return ['right', 'top', 'left'].indexOf(val) !== -1;
+        }
+      },
+      inline: {
+        "default": false,
+        type: Boolean
+      },
+      width: {
+        "default": '100%',
+        type: [String, Number]
+      }
+    },
+    methods: {
+      validate: function validate(callback) {
+        var ret = true;
 
-    data() {
-      return {};
+        var _iterator = _createForOfIteratorHelper(this.$children),
+            _step;
+
+        try {
+          for (_iterator.s(); !(_step = _iterator.n()).done;) {
+            var child = _step.value;
+
+            if (child.validate) {
+              if (!child.validate()) {
+                ret = false;
+              }
+            }
+          }
+        } catch (err) {
+          _iterator.e(err);
+        } finally {
+          _iterator.f();
+        }
+
+        callback && callback(ret);
+      },
+      clearValidate: function clearValidate() {
+        var _iterator2 = _createForOfIteratorHelper(this.$children),
+            _step2;
+
+        try {
+          for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
+            var child = _step2.value;
+            child.resetError && child.resetError();
+          }
+        } catch (err) {
+          _iterator2.e(err);
+        } finally {
+          _iterator2.f();
+        }
+      }
+    },
+    render: function render(h) {
+      return h('div', {
+        "class": ['owl-form', 'label-position-' + this.labelPosition, this.inline && 'inline', 'owl-' + this.size],
+        style: {
+          width: typeof this.width === 'string' ? this.width : this.width + 'px'
+        }
+      }, this.$slots["default"]);
     }
-
   };
-  const FormItem = {
+  var FormItem = {
     name: 'owlFormItem',
+    props: {
+      label: String,
+      prop: String,
+      labelWidth: {
+        type: [String, Number],
+        "default": ''
+      },
+      rule: Array
+    },
+    data: function data() {
+      return {
+        error: '' // 错误提示，如果有值显示错误
 
-    data() {
-      return {};
+      };
+    },
+    methods: {
+      validate: function validate() {
+        if (this.rule && this.rule.length === 0) {
+          this.error = '';
+          return true;
+        }
+
+        var val = this.$parent.model[this.prop];
+
+        try {
+          var _iterator3 = _createForOfIteratorHelper(this.rule),
+              _step3;
+
+          try {
+            for (_iterator3.s(); !(_step3 = _iterator3.n()).done;) {
+              var item = _step3.value;
+
+              if (item.required) {
+                this.error = item.tip || 'please complete';
+                if (!val) return false;
+              }
+
+              if (item.validator && !item.validator(val)) {
+                this.error = item.tip;
+                return false;
+              }
+            }
+          } catch (err) {
+            _iterator3.e(err);
+          } finally {
+            _iterator3.f();
+          }
+        } catch (e) {
+          this.error = e;
+          return false;
+        }
+
+        this.error = '';
+        return true;
+      },
+      resetError: function resetError() {
+        this.error = '';
+      }
+    },
+    render: function render(h) {
+      var isRequire = this.rule && this.rule.length ? Boolean(this.rule.find(function (item) {
+        return item.required;
+      })) : false;
+      return h('div', {
+        "class": ['owl-form-item', this.error ? '--error' : '']
+      }, [h('div', {
+        "class": ['owl-form-label', isRequire && '--require'],
+        style: {
+          width: typeof this.labelWidth === 'string' ? this.labelWidth : this.labelWidth + 'px'
+        }
+      }, this.label || ''), h('div', {
+        "class": 'form-item-inner',
+        attrs: {
+          tabindex: '1'
+        },
+        on: {
+          '!focus': this.resetError
+        }
+      }, [h('div', this.$slots["default"]), h('div', {
+        "class": 'form-tip'
+      }, this.error)])]);
     }
-
   };
 
   Form.install = function (Vue) {
@@ -15260,32 +15689,32 @@ export default {
     Vue.component(FormItem.name, FormItem);
   };
 
-  const components = {
-    Button,
-    Swiper,
-    Label,
-    Tabs,
-    Input,
-    Slide,
-    Modal,
-    Proccess,
-    Select,
-    Collapse,
-    Checkbox,
+  var components = {
+    Button: Button,
+    Swiper: Swiper,
+    Label: Label,
+    Tabs: Tabs,
+    Input: Input,
+    Slide: Slide,
+    Modal: Modal,
+    Proccess: Proccess,
+    Select: Select,
+    Collapse: Collapse,
+    Checkbox: Checkbox,
     Date: Date$1,
-    Radio,
-    Pagination,
-    Form
+    Radio: Radio,
+    Pagination: Pagination,
+    Form: Form
   };
 
-  const install = function (Vue) {
-    for (let key in components) {
+  var install = function install(Vue) {
+    for (var key in components) {
       components[key].install(Vue);
     }
   };
 
   var OwlUI = {
-    install
+    install: install
   };
 
   var OwlTable = {

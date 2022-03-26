@@ -52,18 +52,17 @@ export default {
     }
   ],
   plugins: [
-    
     vue({
       css: true,
       compileTemplate: true,
       include: /\.vue$/,
       target: 'browser'
     }),
-    resolve(),
     babel({
       exclude: 'node_modules',
       babelHelpers: 'bundled'
     }),
+    resolve(),
     postcss({
       minimize: true,
       extract: 'bundle.dev.min.css'

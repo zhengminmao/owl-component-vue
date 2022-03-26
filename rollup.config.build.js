@@ -16,17 +16,14 @@ export default {
       file: 'dist/owlui.min.js',
       format: 'umd',
       name: 'file',
-      minify: true,
       assetFileNames: 'dist/assets'
     }
   ],
   plugins: [
-    resolve(),
     terser(),
+    resolve(),
     babel({
       exclude: 'node_modules',
-      include: 'lib',
-      babelHelpers: 'bundled'
     }),
     postcss({
       minimize: true,
