@@ -1,44 +1,96 @@
-import resolve from "@rollup/plugin-node-resolve";
-import babel from "@rollup/plugin-babel";
+import resolve from '@rollup/plugin-node-resolve';
+import babel from '@rollup/plugin-babel';
 import postcss from 'rollup-plugin-postcss'
-import { terser } from 'rollup-plugin-terser'
+import json from '@rollup/plugin-json'
+import livereload from 'rollup-plugin-livereload';  // 热重载
 import alias from '@rollup/plugin-alias';
-import path from "path";
-import commonjs from 'rollup-plugin-commonjs';
 import replace from 'rollup-plugin-replace'
+import path from 'path'
+import image from '@rollup/plugin-image'
+import vue from 'rollup-plugin-vue2'
+import html from '@rollup/plugin-html'
+import commonjs from 'rollup-plugin-commonjs';
 
 const resolveDir = dir => path.join(__dirname,dir)
 
+// 自定义html模板
+const htmlTemplate = function({title, attributes, publicPath, meta, bundle, files}){
+  return  `
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ${meta.map((item) => {
+      let props = ''
+      for (let key in item){
+        props += `${key}="${item[key]}" `
+      }
+      return `<meta ${props}>`
+    })}
+    <title>${title}</title>
+    ${files.css.map(item=> `<link rel="stylesheet" href="${publicPath+item.fileName}" />`)}
+  </head>
+  <body>
+    <div id="app"></div>
+    ${files.js.map(item=> `<script src="${publicPath+item.fileName}" ></script>`)}
+  </body>
+  </html>
+  `
+}
+
 export default {
-  input: './lib/index.js',
+  input: './src/index.js',
   output: [
     {
-      file: 'dist/owlui.min.js',
+      file: 'dist/bundle.dev.umd.js',
       format: 'umd',
       name: 'file',
-      assetFileNames: 'dist/assets'
+      minify: true,
+      sourcemap: true,
     }
   ],
   plugins: [
-    terser(),
-    resolve(),
+    vue({
+      css: true,
+      compileTemplate: true,
+      include: /\.vue$/,
+      target: 'browser'
+    }),
     babel({
       exclude: 'node_modules',
+      babelHelpers: 'bundled'
     }),
+    resolve(),
     postcss({
       minimize: true,
-      extract: 'owlui.min.css'
+      extract: 'bundle.dev.min.css'
     }),
     alias({
       entries: [
-        {find: '@', replacement: resolveDir('src')}
-      ]
+        {find: '@', replacement: resolveDir('src')},
+        {find: '@lib', replacement: resolveDir('lib')}
+      ],
+      'vue': require.resolve('vue/dist/vue.esm.js')
     }),
+    json(),
     replace({
-      'process.env.NODE_ENV': JSON.stringify('production')
+      'process.env.NODE_ENV': JSON.stringify('development')
     }),
+    image({
+      exclude: 'lib'
+    }),
+    html({
+      fileName: 'index.html',
+      title: 'owl-component-vue',
+      publicPath: '',
+      template: function(options) {
+        return htmlTemplate(options)
+      }
+    }),
+    livereload(),
     commonjs({
-      include: ['node_modules/highlight.js/**', 'node_modules/dayjs/**']
+      include: ['node_modules/highlight.js/**', 'node_modules/dayjs/**'],
     }),
   ]
 }
