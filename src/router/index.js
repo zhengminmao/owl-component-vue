@@ -1,6 +1,7 @@
 import VueRouter from "vue-router";
 import Vue from 'vue'
 import Home from '@/views/home.vue'
+import ColorIntro from '@/views/colorIntro.vue'
 import Swiper from '@/views/swiper.vue'
 import Label from '@/views/label.vue'
 import Tabs from '@/views/tabs.vue'
@@ -25,7 +26,16 @@ export const routes = [
     component: Home,
     meta: {
       slide: true,
-      title: 'Introduce 概述'
+      title: 'OwlUI 概述'
+    }
+  },
+  {
+    path: '/color-intro',
+    name: 'color-intro',
+    component: ColorIntro,
+    meta: {
+      slide: true,
+      title: '主题色'
     }
   },
   {

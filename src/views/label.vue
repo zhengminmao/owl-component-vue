@@ -47,8 +47,7 @@ export default {
     label="这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本" 
     ellipsis-bgm-color="#fff"
   /&gt;
-&lt;/template&gt;    
-      `,
+&lt;/template&gt;`,
       code2:`&lt;style&gt;
 .label1{
   background-color: #f7e8e8;
@@ -67,8 +66,7 @@ export default {
       ellipsis-color="#f7e8e8"
     /&gt;
   &lt;/div&gt;   
-&lt;/template&gt;       
-`
+&lt;/template&gt;`
     }
   }
 }
@@ -79,12 +77,16 @@ export default {
     width: 420px;
     padding: 20px;
     background-color: #fff;
+    font-size: 14px;
+  }
+  .owl-label{
+    font-size: 14px;
   }
   .label2{
-    padding: 20px;
+    padding: 4px 12px;
     background-color: #f7e8e8;
     .owl-label{
-      color: var(--owl-success-color)
+      color: var(--owl-success-color);
     }
   }
 }

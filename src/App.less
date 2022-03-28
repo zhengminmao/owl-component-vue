@@ -91,11 +91,32 @@
       margin-left: 260px;
       min-height: calc(100vh - 100px);
       padding: 12px;
+      p{
+        line-height: 1.8;
+        font-size: 14px;
+      }
     }
   }
   .footer{
     background-color: #999;
     height: 100px;
+  }
+  .hljs-doctag, .hljs-keyword, .hljs-meta .hljs-keyword, .hljs-template-tag, .hljs-template-variable, .hljs-type, .hljs-variable.language_{
+    color: var(--owl-primary-color);
+  }
+  code{
+    font-size: 14px;
+    background-color: rgb(245,245,245);
+    display: block;
+    padding: 24px 22px;
+    border: 1px solid #e1e1e1;
+    color: #666;
+    white-space: pre;
+    line-height: 1.6;
+    .light{
+      font-weight: bold;
+      color: var(--owl-primary-color);
+    }
   }
 }
 

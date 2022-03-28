@@ -11481,8 +11481,41 @@
 
   var Home = {
   render: function(){var _vm=this;var _h=_vm.$createElement;_vm._self._c||_h;return _vm._m(0)},
-  staticRenderFns: [function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home-page"},[_c('h2',[_vm._v("Introduce 概述")]),_vm._v(" "),_c('p',[_vm._v("Owl Component Vue组件库是由"),_c('a',{attrs:{"href":"https://www.msoffer.hk","target":"__blank"}},[_vm._v("MSO海外升学智选平台")]),_vm._v("提取出来的通用组件，因此专门服务于MSO，为MSO量身定做，大部分组件剔除了其它组件库不必要的功能，因此载入JS和CSS的包资源小。")]),_vm._v(" "),_c('p',[_vm._v("作者水平有限，组件库的代码仅供参考和学习")])])}],
-    
+  staticRenderFns: [function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home-page"},[_c('h2',[_vm._v("Introduce 概述")]),_vm._v(" "),_c('p',[_vm._v("Owl Component Vue组件库是由"),_c('a',{attrs:{"href":"https://www.msoffer.hk","target":"__blank"}},[_vm._v("MSO海外升学智选平台")]),_vm._v("提取出来的通用组件，因此专门服务于MSO，为MSO量身定做，大部分组件剔除了其它组件库不必要的功能，因此载入JS和CSS的包资源小。")]),_vm._v(" "),_c('p',[_vm._v("作者水平有限，组件库的代码仅供参考和学习")]),_vm._v(" "),_c('h3',[_vm._v("npm 安装")]),_vm._v(" "),_c('p',[_vm._v("推荐使用 npm 的方式安装，它能更好地和 "),_c('a',{attrs:{"href":"https://webpack.docschina.org/concepts/","target":"__blank"}},[_vm._v("webpack")]),_vm._v(" 打包工具配合使用。")]),_vm._v(" "),_c('code',{staticClass:"code"},[_c('span',[_vm._v("npm install owl-component-vue")])]),_vm._v(" "),_c('h3',[_vm._v("引入 OwlUI")]),_vm._v(" "),_c('p',[_vm._v("你可以引入整个组件，或是根据需要仅引入部分组件。我们先介绍如何引入完整的组件")]),_vm._v(" "),_c('code',{staticClass:"code",attrs:{"id":"code1"}})])}],
+    mounted(){
+      const dom1 = document.querySelector('#code1');
+      dom1.innerHTML = this.$hljs.highlight(`import Vue from 'vue';
+import OwlUI from 'owl-component-vue';
+import 'mso-component-vue/dist/owlui.min.css';
+import App from './App.vue';
+
+Vue.use(OwlUI);
+
+new Vue({
+  el: '#app',
+  render: h => h(App)
+});`, {language: 'javascript'}).value;
+    }
+  };
+
+  var ColorIntro = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;_vm._self._c||_h;return _vm._m(0)},
+  staticRenderFns: [function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"color-intro-page"},[_c('h2',[_vm._v("主题色介绍")]),_vm._v(" "),_c('p',[_vm._v("OwlUI 使用css变量存储通用颜色，具体如下:")]),_vm._v(" "),_c('code',{attrs:{"id":"code1"}}),_vm._v(" "),_c('p',[_vm._v("如果要更换样式可以覆盖css样式，如果要实现动态切换功能可以在body标签的style属性注入替换样式值")])])}],
+    mounted(){
+      const dom1 = document.querySelector('#code1');
+      dom1.innerHTML = this.$hljs.highlight(`:root{
+  --owl-primary-color: #0076d1;           // 主色
+  --owl-primary-darken-color: #006abd;    // 鼠标点击时的暗色，同css的触发:active伪类属性
+  --owl-primary-lighten-color: #0082e5;   // 鼠标移动到组件上时的颜色，同css的触发:hover伪类属性
+  --owl-primary-bgm-color: rgba(0,118,209,.1); // 普通背景色
+  --owl-success-color: #ff9600;           // 副色或者成功状态色
+  --owl-success-darken-color: #e08400;
+  --owl-success-lighten-color: #ffa31f;
+  --owl-error-color: #e93f27;             // 危险、警告状态色
+  --owl-error-darken-color: #db2f16;
+  --owl-error-lighten-color: #ec5843;
+}`, {language: 'css'}).value;
+    }
   };
 
   var Swiper$1 = {
@@ -11548,8 +11581,7 @@
     label="这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本" 
     ellipsis-bgm-color="#fff"
   /&gt;
-&lt;/template&gt;    
-      `,
+&lt;/template&gt;`,
         code2:`&lt;style&gt;
 .label1{
   background-color: #f7e8e8;
@@ -11568,8 +11600,7 @@
       ellipsis-color="#f7e8e8"
     /&gt;
   &lt;/div&gt;   
-&lt;/template&gt;       
-`
+&lt;/template&gt;`
       }
     }
   };
@@ -12572,7 +12603,15 @@ export default {
     component: Home,
     meta: {
       slide: true,
-      title: 'Introduce 概述'
+      title: 'OwlUI 概述'
+    }
+  }, {
+    path: '/color-intro',
+    name: 'color-intro',
+    component: ColorIntro,
+    meta: {
+      slide: true,
+      title: '主题色'
     }
   }, {
     meta: {
@@ -15748,6 +15787,74 @@ export default {
           key: jndex
         }, item[jtem.key])));
       })]);
+    }
+
+  };
+
+  var OwlCodeExaple = {
+    props: {
+      code: String,
+      introduce: {
+        default: '',
+        type: String
+      }
+    },
+
+    data() {
+      return {
+        showCode: false,
+        codeHeight: 0
+      };
+    },
+
+    computed: {
+      highlightedCode() {
+        if (!this.code) return '';
+        let cpCode = this.code.replace(/\&lt;/g, '<').replace(/\&gt;/g, '>');
+        return this.$hljs.highlight(cpCode, {
+          language: 'javascript'
+        }).value;
+      },
+
+      currentCodeHeight() {
+        if (!this.showCode) return 0;
+        return this.codeHeight;
+      }
+
+    },
+
+    mounted() {
+      this.$nextTick(() => {
+        this.codeHeight = this.$refs.codeDom.clientHeight;
+      });
+    },
+
+    render(h) {
+      return h('div', {
+        class: 'owl-example'
+      }, [h('div', {
+        class: 'sample'
+      }, this.$slots.default), this.$slots.introduce || this.introduce ? h('div', {
+        class: 'introduce'
+      }, this.$slots.introduce || this.introduce) : null, h('div', {
+        class: 'code-wrap',
+        style: {
+          height: this.currentCodeHeight + 'px'
+        }
+      }, [h('code', {
+        class: 'owl-code',
+        ref: 'codeDom',
+        domProps: {
+          innerHTML: this.highlightedCode
+        }
+      })]), h('div', {
+        class: ['owl-arrow-wrap', this.showCode && 'active'],
+        on: {
+          click: () => this.showCode = !this.showCode
+        }
+      }, [h('span', {
+        class: 'arrow'
+      }), !this.showCode ? '显示代码' : '隐藏代码'])]);
     }
 
   };
@@ -38047,77 +38154,10 @@ export default {
   }
 
   lib.registerLanguage('javascript', javascript);
-  var OwlCodeExaple = {
-    props: {
-      code: String,
-      introduce: {
-        default: '',
-        type: String
-      }
-    },
-
-    data() {
-      return {
-        showCode: false,
-        codeHeight: 0
-      };
-    },
-
-    computed: {
-      highlightedCode() {
-        if (!this.code) return '';
-        let cpCode = this.code.replace(/\&lt;/g, '<').replace(/\&gt;/g, '>');
-        return lib.highlight(cpCode, {
-          language: 'javascript'
-        }).value;
-      },
-
-      currentCodeHeight() {
-        if (!this.showCode) return 0;
-        return this.codeHeight;
-      }
-
-    },
-
-    mounted() {
-      this.$nextTick(() => {
-        this.codeHeight = this.$refs.codeDom.clientHeight;
-      });
-    },
-
-    render(h) {
-      return h('div', {
-        class: 'owl-example'
-      }, [h('div', {
-        class: 'sample'
-      }, this.$slots.default), this.$slots.introduce || this.introduce ? h('div', {
-        class: 'introduce'
-      }, this.$slots.introduce || this.introduce) : null, h('div', {
-        class: 'code-wrap',
-        style: {
-          height: this.currentCodeHeight + 'px'
-        }
-      }, [h('code', {
-        class: 'owl-code',
-        ref: 'codeDom',
-        domProps: {
-          innerHTML: this.highlightedCode
-        }
-      })]), h('div', {
-        class: ['owl-arrow-wrap', this.showCode && 'active'],
-        on: {
-          click: () => this.showCode = !this.showCode
-        }
-      }, [h('span', {
-        class: 'arrow'
-      }), !this.showCode ? '显示代码' : '隐藏代码'])]);
-    }
-
-  };
-
   Vue.component('owl-table', OwlTable);
   Vue.component('owl-code-example', OwlCodeExaple);
   Vue.use(OwlUI);
+  Vue.prototype.$hljs = lib;
   new Vue({
     router: router,
     render: h => h(App)

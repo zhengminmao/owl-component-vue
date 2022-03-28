@@ -1,8 +1,5 @@
 import './codeExample.less'
-import 'highlight.js/styles/github.css';
-import hljs from 'highlight.js';
-import javascript from 'highlight.js/lib/languages/javascript';
-hljs.registerLanguage('javascript', javascript);
+
 
 export default {
   props:{
@@ -22,7 +19,7 @@ export default {
     highlightedCode(){
       if(!this.code) return '';
       let cpCode = this.code.replace(/\&lt;/g, '<').replace(/\&gt;/g, '>')
-      return hljs.highlight(cpCode, {language: 'javascript'}).value
+      return this.$hljs.highlight(cpCode, {language: 'javascript'}).value
     },
     currentCodeHeight(){
       if(!this.showCode) return 0;
