@@ -17,6 +17,7 @@ import Button from "@/views/button.vue";
 import Radio from "@/views/radio.vue";
 import Pagination from "@/views/pagination.vue";
 import Form from "@/views/form.vue";
+import Popover from "@/views/popover.vue";
 Vue.use(VueRouter)
 
 export const routes = [
@@ -182,6 +183,16 @@ export const routes = [
       slide: true
     }
   },
+  {
+    path: '/popover',
+    name: 'popover',
+    component: Popover,
+    meta: {
+      title: 'Popover 气泡卡片',
+      slide: true
+    }
+  },
+  
 ]
 export default new VueRouter({
   mode: 'hash',

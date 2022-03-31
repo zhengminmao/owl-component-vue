@@ -30,12 +30,3 @@ new Vue({
   }
 }
 </script>
-
-<style lang="less">
-.home-page{
-  p{
-    line-height: 1.8;
-    font-size: 14px;
-  }
-}
-</style>

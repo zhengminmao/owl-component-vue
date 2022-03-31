@@ -8445,6 +8445,26 @@
     }, 0);
   }
 
+  function getOffset(dom) {
+    function getParent(dom) {
+      var offsetTop = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+      var offsetLeft = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
+
+      if (dom.offsetParent) {
+        offsetTop += dom.offsetParent.offsetTop;
+        offsetLeft += dom.offsetParent.offsetLeft;
+        getParent(dom.offsetParent, offsetTop, offsetLeft);
+      }
+
+      return {
+        offsetTop: offsetTop,
+        offsetLeft: offsetLeft
+      };
+    }
+
+    return getParent(dom, dom.offsetTop, dom.offsetLeft);
+  }
+
   var img = "data:image/png;base64,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UmVhZHlxyWU8AAADhGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOmMxN2IyNTIxLThhZTItMzQ0ZC05MTUwLTllYzJmNmFiNDZkZiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyMTEwRTg1NEIzOUIxMUVCOEIxNkM5MzBDRTY0QTdCNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyMTEwRTg1M0IzOUIxMUVCOEIxNkM5MzBDRTY0QTdCNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4NjAxZjJkNC03OGZmLTZiNGQtYTJiMC0wMzkyNzU0Njk1YWUiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDowMzBlMTQzNy0zNjJjLWRkNGYtYjNhYS02MjlmY2FkNGRmMjkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/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";
 
   /*!
@@ -12596,6 +12616,54 @@ export default {
     }
   };
 
+  var Popover$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("气泡卡片 Popover")]),_vm._v(" "),_c('p',[_vm._v("当用户触发弹出popover后，接着再触发一个popover会关闭之前的popover")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('owl-popover',{attrs:{"trigger":"click"}},[_c('owl-button',[_vm._v("click me")]),_vm._v(" "),_c('template',{slot:"cover"},[_c('div',{staticClass:"owl-menu-item"},[_vm._v("菜单一")]),_vm._v(" "),_c('div',{staticClass:"owl-menu-item"},[_vm._v("菜单二")])])],2),_vm._v(" "),_c('owl-popover',{attrs:{"trigger":"hover"}},[_c('owl-button',[_vm._v("hover me")]),_vm._v(" "),_c('template',{slot:"cover"},[_c('div',{staticClass:"owl-menu-item"},[_vm._v("菜单一")]),_vm._v(" "),_c('div',{staticClass:"owl-menu-item"},[_vm._v("菜单二")])])],2)],1),_vm._v(" "),_c('h3',[_vm._v("箭头")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('p',{staticClass:"subtitle"},[_vm._v("电话：")]),_vm._v(" "),_c('owl-input',{attrs:{"placeholder":"请输入电话"},model:{value:(_vm.phone),callback:function ($$v) {_vm.phone=$$v;},expression:"phone"}},[_c('owl-popover',{attrs:{"slot":"prefix","text-arrow":"","cover-arrow":"","trigger":"click"},slot:"prefix"},[_c('span',[_vm._v("+"+_vm._s(_vm.region))]),_vm._v(" "),_c('template',{slot:"cover"},[_c('div',{staticClass:"owl-menu-item",on:{"click":function($event){_vm.region = 86;}}},[_vm._v("+86")]),_vm._v(" "),_c('div',{staticClass:"owl-menu-item",on:{"click":function($event){_vm.region = 854;}}},[_vm._v("+854")])])],2)],1)],1),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        region: '86',
+        code: `&lt;template&gt;
+  <owl-popover trigger="click">
+    <owl-button>click me</owl-button>
+    <template slot="cover">
+      <div class="owl-menu-item">菜单一</div>
+      <div class="owl-menu-item">菜单二</div>
+    </template>
+  </owl-popover>
+  <owl-popover trigger="hover">
+    <owl-button>hover me</owl-button>
+    <template slot="cover">
+      <div class="owl-menu-item">菜单一</div>
+      <div class="owl-menu-item">菜单二</div>
+    </template>
+  </owl-popover>
+&lt;/template&gt;`,
+        code1:`&lt;template&gt;
+  <owl-input v-model="phone" placeholder="请输入电话">
+    <owl-popover text-arrow cover-arrow trigger="click" slot="prefix">
+      <span>+86</span>
+      <template slot="cover">
+        <div class="owl-menu-item">+86</div>
+        <div class="owl-menu-item">+854</div>
+      </template>
+    </owl-popover>
+  </owl-input>
+&lt;/template&gt;`,
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '默认值', key: 'default'},
+          {title: '说明', key: 'introduce'},
+        ],
+        list: [
+          {name: 'trriger', types: 'click|hover', default: 'click', introduce: '触发条件'},
+          {name: 'textArrow', types: 'boolean', default: 'false', introduce: '是否在内容上显示下拉icon'},
+          {name: 'coverArrow', types: 'boolean', default: 'false', introduce: '是否在弹出层上显示arrow'},
+        ],
+      }
+    }
+  };
+
   Vue.use(VueRouter$1);
   const routes = [{
     path: '/',
@@ -12745,13 +12813,21 @@ export default {
       title: 'Proccess 进度条',
       slide: true
     }
+  }, {
+    path: '/popover',
+    name: 'popover',
+    component: Popover$1,
+    meta: {
+      title: 'Popover 气泡卡片',
+      slide: true
+    }
   }];
   var router = new VueRouter$1({
     mode: 'hash',
     routes: routes.filter(item => !!item.component)
   });
 
-  var Slider = {
+  const Slider = {
     data() {
       return {
         list: [],
@@ -12763,7 +12839,7 @@ export default {
       this.list = routes.filter(item => item.meta.slide);
     },
 
-    render: function (h) {
+    render(h) {
       return h('div', {
         class: 'slider'
       }, this.list.map(item => {
@@ -12782,10 +12858,69 @@ export default {
         })]);
       }));
     }
+
+  };
+  const ContentNav = {
+    data() {
+      return {
+        navList: []
+      };
+    },
+
+    watch: {
+      '$route'() {
+        this.getH3Dom();
+      }
+
+    },
+
+    mounted() {
+      this.getH3Dom();
+    },
+
+    methods: {
+      getH3Dom() {
+        const articleContent = document.querySelector('#article-content');
+        const doms = articleContent.querySelectorAll('h3').entries();
+        let navList = [];
+
+        for (let dom of doms) {
+          navList.push({
+            txt: dom[1].innerText,
+            dom: dom[1]
+          });
+        }
+
+        this.navList = navList;
+      },
+
+      goToDom(dom) {
+        const offset = getOffset(dom);
+        window.scroll({
+          top: offset.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      }
+
+    },
+
+    render(h) {
+      return h('div', {
+        class: 'content-nav'
+      }, this.navList.map((item, key) => h('div', {
+        key,
+        class: 'nav-item',
+        on: {
+          click: () => this.goToDom(item.dom)
+        }
+      }, [item.txt])));
+    }
+
   };
   var App = {
     components: {
-      'slider': Slider
+      'slider': Slider,
+      'content-nav': ContentNav
     },
     methods: {
       clickHandler() {
@@ -12822,10 +12957,31 @@ export default {
         style: {
           'font-size': '20px'
         }
-      })])])]), h('div', {
+      })]), h('a', {
+        attrs: {
+          'target': '__blank',
+          href: 'https://github.com/zhengminmao/owl-component-vue'
+        }
+      }, [h('svg', {
+        class: 'github-icon',
+        attrs: {
+          height: '28',
+          width: '28',
+          version: '1.1',
+          viewBox: "0 0 16 16"
+        }
+      }, [h('path', {
+        attrs: {
+          'fill-rule': 'evenodd',
+          'd': 'M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z'
+        }
+      })])])])]), h('div', {
         class: 'content'
-      }, [h('slider'), h('div', {
-        class: 'main'
+      }, [h('slider'), h('content-nav'), h('div', {
+        class: 'main',
+        attrs: {
+          id: 'article-content'
+        }
       }, [h('router-view')])]), h('footer', {
         class: 'footer'
       })]);
@@ -13385,7 +13541,7 @@ export default {
     render: function render(h) {
       var _this = this;
 
-      return h('label', {
+      return h('div', {
         "class": ['owl-input', this.showTip && 'error', this.border && 'border', 'owl-' + this.size]
       }, [this.$slots.prefix, h('input', {
         "class": 'input',
@@ -13398,10 +13554,20 @@ export default {
         },
         on: {
           input: function input(e) {
-            return _this.onInput(e.target.value);
+            e.stopPropagation();
+
+            _this.onInput(e.target.value);
           },
-          focus: this.onFocus,
-          blur: this.onBlur
+          focus: function focus(e) {
+            e.stopPropagation();
+
+            _this.onFocus();
+          },
+          blur: function blur(e) {
+            e.stopPropagation();
+
+            _this.onBlur();
+          }
         }
       }), this.$slots.suffix ? this.$slots.suffix : this.type !== 'password' ? this.value && h('span', {
         "class": 'suffix-icon owlfont owl-close',
@@ -13821,26 +13987,6 @@ export default {
   Proccess.install = function (Vue) {
     Vue.component(Proccess.name, Proccess);
   };
-
-  function getOffset(dom) {
-    function getParent(dom) {
-      var offsetTop = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
-      var offsetLeft = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
-
-      if (dom.offsetParent) {
-        offsetTop += dom.offsetParent.offsetTop;
-        offsetLeft += dom.offsetParent.offsetLeft;
-        getParent(dom.offsetParent, offsetTop, offsetLeft);
-      }
-
-      return {
-        offsetTop: offsetTop,
-        offsetLeft: offsetLeft
-      };
-    }
-
-    return getParent(dom, dom.offsetTop, dom.offsetLeft);
-  }
 
   var currentSelect = null; // 用一个全局变量存select
 
@@ -15728,6 +15874,115 @@ export default {
     Vue.component(FormItem.name, FormItem);
   };
 
+  var Popover = {
+    name: 'owlPopover',
+    components: {
+      OwlSelectCover: OwlSelectCover
+    },
+    props: {
+      trigger: {
+        "default": 'click',
+        validator: function validator(val) {
+          return ['click', 'hover'].indexOf(val) !== -1;
+        }
+      },
+      textArrow: Boolean,
+      coverArrow: Boolean
+    },
+    data: function data() {
+      return {
+        visible: false,
+        left: 0,
+        top: 0,
+        time: ''
+      };
+    },
+    mounted: function mounted() {
+      var dom = this.$refs.owlPopoverRef;
+      var offset = getOffset(dom);
+      this.left = offset.offsetLeft;
+      this.top = dom.clientHeight + offset.offsetTop + 8;
+    },
+    methods: {
+      hoverChange: function hoverChange(val) {
+        var _this = this;
+
+        if (this.trigger !== 'hover') return;
+        this.time && clearTimeout(this.time);
+
+        if (val) {
+          this.visible = val;
+        } else {
+          this.time = setTimeout(function () {
+            window.requestAnimationFrame(function () {
+              _this.visible = val;
+            });
+          }, 300);
+        }
+      }
+    },
+    render: function render(h) {
+      var _this2 = this;
+
+      var wrapDom = h('div', {
+        on: {
+          click: function click(e) {
+            e.stopPropagation();
+            _this2.visible = false;
+          },
+          '!mouseenter': function mouseenter() {
+            return _this2.hoverChange(true);
+          },
+          '!mouseout': function mouseout() {
+            return _this2.hoverChange(false);
+          }
+        },
+        "class": 'owl-popover-cover-box',
+        style: {
+          left: this.left + 'px',
+          top: this.top + 'px'
+        }
+      }, [this.coverArrow ? h('span', {
+        "class": 'arrow'
+      }) : '', h('div', {
+        "class": '--propover-cover-wrap'
+      }, this.$slots.cover)]);
+      return h('div', {
+        "class": 'owl-popover'
+      }, [h('owl-select-cover', {
+        props: {
+          visible: this.visible
+        },
+        on: {
+          change: function change(val) {
+            return _this2.visible = val;
+          }
+        }
+      }, [wrapDom]), h('div', {
+        "class": 'owl-popover-content',
+        ref: 'owlPopoverRef',
+        on: {
+          'click': function click(e) {
+            e.stopPropagation();
+            _this2.trigger === 'click' && (_this2.visible = !_this2.visible);
+          },
+          '!mouseenter': function mouseenter() {
+            return _this2.hoverChange(true);
+          },
+          '!mouseout': function mouseout() {
+            return _this2.hoverChange(false);
+          }
+        }
+      }, [this.$slots["default"], this.textArrow ? h('span', {
+        "class": ['owlfont owl-arrow-xia --popover-content-arrow', this.visible && 'active']
+      }) : ''])]);
+    }
+  };
+
+  Popover.install = function (Vue) {
+    Vue.component(Popover.name, Popover);
+  };
+
   var components = {
     Button: Button,
     Swiper: Swiper,
@@ -15743,7 +15998,8 @@ export default {
     Date: Date$1,
     Radio: Radio,
     Pagination: Pagination,
-    Form: Form
+    Form: Form,
+    Popover: Popover
   };
 
   var install = function install(Vue) {

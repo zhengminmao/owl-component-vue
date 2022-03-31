@@ -20,11 +20,12 @@
       max-width: 1280px;
       margin: 0 auto;
       width: 100%;
-      padding: 0 48px;
+      padding:0 24px;
       height: 100%;
       .slide-search{
         width: 240px;
         margin-left: auto;
+        margin-right: 24px;
         input { font-size: 14px; }
       }
       .office-tit{
@@ -51,7 +52,7 @@
       position: sticky;
       top: 88px;
       padding: 12px 0;
-      overflow-y: auto;
+      overflow: hidden;
       .subtitle{
         padding: 10px 0 10px 32px;
         margin: 4px 0;
@@ -86,15 +87,44 @@
           background-color: var(--owl-primary-bgm-color);
         }
       }
+      &:hover{
+        overflow-y: auto;
+      }
     }
     .main{
       margin-left: 260px;
+      margin-right: 120px;
       min-height: calc(100vh - 100px);
       padding: 12px;
       p{
         line-height: 1.8;
         font-size: 14px;
       }
+    }
+    .content-nav{
+      float: right;
+      width: 120px;
+      box-sizing: border-box;
+      background-color: #fff;
+      border-left: 1px solid #e1e1e1;
+      padding: 6px 18px;
+      padding-right: 0;
+      position: fixed;
+      top: 100px;
+      right: calc(100% / 2 - 640px);
+      .nav-item{
+        padding: 6px 0;
+        font-size: 14px;
+        color: #333;
+        cursor: pointer;
+        transition: color .25s;
+        &:hover{
+          color: var(--owl-primary-color)
+        }
+      }
+    }
+    &::after{
+      clear: both;
     }
   }
   .footer{
@@ -119,6 +149,14 @@
     }
   }
 }
-
+@media screen and(max-width: 1280px) {
+  .owl-container{
+    .content{
+      .content-nav{
+        right: 0;
+      }
+    }
+  }
+}
 
 
