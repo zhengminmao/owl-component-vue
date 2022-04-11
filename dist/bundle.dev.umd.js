@@ -8464,6 +8464,18 @@
 
     return getParent(dom, dom.offsetTop, dom.offsetLeft);
   }
+  function throttleFunc(fn) {
+    var time = false;
+    return function (e) {
+      if (!time) {
+        time = true;
+        window.requestAnimationFrame(function () {
+          fn(e);
+          time = false;
+        });
+      }
+    };
+  }
 
   var img = "data:image/png;base64,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UmVhZHlxyWU8AAADhGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOmMxN2IyNTIxLThhZTItMzQ0ZC05MTUwLTllYzJmNmFiNDZkZiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyMTEwRTg1NEIzOUIxMUVCOEIxNkM5MzBDRTY0QTdCNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyMTEwRTg1M0IzOUIxMUVCOEIxNkM5MzBDRTY0QTdCNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4NjAxZjJkNC03OGZmLTZiNGQtYTJiMC0wMzkyNzU0Njk1YWUiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDowMzBlMTQzNy0zNjJjLWRkNGYtYjNhYS02MjlmY2FkNGRmMjkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/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";
 
@@ -12052,8 +12064,7 @@ export default {
       }
     }
   }
-&lt;/script&gt;
-`,
+&lt;/script&gt;`,
         code1: `&lt;template&gt;
   <p>选择英语成绩类型：已选择{{value3.join(',')}}</p>
   <owl-select :list="list2" v-model="value3" :config="config" :multiple="true" ></owl-select>  
@@ -12664,8 +12675,130 @@ export default {
     }
   };
 
+  var Affix$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Affix 固钉")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('p',[_vm._v("当组件消失时，固定到顶部")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code}},[_c('owl-affix',{attrs:{"offset-top":100}},[_c('owl-button',[_vm._v("Affix top")])],1)],1),_vm._v(" "),_c('div',{staticStyle:{"height":"500px","background":"linear-gradient(131deg, #00000000, #0000000d, #00000000)","margin":"12px 0"}}),_vm._v(" "),_c('p',[_vm._v("当组件消失时，固定到底部")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-affix',{attrs:{"offset-bottom":100}},[_c('owl-button',[_vm._v("Affix Bottom")])],1)],1),_vm._v(" "),_c('h3',[_vm._v("Affix 属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}})],1)},
+  staticRenderFns: [],
+    data(){
+      return {
+        code: `&lt;template&gt;
+  <owl-affix :offset-top="100"><owl-button>Affix top</owl-button></owl-affix>
+&lt;/template&gt;`,
+        code1: `&lt;template&gt;
+  <owl-affix :offset-bottom="100"><owl-button>Affix Bottom</owl-button></owl-affix>
+&lt;/template&gt;`,
+        propsCol: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '默认', key: 'default'},
+          {title: '说明', key: 'introduce'},
+        ],
+        propsData: [
+          {name: 'offsetTop', types: 'number', default: '', introduce: '固定距离到顶部多少距离'},
+          {name: 'offsetBottom', types: 'number', default: '', introduce: '固定距离到底部多少距离'},
+        ],
+      }
+    }
+  };
+
+  var Message$1 = {
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Message 消息")]),_vm._v(" "),_c('h3',[_vm._v("基本用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-button',{on:{"click":function($event){return _vm.showMessage('info')}}},[_vm._v("弹出info消息")]),_vm._v(" "),_c('br'),_c('br'),_vm._v(" "),_c('owl-button',{attrs:{"type":"success"},on:{"click":function($event){return _vm.showMessage('success')}}},[_vm._v("弹出success消息")]),_vm._v(" "),_c('br'),_c('br'),_vm._v(" "),_c('owl-button',{attrs:{"type":"error"},on:{"click":function($event){return _vm.showMessage('error')}}},[_vm._v("弹出error消息")]),_vm._v(" "),_c('br'),_c('br'),_vm._v(" "),_c('owl-button',{on:{"click":function($event){return _vm.showMessage('loading')}}},[_vm._v("弹出loading消息")])],1),_vm._v(" "),_c('h3',[_vm._v("自定义关闭时间")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-button',{attrs:{"search":"","loading":_vm.loading},on:{"click":_vm.showMessage1}},[_vm._v("搜索")])],1),_vm._v(" "),_c('h3',[_vm._v("快捷指令")]),_vm._v(" "),_c('p',[_vm._v("可以使用以下快捷指令打开相对应的消息类型。当参数有三个时，分别时内容，key和时间，如果是两个则是内容和时间")]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
+  staticRenderFns: [function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('code',[_vm._v("this.$message.info(content, key, duration)"),_c('br'),_vm._v("this.$message.info(content, key, duration)"),_c('br'),_vm._v("this.$message.error(content, key, duration)"),_c('br'),_vm._v("this.$message.loading(content, key, duration)")])}],
+    data(){
+      return {
+        loading: false,
+        code1: `&lt;template&gt;
+  <owl-button @click="showMessage('info')">弹出info消息</owl-button>
+  <br/><br/>
+  <owl-button @click="showMessage('success')" type="success">弹出success消息</owl-button>
+  <br/><br/>
+  <owl-button @click="showMessage('error')" type="error">弹出error消息</owl-button>
+  <br/><br/>
+  <owl-button @click="showMessage('loading')">弹出loading消息</owl-button>
+&lt;/template&gt;
+&lt;script&gt;
+  export default {
+    methods:{
+      showMessage(type){
+        this.$message({
+          type,
+          content: \`这是一条\${type}消息\`
+        })
+      },
+    }
+  }
+&lt;/script&gt;`,
+        code2:`&lt;template&gt;
+  <owl-button @click="showMessage1" search :loading="loading">搜索</owl-button>
+&lt;/template&gt;
+&lt;script&gt;
+  export default {
+    data(){
+      return {
+        loading: false
+      }
+    },
+    methods:{
+      showMessage1(){
+        this.$message({
+          type: 'loading',
+          content: '数据加载中...',
+          duration: 0,
+        }).then(res=>{
+          this.loading = true;
+          setTimeout(()=>{
+            this.loading = false;
+            res()
+          }, 4500)
+        })
+      }
+    }
+  }
+&lt;/script&gt; `,
+        columns: [
+          {title: '名称', key: 'name'},
+          {title: '类型', key: 'types'},
+          {title: '默认值', key: 'default'},
+          {title: '说明', key: 'introduce'},
+        ],
+        list: [
+          {name: 'params.key', types: 'string', default:'Date.now()', introduce: '消息key'},
+          {name: 'params.type', types: 'info|error|success|loading', default: 'info', introduce: '消息类型'},
+          {name: 'params.content', types: 'string', introduce: '内容'},
+          {name: 'params.duration', types: 'number', default: '2000', introduce: '消息存在时间，单位毫秒'},
+        ],
+      }
+    },
+    methods: {
+      showMessage(type){
+        this.$message({
+          type,
+          content: `这是一条${type}消息`
+        });
+      },
+      showMessage1(){
+        this.$message({
+          type: 'loading',
+          content: '数据加载中...',
+          duration: 0,
+        }).then(res=>{
+          this.loading = true;
+          setTimeout(()=>{
+            this.loading = false;
+            res();
+          }, 4500);
+        });
+      }
+    }
+  };
+
   Vue.use(VueRouter$1);
   const routes = [{
+    meta: {
+      title: '介绍',
+      slide: true,
+      subtitle: true
+    }
+  }, {
     path: '/',
     name: 'home',
     component: Home,
@@ -12798,6 +12931,14 @@ export default {
       slide: true
     }
   }, {
+    path: '/message',
+    name: 'message',
+    component: Message$1,
+    meta: {
+      title: 'Message 消息',
+      slide: true
+    }
+  }, {
     path: '/collapse',
     name: 'collapse',
     component: Collapse$1,
@@ -12819,6 +12960,14 @@ export default {
     component: Popover$1,
     meta: {
       title: 'Popover 气泡卡片',
+      slide: true
+    }
+  }, {
+    path: '/affix',
+    name: 'affix',
+    component: Affix$1,
+    meta: {
+      title: 'Affix 固钉',
       slide: true
     }
   }];
@@ -14320,6 +14469,47 @@ export default {
   Select.install = function (Vue) {
     Vue.component(Select.name, Select);
   };
+
+  function ownKeys(object, enumerableOnly) {
+    var keys = Object.keys(object);
+
+    if (Object.getOwnPropertySymbols) {
+      var symbols = Object.getOwnPropertySymbols(object);
+      enumerableOnly && (symbols = symbols.filter(function (sym) {
+        return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+      })), keys.push.apply(keys, symbols);
+    }
+
+    return keys;
+  }
+
+  function _objectSpread2(target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = null != arguments[i] ? arguments[i] : {};
+      i % 2 ? ownKeys(Object(source), !0).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+
+    return target;
+  }
+
+  function _defineProperty(obj, key, value) {
+    if (key in obj) {
+      Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+      });
+    } else {
+      obj[key] = value;
+    }
+
+    return obj;
+  }
 
   function _toConsumableArray(arr) {
     return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
@@ -15983,6 +16173,302 @@ export default {
     Vue.component(Popover.name, Popover);
   };
 
+  var Affix = {
+    name: 'OwlAffix',
+    props: {
+      offsetBottom: {
+        required: false,
+        type: Number
+      },
+      offsetTop: {
+        required: false,
+        type: Number
+      },
+      target: {
+        required: false,
+        type: Function,
+        "default": function _default() {
+          return window;
+        }
+      }
+    },
+    data: function data() {
+      return {
+        resizeObserver: undefined,
+        domOffsetTop: 0,
+        style: {}
+      };
+    },
+    mounted: function mounted() {
+      var childDom = this.$refs.affixWrap;
+      this.domOffsetTop = childDom.offsetTop;
+      this.resizeObserver = new ResizeObserver(this.ResizeObserverCall);
+      this.resizeObserver.observe(childDom);
+      var scrollDom = this.target();
+      this.onScroll = throttleFunc(this.onScroll);
+      this.getPosition = throttleFunc(this.getPosition);
+      scrollDom.addEventListener('scroll', this.onScroll);
+      scrollDom.addEventListener('resize', this.onScroll);
+    },
+    beforeDestroy: function beforeDestroy() {
+      this.resizeObserver.disconnect();
+      this.target().removeEventListener('scroll', this.onScroll);
+      this.target().removeEventListener('resize', this.onScroll);
+    },
+    methods: {
+      onScroll: function onScroll() {
+        this.getPosition();
+      },
+      getPosition: function getPosition() {
+        var clientRect = this.$refs.affixWrap.getBoundingClientRect();
+        var style = {
+          position: '',
+          top: '',
+          bottom: '',
+          width: clientRect.width,
+          height: clientRect.height
+        };
+        var scrollDom = this.target() === window ? window.document.scrollingElement : this.target();
+        var scrollTop = scrollDom.scrollTop;
+
+        if (this.offsetTop !== undefined) {
+          if (this.offsetTop >= clientRect.top && scrollTop + this.offsetTop >= this.domOffsetTop) {
+            style = {
+              position: 'fixed',
+              top: this.offsetTop,
+              width: clientRect.width,
+              height: clientRect.height
+            };
+          }
+        } else if (this.offsetBottom !== undefined) {
+          if (scrollTop + scrollDom.clientHeight <= this.domOffsetTop + this.offsetBottom + clientRect.height) {
+            style = {
+              position: 'fixed',
+              bottom: this.offsetBottom,
+              width: clientRect.width,
+              height: clientRect.height
+            };
+          }
+        }
+
+        if (JSON.stringify(this.style) !== JSON.stringify(style)) {
+          this.style = style;
+        }
+      },
+      ResizeObserverCall: function ResizeObserverCall(entires) {
+        if (entires && entires.length) {
+          if (!!Object.keys(this.style).length) {
+            this.style.height = entires[0].contentRect.height;
+            this.style.width = entires[0].contentRect.width;
+          } else {
+            this.style = {
+              height: entires[0].contentRect.height,
+              width: entires[0].contentRect.width,
+              position: '',
+              top: '',
+              bottom: ''
+            };
+          }
+        }
+      }
+    },
+    render: function render(h) {
+      var domStyle = this.style.position === 'fixed' ? {
+        width: this.style.width && this.style.width + 'px',
+        height: this.style.height && this.style.height + 'px'
+      } : '';
+      var wrapStyle = {
+        width: this.style.width && this.style.width + 'px',
+        height: this.style.height && this.style.height + 'px',
+        top: this.style.top && this.style.top + 'px',
+        bottom: this.style.bottom && this.style.bottom + 'px',
+        position: this.style.position
+      };
+      return h('div', {
+        "class": 'owl-affix',
+        style: domStyle
+      }, [h('div', {
+        ref: 'affixWrap',
+        "class": 'owl-affix-wrap',
+        style: wrapStyle
+      }, [this.$slots["default"]])]);
+    }
+  };
+
+  Affix.install = function (Vue) {
+    Vue.component(Affix.name, Affix);
+  };
+
+  var getContainer = function getContainer() {
+    return document.body;
+  };
+
+  var MessageItem = {
+    props: {
+      type: {
+        "default": 'info',
+        validator: function validator(val) {
+          return ['info', 'success', 'error', 'loading'].indexOf(val) !== -1;
+        }
+      },
+      duration: Number,
+      content: String,
+      id: [Number, String]
+    },
+    data: function data() {
+      return {
+        time: ''
+      };
+    },
+    mounted: function mounted() {
+      this.startCountDown();
+    },
+    beforeDestory: function beforeDestory() {
+      clearTimeout(this.time);
+    },
+    watch: {
+      duration: function duration(val) {
+        this.clearCountdown();
+        this.setCountDown();
+      }
+    },
+    methods: {
+      clearCountdown: function clearCountdown() {
+        this.time && clearTimeout(this.time);
+      },
+      startCountDown: function startCountDown() {
+        var _this = this;
+
+        if (!this.duration) return;
+        this.time = setTimeout(function () {
+          _this.$emit('close', _this.id);
+        }, this.duration);
+      }
+    },
+    render: function render(h) {
+      return h('div', {
+        "class": 'owl-message-item ' + this.type,
+        on: {
+          'mouseenter': this.clearCountdown,
+          'mouseleave': this.startCountDown
+        }
+      }, [h('span', {
+        "class": ['owlfont ', 'owl-' + this.type]
+      }), h('div', {
+        "class": '--message-cnt'
+      }, this.content)]);
+    }
+  };
+  var MessageWrap = new Vue({
+    components: {
+      MessageItem: MessageItem
+    },
+    data: function data() {
+      return {
+        messages: []
+      };
+    },
+    methods: {
+      deleteItem: function deleteItem(key) {
+        var index = this.messages.findIndex(function (item) {
+          return item.id === key;
+        });
+        index >= 0 && this.messages.splice(index, 1);
+      },
+      addItem: function addItem(_ref) {
+        var _this2 = this;
+
+        var type = _ref.type,
+            content = _ref.content,
+            key = _ref.key,
+            duration = _ref.duration;
+        // type, content, key, duration 毫秒
+        if (!content) return new Error('content is empty');
+        var id = key ? key : Date.now() + this.messages.length;
+
+        if (key) {
+          var hasExit = this.messages.findIndex(function (item) {
+            return item.id == key;
+          });
+
+          if (hasExit >= 0) {
+            this.messages[hasExit].type = type;
+            this.messages[hasExit].content = content;
+            this.messages[hasExit].duration = duration;
+          }
+        } else {
+          var addInfo = {
+            type: type || 'info',
+            content: content || '',
+            id: id,
+            duration: duration === 0 ? 0 : duration || 2000
+          };
+          this.messages.push(addInfo);
+        }
+
+        return function () {
+          _this2.deleteItem(id);
+        };
+      }
+    },
+    render: function render(h) {
+      var _this3 = this;
+
+      return h('div', {
+        "class": 'owl-message-wrap'
+      }, [h('transition-group', {
+        props: {
+          name: 'owl-msg-lst'
+        },
+        "class": 'owl-message-box'
+      }, this.messages.map(function (item) {
+        return h('message-item', {
+          key: item.id,
+          props: _objectSpread2({}, item),
+          on: {
+            close: _this3.deleteItem
+          }
+        });
+      }))]);
+    }
+  }); // this.$message.loading('content', 'key')
+  // this.$message({type: 'loading', key:'key', content:'', duration: 3000})
+
+  var Message = function Message(params) {
+    if (!Message.$el) {
+      Message.$el = document.createElement('div');
+      getContainer().appendChild(Message.$el);
+      MessageWrap.$mount(Message.$el);
+    }
+
+    return new Promise(function (res) {
+      var ret = MessageWrap.addItem(params);
+      res(ret);
+    });
+  };
+
+  ['info', 'success', 'error', 'loading'].forEach(function (item) {
+    Message[item] = function (content, key, duration) {
+      if (!content) return Promise.reject('content is empty');
+
+      if (typeof key === 'number') {
+        duration = key;
+        key = '';
+      }
+
+      return Message({
+        type: item,
+        content: content,
+        id: key,
+        duration: duration
+      });
+    };
+  });
+
+  Message.install = function (Vue) {
+    Vue.prototype.$message = Message;
+  };
+
   var components = {
     Button: Button,
     Swiper: Swiper,
@@ -15999,7 +16485,9 @@ export default {
     Radio: Radio,
     Pagination: Pagination,
     Form: Form,
-    Popover: Popover
+    Popover: Popover,
+    Affix: Affix,
+    Message: Message
   };
 
   var install = function install(Vue) {

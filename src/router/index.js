@@ -18,9 +18,18 @@ import Radio from "@/views/radio.vue";
 import Pagination from "@/views/pagination.vue";
 import Form from "@/views/form.vue";
 import Popover from "@/views/popover.vue";
+import Affix from "@/views/affix.vue";
+import Message from "@/views/message.vue";
 Vue.use(VueRouter)
 
 export const routes = [
+  {
+    meta: {
+      title: '介绍',
+      slide: true,
+      subtitle: true,
+    }
+  },
   {
     path: '/',
     name: 'home',
@@ -166,6 +175,15 @@ export const routes = [
     }
   },
   {
+    path: '/message',
+    name: 'message',
+    component: Message,
+    meta: {
+      title: 'Message 消息',
+      slide: true
+    }
+  },
+  {
     path: '/collapse',
     name: 'collapse',
     component: Collapse,
@@ -192,7 +210,15 @@ export const routes = [
       slide: true
     }
   },
-  
+  {
+    path: '/affix',
+    name: 'affix',
+    component: Affix,
+    meta: {
+      title: 'Affix 固钉',
+      slide: true
+    }
+  },
 ]
 export default new VueRouter({
   mode: 'hash',

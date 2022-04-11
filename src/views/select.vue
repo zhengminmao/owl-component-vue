@@ -112,8 +112,7 @@ export default {
       }
     }
   }
-&lt;/script&gt;
-`,
+&lt;/script&gt;`,
       code1: `&lt;template&gt;
   <p>选择英语成绩类型：已选择{{value3.join(',')}}</p>
   <owl-select :list="list2" v-model="value3" :config="config" :multiple="true" ></owl-select>  

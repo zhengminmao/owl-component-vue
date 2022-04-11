@@ -1,8 +1,8 @@
 @font-face {
   font-family: "owlfont"; /* Project id 3227481 */
-  src: url('iconfont.woff2?t=1647577428586') format('woff2'),
-       url('iconfont.woff?t=1647577428586') format('woff'),
-       url('iconfont.ttf?t=1647577428586') format('truetype');
+  src: url('iconfont.woff2?t=1649648973252') format('woff2'),
+       url('iconfont.woff?t=1649648973252') format('woff'),
+       url('iconfont.ttf?t=1649648973252') format('truetype');
 }
 
 .owlfont {
@@ -11,6 +11,26 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.owl-info:before {
+  content: "\e624";
+}
+
+.owl-error:before {
+  content: "\e94d";
+}
+
+.owl-success:before {
+  content: "\e67e";
+}
+
+.owl-top:before {
+  content: "\ea51";
+}
+
+.owl-back:before {
+  content: "\e635";
 }
 
 .owl-search:before {
