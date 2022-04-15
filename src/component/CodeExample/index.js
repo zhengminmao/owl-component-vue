@@ -31,6 +31,17 @@ export default {
       this.codeHeight = this.$refs.codeDom.clientHeight
     })
   },
+  methods:{
+    copySucc(){
+      if(navigator.clipboard !== undefined){
+        navigator.clipboard.writeText(this.code.replace(/&lt;/g, '<').replace(/&gt;/g, '>'))
+        this.$message.success('复制成功')
+      } else {
+        this.$message.error('当前浏览器不支持复制')
+      }
+      
+    }
+  },
   render(h){
     return h(
       'div', {class: 'owl-example'}, [
@@ -39,6 +50,7 @@ export default {
           h('div', {class: 'introduce'}, this.$slots.introduce || this.introduce)
           : null,
         h('div', {class: 'code-wrap', style:{height: this.currentCodeHeight+'px'}}, [
+          h('span', {class: 'owlfont owl-copy', on: {click: this.copySucc}}),
           h('code', {class: 'owl-code', ref:'codeDom', domProps: {innerHTML: this.highlightedCode}},),
         ]),
         h(

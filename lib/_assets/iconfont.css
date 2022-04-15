@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.owl-copy:before {
+  content: "\e66a";
+}
+
 .owl-info:before {
   content: "\e624";
 }

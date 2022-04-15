@@ -8445,6 +8445,137 @@
     }, 0);
   }
 
+  function ownKeys(object, enumerableOnly) {
+    var keys = Object.keys(object);
+
+    if (Object.getOwnPropertySymbols) {
+      var symbols = Object.getOwnPropertySymbols(object);
+      enumerableOnly && (symbols = symbols.filter(function (sym) {
+        return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+      })), keys.push.apply(keys, symbols);
+    }
+
+    return keys;
+  }
+
+  function _objectSpread2(target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = null != arguments[i] ? arguments[i] : {};
+      i % 2 ? ownKeys(Object(source), !0).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+
+    return target;
+  }
+
+  function _defineProperty(obj, key, value) {
+    if (key in obj) {
+      Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+      });
+    } else {
+      obj[key] = value;
+    }
+
+    return obj;
+  }
+
+  function _toConsumableArray(arr) {
+    return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
+  }
+
+  function _arrayWithoutHoles(arr) {
+    if (Array.isArray(arr)) return _arrayLikeToArray(arr);
+  }
+
+  function _iterableToArray(iter) {
+    if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
+  }
+
+  function _unsupportedIterableToArray(o, minLen) {
+    if (!o) return;
+    if (typeof o === "string") return _arrayLikeToArray(o, minLen);
+    var n = Object.prototype.toString.call(o).slice(8, -1);
+    if (n === "Object" && o.constructor) n = o.constructor.name;
+    if (n === "Map" || n === "Set") return Array.from(o);
+    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+  }
+
+  function _arrayLikeToArray(arr, len) {
+    if (len == null || len > arr.length) len = arr.length;
+
+    for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+
+    return arr2;
+  }
+
+  function _nonIterableSpread() {
+    throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+  }
+
+  function _createForOfIteratorHelper(o, allowArrayLike) {
+    var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"];
+
+    if (!it) {
+      if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") {
+        if (it) o = it;
+        var i = 0;
+
+        var F = function () {};
+
+        return {
+          s: F,
+          n: function () {
+            if (i >= o.length) return {
+              done: true
+            };
+            return {
+              done: false,
+              value: o[i++]
+            };
+          },
+          e: function (e) {
+            throw e;
+          },
+          f: F
+        };
+      }
+
+      throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+    }
+
+    var normalCompletion = true,
+        didErr = false,
+        err;
+    return {
+      s: function () {
+        it = it.call(o);
+      },
+      n: function () {
+        var step = it.next();
+        normalCompletion = step.done;
+        return step;
+      },
+      e: function (e) {
+        didErr = true;
+        err = e;
+      },
+      f: function () {
+        try {
+          if (!normalCompletion && it.return != null) it.return();
+        } finally {
+          if (didErr) throw err;
+        }
+      }
+    };
+  }
+
   function getOffset(dom) {
     function getParent(dom) {
       var offsetTop = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
@@ -8466,11 +8597,13 @@
   }
   function throttleFunc(fn) {
     var time = false;
-    return function (e) {
+    return function () {
+      var arg = arguments;
+
       if (!time) {
         time = true;
         window.requestAnimationFrame(function () {
-          fn(e);
+          fn.apply(void 0, _toConsumableArray(arg));
           time = false;
         });
       }
@@ -11551,7 +11684,7 @@ new Vue({
   };
 
   var Swiper$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Swiper 轮播图")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"swiper-wrap"},[_c('owl-swiper',{attrs:{"list":_vm.swiperList}})],1)]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}}),_vm._v(" "),_c('h3',[_vm._v("事件")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData1,"columns":_vm.propsCol}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Swiper 轮播图")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('div',{staticClass:"swiper-wrap"},[_c('owl-swiper',{attrs:{"autoplay":true,"showdots":true,"default-index":0}},_vm._l((_vm.swiperList),function(item,key){return _c('div',{key:key,staticClass:"owl-swiper-slide"},[_c('img',{staticClass:"owl-banner-bgm",attrs:{"src":item.path,"alt":"picture","loading":"lazy"},on:{"click":function (e){ return _vm.clickImg(e,item); }}})])}),0)],1),_vm._v(" "),_c('owl-button',{staticStyle:{"display":"block","margin":"12px auto 0"},attrs:{"disabled":_vm.swiperList.length> 2},on:{"click":_vm.addNewPic}},[_vm._v("新增一张轮播图片")])],1),_vm._v(" "),_c('h3',[_vm._v("例二")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('div',{staticClass:"swiper-wrap"},[_c('owl-swiper',{staticClass:"owl-swiper2"},_vm._l((2),function(key){return _c('div',{key:key,staticClass:"owl-swiper-slide "},[_c('div',{staticClass:"student-card-wrap"},_vm._l((_vm.swiperList2),function(item,key){return _c('div',{key:key,staticClass:"student-card"},[_c('img',{staticClass:"cover",attrs:{"src":item.pic,"alt":"picture","loading":"lazy"},on:{"click":function (e){ return _vm.clickImg(e,item); }}}),_vm._v(" "),_c('div',{staticClass:"uni-title"},[_vm._v(_vm._s(item.universityCn))]),_vm._v(" "),_c('div',{staticClass:"uni-title-en"},[_vm._v(_vm._s(item.university))]),_vm._v(" "),_c('div',{staticClass:"article-title"},[_vm._v(_vm._s(item.title))]),_vm._v(" "),_c('div',{staticClass:"desc"},[_vm._v(_vm._s(item.desc))])])}),0)])}),0)],1)]),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData,"columns":_vm.propsCol}}),_vm._v(" "),_c('h3',[_vm._v("事件")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.propsData1,"columns":_vm.propsCol}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11559,20 +11692,31 @@ new Vue({
           {link: '', path: 'https://www.msoffer.hk/appMyFile/files/2022/01/11/f60ff7b0-c703-40d1-b49e-e12c1c1e4dae.jpg',},
           {link: '', path: 'https://www.msoffer.hk/appMyFile/files/2021/07/05/15066cb8-1b33-471b-85e7-7ecc47eb3225.jpg'}
         ],
+        swiperList2: [
+          {pic: 'https://www.msoffer.hk/appMyFile/appendix/2021/06/09/76c365b5-d4c4-4999-ae5c-3b89356effb6.jpg', desc: '畢業院校：中山大學 畢業專業：英語 學生成績：GPA3.3/4.0 申請院校： Durham University Education MA University of Exeter TESOL MED Lancaster University Applied Linguistic and TESOL MA 錄取院校： Durham University Education MA University of Exeter TESOL MED Lancaster University Applied Linguistic and TESOL MA 選擇院校：Durham University 申請時間：2020年01月08日 錄取時間：2020年04月09日 申請優勢：本科專業相關，有相關實習經歷 申請體驗：作為英語專業的本科畢業生，讀研可以選擇的專業方向有很多。和自己所學英語相關的專業方向，例如：英語教學、英語文學、語言學等。到了研究生階段，重在把英語作為一種能力拓展到各個方面去，選擇和英語有關的專業是為今后的就業打好基礎。其中TESOL就是英語專業學生最常申請的一個專業，也是最對口的。TESOL主要研究如何教授母語為非英語的學生學習英語。而教育學是相對偏重', title: 'University of Western Australia - ZWY:', university: 'University of Western Australia', universityCn: '西澳大学'},
+          {pic: 'https://www.msoffer.hk/appMyFile/appendix/2021/06/30/a6c06d4f-d6d2-4791-8e37-7530c8d477d8.jpg', desc: '畢業院校：河北經貿大學自考本科；大專：宣化科技職業學院申請優勢：平均分均較高，大專階段的專業與申請專業背景相同申請難點：本科專業背景較弱，專升本自考生申請體驗：通過MOS平台的協助，拿到了大部分申請院校的錄取。MOS精準幫我定位了院校申請層次，平台顧問老師也給予了專業的建議和指導。', title: 'University of Wollongong - Yao Zihao:', university: 'University of Wollongong', universityCn: '伍伦贡大学'},
+          {pic: 'https://www.msoffer.hk/appMyFile/appendix/2021/06/30/a61c4e34-0edf-4924-867a-b4cf2729d20c.jpg', desc: '畢業院校：江西科技學院 畢業專業：軟件工程（會計）學生成績：均分80.03 申請優勢：本科專業背景相關聯，有相關實習經歷 申請難點：本科院校背景較為一般申請體驗：MOS平台的申請建議推送較為精準，讓我后期在PS中突出優勢，淡化弱勢對申請很重要。我以國內二本的學習背景，成功邁入世界排名前200的名校讀研，這對我來說是一個極大的鼓舞。', title: 'Newcastle University - WAN WQQ', university: 'Newcastle University', universityCn: '纽卡斯特大学'},
+        ],
         propsCol: [
           {title: '名称', key: 'name'},
           {title: '类型', key: 'types'},
+          {title: '默认值', key: 'default'},
           {title: '说明', key: 'introduce'},
         ],
         propsData: [
-          {name: 'list', types: '{path: string, link: string}[]', introduce: 'path：图片路径， link：点击图片跳转的地址'},
-          {name: 'object-fit', types: '\'cover\'', introduce: 'css的object-fit属性，默认值是\'cover\''},
+          {name: 'autoplay', types: 'boolean', default: 'false', introduce: '自动播放'},
+          {name: 'showdots', types: 'boolean', default: 'false', introduce: '是否显示pagination'},
+          {name: 'interval', types: 'number', default: '4000', introduce: '4000毫秒切换下一张'}
         ],
         propsData1:[
           {name: 'changed', types: '(val: number) => void', introduce: '当前跳转的轮播图索引'},
         ],
         code1:`&lt;template&gt;
-  &lt;owl-swiper :list="swiperList" /&gt;
+  <owl-swiper :autoplay="true" :showdots="true" :default-index="0">
+    <div class="owl-swiper-slide" v-for="(item, key) in swiperList" :key="key">
+      <img class="owl-banner-bgm" @click="(e)=>clickImg(e,item)" :src="item.path" alt="picture" loading="lazy">
+    </div>
+  </owl-swiper>
 &lt;/template&gt;
 &lt;script&gt;
   export default {
@@ -11583,10 +11727,114 @@ new Vue({
           {link: '', path: 'https://www.msoffer.hk/appMyFile/files/2021/07/05/15066cb8-1b33-471b-85e7-7ecc47eb3225.jpg'}
         ],
       }
+    },
+    methods:{
+      clickImg(e){
+        e.preventDefault();
+        e.stopPropagation();
+      },
+      addNewPic(){
+        this.swiperList.push({
+          link: '', path: 'https://www.msoffer.hk/appMyFile/files/2022/03/08/a8ea5ec8-f110-41b6-b7c9-51d059101d10.jpg'
+        })
+      }
     }
   }
 &lt;/script&gt;
-`
+`,
+        code2: `&lt;template&gt;
+  <owl-swiper >
+    <div class="owl-swiper-slide " v-for="key in 2" :key="key">
+      <div class="student-card-wrap">
+        <div class="student-card" v-for="(item, key) in swiperList2" :key="key">
+          <img class="cover" @click="(e)=>clickImg(e,item)" :src="item.pic" alt="picture" loading="lazy">
+          <div class="uni-title">{{item.universityCn}}</div>
+          <div class="uni-title-en">{{item.university}}</div>
+          <div class="article-title">{{item.title}}</div>
+          <div class="desc">{{item.desc}}</div>
+        </div>
+      </div>
+    </div>
+  </owl-swiper>
+&lt;/template&gt;
+&lt;script&gt;
+  export default {
+    data(){
+      return {
+        swiperList2: [
+          {pic: 'https://www.msoffer.hk/appMyFile/appendix/2021/06/09/76c365b5-d4c4-4999-ae5c-3b89356effb6.jpg', desc: '畢業院校：中山大學 畢業專業：英語 學生成績：GPA3.3/4.0 申請院校： Durham University Education MA University of Exeter TESOL MED Lancaster University Applied Linguistic and TESOL MA 錄取院校： Durham University Education MA University of Exeter TESOL MED Lancaster University Applied Linguistic and TESOL MA 選擇院校：Durham University 申請時間：2020年01月08日 錄取時間：2020年04月09日 申請優勢：本科專業相關，有相關實習經歷 申請體驗：作為英語專業的本科畢業生，讀研可以選擇的專業方向有很多。和自己所學英語相關的專業方向，例如：英語教學、英語文學、語言學等。到了研究生階段，重在把英語作為一種能力拓展到各個方面去，選擇和英語有關的專業是為今后的就業打好基礎。其中TESOL就是英語專業學生最常申請的一個專業，也是最對口的。TESOL主要研究如何教授母語為非英語的學生學習英語。而教育學是相對偏重', title: 'University of Western Australia - ZWY:', university: 'University of Western Australia', universityCn: '西澳大学'},
+          {pic: 'https://www.msoffer.hk/appMyFile/appendix/2021/06/30/a6c06d4f-d6d2-4791-8e37-7530c8d477d8.jpg', desc: '畢業院校：河北經貿大學自考本科；大專：宣化科技職業學院申請優勢：平均分均較高，大專階段的專業與申請專業背景相同申請難點：本科專業背景較弱，專升本自考生申請體驗：通過MOS平台的協助，拿到了大部分申請院校的錄取。MOS精準幫我定位了院校申請層次，平台顧問老師也給予了專業的建議和指導。', title: 'University of Wollongong - Yao Zihao:', university: 'University of Wollongong', universityCn: '伍伦贡大学'},
+          {pic: 'https://www.msoffer.hk/appMyFile/appendix/2021/06/30/a61c4e34-0edf-4924-867a-b4cf2729d20c.jpg', desc: '畢業院校：江西科技學院 畢業專業：軟件工程（會計）學生成績：均分80.03 申請優勢：本科專業背景相關聯，有相關實習經歷 申請難點：本科院校背景較為一般申請體驗：MOS平台的申請建議推送較為精準，讓我后期在PS中突出優勢，淡化弱勢對申請很重要。我以國內二本的學習背景，成功邁入世界排名前200的名校讀研，這對我來說是一個極大的鼓舞。', title: 'Newcastle University - WAN WQQ', university: 'Newcastle University', universityCn: '纽卡斯特大学'},
+        ],
+      }
+    },
+  }
+&lt;/script&gt;
+&lt;style lang="less"&gt;
+.owl-swiper{
+  height: 800px;
+  .owl-banner-bgm{
+    height: 100%;
+    pointer-events: none;
+  }
+  .student-card-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: no-wrap;
+    .cover{
+      height: 168px;
+      width: 100%;
+      object-fit: cover;
+    }
+    .uni-title {
+      padding: 6px 12px 2px;
+      color: var(--owl-success-color);
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .uni-title-en {
+      font-size: 16px;
+      color: #333;
+      padding: 0 0 12px;
+      margin: 0 12px;
+      border-bottom: 1px solid #f1f1f1;
+    }
+    .article-title {
+      padding: 6px 12px 6px;
+      color: var(--owl-primary-color);
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .desc {
+      padding: 0 12px 12px;
+      font-size: 14px;
+    }
+    .student-card{
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0px 10px 8px rgba(0,0,0, 0.08);
+      margin: 0 6px;
+      width: 248px;
+      flex: 1;
+      padding: 0;
+      font-size: 0;
+    }
+  }
+}
+&lt;/style&gt;
+      `
+      }
+    },
+    methods:{
+      clickImg(e){
+        e.preventDefault();
+        e.stopPropagation();
+      },
+      addNewPic(){
+        this.swiperList.push({
+          link: '', path: 'https://www.msoffer.hk/appMyFile/files/2022/03/08/a8ea5ec8-f110-41b6-b7c9-51d059101d10.jpg'
+        });
       }
     }
   };
@@ -13155,6 +13403,10 @@ export default {
         validator: function validator(val) {
           return ['large', 'default', 'small'].indexOf(val) !== -1;
         }
+      },
+      disabled: {
+        type: Boolean,
+        "default": false
       }
     },
     data: function data() {
@@ -13176,8 +13428,8 @@ export default {
       }
 
       return h('div', {
-        'class': ['owl-button', 'owl-' + this.size, 'type-' + this.type, this.plain ? 'plain' : ''],
-        on: this.$listeners
+        'class': ['owl-button', 'owl-' + this.size, 'type-' + this.type, this.plain ? 'plain' : '', this.disabled && 'disabled'],
+        on: !this.disabled && this.$listeners
       }, [h('button', {
         "class": 'owl-inner-button'
       }, [h('span', {
@@ -13193,14 +13445,21 @@ export default {
   var Swiper = {
     name: 'OwlSwiper',
     props: {
-      list: {
-        type: Array,
-        "default": [],
-        require: true
+      autoplay: {
+        type: Boolean,
+        "default": false
       },
-      objectFit: {
-        type: String,
-        "default": 'cover'
+      showdots: {
+        type: Boolean,
+        "default": false
+      },
+      interval: {
+        type: Number,
+        "default": 4000
+      },
+      defaultIndex: {
+        type: Number,
+        "default": 0
       }
     },
     data: function data() {
@@ -13212,68 +13471,118 @@ export default {
           start: 0,
           move: 0,
           startTime: 0,
-          transition: false,
+          oldX: 0,
           width: 0
         },
-        currentIndex: 0,
+        currentIndex: -1,
         // 当前banner
-        count: 0 //count等于4下一张
-
+        count: 0,
+        // count等于4下一张
+        listLng: 0,
+        bannerList: []
       };
     },
     computed: {
-      bannerList: function bannerList() {
-        var lng = this.list.length;
-        if (lng <= 1) return this.list;
-        return [this.list[lng - 1]].concat(this.list, this.list[0]);
+      paginations: function paginations() {
+        return new Array(this.listLng).fill(0);
       }
+    },
+    watch: {
+      autoplay: function autoplay(val) {
+        val ? this.setAutoPlay() : this.time && clearInterval(this.time);
+      },
+      interval: function interval() {
+        if (!this.autoplay) return;
+        this.time && clearInterval(this.time);
+        this.setAutoPlay();
+      },
+      defaultIndex: function defaultIndex(val) {
+        val < this.listLng && this.swipeChange(val);
+      }
+    },
+    created: function created() {
+      this.onBannerMove = throttleFunc(this.onBannerMove);
+      this.listLng = this.$slots["default"].length;
+      Object.defineProperty(this, 'time', {
+        configurable: false,
+        value: undefined,
+        writable: true
+      }); // 自动滚动
+
+      this.autoplay && this.setAutoPlay();
     },
     mounted: function mounted() {
       var _this = this;
 
       this.$nextTick(function () {
+        _this.currentIndex = _this.defaultIndex < _this.listLng ? _this.defaultIndex : 0;
         var width = _this.$refs.swiperDom.clientWidth;
         if (!width) return;
         _this.bannerInfo.width = width;
         window.addEventListener('resize', _this.windowSizeChange);
 
-        if (_this.list.length <= 1) {
+        if (_this.listLng <= 1) {
           // 如果小于1张
           _this.count = 4;
           return;
         }
 
-        _this.bannerInfo.x = -width; // 自动滚动
-
-        var time = setInterval(function () {
-          if (_this.count == 4) {
-            _this.count = 0;
-
-            _this.swipeNext();
-
-            return;
-          }
-
-          _this.count++;
-        }, 1000);
+        _this.bannerInfo.x = (_this.currentIndex + 1) * -_this.bannerInfo.width;
 
         _this.$once("hook:beforeDestroy", function () {
-          clearInterval(time);
+          _this.time && clearInterval(_this.time);
           window.removeEventListener('resize', _this.windowSizeChange);
         });
       });
     },
     methods: {
+      addList: function addList(vNodes) {
+        var lng = vNodes.length;
+        this.listLng = lng;
+        if (lng <= 1) return vNodes;
+        return [vNodes[lng - 1]].concat(vNodes, vNodes[0]).map(function (item, index) {
+          var newItem = Object.create(null);
+
+          for (var key in item) {
+            newItem[key] = item[key];
+
+            if (key === 'key') {
+              newItem[key] = index;
+            }
+          }
+
+          return newItem;
+        });
+      },
+      setAutoPlay: function setAutoPlay() {
+        var _this2 = this;
+
+        this.time = setInterval(function () {
+          if (_this2.count == 4) {
+            _this2.count = 0;
+
+            _this2.swipeNext();
+
+            return;
+          }
+
+          _this2.count++;
+        }, this.interval / 4);
+      },
       onBannerDown: function onBannerDown(e) {
-        e.preventDefault();
-        if (this.bannerInfo.transition) return;
+        if (this.clearAnimateFunc) {
+          this.clearAnimateFunc();
+          this.clearAnimateFunc = undefined;
+        } else {
+          this.bannerInfo.oldX = this.bannerInfo.x;
+        }
+
         var start = e.clientX || e.changedTouches && e.changedTouches[0].clientX;
         this.bannerInfo.active = true;
         this.bannerInfo.startTime = Date.now();
         this.bannerInfo.start = start;
       },
       onBannerUp: function onBannerUp(e) {
-        e.preventDefault();
         if (!this.bannerInfo.active) return;
         var endTime = Date.now();
         this.bannerInfo.active = false;
@@ -13282,82 +13591,58 @@ export default {
 
         if (winWidth / 3 < Math.abs(this.bannerInfo.move)) {
           isSuc = true;
-        } else {
+        } else if (this.bannerInfo.move / (this.bannerInfo.startTime - endTime) > 1) {
           // 计算速度 px/ms
-          var v = this.bannerInfo.move / (this.bannerInfo.startTime - endTime);
-
-          if (v > 1) {
-            isSuc = true;
-          }
+          isSuc = true;
         }
 
-        if (this.list.length > 1 && isSuc) {
+        var cur = this.bannerInfo.x += this.bannerInfo.move;
+        var to = Math.round(this.bannerInfo.x / winWidth) * winWidth;
+
+        if (this.listLng > 1 && isSuc) {
           // 切换至上一张图
           if (this.bannerInfo.move > 0) {
-            this.bannerInfo.x += winWidth;
-            this.count = 0;
-
-            if (this.currentIndex !== 0) {
-              this.currentIndex--;
-            } else {
-              this.currentIndex = this.list.length - 1;
-            } // 切换至下一张图
-
+            to = this.bannerInfo.oldX + winWidth; // 切换至下一张图
           } else {
-            this.bannerInfo.x += -1 * winWidth;
-            this.count = 0;
-
-            if (this.currentIndex !== this.list.length - 1) {
-              this.currentIndex++;
-            } else {
-              this.currentIndex = 0;
-            }
+            to = this.bannerInfo.oldX - winWidth;
           }
         } else {
-          var link = this.list[this.currentIndex].link; // 判断是否触发点击事件
-
-          if (link && Date.now() - this.bannerInfo.startTime < 400 && Math.abs(this.bannerInfo.move) < 10) {
-            window.open(link, '_blank');
-          }
+          if (this.listLng < 1) to = 0; // let link = this.list[this.currentIndex].link;
+          // 判断是否触发点击事件
+          // if(link && Date.now() - this.bannerInfo.startTime < 400 && Math.abs(this.bannerInfo.move) < 10){
+          //   window.open(link, '_blank')
+          // }
         }
 
+        this.setAnimationPos(cur, to);
+        this.count = 0;
         this.bannerInfo.startTime = 0;
         this.bannerInfo.move = 0;
         this.bannerInfo.start = 0;
-        this.setSwiperMoving();
       },
       onBannerMove: function onBannerMove(e) {
-        e.preventDefault();
         if (!this.bannerInfo.active) return;
         this.count = 0;
         var move = (e.clientX || e.changedTouches && e.changedTouches[0].clientX) - this.bannerInfo.start;
         this.bannerInfo.move = move;
       },
-      setSwiperMoving: function setSwiperMoving() {
-        var _this2 = this;
-
-        this.bannerInfo.transition = true;
-        setTimeout(function () {
-          _this2.bannerInfo.transition = false;
-
-          _this2.recoverPosition();
-
-          _this2.$emit('changed', _this2.currentIndex);
-        }, 500);
-      },
       // 是否需要复原位置
       recoverPosition: function recoverPosition() {
-        var lng = this.bannerList.length;
-        if (this.list.length <= 1) return;
+        var lng = this.listLng;
+        if (this.listLng <= 1) return 0;
+        lng += 2;
 
         if (this.bannerInfo.x === 0) {
           this.bannerInfo.x = this.bannerInfo.width * (lng - 2) * -1;
-          return;
+          return this.listLng - 1;
         }
 
         if (this.bannerInfo.x === this.bannerInfo.width * (lng - 1) * -1) {
           this.bannerInfo.x = this.bannerInfo.width * -1;
+          return 0;
         }
+
+        return Math.abs(this.bannerInfo.x / this.bannerInfo.width) - 1;
       },
       // 下一个
       swipeNext: function swipeNext() {
@@ -13367,84 +13652,124 @@ export default {
           this.bannerInfo.width = width;
         }
 
-        if (this.currentIndex < this.list.length - 1) {
-          this.currentIndex++;
-        } else {
-          this.currentIndex = 0;
-        }
-
         this.count = 0;
-        this.bannerInfo.x = this.bannerInfo.x - this.bannerInfo.width;
-        this.setSwiperMoving();
+        this.setAnimationPos(this.bannerInfo.x, this.bannerInfo.x - this.bannerInfo.width);
       },
       // 点击页数按钮
       swipeChange: function swipeChange(index) {
         if (this.currentIndex == index) return;
         this.currentIndex = index;
-        this.setSwiperMoving();
         this.count = 0;
+        this.setAnimationPos(this.bannerInfo.x, (this.currentIndex + 1) * -this.bannerInfo.width);
         this.bannerInfo.x = (this.currentIndex + 1) * -this.bannerInfo.width;
       },
       windowSizeChange: function windowSizeChange() {
-        if (this.bannerList.length <= 1) return;
+        if (this.listLng <= 1) return;
         this.count = 0;
         var width = this.$refs.swiperDom.clientWidth;
         if (!width || width === this.bannerInfo.width) return;
         this.bannerInfo.width = width;
         this.bannerInfo.x = (this.currentIndex + 1) * -width;
+      },
+      setAnimationPos: function setAnimationPos(cur, to) {
+        var _this3 = this;
+
+        var clearAnimateFunc = this.animateTo(cur, to, 300, function () {
+          _this3.clearAnimateFunc = undefined;
+          _this3.currentIndex = _this3.recoverPosition();
+
+          _this3.$emit('changed', _this3.currentIndex);
+        });
+        !this.clearAnimateFunc ? Object.defineProperty(this, 'clearAnimateFunc', {
+          value: clearAnimateFunc,
+          configurable: false,
+          writable: true
+        }) : this.clearAnimateFunc = clearAnimateFunc;
+      },
+      // times 毫秒
+      animateTo: function animateTo(from, to, times, finished) {
+        var that = this;
+        var dis = to - from;
+        var disPerMs = dis / times;
+        var first = 0,
+            stop = false;
+
+        function animate(s) {
+          if (stop) return finished && finished();
+          if (first === 0) first = s;
+
+          if (s - first >= times) {
+            that.bannerInfo.x = to;
+            return finished && finished();
+          } else {
+            that.bannerInfo.x = from + (s - first) * disPerMs;
+            window.requestAnimationFrame(animate);
+          }
+        }
+
+        window.requestAnimationFrame(animate);
+        return function () {
+          stop = true;
+        };
       }
     },
     render: function render(h) {
-      var _this3 = this;
+      var _this4 = this;
 
+      var vNodes = this.$slots["default"];
+      var lng = vNodes.length;
+
+      if (this.listLng !== lng) {
+        this.listLng = lng;
+      }
+
+      var paginations = new Array(lng).fill(0);
+      var bannerList = vNodes.length <= 1 ? vNodes : [vNodes[lng - 1]].concat(vNodes, vNodes[0]).map(function (item, index) {
+        var newItem = Object.create(null);
+
+        for (var key in item) {
+          newItem[key] = item[key];
+
+          if (key === 'key') {
+            newItem[key] = _this4.listLng + '-' + index;
+          }
+        }
+
+        return newItem;
+      });
       return h('div', {
         "class": 'owl-swiper',
         ref: 'swiperDom'
       }, [h('div', {
         "class": 'owl-swiper-wrap',
         on: {
-          '!mousedown': this.onBannerDown,
-          '!touchstart': this.onBannerDown,
-          '!mouseup': this.onBannerUp,
-          '!touchend': this.onBannerUp,
-          '!mouseout': this.onBannerUp,
-          '!mousemove': this.onBannerMove,
-          '!touchmove': this.onBannerMove
+          'mousedown': this.onBannerDown,
+          'touchstart': this.onBannerDown,
+          'mouseup': this.onBannerUp,
+          'touchend': this.onBannerUp,
+          'mouseout': this.onBannerUp,
+          'mousemove': this.onBannerMove,
+          'touchmove': this.onBannerMove
         },
         style: {
-          transform: "translate3d(".concat(this.bannerInfo.x + this.bannerInfo.move, "px,0,0)"),
-          transition: this.bannerInfo.transition && 'transform .5s ease'
+          transform: "translate3d(".concat(this.bannerInfo.x + this.bannerInfo.move, "px,0,0)")
         }
-      }, this.bannerList.map(function (item, index) {
-        return h('div', {
-          "class": 'owl-swiper-slide',
-          key: index
-        }, [h('div', {
-          "class": 'owl-picture-wrap'
-        }, [h('img', {
-          "class": ['owl-banner-bgm', _this3.objectFit],
-          attrs: {
-            alt: 'picture',
-            src: item.path,
-            loading: 'lazy'
-          }
-        })])]);
-      })), h('div', {
+      }, bannerList), this.showdots ? h('div', {
         "class": 'owl-pagination-wrap'
-      }, this.list.map(function (_, index) {
+      }, paginations.map(function (_, index) {
         return h('div', {
-          "class": ['owl-pagination', _this3.currentIndex == index && 'active'],
+          "class": ['owl-pagination', _this4.currentIndex == index && 'active'],
           key: index,
           on: {
             click: function click() {
-              return _this3.swipeChange(index);
+              return _this4.swipeChange(index);
             }
           }
         }, [h('div', {
           "class": 'owl-progress',
-          style: "transform: scaleX(".concat(_this3.currentIndex == index ? 1 : 0, "); transform-origin: 0% 50%;")
+          style: "transform: scaleX(".concat(_this4.currentIndex == index ? 1 : 0, "); transform-origin: 0% 50%;")
         })]);
-      }))]);
+      })) : '']);
     }
   };
 
@@ -14469,137 +14794,6 @@ export default {
   Select.install = function (Vue) {
     Vue.component(Select.name, Select);
   };
-
-  function ownKeys(object, enumerableOnly) {
-    var keys = Object.keys(object);
-
-    if (Object.getOwnPropertySymbols) {
-      var symbols = Object.getOwnPropertySymbols(object);
-      enumerableOnly && (symbols = symbols.filter(function (sym) {
-        return Object.getOwnPropertyDescriptor(object, sym).enumerable;
-      })), keys.push.apply(keys, symbols);
-    }
-
-    return keys;
-  }
-
-  function _objectSpread2(target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = null != arguments[i] ? arguments[i] : {};
-      i % 2 ? ownKeys(Object(source), !0).forEach(function (key) {
-        _defineProperty(target, key, source[key]);
-      }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) {
-        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
-      });
-    }
-
-    return target;
-  }
-
-  function _defineProperty(obj, key, value) {
-    if (key in obj) {
-      Object.defineProperty(obj, key, {
-        value: value,
-        enumerable: true,
-        configurable: true,
-        writable: true
-      });
-    } else {
-      obj[key] = value;
-    }
-
-    return obj;
-  }
-
-  function _toConsumableArray(arr) {
-    return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
-  }
-
-  function _arrayWithoutHoles(arr) {
-    if (Array.isArray(arr)) return _arrayLikeToArray(arr);
-  }
-
-  function _iterableToArray(iter) {
-    if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
-  }
-
-  function _unsupportedIterableToArray(o, minLen) {
-    if (!o) return;
-    if (typeof o === "string") return _arrayLikeToArray(o, minLen);
-    var n = Object.prototype.toString.call(o).slice(8, -1);
-    if (n === "Object" && o.constructor) n = o.constructor.name;
-    if (n === "Map" || n === "Set") return Array.from(o);
-    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
-  }
-
-  function _arrayLikeToArray(arr, len) {
-    if (len == null || len > arr.length) len = arr.length;
-
-    for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
-
-    return arr2;
-  }
-
-  function _nonIterableSpread() {
-    throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
-  }
-
-  function _createForOfIteratorHelper(o, allowArrayLike) {
-    var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"];
-
-    if (!it) {
-      if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") {
-        if (it) o = it;
-        var i = 0;
-
-        var F = function () {};
-
-        return {
-          s: F,
-          n: function () {
-            if (i >= o.length) return {
-              done: true
-            };
-            return {
-              done: false,
-              value: o[i++]
-            };
-          },
-          e: function (e) {
-            throw e;
-          },
-          f: F
-        };
-      }
-
-      throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
-    }
-
-    var normalCompletion = true,
-        didErr = false,
-        err;
-    return {
-      s: function () {
-        it = it.call(o);
-      },
-      n: function () {
-        var step = it.next();
-        normalCompletion = step.done;
-        return step;
-      },
-      e: function (e) {
-        didErr = true;
-        err = e;
-      },
-      f: function () {
-        try {
-          if (!normalCompletion && it.return != null) it.return();
-        } finally {
-          if (didErr) throw err;
-        }
-      }
-    };
-  }
 
   var Collapse = {
     name: 'owlCollapse',
@@ -16211,7 +16405,7 @@ export default {
       scrollDom.addEventListener('resize', this.onScroll);
     },
     beforeDestroy: function beforeDestroy() {
-      this.resizeObserver.disconnect();
+      this.resizeObserver && this.resizeObserver.disconnect();
       this.target().removeEventListener('scroll', this.onScroll);
       this.target().removeEventListener('resize', this.onScroll);
     },
@@ -16573,6 +16767,18 @@ export default {
       });
     },
 
+    methods: {
+      copySucc() {
+        if (navigator.clipboard !== undefined) {
+          navigator.clipboard.writeText(this.code.replace(/&lt;/g, '<').replace(/&gt;/g, '>'));
+          this.$message.success('复制成功');
+        } else {
+          this.$message.error('当前浏览器不支持复制');
+        }
+      }
+
+    },
+
     render(h) {
       return h('div', {
         class: 'owl-example'
@@ -16585,7 +16791,12 @@ export default {
         style: {
           height: this.currentCodeHeight + 'px'
         }
-      }, [h('code', {
+      }, [h('span', {
+        class: 'owlfont owl-copy',
+        on: {
+          click: this.copySucc
+        }
+      }), h('code', {
         class: 'owl-code',
         ref: 'codeDom',
         domProps: {
