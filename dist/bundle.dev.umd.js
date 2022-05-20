@@ -13516,7 +13516,7 @@ export default {
 
       this.$nextTick(function () {
         _this.currentIndex = _this.defaultIndex < _this.listLng ? _this.defaultIndex : 0;
-        var width = _this.$refs.swiperDom.clientWidth;
+        var width = _this.$refs.swiperDom && _this.$refs.swiperDom.clientWidth;
         if (!width) return;
         _this.bannerInfo.width = width;
         window.addEventListener('resize', _this.windowSizeChange);
@@ -13646,7 +13646,8 @@ export default {
       },
       // 下一个
       swipeNext: function swipeNext() {
-        var width = this.$refs.swiperDom.clientWidth;
+        console.log(this.$refs.swiperDom);
+        var width = this.$refs.swiperDom && this.$refs.swiperDom.clientWidth;
 
         if (width) {
           this.bannerInfo.width = width;
@@ -13666,7 +13667,7 @@ export default {
       windowSizeChange: function windowSizeChange() {
         if (this.listLng <= 1) return;
         this.count = 0;
-        var width = this.$refs.swiperDom.clientWidth;
+        var width = this.$refs.swiperDom && this.$refs.swiperDom.clientWidth;
         if (!width || width === this.bannerInfo.width) return;
         this.bannerInfo.width = width;
         this.bannerInfo.x = (this.currentIndex + 1) * -width;

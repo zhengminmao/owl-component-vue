@@ -1,6 +1,6 @@
 {
   "name": "owl-component-vue",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "mso的ui组件",
   "main": "dist/owlui.min.js",
   "directories": {
