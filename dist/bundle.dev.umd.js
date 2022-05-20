@@ -13519,7 +13519,7 @@ export default {
         var width = _this.$refs.swiperDom && _this.$refs.swiperDom.clientWidth;
         if (!width) return;
         _this.bannerInfo.width = width;
-        window.addEventListener('resize', _this.windowSizeChange);
+        window && window.addEventListener('resize', _this.windowSizeChange);
 
         if (_this.listLng <= 1) {
           // 如果小于1张
@@ -13531,7 +13531,7 @@ export default {
 
         _this.$once("hook:beforeDestroy", function () {
           _this.time && clearInterval(_this.time);
-          window.removeEventListener('resize', _this.windowSizeChange);
+          window && window.removeEventListener('resize', _this.windowSizeChange);
         });
       });
     },
@@ -13704,11 +13704,11 @@ export default {
             return finished && finished();
           } else {
             that.bannerInfo.x = from + (s - first) * disPerMs;
-            window.requestAnimationFrame(animate);
+            window && window.requestAnimationFrame(animate);
           }
         }
 
-        window.requestAnimationFrame(animate);
+        window && window.requestAnimationFrame(animate);
         return function () {
           stop = true;
         };
