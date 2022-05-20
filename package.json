@@ -1,8 +1,8 @@
 {
   "name": "owl-component-vue",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "description": "mso的ui组件",
-  "main": "owl.min.js",
+  "main": "lib/owl.min.js",
   "directories": {
     "lib": "lib"
   },
