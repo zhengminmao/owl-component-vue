@@ -13519,7 +13519,6 @@ export default {
         var width = _this.$refs.swiperDom && _this.$refs.swiperDom.clientWidth;
         if (!width) return;
         _this.bannerInfo.width = width;
-        window && window.addEventListener('resize', _this.windowSizeChange);
 
         if (_this.listLng <= 1) {
           // 如果小于1张
@@ -13528,10 +13527,11 @@ export default {
         }
 
         _this.bannerInfo.x = (_this.currentIndex + 1) * -_this.bannerInfo.width;
+        window.addEventListener('resize', _this.windowSizeChange);
 
         _this.$once("hook:beforeDestroy", function () {
           _this.time && clearInterval(_this.time);
-          window && window.removeEventListener('resize', _this.windowSizeChange);
+          window.removeEventListener('resize', _this.windowSizeChange);
         });
       });
     },
@@ -13607,11 +13607,7 @@ export default {
             to = this.bannerInfo.oldX - winWidth;
           }
         } else {
-          if (this.listLng < 1) to = 0; // let link = this.list[this.currentIndex].link;
-          // 判断是否触发点击事件
-          // if(link && Date.now() - this.bannerInfo.startTime < 400 && Math.abs(this.bannerInfo.move) < 10){
-          //   window.open(link, '_blank')
-          // }
+          if (this.listLng < 1) to = 0;
         }
 
         this.setAnimationPos(cur, to);
@@ -13646,7 +13642,6 @@ export default {
       },
       // 下一个
       swipeNext: function swipeNext() {
-        console.log(this.$refs.swiperDom);
         var width = this.$refs.swiperDom && this.$refs.swiperDom.clientWidth;
 
         if (width) {
@@ -13689,26 +13684,33 @@ export default {
       },
       // times 毫秒
       animateTo: function animateTo(from, to, times, finished) {
-        var that = this;
-        var dis = to - from;
-        var disPerMs = dis / times;
-        var first = 0,
-            stop = false;
+        try {
+          var that = this;
+          var dis = to - from;
+          var disPerMs = dis / times;
+          var first = 0,
+              _stop = false;
 
-        function animate(s) {
-          if (stop) return finished && finished();
-          if (first === 0) first = s;
+          var animate = function animate(s, first, disPerMs, finished) {
+            if (_stop) return finished && finished();
+            if (first === 0) first = s;
 
-          if (s - first >= times) {
-            that.bannerInfo.x = to;
-            return finished && finished();
-          } else {
-            that.bannerInfo.x = from + (s - first) * disPerMs;
-            window && window.requestAnimationFrame(animate);
-          }
-        }
+            if (s - first >= times) {
+              that.bannerInfo.x = to;
+              return finished && finished();
+            } else {
+              that.bannerInfo.x = from + (s - first) * disPerMs;
+              window && window.requestAnimationFrame(function (s) {
+                return animate(s, first, disPerMs, finished);
+              });
+            }
+          };
 
-        window && window.requestAnimationFrame(animate);
+          window && window.requestAnimationFrame(function (s) {
+            return animate(s, first, disPerMs, finished);
+          });
+        } catch (_unused) {}
+
         return function () {
           stop = true;
         };
@@ -15974,9 +15976,6 @@ export default {
 
         return arr;
       }
-    },
-    mounted: function mounted() {
-      console.log(this.page);
     },
     methods: {
       changeCurrent: function changeCurrent(val) {

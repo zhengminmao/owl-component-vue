@@ -4,7 +4,7 @@ import postcss from 'rollup-plugin-postcss'
 import json from '@rollup/plugin-json'
 import livereload from 'rollup-plugin-livereload';  // 热重载
 import alias from '@rollup/plugin-alias';
-import replace from 'rollup-plugin-replace'
+import replace from '@rollup/plugin-replace'
 import path from 'path'
 import image from '@rollup/plugin-image'
 import vue from 'rollup-plugin-vue2'
