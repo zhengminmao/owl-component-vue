@@ -5,6 +5,10 @@
     <owl-code-example :code="tabs1Code">
       <owl-tabs class="tabs1" :list="list" v-model="value"/>
     </owl-code-example>
+    <h3>配置</h3>
+    <owl-code-example :code="tabs2Code">
+      <owl-tabs class="tabs1" :list="list2" v-model="value2" :config="{label: 'countryName', key: 'countryId'}"/>
+    </owl-code-example>
     <h3>属性</h3>
     <owl-table :columns="columns" :data="data" />
   </div>
@@ -20,6 +24,13 @@ export default {
         {label: '美国', key: 'USA'},
         {label: '澳大利亚', key: 'Australia'},
       ],
+      list2: [
+        {countryName: 'England', countryId: 0},
+        {countryName: 'Canada', countryId: 1},
+        {countryName: 'USA', countryId: 2},
+        {countryName: 'Australia', countryId: 3},
+      ],
+      value2: 0,
       value: 'England',
       columns: [
         {title: '名称', key: 'name'},
@@ -47,6 +58,26 @@ export default {
         {label: '澳大利亚', key: 'Australia'},
       ],
       value: 'England',
+    }
+  }
+}
+&lt;script/&gt;
+      `,
+      tabs2Code:`&lt;template&gt;
+  &lt;owl-tabs class="tabs1" :list="list2" v-model="value2" :config="{label: 'countryName', key: 'countryId'}"/&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  data(){
+    return {
+      list2: [
+        {countryName: 'England', countryId: 0},
+        {countryName: 'Canada', countryId: 1},
+        {countryName: 'USA', countryId: 2},
+        {countryName: 'Australia', countryId: 3},
+      ],
+      value2: 0,
     }
   }
 }

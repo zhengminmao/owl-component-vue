@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 (function (factory) {
   typeof define === 'function' && define.amd ? define(factory) :
   factory();
@@ -11886,7 +11886,7 @@ new Vue({
   };
 
   var Tabs$1 = {
-  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"tabs-page"},[_c('h2',[_vm._v("Tabs 标签页")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.tabs1Code}},[_c('owl-tabs',{staticClass:"tabs1",attrs:{"list":_vm.list},model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}})],1),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"columns":_vm.columns,"data":_vm.data}})],1)},
+  render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"tabs-page"},[_c('h2',[_vm._v("Tabs 标签页")]),_vm._v(" "),_c('h3',[_vm._v("基础用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.tabs1Code}},[_c('owl-tabs',{staticClass:"tabs1",attrs:{"list":_vm.list},model:{value:(_vm.value),callback:function ($$v) {_vm.value=$$v;},expression:"value"}})],1),_vm._v(" "),_c('h3',[_vm._v("配置")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.tabs2Code}},[_c('owl-tabs',{staticClass:"tabs1",attrs:{"list":_vm.list2,"config":{label: 'countryName', key: 'countryId'}},model:{value:(_vm.value2),callback:function ($$v) {_vm.value2=$$v;},expression:"value2"}})],1),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"columns":_vm.columns,"data":_vm.data}})],1)},
   staticRenderFns: [],
     data(){
       return {
@@ -11896,6 +11896,13 @@ new Vue({
           {label: '美国', key: 'USA'},
           {label: '澳大利亚', key: 'Australia'},
         ],
+        list2: [
+          {countryName: 'England', countryId: 0},
+          {countryName: 'Canada', countryId: 1},
+          {countryName: 'USA', countryId: 2},
+          {countryName: 'Australia', countryId: 3},
+        ],
+        value2: 0,
         value: 'England',
         columns: [
           {title: '名称', key: 'name'},
@@ -11923,6 +11930,26 @@ export default {
         {label: '澳大利亚', key: 'Australia'},
       ],
       value: 'England',
+    }
+  }
+}
+&lt;script/&gt;
+      `,
+        tabs2Code:`&lt;template&gt;
+  &lt;owl-tabs class="tabs1" :list="list2" v-model="value2" :config="{label: 'countryName', key: 'countryId'}"/&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  data(){
+    return {
+      list2: [
+        {countryName: 'England', countryId: 0},
+        {countryName: 'Canada', countryId: 1},
+        {countryName: 'USA', countryId: 2},
+        {countryName: 'Australia', countryId: 3},
+      ],
+      value2: 0,
     }
   }
 }
@@ -13856,35 +13883,20 @@ export default {
         return this.isOverflow ? 'unset' : 'space-around';
       }
     },
+    mounted: function mounted() {
+      this.changeClient();
+    },
     watch: {
       list: {
         handler: function handler() {
-          var _this = this;
-
-          setTimeout(function () {
-            var wrapDom = _this.$refs.wrapDom;
-            if (!wrapDom || !wrapDom.children) return;
-            var itemDom = wrapDom.querySelector("[data-key=".concat(_this.value, "]"));
-
-            if (itemDom) {
-              _this.line.width = itemDom.clientWidth;
-              _this.line.left = itemDom.offsetLeft;
-            }
-
-            if (wrapDom.scrollWidth > wrapDom.clientWidth) {
-              _this.isOverflow = true;
-            } else {
-              _this.isOverflow = false;
-            }
-          });
+          this.changeClient();
         },
-        immediate: true,
         deep: true
       },
       value: function value(val) {
         var wrapDom = this.$refs.wrapDom;
         if (!wrapDom || !wrapDom.children) return;
-        var itemDom = wrapDom.querySelector("[data-key=".concat(val, "]"));
+        var itemDom = wrapDom.querySelector("#id-".concat(val));
         this.line.width = itemDom.clientWidth;
         this.line.left = itemDom.offsetLeft;
 
@@ -13897,8 +13909,26 @@ export default {
         }
       }
     },
+    methods: {
+      changeClient: function changeClient() {
+        var wrapDom = this.$refs.wrapDom;
+        if (!wrapDom || !wrapDom.children) return;
+        var itemDom = wrapDom.querySelector("#id-".concat(this.value));
+
+        if (itemDom) {
+          this.line.width = itemDom.clientWidth;
+          this.line.left = itemDom.offsetLeft;
+        }
+
+        if (wrapDom.scrollWidth > wrapDom.clientWidth) {
+          this.isOverflow = true;
+        } else {
+          this.isOverflow = false;
+        }
+      }
+    },
     render: function render(h) {
-      var _this2 = this;
+      var _this = this;
 
       var children = [];
 
@@ -13917,23 +13947,27 @@ export default {
             key: index,
             on: {
               'click': function click() {
-                return _this2.$emit('change', item[_this2.config.key]);
+                return _this.$emit('change', item[_this.config.key]);
               }
             },
-            "class": ['item', _this2.value == item[_this2.config.key] && 'active'],
+            "class": ['item', _this.value == item[_this.config.key] && 'active'],
             attrs: {
-              'data-key': item[_this2.config.key]
+              'id': 'id-' + item[_this.config.key]
             },
             style: {
-              'margin-right': index == _this2.list.length - 1 && _this2.type === 'line' && '0px'
+              'margin-right': index == _this.list.length - 1 && _this.type === 'line' && '0px'
             }
-          }, [h('span', item[_this2.config.label])]);
+          }, [h('span', item[_this.config.label])]);
         });
 
         if (this.type === 'line') {
           tabs.push(h('div', {
             "class": 'line',
-            style: "transform: translateX(".concat(this.line.left, "px) scaleX(").concat(this.line.width, "); transform-origin: 0 50%")
+            style: {
+              transform: "translateX(".concat(this.line.left, "px)"),
+              'transform-origin': '0 50%',
+              width: this.line.width + 'px'
+            }
           }));
         }
 
