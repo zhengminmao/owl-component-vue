@@ -8613,8 +8613,8 @@
   var img = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAuCAYAAACh8K6vAAAKQ2lDQ1BJQ0MgcHJvZmlsZQAAeNqdU3dYk/cWPt/3ZQ9WQtjwsZdsgQAiI6wIyBBZohCSAGGEEBJAxYWIClYUFRGcSFXEgtUKSJ2I4qAouGdBiohai1VcOO4f3Ke1fXrv7e371/u855zn/M55zw+AERImkeaiagA5UoU8Otgfj09IxMm9gAIVSOAEIBDmy8JnBcUAAPADeXh+dLA//AGvbwACAHDVLiQSx+H/g7pQJlcAIJEA4CIS5wsBkFIAyC5UyBQAyBgAsFOzZAoAlAAAbHl8QiIAqg0A7PRJPgUA2KmT3BcA2KIcqQgAjQEAmShHJAJAuwBgVYFSLALAwgCgrEAiLgTArgGAWbYyRwKAvQUAdo5YkA9AYACAmUIszAAgOAIAQx4TzQMgTAOgMNK/4KlfcIW4SAEAwMuVzZdL0jMUuJXQGnfy8ODiIeLCbLFCYRcpEGYJ5CKcl5sjE0jnA0zODAAAGvnRwf44P5Dn5uTh5mbnbO/0xaL+a/BvIj4h8d/+vIwCBAAQTs/v2l/l5dYDcMcBsHW/a6lbANpWAGjf+V0z2wmgWgrQevmLeTj8QB6eoVDIPB0cCgsL7SViob0w44s+/zPhb+CLfvb8QB7+23rwAHGaQJmtwKOD/XFhbnauUo7nywRCMW735yP+x4V//Y4p0eI0sVwsFYrxWIm4UCJNx3m5UpFEIcmV4hLpfzLxH5b9CZN3DQCshk/ATrYHtctswH7uAQKLDljSdgBAfvMtjBoLkQAQZzQyefcAAJO/+Y9AKwEAzZek4wAAvOgYXKiUF0zGCAAARKCBKrBBBwzBFKzADpzBHbzAFwJhBkRADCTAPBBCBuSAHAqhGJZBGVTAOtgEtbADGqARmuEQtMExOA3n4BJcgetwFwZgGJ7CGLyGCQRByAgTYSE6iBFijtgizggXmY4EImFINJKApCDpiBRRIsXIcqQCqUJqkV1II/ItchQ5jVxA+pDbyCAyivyKvEcxlIGyUQPUAnVAuagfGorGoHPRdDQPXYCWomvRGrQePYC2oqfRS+h1dAB9io5jgNExDmaM2WFcjIdFYIlYGibHFmPlWDVWjzVjHVg3dhUbwJ5h7wgkAouAE+wIXoQQwmyCkJBHWExYQ6gl7CO0EroIVwmDhDHCJyKTqE+0JXoS+cR4YjqxkFhGrCbuIR4hniVeJw4TX5NIJA7JkuROCiElkDJJC0lrSNtILaRTpD7SEGmcTCbrkG3J3uQIsoCsIJeRt5APkE+S+8nD5LcUOsWI4kwJoiRSpJQSSjVlP+UEpZ8yQpmgqlHNqZ7UCKqIOp9aSW2gdlAvU4epEzR1miXNmxZDy6Qto9XQmmlnafdoL+l0ugndgx5Fl9CX0mvoB+nn6YP0dwwNhg2Dx0hiKBlrGXsZpxi3GS+ZTKYF05eZyFQw1zIbmWeYD5hvVVgq9ip8FZHKEpU6lVaVfpXnqlRVc1U/1XmqC1SrVQ+rXlZ9pkZVs1DjqQnUFqvVqR1Vu6k2rs5Sd1KPUM9RX6O+X/2C+mMNsoaFRqCGSKNUY7fGGY0hFsYyZfFYQtZyVgPrLGuYTWJbsvnsTHYF+xt2L3tMU0NzqmasZpFmneZxzQEOxrHg8DnZnErOIc4NznstAy0/LbHWaq1mrX6tN9p62r7aYu1y7Rbt69rvdXCdQJ0snfU6bTr3dQm6NrpRuoW623XP6j7TY+t56Qn1yvUO6d3RR/Vt9KP1F+rv1u/RHzcwNAg2kBlsMThj8MyQY+hrmGm40fCE4agRy2i6kcRoo9FJoye4Ju6HZ+M1eBc+ZqxvHGKsNN5l3Gs8YWJpMtukxKTF5L4pzZRrmma60bTTdMzMyCzcrNisyeyOOdWca55hvtm82/yNhaVFnMVKizaLx5balnzLBZZNlvesmFY+VnlW9VbXrEnWXOss623WV2xQG1ebDJs6m8u2qK2brcR2m23fFOIUjynSKfVTbtox7PzsCuya7AbtOfZh9iX2bfbPHcwcEh3WO3Q7fHJ0dcx2bHC866ThNMOpxKnD6VdnG2ehc53zNRemS5DLEpd2lxdTbaeKp26fesuV5RruutK10/Wjm7ub3K3ZbdTdzD3Ffav7TS6bG8ldwz3vQfTw91jicczjnaebp8LzkOcvXnZeWV77vR5Ps5wmntYwbcjbxFvgvct7YDo+PWX6zukDPsY+Ap96n4e+pr4i3z2+I37Wfpl+B/ye+zv6y/2P+L/hefIW8U4FYAHBAeUBvYEagbMDawMfBJkEpQc1BY0FuwYvDD4VQgwJDVkfcpNvwBfyG/ljM9xnLJrRFcoInRVaG/owzCZMHtYRjobPCN8Qfm+m+UzpzLYIiOBHbIi4H2kZmRf5fRQpKjKqLupRtFN0cXT3LNas5Fn7Z72O8Y+pjLk722q2cnZnrGpsUmxj7Ju4gLiquIF4h/hF8ZcSdBMkCe2J5MTYxD2J43MC52yaM5zkmlSWdGOu5dyiuRfm6c7Lnnc8WTVZkHw4hZgSl7I/5YMgQlAvGE/lp25NHRPyhJuFT0W+oo2iUbG3uEo8kuadVpX2ON07fUP6aIZPRnXGMwlPUit5kRmSuSPzTVZE1t6sz9lx2S05lJyUnKNSDWmWtCvXMLcot09mKyuTDeR55m3KG5OHyvfkI/lz89sVbIVM0aO0Uq5QDhZML6greFsYW3i4SL1IWtQz32b+6vkjC4IWfL2QsFC4sLPYuHhZ8eAiv0W7FiOLUxd3LjFdUrpkeGnw0n3LaMuylv1Q4lhSVfJqedzyjlKD0qWlQyuCVzSVqZTJy26u9Fq5YxVhlWRV72qX1VtWfyoXlV+scKyorviwRrjm4ldOX9V89Xlt2treSrfK7etI66Trbqz3Wb+vSr1qQdXQhvANrRvxjeUbX21K3nShemr1js20zcrNAzVhNe1bzLas2/KhNqP2ep1/XctW/a2rt77ZJtrWv913e/MOgx0VO97vlOy8tSt4V2u9RX31btLugt2PGmIbur/mft24R3dPxZ6Pe6V7B/ZF7+tqdG9s3K+/v7IJbVI2jR5IOnDlm4Bv2pvtmne1cFoqDsJB5cEn36Z8e+NQ6KHOw9zDzd+Zf7f1COtIeSvSOr91rC2jbaA9ob3v6IyjnR1eHUe+t/9+7zHjY3XHNY9XnqCdKD3x+eSCk+OnZKeenU4/PdSZ3Hn3TPyZa11RXb1nQ8+ePxd07ky3X/fJ897nj13wvHD0Ivdi2yW3S609rj1HfnD94UivW2/rZffL7Vc8rnT0Tes70e/Tf/pqwNVz1/jXLl2feb3vxuwbt24m3Ry4Jbr1+Hb27Rd3Cu5M3F16j3iv/L7a/eoH+g/qf7T+sWXAbeD4YMBgz8NZD+8OCYee/pT/04fh0kfMR9UjRiONj50fHxsNGr3yZM6T4aeypxPPyn5W/3nrc6vn3/3i+0vPWPzY8Av5i8+/rnmp83Lvq6mvOscjxx+8znk98ab8rc7bfe+477rfx70fmSj8QP5Q89H6Y8en0E/3Pud8/vwv94Tz+4A5JREAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADhGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOmMxN2IyNTIxLThhZTItMzQ0ZC05MTUwLTllYzJmNmFiNDZkZiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyMTEwRTg1NEIzOUIxMUVCOEIxNkM5MzBDRTY0QTdCNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyMTEwRTg1M0IzOUIxMUVCOEIxNkM5MzBDRTY0QTdCNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4NjAxZjJkNC03OGZmLTZiNGQtYTJiMC0wMzkyNzU0Njk1YWUiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDowMzBlMTQzNy0zNjJjLWRkNGYtYjNhYS02MjlmY2FkNGRmMjkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6/igSIAAASCUlEQVR42tRbC3hU1bVe58wzJBOSkIRIgPBKRBTkVlER6/OKoN4q8iqo14pS1GKV+qAvi2ixXAu1aC1eFa33IghS8YF6tQF8Fq3gRS0gRYWQ8MybPOY9p2udvc7MnjNnMpPJ5H7e9X3ryzkn5+zHv9dea+1/71E0TQNYqQBKLup3ICbvQ/blTNQcVKrwAOrBuP86AWYfXghrm27F66+tvi9GPQ/1VNTBqHmonaiHuKwvUD9J2YoINkEJwd6Bs6Eqpw4glFbbz0E9A3UUagVqX9R27sde1E9RP0QNpyzpVg3s0m0V6nvS/RrUa7MI+pWor0n3S1F/Fr2zAQT8dqjuHI/XDeZvCeSfo/47D1xXUov6X6hPMyg9kX6o81BvQh2WxvuHUZ9DXcntSCqqdG0eqdmo/5Yl0B08kLL4oleaAH5Z6zSo947D62b5vZmoXzEAOWnUNQj1F6jfoP7W+hVN73o4rvsJcifqftQlaYJOMoCNib5b3NWLdlNrzPLfqKWogR4Cvw7VY3oWlq293Z8DD7b+AFt0nD2RLlNRXzB9txn1LwxsJ095mhHjeFY5+T0q5G7UGahz+LvYKIdzsfPhZEayEfUK0/MO1FdRd7A1d3CfyO2chfo9CU+sAH6FejHqVahNXQFvJdSp51Gn9wD0y1GnQIrhf/XEePD5T2bfrhjWs0F66yjq9ajVXZRUxjOELL5EclNK7BW8DFTAjf1+B8PcR8z+3c7AjpaetaDej7oatTGFtaPlwCJp8M9j30+xrSGZq0km0xi8TIRcw5/TefGDwBg2lKgslK6b2aKrUxRDg7MCtRL1KX42L/odBlTwj4IL89fDMwN+CzYtktAME+h/5rJWpADd8O8PoZ7MM9KQCg66kA7wVEibqQHODID/E6qbr1s5+scL2SL2/0CwjD1a1Di/J71F/rKuG/VSXT9EnYD6ZBT0wBAocX0Or5bfKzxOvKf5D9Szpfsn2egautlnCugT2b3Kicuz6QBPPuka1CDfuy2CYyqZwv7VELp+2Tq9w96F87E1ATmLGSK98U6GM+6v0QpC/XT/vqX8JvA4/KJnMQdEVn6v9F01z5SeyPdR/1e6/wHHgi6BH8mVz5WeTU3pq2Pi5sBsyCbUtzn/tpROzSUAElJokYZkLhq67lAZPF62AE7LqzNNLF2WS9deNrpsyETJeEn+kAp4jRdUlJPuMrmOdFzOC/y9IUZwzk8axVVMErSojye3Ioe9URl3XXcxlXBx3zVwW783rfIzMrJLpftfmdxsT4Tc1DLpfhxrl8AbVienVQTc+hSVTeYUSnYxRs4eSpJSQz/bCbyOjikFsj3SWw+aI2/aEiqGoTl/g439F4kJlTh35sQ7Pfhjllfry0y1zkqV1Rgg1fBiwhAC9eok3+SaBoZczIspm4atqHLUMvBRd/O89MYITvPO6T7wJXBB7juQn+NNRg1cIF2/zGuDbArFy1ek+/PTTSeB0ymZA1kvZSuyPMv8ibHgmJ2eD8Z81f0xtsYvG/YjpiX/6ajbOFuYbnJlXawRjsLG9slworOP1ZzJMcWdTdA7IqeXp3QHeGD6ICKt7p6zyGKmm6J6er4SLfHivJ1wch9MXoKDjGrIG5+L+qXp7Rk88DVsocThTOIVtgXwLdDqHQvLW6dZLRcrTAP4TS8Bv0+67tNd4I+ZUqwZUpaTY3INa7plPRFh6I8WrkTrd8hWf4Qt8o+m7MAgsK5iLuVNZidfYZ8dy4ooYNuPw2NtU8VQxve40MIt9IbUp7uASiZPm1aPzzHoyyUCq73brKYiYJ3o2QGVuZtlqzeG5UeoQ3kh9fckpbh40bWKXdTiaNKIwDd7z4RlLVPFXNVklijBBHpDwj0FHjiwGg30sCu41fT/DHJtAcPKoscQrgBbfpwcYs5kNKeXczim/MOitHxOC/8hArOiU82/bJ6nU88S3F7Td55eAj4vG8B3MBElrzLl4Lo54+ah1V/i2Qmjc7eg3y/t6s09XNcc5kZoSU6c+bum90aI1aNSTFbv94+BR1unCKuPUSOylPcS8OXmWaVmWNAGCx9Onbi5R81DS6wP9IU6PwZ+W7fWMBS8nkG9EHV8jCqIWtsTutWrTfD7tikiWqjRGFJrTvV6QcaaA7jag8JmMWVq5YIyE2zNLY3zoZnoYVtrpqV8xOTYO/F0hzKArP6Qbwx83DlSdjdymnxtLwE/09S+HgFPQfQ6ycV80qOm4fSv7SiFl1oxC3UelOmDTOWmhBU10QeRfKj2nyFzNS+bMqVJWQb9AnZ5hrzUU+BJXgfBmy/ocfMQiLtb0GWHC/C6Ixsdpil9VLovFmiHYLu/Ss5s1ppm7rIsA79UuiYq5LVsAE/yMAj+O3PBROPL9kGwvhUXuo6ajGkZCwkkpHRqG2wPjJBpYSISfi29R+uGRVmqf76J5rjHoGJU+DYItmLpCXSDYTRKNUqVrIMUG8YppNiUTYhNGNsJDN4jYFdgiDy+y01B9v6M0+KYUJx5zFT/sz1JJ7Mr2PmDnaWwtu1ytHxig20O5mlmcC7+RIYl3y9NHfJdbwmXhpMg3B82+79j7v1k0/cbLeJEukIr+g9Mzyb2LI/nhU7Cl0qGHgLL2eYbBYFAlZHJ0OJHZkPncd7+/W6Uegevdg1ZGe92FNgTGGz+hvYdbrRYqdMZnUFp1ksUxB+MAGrK+A5mDrwmso+WkAu8YYfYElGZMkPgG4M5qc8tWBBkV3n+CoP6oIEEyTNojcxEbpfeGslBcCdbMm1cDLQgvGYxb/N76TlNo/viOxGBzwLDrZLfP1msRa6X1glEAg6H+P2rCuaMHueA/iPT91MhnhbuJvDUXgS6KZQDI2tegRE1r8MzzZNxDrvh/Y7RML52FQw9sBU+8Q7r3rY4dt7tDMDiAnR/kQKDSPkcxE7NEhPPcToHvrfZgmrYUvczP7PGlA7SQSjawPZF05hwqU5H5CleiERUMUvjtwFXcQq418QD3cis6Fdc9y6u8wCnpLehFkjf7OCF00txXoERV6Szk2eacvFBIO/sY9WNgVwYd2AN7MelN6jt+l5mkXsvNAXKELQivFdBsbXAzoqpMCYPMfGDecfnK7YYkhVRl8Ju6tzaR2Bbx0SdQ5cEo6BO/U6zYBO7kqeE9WlBvbfhfnp7T3Z9AVPz3obxrt0QwAEY4TgEI5214FSDoq3x7aUY88NuUglfM5v6uzjAUTsjLvjcPwzOuXN3nGOgI1wv8msBXiBF3cjOjiqYcfjXsN+HQcm9mxc4NgQdZ7yKBmVDoJUIaIEKOPPganhtwL1wmWdblHnkDpG/HMP1vRedc3bx/9EI+LZEcuwAd55OhV3DtMAodjUF/DXV0MAD+6GoR/tKnBgTBlGJQE/JfQcm9fkQrd0Hh8Ml0K659fiyNzgITnEchCp9AELyADyA+huOL5PZggeayLRWzog+BfOOG1t3R9gNX2Id3wRPwnqL9fxSWPwqRUzoCMOucXfw+ouOEbCkeQ6sO3G5GAVHndi1T7oQCgmCK9wHLvRshkVFq+DCvB1Rfx4tXxF1RPDZytbpsLTpBqgLDUCsGtP1gDYBvIKlKAi80gQaTx06Daz1wUdeqHTug+m5m+Ffcz6CPDSQQwi4X3NiDRE2Rg28eO/FQSjEHL8S+zfMcQTyKa1VJDcb+1vAM48cqp8XRW3Rd6VvWsJ5sA/jFmk7tqnQ1oGzzAbX3lMtgL9vya1wS98NUO5oEOBjv3di8HmoaS68eOIyfFYoAFe9uvWk5bjJcoMD9fTt4rz3YGHR0zAxZ3u0ExQb/rP1aljRMhsOescIUkx3MUqC000edBSx0qW/OvYhcCHYJ+HgjXV+DWe59sAZrl36CYajaGk+CfDEhbOm/9+ruXT/X4ouswS1v61Z/95NaagZXNOg0AC2RDxwLFwI9eG+cBzbRsdWchU/OLF9dvQI7RE3XHfPXwTwyoJacGAjy+xN0f7U+tHFhwYKwBVvhil/RMwSSt1sTVDu+jracbKAZt+pwk3Zj1n0KBXuwj/d4HkTTrHXounZdRdShFZbgmCVYH3kwxvQaPz4rprm0RxBKtjAG3HqfwmwXCw3B8Ej8F04uDYlFu9DaMEBLJ8GjLQTZw7dO/Adt0KtikRrpmcG8MJnOPdCEEenVubAaao59zHgma6zVJGU0EFUbNQh4kjkFTyRYVG/k8nmiVu36gnO3VCLFk1AUacbI/lwhHx7z6gjfbBo8LwIVoiPdUe0+CGkO1XRdIOi08c2tGq6DuN77Vr8qXInDhoFWGZJ9M+vwCzlu4m0brYWtqpwBbamJF3MYBUXIR8ehgr7MQdmJEp/aNbgWy42RVNbwrm0b7HciJKX8mrv/4nY9eD5SMl9cEXfj9P9Kc23gpNqC+TsloG/07RMt7YymjoUNNF36X5fy2NfyxGZjuGRC4lwtkW5fk9cSdKmOPXZM9fzRnzmoUmTNNJNv/J/NF8oe/Kk50siAvDgcP0611Gv+2sInKaDnGuvBxsGNDelgSFcSAWrwIXBzam24P1g3rQO94LNR6AZB9gXckJHyCPA43Ov/rBLJHs2E7hKEi+XDdDTTMa02JztIh/HIKWnhLbjMLfgSVjgWQPlCPRnvuHwvm8CLkjegHJbAwYMN4IdgPUdF2HaVga3e16AiKLCE21XwwOt8yCocbqXNfGDghnGpKNLMYhiUI3kwVj353Bezhewuu1SaA+dBHPzN2AKuwoKnV6xvIrw+Gum5bv5PGU61m81YCrE0w8pyhDp5MItpqfY0mAF/u2E2/LXIZDrYKS7JnaYX01otLhTuWLjHbwuq10LxwKYNtrqVcjauRX2KUQDQDBmJGgAguHU9DOTHkct3I7gL8lfFQPdChglcXmQltlafdfVAOD/jgULof/8JgtXox9rroJiWx3sGDALHi99GEa6aoTVhOBKLGgrduJU/T4MNyOUW1HPQt2E/y9l63oZ37t+V2cFtIQG20BtI0bxBeaCjLPn9NNJOg3wLi/LVeZXjJ1++qHAoxLDh1FU38B+OGqWtoZbEOgPMLZsA/uRe8C5n3z/nagrwL0HA9ko2NoxVgaYfgxGm81b8fopdg9D9HtxvpGen8tto7qqeTPD+BkQcfpb8J0JqOfwN2/qmzYKHyEMg4FVl4NoTwS9EorsNbCjfCYMdjWZz5NXMldCDaO91ltA/OiW6NrBvGO0QqdJFZi/uO0G8AcHnw/OLxchrpVMxJ3OrCKdQruSOZb1zHFMkijUs5kgo6UpHSeZw6zldubn/8Y8+yXcRZq2dKZnAHbkGrT+O8CxH54sWm4sJ4bw/xcwT/QR07jbuE+lPPidbCQbeUvQzpsylzAFbGdeax1fT2M+6XV9gJQY3a0PgoNL1ZIl6mzpRfYDCPo0GOxsEkxE4kDRUzroeZGgW3X6s4gbf5luxYp+lK6ujqgG1Yf/V9/ihg5lWvcOBu51tmTqEP1spYX/T++exQBMZ3Ce5boeYtJqIVvbFrbYNfzsgBhYTc9+DpE7EmDQwB1jrv5Tvr+R3R8tMH7C7SJH8T7vvdIg/QsPEh30+RnPxH5cb39+dpx3zRKRDVkvV9QY6COgn30/fIKWPsTZaPVzFZISnm5NbKHvcker+NkOnTxS4bXPvMNhH2U+aqPGljyft8TIkpohnrUv5MEL8YBsYs6bfu55AmI/nTT2Ur08SMWmMhq4XJ8RzG9u+qkoVdXLKTCV4+eyVP4uh40rwjmSoQUMPG3G0OHco8xQqrxjVsx7AtZpaiDR7QjgMQ0swWlJlj7MWZ8MdIMbpwYc4VF/mi3dANGn/x9L/cB/GjT4iYtpPZfBU9iSzubdmtN4Z4g2EA4x3Uq89/+A+P1UPfv2Dczhk1uZyxTxCt4kGccWuIBp2we4XegWlB+D/fCP63wTKn7afDP19Cnu/vNcziPsGk/iAb6Ly6HBm8nu7y42lKHChekg9+UZej5vhlD7D3OfoEvwIzFcdR/fR22FbWWzoILcS7DLqL6a/27nb2mU6RyKcXB0gx5A0cKuy62GxW0fQ31o0FsIPk3H23kALuCttO8yaGHeOvsMxG5/DZe1li09zIP0AM+ca9i1AJdxN3fpInYlb7A1jhOHVY9XL2ufAfflr27Ntfkq8c1lXM5N3F6Kvr8w9fMujluGbOL4NpPRWSUNGnC7QykXaBK2/xRgAAhywRhHahIhAAAAAElFTkSuQmCC";
 
   /*!
-    * vue-router v3.5.3
-    * (c) 2021 Evan You
+    * vue-router v3.5.4
+    * (c) 2022 Evan You
     * @license MIT
     */
 
@@ -9136,7 +9136,7 @@
   }
 
   function cleanPath(path) {
-    return path.replace(/\/+/g, '/');
+    return path.replace(/\/(?:\s*\/)+/g, '/');
   }
 
   var isarray = Array.isArray || function (arr) {
@@ -10045,7 +10045,7 @@
         if (route.name && !route.redirect && route.children.some(function (child) {
           return /^\/?$/.test(child.path);
         })) {
-          warn$1(false, "Named Route '" + route.name + "' has a default child route. " + "When navigating to this named route (:to=\"{name: '" + route.name + "'\"), " + "the default child route will not be rendered. Remove the name from " + "this route and use the name of the default child route for named " + "links instead.");
+          warn$1(false, "Named Route '" + route.name + "' has a default child route. " + "When navigating to this named route (:to=\"{name: '" + route.name + "'}\"), " + "the default child route will not be rendered. Remove the name from " + "this route and use the name of the default child route for named " + "links instead.");
         }
       }
 
@@ -11633,7 +11633,7 @@
   }
 
   VueRouter.install = install$1;
-  VueRouter.version = '3.5.3';
+  VueRouter.version = '3.5.4';
   VueRouter.isNavigationFailure = isNavigationFailure;
   VueRouter.NavigationFailureType = NavigationFailureType;
   VueRouter.START_LOCATION = START;
@@ -13502,14 +13502,12 @@ export default {
     },
     created: function created() {
       this.onBannerMove = throttleFunc(this.onBannerMove);
-      this.listLng = this.$slots["default"].length;
+      this.listLng = this.$slots["default"] ? this.$slots["default"].length : 0;
       Object.defineProperty(this, 'time', {
         configurable: false,
         value: undefined,
         writable: true
-      }); // 自动滚动
-
-      this.autoplay && this.setAutoPlay();
+      });
     },
     mounted: function mounted() {
       var _this = this;
@@ -13518,6 +13516,7 @@ export default {
         _this.currentIndex = _this.defaultIndex < _this.listLng ? _this.defaultIndex : 0;
         var width = _this.$refs.swiperDom && _this.$refs.swiperDom.clientWidth;
         if (!width) return;
+        _this.autoplay && _this.setAutoPlay();
         _this.bannerInfo.width = width;
 
         if (_this.listLng <= 1) {
@@ -13700,13 +13699,13 @@ export default {
               return finished && finished();
             } else {
               that.bannerInfo.x = from + (s - first) * disPerMs;
-              window && window.requestAnimationFrame(function (s) {
+              window.requestAnimationFrame(function (s) {
                 return animate(s, first, disPerMs, finished);
               });
             }
           };
 
-          window && window.requestAnimationFrame(function (s) {
+          window.requestAnimationFrame(function (s) {
             return animate(s, first, disPerMs, finished);
           });
         } catch (_unused) {}
@@ -13720,6 +13719,11 @@ export default {
       var _this4 = this;
 
       var vNodes = this.$slots["default"];
+
+      if (!vNodes) {
+        return h('div');
+      }
+
       var lng = vNodes.length;
 
       if (this.listLng !== lng) {
@@ -15121,22 +15125,29 @@ export default {
         return void 0 === t;
       }
     },
-        D = "en",
-        v = {};
+        v = "en",
+        D = {};
 
-    v[D] = M;
+    D[v] = M;
 
     var p = function (t) {
       return t instanceof _;
     },
-        S = function (t, e, n) {
-      var r;
-      if (!t) return D;
-      if ("string" == typeof t) v[t] && (r = t), e && (v[t] = e, r = t);else {
-        var i = t.name;
-        v[i] = t, r = i;
+        S = function t(e, n, r) {
+      var i;
+      if (!e) return v;
+
+      if ("string" == typeof e) {
+        var s = e.toLowerCase();
+        D[s] && (i = s), n && (D[s] = n, i = s);
+        var u = e.split("-");
+        if (!i && u.length > 1) return t(u[0]);
+      } else {
+        var a = e.name;
+        D[a] = e, i = a;
       }
-      return !n && r && (D = r), r || !n && D;
+
+      return !r && i && (v = i), i || !r && v;
     },
         w = function (t, e) {
       if (p(t)) return t.clone();
@@ -15224,9 +15235,9 @@ export default {
             return r ? $(1, M) : $(0, M + 1);
 
           case o:
-            var D = this.$locale().weekStart || 0,
-                v = (y < D ? y + 7 : y) - D;
-            return $(r ? m - v : m + (6 - v), M);
+            var v = this.$locale().weekStart || 0,
+                D = (y < v ? y + 7 : y) - v;
+            return $(r ? m - D : m + (6 - D), M);
 
           case a:
           case d:
@@ -15296,7 +15307,7 @@ export default {
             o = n.weekdays,
             f = n.months,
             h = function (t, n, i, s) {
-          return t && (t[n] || t(e, r)) || i[n].substr(0, s);
+          return t && (t[n] || t(e, r)) || i[n].slice(0, s);
         },
             c = function (t) {
           return O.s(s % 12 || 12, t, "0");
@@ -15343,12 +15354,12 @@ export default {
             M = w(r),
             m = (M.utcOffset() - this.utcOffset()) * e,
             g = this - M,
-            D = O.m(this, M);
-        return D = (l = {}, l[c] = D / 12, l[f] = D, l[h] = D / 3, l[o] = (g - m) / 6048e5, l[a] = (g - m) / 864e5, l[u] = g / n, l[s] = g / e, l[i] = g / t, l)[y] || g, $ ? D : O.a(D);
+            v = O.m(this, M);
+        return v = (l = {}, l[c] = v / 12, l[f] = v, l[h] = v / 3, l[o] = (g - m) / 6048e5, l[a] = (g - m) / 864e5, l[u] = g / n, l[s] = g / e, l[i] = g / t, l)[y] || g, $ ? v : O.a(v);
       }, m.daysInMonth = function () {
         return this.endOf(f).$D;
       }, m.$locale = function () {
-        return v[this.$L];
+        return D[this.$L];
       }, m.locale = function (t, e) {
         if (!t) return this.$L;
         var n = this.clone(),
@@ -15366,17 +15377,17 @@ export default {
         return this.$d.toUTCString();
       }, M;
     }(),
-        b = _.prototype;
+        T = _.prototype;
 
-    return w.prototype = b, [["$ms", r], ["$s", i], ["$m", s], ["$H", u], ["$W", a], ["$M", f], ["$y", c], ["$D", d]].forEach(function (t) {
-      b[t[1]] = function (e) {
+    return w.prototype = T, [["$ms", r], ["$s", i], ["$m", s], ["$H", u], ["$W", a], ["$M", f], ["$y", c], ["$D", d]].forEach(function (t) {
+      T[t[1]] = function (e) {
         return this.$g(e, t[0], t[1]);
       };
     }), w.extend = function (t, e) {
       return t.$i || (t(e, _, w), t.$i = !0), w;
     }, w.locale = S, w.isDayjs = p, w.unix = function (t) {
       return w(1e3 * t);
-    }, w.en = v[D], w.Ls = v, w.p = {}, w;
+    }, w.en = D[v], w.Ls = D, w.p = {}, w;
   });
   });
 
@@ -18409,7 +18420,7 @@ export default {
     return mode;
   }
 
-  var version = "11.4.0";
+  var version = "11.5.1";
 
   class HTMLInjectionError extends Error {
     constructor(reason, html) {
@@ -18703,9 +18714,10 @@ export default {
 
 
       function emitMultiClass(scope, match) {
-        let i = 1; // eslint-disable-next-line no-undefined
+        let i = 1;
+        const max = match.length - 1;
 
-        while (match[i] !== undefined) {
+        while (i <= max) {
           if (!scope._emit[i]) {
             i++;
             continue;
@@ -19513,89 +19525,89 @@ export default {
   */
   function _1c(hljs) {
     // общий паттерн для определения идентификаторов
-    var UNDERSCORE_IDENT_RE = '[A-Za-zА-Яа-яёЁ_][A-Za-zА-Яа-яёЁ_0-9]+'; // v7 уникальные ключевые слова, отсутствующие в v8 ==> keyword
+    const UNDERSCORE_IDENT_RE = '[A-Za-zА-Яа-яёЁ_][A-Za-zА-Яа-яёЁ_0-9]+'; // v7 уникальные ключевые слова, отсутствующие в v8 ==> keyword
 
-    var v7_keywords = 'далее '; // v8 ключевые слова ==> keyword
+    const v7_keywords = 'далее '; // v8 ключевые слова ==> keyword
 
-    var v8_keywords = 'возврат вызватьисключение выполнить для если и из или иначе иначеесли исключение каждого конецесли ' + 'конецпопытки конеццикла не новый перейти перем по пока попытка прервать продолжить тогда цикл экспорт '; // keyword : ключевые слова
+    const v8_keywords = 'возврат вызватьисключение выполнить для если и из или иначе иначеесли исключение каждого конецесли ' + 'конецпопытки конеццикла не новый перейти перем по пока попытка прервать продолжить тогда цикл экспорт '; // keyword : ключевые слова
 
-    var KEYWORD = v7_keywords + v8_keywords; // v7 уникальные директивы, отсутствующие в v8 ==> meta-keyword
+    const KEYWORD = v7_keywords + v8_keywords; // v7 уникальные директивы, отсутствующие в v8 ==> meta-keyword
 
-    var v7_meta_keywords = 'загрузитьизфайла '; // v8 ключевые слова в инструкциях препроцессора, директивах компиляции, аннотациях ==> meta-keyword
+    const v7_meta_keywords = 'загрузитьизфайла '; // v8 ключевые слова в инструкциях препроцессора, директивах компиляции, аннотациях ==> meta-keyword
 
-    var v8_meta_keywords = 'вебклиент вместо внешнеесоединение клиент конецобласти мобильноеприложениеклиент мобильноеприложениесервер ' + 'наклиенте наклиентенасервере наклиентенасерверебезконтекста насервере насерверебезконтекста область перед ' + 'после сервер толстыйклиентобычноеприложение толстыйклиентуправляемоеприложение тонкийклиент '; // meta-keyword : ключевые слова в инструкциях препроцессора, директивах компиляции, аннотациях
+    const v8_meta_keywords = 'вебклиент вместо внешнеесоединение клиент конецобласти мобильноеприложениеклиент мобильноеприложениесервер ' + 'наклиенте наклиентенасервере наклиентенасерверебезконтекста насервере насерверебезконтекста область перед ' + 'после сервер толстыйклиентобычноеприложение толстыйклиентуправляемоеприложение тонкийклиент '; // meta-keyword : ключевые слова в инструкциях препроцессора, директивах компиляции, аннотациях
 
-    var METAKEYWORD = v7_meta_keywords + v8_meta_keywords; // v7 системные константы ==> built_in
+    const METAKEYWORD = v7_meta_keywords + v8_meta_keywords; // v7 системные константы ==> built_in
 
-    var v7_system_constants = 'разделительстраниц разделительстрок символтабуляции '; // v7 уникальные методы глобального контекста, отсутствующие в v8 ==> built_in
+    const v7_system_constants = 'разделительстраниц разделительстрок символтабуляции '; // v7 уникальные методы глобального контекста, отсутствующие в v8 ==> built_in
 
-    var v7_global_context_methods = 'ansitooem oemtoansi ввестивидсубконто ввестиперечисление ввестипериод ввестиплансчетов выбранныйплансчетов ' + 'датагод датамесяц датачисло заголовоксистемы значениевстроку значениеизстроки каталогиб каталогпользователя ' + 'кодсимв конгода конецпериодаби конецрассчитанногопериодаби конецстандартногоинтервала конквартала конмесяца ' + 'коннедели лог лог10 максимальноеколичествосубконто названиеинтерфейса названиенабораправ назначитьвид ' + 'назначитьсчет найтиссылки началопериодаби началостандартногоинтервала начгода начквартала начмесяца ' + 'начнедели номерднягода номерднянедели номернеделигода обработкаожидания основнойжурналрасчетов ' + 'основнойплансчетов основнойязык очиститьокносообщений периодстр получитьвремята получитьдатута ' + 'получитьдокументта получитьзначенияотбора получитьпозициюта получитьпустоезначение получитьта ' + 'префиксавтонумерации пропись пустоезначение разм разобратьпозициюдокумента рассчитатьрегистрына ' + 'рассчитатьрегистрыпо симв создатьобъект статусвозврата стрколичествострок сформироватьпозициюдокумента ' + 'счетпокоду текущеевремя типзначения типзначениястр установитьтана установитьтапо фиксшаблон шаблон '; // v8 методы глобального контекста ==> built_in
+    const v7_global_context_methods = 'ansitooem oemtoansi ввестивидсубконто ввестиперечисление ввестипериод ввестиплансчетов выбранныйплансчетов ' + 'датагод датамесяц датачисло заголовоксистемы значениевстроку значениеизстроки каталогиб каталогпользователя ' + 'кодсимв конгода конецпериодаби конецрассчитанногопериодаби конецстандартногоинтервала конквартала конмесяца ' + 'коннедели лог лог10 максимальноеколичествосубконто названиеинтерфейса названиенабораправ назначитьвид ' + 'назначитьсчет найтиссылки началопериодаби началостандартногоинтервала начгода начквартала начмесяца ' + 'начнедели номерднягода номерднянедели номернеделигода обработкаожидания основнойжурналрасчетов ' + 'основнойплансчетов основнойязык очиститьокносообщений периодстр получитьвремята получитьдатута ' + 'получитьдокументта получитьзначенияотбора получитьпозициюта получитьпустоезначение получитьта ' + 'префиксавтонумерации пропись пустоезначение разм разобратьпозициюдокумента рассчитатьрегистрына ' + 'рассчитатьрегистрыпо симв создатьобъект статусвозврата стрколичествострок сформироватьпозициюдокумента ' + 'счетпокоду текущеевремя типзначения типзначениястр установитьтана установитьтапо фиксшаблон шаблон '; // v8 методы глобального контекста ==> built_in
 
-    var v8_global_context_methods = 'acos asin atan base64значение base64строка cos exp log log10 pow sin sqrt tan xmlзначение xmlстрока ' + 'xmlтип xmlтипзнч активноеокно безопасныйрежим безопасныйрежимразделенияданных булево ввестидату ввестизначение ' + 'ввестистроку ввестичисло возможностьчтенияxml вопрос восстановитьзначение врег выгрузитьжурналрегистрации ' + 'выполнитьобработкуоповещения выполнитьпроверкуправдоступа вычислить год данныеформывзначение дата день деньгода ' + 'деньнедели добавитьмесяц заблокироватьданныедляредактирования заблокироватьработупользователя завершитьработусистемы ' + 'загрузитьвнешнююкомпоненту закрытьсправку записатьjson записатьxml записатьдатуjson записьжурналарегистрации ' + 'заполнитьзначениясвойств запроситьразрешениепользователя запуститьприложение запуститьсистему зафиксироватьтранзакцию ' + 'значениевданныеформы значениевстрокувнутр значениевфайл значениезаполнено значениеизстрокивнутр значениеизфайла ' + 'изxmlтипа импортмоделиxdto имякомпьютера имяпользователя инициализироватьпредопределенныеданные информацияобошибке ' + 'каталогбиблиотекимобильногоустройства каталогвременныхфайлов каталогдокументов каталогпрограммы кодироватьстроку ' + 'кодлокализацииинформационнойбазы кодсимвола командасистемы конецгода конецдня конецквартала конецмесяца конецминуты ' + 'конецнедели конецчаса конфигурациябазыданныхизмененадинамически конфигурацияизменена копироватьданныеформы ' + 'копироватьфайл краткоепредставлениеошибки лев макс местноевремя месяц мин минута монопольныйрежим найти ' + 'найтинедопустимыесимволыxml найтиокнопонавигационнойссылке найтипомеченныенаудаление найтипоссылкам найтифайлы ' + 'началогода началодня началоквартала началомесяца началоминуты началонедели началочаса начатьзапросразрешенияпользователя ' + 'начатьзапускприложения начатькопированиефайла начатьперемещениефайла начатьподключениевнешнейкомпоненты ' + 'начатьподключениерасширенияработыскриптографией начатьподключениерасширенияработысфайлами начатьпоискфайлов ' + 'начатьполучениекаталогавременныхфайлов начатьполучениекаталогадокументов начатьполучениерабочегокаталогаданныхпользователя ' + 'начатьполучениефайлов начатьпомещениефайла начатьпомещениефайлов начатьсозданиедвоичныхданныхизфайла начатьсозданиекаталога ' + 'начатьтранзакцию начатьудалениефайлов начатьустановкувнешнейкомпоненты начатьустановкурасширенияработыскриптографией ' + 'начатьустановкурасширенияработысфайлами неделягода необходимостьзавершениясоединения номерсеансаинформационнойбазы ' + 'номерсоединенияинформационнойбазы нрег нстр обновитьинтерфейс обновитьнумерациюобъектов обновитьповторноиспользуемыезначения ' + 'обработкапрерыванияпользователя объединитьфайлы окр описаниеошибки оповестить оповеститьобизменении ' + 'отключитьобработчикзапросанастроекклиенталицензирования отключитьобработчикожидания отключитьобработчикоповещения ' + 'открытьзначение открытьиндекссправки открытьсодержаниесправки открытьсправку открытьформу открытьформумодально ' + 'отменитьтранзакцию очиститьжурналрегистрации очиститьнастройкипользователя очиститьсообщения параметрыдоступа ' + 'перейтипонавигационнойссылке переместитьфайл подключитьвнешнююкомпоненту ' + 'подключитьобработчикзапросанастроекклиенталицензирования подключитьобработчикожидания подключитьобработчикоповещения ' + 'подключитьрасширениеработыскриптографией подключитьрасширениеработысфайлами подробноепредставлениеошибки ' + 'показатьвводдаты показатьвводзначения показатьвводстроки показатьвводчисла показатьвопрос показатьзначение ' + 'показатьинформациюобошибке показатьнакарте показатьоповещениепользователя показатьпредупреждение полноеимяпользователя ' + 'получитьcomобъект получитьxmlтип получитьадреспоместоположению получитьблокировкусеансов получитьвремязавершенияспящегосеанса ' + 'получитьвремязасыпанияпассивногосеанса получитьвремяожиданияблокировкиданных получитьданныевыбора ' + 'получитьдополнительныйпараметрклиенталицензирования получитьдопустимыекодылокализации получитьдопустимыечасовыепояса ' + 'получитьзаголовокклиентскогоприложения получитьзаголовоксистемы получитьзначенияотборажурналарегистрации ' + 'получитьидентификаторконфигурации получитьизвременногохранилища получитьимявременногофайла ' + 'получитьимяклиенталицензирования получитьинформациюэкрановклиента получитьиспользованиежурналарегистрации ' + 'получитьиспользованиесобытияжурналарегистрации получитькраткийзаголовокприложения получитьмакетоформления ' + 'получитьмаскувсефайлы получитьмаскувсефайлыклиента получитьмаскувсефайлысервера получитьместоположениепоадресу ' + 'получитьминимальнуюдлинупаролейпользователей получитьнавигационнуюссылку получитьнавигационнуюссылкуинформационнойбазы ' + 'получитьобновлениеконфигурациибазыданных получитьобновлениепредопределенныхданныхинформационнойбазы получитьобщиймакет ' + 'получитьобщуюформу получитьокна получитьоперативнуюотметкувремени получитьотключениебезопасногорежима ' + 'получитьпараметрыфункциональныхопцийинтерфейса получитьполноеимяпредопределенногозначения ' + 'получитьпредставлениянавигационныхссылок получитьпроверкусложностипаролейпользователей получитьразделительпути ' + 'получитьразделительпутиклиента получитьразделительпутисервера получитьсеансыинформационнойбазы ' + 'получитьскоростьклиентскогосоединения получитьсоединенияинформационнойбазы получитьсообщенияпользователю ' + 'получитьсоответствиеобъектаиформы получитьсоставстандартногоинтерфейсаodata получитьструктурухранениябазыданных ' + 'получитьтекущийсеансинформационнойбазы получитьфайл получитьфайлы получитьформу получитьфункциональнуюопцию ' + 'получитьфункциональнуюопциюинтерфейса получитьчасовойпоясинформационнойбазы пользователиос поместитьвовременноехранилище ' + 'поместитьфайл поместитьфайлы прав праводоступа предопределенноезначение представлениекодалокализации представлениепериода ' + 'представлениеправа представлениеприложения представлениесобытияжурналарегистрации представлениечасовогопояса предупреждение ' + 'прекратитьработусистемы привилегированныйрежим продолжитьвызов прочитатьjson прочитатьxml прочитатьдатуjson пустаястрока ' + 'рабочийкаталогданныхпользователя разблокироватьданныедляредактирования разделитьфайл разорватьсоединениесвнешнимисточникомданных ' + 'раскодироватьстроку рольдоступна секунда сигнал символ скопироватьжурналрегистрации смещениелетнеговремени ' + 'смещениестандартноговремени соединитьбуферыдвоичныхданных создатькаталог создатьфабрикуxdto сокрл сокрлп сокрп сообщить ' + 'состояние сохранитьзначение сохранитьнастройкипользователя сред стрдлина стрзаканчиваетсяна стрзаменить стрнайти стрначинаетсяс ' + 'строка строкасоединенияинформационнойбазы стрполучитьстроку стрразделить стрсоединить стрсравнить стрчисловхождений ' + 'стрчислострок стршаблон текущаядата текущаядатасеанса текущаяуниверсальнаядата текущаяуниверсальнаядатавмиллисекундах ' + 'текущийвариантинтерфейсаклиентскогоприложения текущийвариантосновногошрифтаклиентскогоприложения текущийкодлокализации ' + 'текущийрежимзапуска текущийязык текущийязыксистемы тип типзнч транзакцияактивна трег удалитьданныеинформационнойбазы ' + 'удалитьизвременногохранилища удалитьобъекты удалитьфайлы универсальноевремя установитьбезопасныйрежим ' + 'установитьбезопасныйрежимразделенияданных установитьблокировкусеансов установитьвнешнююкомпоненту ' + 'установитьвремязавершенияспящегосеанса установитьвремязасыпанияпассивногосеанса установитьвремяожиданияблокировкиданных ' + 'установитьзаголовокклиентскогоприложения установитьзаголовоксистемы установитьиспользованиежурналарегистрации ' + 'установитьиспользованиесобытияжурналарегистрации установитькраткийзаголовокприложения ' + 'установитьминимальнуюдлинупаролейпользователей установитьмонопольныйрежим установитьнастройкиклиенталицензирования ' + 'установитьобновлениепредопределенныхданныхинформационнойбазы установитьотключениебезопасногорежима ' + 'установитьпараметрыфункциональныхопцийинтерфейса установитьпривилегированныйрежим ' + 'установитьпроверкусложностипаролейпользователей установитьрасширениеработыскриптографией ' + 'установитьрасширениеработысфайлами установитьсоединениесвнешнимисточникомданных установитьсоответствиеобъектаиформы ' + 'установитьсоставстандартногоинтерфейсаodata установитьчасовойпоясинформационнойбазы установитьчасовойпояссеанса ' + 'формат цел час часовойпояс часовойпояссеанса число числопрописью этоадресвременногохранилища '; // v8 свойства глобального контекста ==> built_in
+    const v8_global_context_methods = 'acos asin atan base64значение base64строка cos exp log log10 pow sin sqrt tan xmlзначение xmlстрока ' + 'xmlтип xmlтипзнч активноеокно безопасныйрежим безопасныйрежимразделенияданных булево ввестидату ввестизначение ' + 'ввестистроку ввестичисло возможностьчтенияxml вопрос восстановитьзначение врег выгрузитьжурналрегистрации ' + 'выполнитьобработкуоповещения выполнитьпроверкуправдоступа вычислить год данныеформывзначение дата день деньгода ' + 'деньнедели добавитьмесяц заблокироватьданныедляредактирования заблокироватьработупользователя завершитьработусистемы ' + 'загрузитьвнешнююкомпоненту закрытьсправку записатьjson записатьxml записатьдатуjson записьжурналарегистрации ' + 'заполнитьзначениясвойств запроситьразрешениепользователя запуститьприложение запуститьсистему зафиксироватьтранзакцию ' + 'значениевданныеформы значениевстрокувнутр значениевфайл значениезаполнено значениеизстрокивнутр значениеизфайла ' + 'изxmlтипа импортмоделиxdto имякомпьютера имяпользователя инициализироватьпредопределенныеданные информацияобошибке ' + 'каталогбиблиотекимобильногоустройства каталогвременныхфайлов каталогдокументов каталогпрограммы кодироватьстроку ' + 'кодлокализацииинформационнойбазы кодсимвола командасистемы конецгода конецдня конецквартала конецмесяца конецминуты ' + 'конецнедели конецчаса конфигурациябазыданныхизмененадинамически конфигурацияизменена копироватьданныеформы ' + 'копироватьфайл краткоепредставлениеошибки лев макс местноевремя месяц мин минута монопольныйрежим найти ' + 'найтинедопустимыесимволыxml найтиокнопонавигационнойссылке найтипомеченныенаудаление найтипоссылкам найтифайлы ' + 'началогода началодня началоквартала началомесяца началоминуты началонедели началочаса начатьзапросразрешенияпользователя ' + 'начатьзапускприложения начатькопированиефайла начатьперемещениефайла начатьподключениевнешнейкомпоненты ' + 'начатьподключениерасширенияработыскриптографией начатьподключениерасширенияработысфайлами начатьпоискфайлов ' + 'начатьполучениекаталогавременныхфайлов начатьполучениекаталогадокументов начатьполучениерабочегокаталогаданныхпользователя ' + 'начатьполучениефайлов начатьпомещениефайла начатьпомещениефайлов начатьсозданиедвоичныхданныхизфайла начатьсозданиекаталога ' + 'начатьтранзакцию начатьудалениефайлов начатьустановкувнешнейкомпоненты начатьустановкурасширенияработыскриптографией ' + 'начатьустановкурасширенияработысфайлами неделягода необходимостьзавершениясоединения номерсеансаинформационнойбазы ' + 'номерсоединенияинформационнойбазы нрег нстр обновитьинтерфейс обновитьнумерациюобъектов обновитьповторноиспользуемыезначения ' + 'обработкапрерыванияпользователя объединитьфайлы окр описаниеошибки оповестить оповеститьобизменении ' + 'отключитьобработчикзапросанастроекклиенталицензирования отключитьобработчикожидания отключитьобработчикоповещения ' + 'открытьзначение открытьиндекссправки открытьсодержаниесправки открытьсправку открытьформу открытьформумодально ' + 'отменитьтранзакцию очиститьжурналрегистрации очиститьнастройкипользователя очиститьсообщения параметрыдоступа ' + 'перейтипонавигационнойссылке переместитьфайл подключитьвнешнююкомпоненту ' + 'подключитьобработчикзапросанастроекклиенталицензирования подключитьобработчикожидания подключитьобработчикоповещения ' + 'подключитьрасширениеработыскриптографией подключитьрасширениеработысфайлами подробноепредставлениеошибки ' + 'показатьвводдаты показатьвводзначения показатьвводстроки показатьвводчисла показатьвопрос показатьзначение ' + 'показатьинформациюобошибке показатьнакарте показатьоповещениепользователя показатьпредупреждение полноеимяпользователя ' + 'получитьcomобъект получитьxmlтип получитьадреспоместоположению получитьблокировкусеансов получитьвремязавершенияспящегосеанса ' + 'получитьвремязасыпанияпассивногосеанса получитьвремяожиданияблокировкиданных получитьданныевыбора ' + 'получитьдополнительныйпараметрклиенталицензирования получитьдопустимыекодылокализации получитьдопустимыечасовыепояса ' + 'получитьзаголовокклиентскогоприложения получитьзаголовоксистемы получитьзначенияотборажурналарегистрации ' + 'получитьидентификаторконфигурации получитьизвременногохранилища получитьимявременногофайла ' + 'получитьимяклиенталицензирования получитьинформациюэкрановклиента получитьиспользованиежурналарегистрации ' + 'получитьиспользованиесобытияжурналарегистрации получитькраткийзаголовокприложения получитьмакетоформления ' + 'получитьмаскувсефайлы получитьмаскувсефайлыклиента получитьмаскувсефайлысервера получитьместоположениепоадресу ' + 'получитьминимальнуюдлинупаролейпользователей получитьнавигационнуюссылку получитьнавигационнуюссылкуинформационнойбазы ' + 'получитьобновлениеконфигурациибазыданных получитьобновлениепредопределенныхданныхинформационнойбазы получитьобщиймакет ' + 'получитьобщуюформу получитьокна получитьоперативнуюотметкувремени получитьотключениебезопасногорежима ' + 'получитьпараметрыфункциональныхопцийинтерфейса получитьполноеимяпредопределенногозначения ' + 'получитьпредставлениянавигационныхссылок получитьпроверкусложностипаролейпользователей получитьразделительпути ' + 'получитьразделительпутиклиента получитьразделительпутисервера получитьсеансыинформационнойбазы ' + 'получитьскоростьклиентскогосоединения получитьсоединенияинформационнойбазы получитьсообщенияпользователю ' + 'получитьсоответствиеобъектаиформы получитьсоставстандартногоинтерфейсаodata получитьструктурухранениябазыданных ' + 'получитьтекущийсеансинформационнойбазы получитьфайл получитьфайлы получитьформу получитьфункциональнуюопцию ' + 'получитьфункциональнуюопциюинтерфейса получитьчасовойпоясинформационнойбазы пользователиос поместитьвовременноехранилище ' + 'поместитьфайл поместитьфайлы прав праводоступа предопределенноезначение представлениекодалокализации представлениепериода ' + 'представлениеправа представлениеприложения представлениесобытияжурналарегистрации представлениечасовогопояса предупреждение ' + 'прекратитьработусистемы привилегированныйрежим продолжитьвызов прочитатьjson прочитатьxml прочитатьдатуjson пустаястрока ' + 'рабочийкаталогданныхпользователя разблокироватьданныедляредактирования разделитьфайл разорватьсоединениесвнешнимисточникомданных ' + 'раскодироватьстроку рольдоступна секунда сигнал символ скопироватьжурналрегистрации смещениелетнеговремени ' + 'смещениестандартноговремени соединитьбуферыдвоичныхданных создатькаталог создатьфабрикуxdto сокрл сокрлп сокрп сообщить ' + 'состояние сохранитьзначение сохранитьнастройкипользователя сред стрдлина стрзаканчиваетсяна стрзаменить стрнайти стрначинаетсяс ' + 'строка строкасоединенияинформационнойбазы стрполучитьстроку стрразделить стрсоединить стрсравнить стрчисловхождений ' + 'стрчислострок стршаблон текущаядата текущаядатасеанса текущаяуниверсальнаядата текущаяуниверсальнаядатавмиллисекундах ' + 'текущийвариантинтерфейсаклиентскогоприложения текущийвариантосновногошрифтаклиентскогоприложения текущийкодлокализации ' + 'текущийрежимзапуска текущийязык текущийязыксистемы тип типзнч транзакцияактивна трег удалитьданныеинформационнойбазы ' + 'удалитьизвременногохранилища удалитьобъекты удалитьфайлы универсальноевремя установитьбезопасныйрежим ' + 'установитьбезопасныйрежимразделенияданных установитьблокировкусеансов установитьвнешнююкомпоненту ' + 'установитьвремязавершенияспящегосеанса установитьвремязасыпанияпассивногосеанса установитьвремяожиданияблокировкиданных ' + 'установитьзаголовокклиентскогоприложения установитьзаголовоксистемы установитьиспользованиежурналарегистрации ' + 'установитьиспользованиесобытияжурналарегистрации установитькраткийзаголовокприложения ' + 'установитьминимальнуюдлинупаролейпользователей установитьмонопольныйрежим установитьнастройкиклиенталицензирования ' + 'установитьобновлениепредопределенныхданныхинформационнойбазы установитьотключениебезопасногорежима ' + 'установитьпараметрыфункциональныхопцийинтерфейса установитьпривилегированныйрежим ' + 'установитьпроверкусложностипаролейпользователей установитьрасширениеработыскриптографией ' + 'установитьрасширениеработысфайлами установитьсоединениесвнешнимисточникомданных установитьсоответствиеобъектаиформы ' + 'установитьсоставстандартногоинтерфейсаodata установитьчасовойпоясинформационнойбазы установитьчасовойпояссеанса ' + 'формат цел час часовойпояс часовойпояссеанса число числопрописью этоадресвременногохранилища '; // v8 свойства глобального контекста ==> built_in
 
-    var v8_global_context_property = 'wsссылки библиотекакартинок библиотекамакетовоформлениякомпоновкиданных библиотекастилей бизнеспроцессы ' + 'внешниеисточникиданных внешниеобработки внешниеотчеты встроенныепокупки главныйинтерфейс главныйстиль ' + 'документы доставляемыеуведомления журналыдокументов задачи информацияобинтернетсоединении использованиерабочейдаты ' + 'историяработыпользователя константы критерииотбора метаданные обработки отображениерекламы отправкадоставляемыхуведомлений ' + 'отчеты панельзадачос параметрзапуска параметрысеанса перечисления планывидоврасчета планывидовхарактеристик ' + 'планыобмена планысчетов полнотекстовыйпоиск пользователиинформационнойбазы последовательности проверкавстроенныхпокупок ' + 'рабочаядата расширенияконфигурации регистрыбухгалтерии регистрынакопления регистрырасчета регистрысведений ' + 'регламентныезадания сериализаторxdto справочники средствагеопозиционирования средствакриптографии средствамультимедиа ' + 'средстваотображениярекламы средствапочты средствателефонии фабрикаxdto файловыепотоки фоновыезадания хранилищанастроек ' + 'хранилищевариантовотчетов хранилищенастроекданныхформ хранилищеобщихнастроек хранилищепользовательскихнастроекдинамическихсписков ' + 'хранилищепользовательскихнастроекотчетов хранилищесистемныхнастроек '; // built_in : встроенные или библиотечные объекты (константы, классы, функции)
+    const v8_global_context_property = 'wsссылки библиотекакартинок библиотекамакетовоформлениякомпоновкиданных библиотекастилей бизнеспроцессы ' + 'внешниеисточникиданных внешниеобработки внешниеотчеты встроенныепокупки главныйинтерфейс главныйстиль ' + 'документы доставляемыеуведомления журналыдокументов задачи информацияобинтернетсоединении использованиерабочейдаты ' + 'историяработыпользователя константы критерииотбора метаданные обработки отображениерекламы отправкадоставляемыхуведомлений ' + 'отчеты панельзадачос параметрзапуска параметрысеанса перечисления планывидоврасчета планывидовхарактеристик ' + 'планыобмена планысчетов полнотекстовыйпоиск пользователиинформационнойбазы последовательности проверкавстроенныхпокупок ' + 'рабочаядата расширенияконфигурации регистрыбухгалтерии регистрынакопления регистрырасчета регистрысведений ' + 'регламентныезадания сериализаторxdto справочники средствагеопозиционирования средствакриптографии средствамультимедиа ' + 'средстваотображениярекламы средствапочты средствателефонии фабрикаxdto файловыепотоки фоновыезадания хранилищанастроек ' + 'хранилищевариантовотчетов хранилищенастроекданныхформ хранилищеобщихнастроек хранилищепользовательскихнастроекдинамическихсписков ' + 'хранилищепользовательскихнастроекотчетов хранилищесистемныхнастроек '; // built_in : встроенные или библиотечные объекты (константы, классы, функции)
 
-    var BUILTIN = v7_system_constants + v7_global_context_methods + v8_global_context_methods + v8_global_context_property; // v8 системные наборы значений ==> class
+    const BUILTIN = v7_system_constants + v7_global_context_methods + v8_global_context_methods + v8_global_context_property; // v8 системные наборы значений ==> class
 
-    var v8_system_sets_of_values = 'webцвета windowsцвета windowsшрифты библиотекакартинок рамкистиля символы цветастиля шрифтыстиля '; // v8 системные перечисления - интерфейсные ==> class
+    const v8_system_sets_of_values = 'webцвета windowsцвета windowsшрифты библиотекакартинок рамкистиля символы цветастиля шрифтыстиля '; // v8 системные перечисления - интерфейсные ==> class
 
-    var v8_system_enums_interface = 'автоматическоесохранениеданныхформывнастройках автонумерациявформе автораздвижениесерий ' + 'анимациядиаграммы вариантвыравниванияэлементовизаголовков вариантуправлениявысотойтаблицы ' + 'вертикальнаяпрокруткаформы вертикальноеположение вертикальноеположениеэлемента видгруппыформы ' + 'виддекорацииформы виддополненияэлементаформы видизмененияданных видкнопкиформы видпереключателя ' + 'видподписейкдиаграмме видполяформы видфлажка влияниеразмеранапузырекдиаграммы горизонтальноеположение ' + 'горизонтальноеположениеэлемента группировкаколонок группировкаподчиненныхэлементовформы ' + 'группыиэлементы действиеперетаскивания дополнительныйрежимотображения допустимыедействияперетаскивания ' + 'интервалмеждуэлементамиформы использованиевывода использованиеполосыпрокрутки ' + 'используемоезначениеточкибиржевойдиаграммы историявыборапривводе источникзначенийоситочекдиаграммы ' + 'источникзначенияразмерапузырькадиаграммы категориягруппыкоманд максимумсерий начальноеотображениедерева ' + 'начальноеотображениесписка обновлениетекстаредактирования ориентациядендрограммы ориентациядиаграммы ' + 'ориентацияметокдиаграммы ориентацияметоксводнойдиаграммы ориентацияэлементаформы отображениевдиаграмме ' + 'отображениевлегендедиаграммы отображениегруппыкнопок отображениезаголовкашкалыдиаграммы ' + 'отображениезначенийсводнойдиаграммы отображениезначенияизмерительнойдиаграммы ' + 'отображениеинтерваладиаграммыганта отображениекнопки отображениекнопкивыбора отображениеобсужденийформы ' + 'отображениеобычнойгруппы отображениеотрицательныхзначенийпузырьковойдиаграммы отображениепанелипоиска ' + 'отображениеподсказки отображениепредупрежденияприредактировании отображениеразметкиполосырегулирования ' + 'отображениестраницформы отображениетаблицы отображениетекстазначениядиаграммыганта ' + 'отображениеуправленияобычнойгруппы отображениефигурыкнопки палитрацветовдиаграммы поведениеобычнойгруппы ' + 'поддержкамасштабадендрограммы поддержкамасштабадиаграммыганта поддержкамасштабасводнойдиаграммы ' + 'поисквтаблицепривводе положениезаголовкаэлементаформы положениекартинкикнопкиформы ' + 'положениекартинкиэлементаграфическойсхемы положениекоманднойпанелиформы положениекоманднойпанелиэлементаформы ' + 'положениеопорнойточкиотрисовки положениеподписейкдиаграмме положениеподписейшкалызначенийизмерительнойдиаграммы ' + 'положениесостоянияпросмотра положениестрокипоиска положениетекстасоединительнойлинии положениеуправленияпоиском ' + 'положениешкалывремени порядокотображенияточекгоризонтальнойгистограммы порядоксерийвлегендедиаграммы ' + 'размеркартинки расположениезаголовкашкалыдиаграммы растягиваниеповертикалидиаграммыганта ' + 'режимавтоотображениясостояния режимвводастроктаблицы режимвыборанезаполненного режимвыделениядаты ' + 'режимвыделениястрокитаблицы режимвыделениятаблицы режимизмененияразмера режимизменениясвязанногозначения ' + 'режимиспользованиядиалогапечати режимиспользованияпараметракоманды режиммасштабированияпросмотра ' + 'режимосновногоокнаклиентскогоприложения режимоткрытияокнаформы режимотображениявыделения ' + 'режимотображениягеографическойсхемы режимотображениязначенийсерии режимотрисовкисеткиграфическойсхемы ' + 'режимполупрозрачностидиаграммы режимпробеловдиаграммы режимразмещениянастранице режимредактированияколонки ' + 'режимсглаживаниядиаграммы режимсглаживанияиндикатора режимсписказадач сквозноевыравнивание ' + 'сохранениеданныхформывнастройках способзаполнениятекстазаголовкашкалыдиаграммы ' + 'способопределенияограничивающегозначениядиаграммы стандартнаягруппакоманд стандартноеоформление ' + 'статусоповещенияпользователя стильстрелки типаппроксимациилиниитрендадиаграммы типдиаграммы ' + 'типединицышкалывремени типимпортасерийслоягеографическойсхемы типлиниигеографическойсхемы типлиниидиаграммы ' + 'типмаркерагеографическойсхемы типмаркерадиаграммы типобластиоформления ' + 'типорганизацииисточникаданныхгеографическойсхемы типотображениясериислоягеографическойсхемы ' + 'типотображенияточечногообъектагеографическойсхемы типотображенияшкалыэлементалегендыгеографическойсхемы ' + 'типпоискаобъектовгеографическойсхемы типпроекциигеографическойсхемы типразмещенияизмерений ' + 'типразмещенияреквизитовизмерений типрамкиэлементауправления типсводнойдиаграммы ' + 'типсвязидиаграммыганта типсоединениязначенийпосериямдиаграммы типсоединенияточекдиаграммы ' + 'типсоединительнойлинии типстороныэлементаграфическойсхемы типформыотчета типшкалырадарнойдиаграммы ' + 'факторлиниитрендадиаграммы фигуракнопки фигурыграфическойсхемы фиксациявтаблице форматдняшкалывремени ' + 'форматкартинки ширинаподчиненныхэлементовформы '; // v8 системные перечисления - свойства прикладных объектов ==> class
+    const v8_system_enums_interface = 'автоматическоесохранениеданныхформывнастройках автонумерациявформе автораздвижениесерий ' + 'анимациядиаграммы вариантвыравниванияэлементовизаголовков вариантуправлениявысотойтаблицы ' + 'вертикальнаяпрокруткаформы вертикальноеположение вертикальноеположениеэлемента видгруппыформы ' + 'виддекорацииформы виддополненияэлементаформы видизмененияданных видкнопкиформы видпереключателя ' + 'видподписейкдиаграмме видполяформы видфлажка влияниеразмеранапузырекдиаграммы горизонтальноеположение ' + 'горизонтальноеположениеэлемента группировкаколонок группировкаподчиненныхэлементовформы ' + 'группыиэлементы действиеперетаскивания дополнительныйрежимотображения допустимыедействияперетаскивания ' + 'интервалмеждуэлементамиформы использованиевывода использованиеполосыпрокрутки ' + 'используемоезначениеточкибиржевойдиаграммы историявыборапривводе источникзначенийоситочекдиаграммы ' + 'источникзначенияразмерапузырькадиаграммы категориягруппыкоманд максимумсерий начальноеотображениедерева ' + 'начальноеотображениесписка обновлениетекстаредактирования ориентациядендрограммы ориентациядиаграммы ' + 'ориентацияметокдиаграммы ориентацияметоксводнойдиаграммы ориентацияэлементаформы отображениевдиаграмме ' + 'отображениевлегендедиаграммы отображениегруппыкнопок отображениезаголовкашкалыдиаграммы ' + 'отображениезначенийсводнойдиаграммы отображениезначенияизмерительнойдиаграммы ' + 'отображениеинтерваладиаграммыганта отображениекнопки отображениекнопкивыбора отображениеобсужденийформы ' + 'отображениеобычнойгруппы отображениеотрицательныхзначенийпузырьковойдиаграммы отображениепанелипоиска ' + 'отображениеподсказки отображениепредупрежденияприредактировании отображениеразметкиполосырегулирования ' + 'отображениестраницформы отображениетаблицы отображениетекстазначениядиаграммыганта ' + 'отображениеуправленияобычнойгруппы отображениефигурыкнопки палитрацветовдиаграммы поведениеобычнойгруппы ' + 'поддержкамасштабадендрограммы поддержкамасштабадиаграммыганта поддержкамасштабасводнойдиаграммы ' + 'поисквтаблицепривводе положениезаголовкаэлементаформы положениекартинкикнопкиформы ' + 'положениекартинкиэлементаграфическойсхемы положениекоманднойпанелиформы положениекоманднойпанелиэлементаформы ' + 'положениеопорнойточкиотрисовки положениеподписейкдиаграмме положениеподписейшкалызначенийизмерительнойдиаграммы ' + 'положениесостоянияпросмотра положениестрокипоиска положениетекстасоединительнойлинии положениеуправленияпоиском ' + 'положениешкалывремени порядокотображенияточекгоризонтальнойгистограммы порядоксерийвлегендедиаграммы ' + 'размеркартинки расположениезаголовкашкалыдиаграммы растягиваниеповертикалидиаграммыганта ' + 'режимавтоотображениясостояния режимвводастроктаблицы режимвыборанезаполненного режимвыделениядаты ' + 'режимвыделениястрокитаблицы режимвыделениятаблицы режимизмененияразмера режимизменениясвязанногозначения ' + 'режимиспользованиядиалогапечати режимиспользованияпараметракоманды режиммасштабированияпросмотра ' + 'режимосновногоокнаклиентскогоприложения режимоткрытияокнаформы режимотображениявыделения ' + 'режимотображениягеографическойсхемы режимотображениязначенийсерии режимотрисовкисеткиграфическойсхемы ' + 'режимполупрозрачностидиаграммы режимпробеловдиаграммы режимразмещениянастранице режимредактированияколонки ' + 'режимсглаживаниядиаграммы режимсглаживанияиндикатора режимсписказадач сквозноевыравнивание ' + 'сохранениеданныхформывнастройках способзаполнениятекстазаголовкашкалыдиаграммы ' + 'способопределенияограничивающегозначениядиаграммы стандартнаягруппакоманд стандартноеоформление ' + 'статусоповещенияпользователя стильстрелки типаппроксимациилиниитрендадиаграммы типдиаграммы ' + 'типединицышкалывремени типимпортасерийслоягеографическойсхемы типлиниигеографическойсхемы типлиниидиаграммы ' + 'типмаркерагеографическойсхемы типмаркерадиаграммы типобластиоформления ' + 'типорганизацииисточникаданныхгеографическойсхемы типотображениясериислоягеографическойсхемы ' + 'типотображенияточечногообъектагеографическойсхемы типотображенияшкалыэлементалегендыгеографическойсхемы ' + 'типпоискаобъектовгеографическойсхемы типпроекциигеографическойсхемы типразмещенияизмерений ' + 'типразмещенияреквизитовизмерений типрамкиэлементауправления типсводнойдиаграммы ' + 'типсвязидиаграммыганта типсоединениязначенийпосериямдиаграммы типсоединенияточекдиаграммы ' + 'типсоединительнойлинии типстороныэлементаграфическойсхемы типформыотчета типшкалырадарнойдиаграммы ' + 'факторлиниитрендадиаграммы фигуракнопки фигурыграфическойсхемы фиксациявтаблице форматдняшкалывремени ' + 'форматкартинки ширинаподчиненныхэлементовформы '; // v8 системные перечисления - свойства прикладных объектов ==> class
 
-    var v8_system_enums_objects_properties = 'виддвижениябухгалтерии виддвижениянакопления видпериодарегистрарасчета видсчета видточкимаршрутабизнеспроцесса ' + 'использованиеагрегатарегистранакопления использованиегруппиэлементов использованиережимапроведения ' + 'использованиесреза периодичностьагрегатарегистранакопления режимавтовремя режимзаписидокумента режимпроведениядокумента '; // v8 системные перечисления - планы обмена ==> class
+    const v8_system_enums_objects_properties = 'виддвижениябухгалтерии виддвижениянакопления видпериодарегистрарасчета видсчета видточкимаршрутабизнеспроцесса ' + 'использованиеагрегатарегистранакопления использованиегруппиэлементов использованиережимапроведения ' + 'использованиесреза периодичностьагрегатарегистранакопления режимавтовремя режимзаписидокумента режимпроведениядокумента '; // v8 системные перечисления - планы обмена ==> class
 
-    var v8_system_enums_exchange_plans = 'авторегистрацияизменений допустимыйномерсообщения отправкаэлементаданных получениеэлементаданных '; // v8 системные перечисления - табличный документ ==> class
+    const v8_system_enums_exchange_plans = 'авторегистрацияизменений допустимыйномерсообщения отправкаэлементаданных получениеэлементаданных '; // v8 системные перечисления - табличный документ ==> class
 
-    var v8_system_enums_tabular_document = 'использованиерасшифровкитабличногодокумента ориентациястраницы положениеитоговколоноксводнойтаблицы ' + 'положениеитоговстроксводнойтаблицы положениетекстаотносительнокартинки расположениезаголовкагруппировкитабличногодокумента ' + 'способчтениязначенийтабличногодокумента типдвустороннейпечати типзаполненияобластитабличногодокумента ' + 'типкурсоровтабличногодокумента типлиниирисункатабличногодокумента типлинииячейкитабличногодокумента ' + 'типнаправленияпереходатабличногодокумента типотображениявыделениятабличногодокумента типотображениялинийсводнойтаблицы ' + 'типразмещениятекстатабличногодокумента типрисункатабличногодокумента типсмещениятабличногодокумента ' + 'типузоратабличногодокумента типфайлатабличногодокумента точностьпечати чередованиерасположениястраниц '; // v8 системные перечисления - планировщик ==> class
+    const v8_system_enums_tabular_document = 'использованиерасшифровкитабличногодокумента ориентациястраницы положениеитоговколоноксводнойтаблицы ' + 'положениеитоговстроксводнойтаблицы положениетекстаотносительнокартинки расположениезаголовкагруппировкитабличногодокумента ' + 'способчтениязначенийтабличногодокумента типдвустороннейпечати типзаполненияобластитабличногодокумента ' + 'типкурсоровтабличногодокумента типлиниирисункатабличногодокумента типлинииячейкитабличногодокумента ' + 'типнаправленияпереходатабличногодокумента типотображениявыделениятабличногодокумента типотображениялинийсводнойтаблицы ' + 'типразмещениятекстатабличногодокумента типрисункатабличногодокумента типсмещениятабличногодокумента ' + 'типузоратабличногодокумента типфайлатабличногодокумента точностьпечати чередованиерасположениястраниц '; // v8 системные перечисления - планировщик ==> class
 
-    var v8_system_enums_sheduler = 'отображениевремениэлементовпланировщика '; // v8 системные перечисления - форматированный документ ==> class
+    const v8_system_enums_sheduler = 'отображениевремениэлементовпланировщика '; // v8 системные перечисления - форматированный документ ==> class
 
-    var v8_system_enums_formatted_document = 'типфайлаформатированногодокумента '; // v8 системные перечисления - запрос ==> class
+    const v8_system_enums_formatted_document = 'типфайлаформатированногодокумента '; // v8 системные перечисления - запрос ==> class
 
-    var v8_system_enums_query = 'обходрезультатазапроса типзаписизапроса '; // v8 системные перечисления - построитель отчета ==> class
+    const v8_system_enums_query = 'обходрезультатазапроса типзаписизапроса '; // v8 системные перечисления - построитель отчета ==> class
 
-    var v8_system_enums_report_builder = 'видзаполнениярасшифровкипостроителяотчета типдобавленияпредставлений типизмеренияпостроителяотчета типразмещенияитогов '; // v8 системные перечисления - работа с файлами ==> class
+    const v8_system_enums_report_builder = 'видзаполнениярасшифровкипостроителяотчета типдобавленияпредставлений типизмеренияпостроителяотчета типразмещенияитогов '; // v8 системные перечисления - работа с файлами ==> class
 
-    var v8_system_enums_files = 'доступкфайлу режимдиалогавыборафайла режимоткрытияфайла '; // v8 системные перечисления - построитель запроса ==> class
+    const v8_system_enums_files = 'доступкфайлу режимдиалогавыборафайла режимоткрытияфайла '; // v8 системные перечисления - построитель запроса ==> class
 
-    var v8_system_enums_query_builder = 'типизмеренияпостроителязапроса '; // v8 системные перечисления - анализ данных ==> class
+    const v8_system_enums_query_builder = 'типизмеренияпостроителязапроса '; // v8 системные перечисления - анализ данных ==> class
 
-    var v8_system_enums_data_analysis = 'видданныханализа методкластеризации типединицыинтервалавременианализаданных типзаполнениятаблицырезультатаанализаданных ' + 'типиспользованиячисловыхзначенийанализаданных типисточникаданныхпоискаассоциаций типколонкианализаданныхдереворешений ' + 'типколонкианализаданныхкластеризация типколонкианализаданныхобщаястатистика типколонкианализаданныхпоискассоциаций ' + 'типколонкианализаданныхпоискпоследовательностей типколонкимоделипрогноза типмерырасстоянияанализаданных ' + 'типотсеченияправилассоциации типполяанализаданных типстандартизациианализаданных типупорядочиванияправилассоциациианализаданных ' + 'типупорядочиванияшаблоновпоследовательностейанализаданных типупрощениядереварешений '; // v8 системные перечисления - xml, json, xs, dom, xdto, web-сервисы ==> class
+    const v8_system_enums_data_analysis = 'видданныханализа методкластеризации типединицыинтервалавременианализаданных типзаполнениятаблицырезультатаанализаданных ' + 'типиспользованиячисловыхзначенийанализаданных типисточникаданныхпоискаассоциаций типколонкианализаданныхдереворешений ' + 'типколонкианализаданныхкластеризация типколонкианализаданныхобщаястатистика типколонкианализаданныхпоискассоциаций ' + 'типколонкианализаданныхпоискпоследовательностей типколонкимоделипрогноза типмерырасстоянияанализаданных ' + 'типотсеченияправилассоциации типполяанализаданных типстандартизациианализаданных типупорядочиванияправилассоциациианализаданных ' + 'типупорядочиванияшаблоновпоследовательностейанализаданных типупрощениядереварешений '; // v8 системные перечисления - xml, json, xs, dom, xdto, web-сервисы ==> class
 
-    var v8_system_enums_xml_json_xs_dom_xdto_ws = 'wsнаправлениепараметра вариантxpathxs вариантзаписидатыjson вариантпростоготипаxs видгруппымоделиxs видфасетаxdto ' + 'действиепостроителяdom завершенностьпростоготипаxs завершенностьсоставноготипаxs завершенностьсхемыxs запрещенныеподстановкиxs ' + 'исключениягруппподстановкиxs категорияиспользованияатрибутаxs категорияограниченияидентичностиxs категорияограниченияпространствименxs ' + 'методнаследованияxs модельсодержимогоxs назначениетипаxml недопустимыеподстановкиxs обработкапробельныхсимволовxs обработкасодержимогоxs ' + 'ограничениезначенияxs параметрыотбораузловdom переносстрокjson позициявдокументеdom пробельныесимволыxml типатрибутаxml типзначенияjson ' + 'типканоническогоxml типкомпонентыxs типпроверкиxml типрезультатаdomxpath типузлаdom типузлаxml формаxml формапредставленияxs ' + 'форматдатыjson экранированиесимволовjson '; // v8 системные перечисления - система компоновки данных ==> class
+    const v8_system_enums_xml_json_xs_dom_xdto_ws = 'wsнаправлениепараметра вариантxpathxs вариантзаписидатыjson вариантпростоготипаxs видгруппымоделиxs видфасетаxdto ' + 'действиепостроителяdom завершенностьпростоготипаxs завершенностьсоставноготипаxs завершенностьсхемыxs запрещенныеподстановкиxs ' + 'исключениягруппподстановкиxs категорияиспользованияатрибутаxs категорияограниченияидентичностиxs категорияограниченияпространствименxs ' + 'методнаследованияxs модельсодержимогоxs назначениетипаxml недопустимыеподстановкиxs обработкапробельныхсимволовxs обработкасодержимогоxs ' + 'ограничениезначенияxs параметрыотбораузловdom переносстрокjson позициявдокументеdom пробельныесимволыxml типатрибутаxml типзначенияjson ' + 'типканоническогоxml типкомпонентыxs типпроверкиxml типрезультатаdomxpath типузлаdom типузлаxml формаxml формапредставленияxs ' + 'форматдатыjson экранированиесимволовjson '; // v8 системные перечисления - система компоновки данных ==> class
 
-    var v8_system_enums_data_composition_system = 'видсравнениякомпоновкиданных действиеобработкирасшифровкикомпоновкиданных направлениесортировкикомпоновкиданных ' + 'расположениевложенныхэлементоврезультатакомпоновкиданных расположениеитоговкомпоновкиданных расположениегруппировкикомпоновкиданных ' + 'расположениеполейгруппировкикомпоновкиданных расположениеполякомпоновкиданных расположениереквизитовкомпоновкиданных ' + 'расположениересурсовкомпоновкиданных типбухгалтерскогоостаткакомпоновкиданных типвыводатекстакомпоновкиданных ' + 'типгруппировкикомпоновкиданных типгруппыэлементовотборакомпоновкиданных типдополненияпериодакомпоновкиданных ' + 'типзаголовкаполейкомпоновкиданных типмакетагруппировкикомпоновкиданных типмакетаобластикомпоновкиданных типостаткакомпоновкиданных ' + 'типпериодакомпоновкиданных типразмещениятекстакомпоновкиданных типсвязинаборовданныхкомпоновкиданных типэлементарезультатакомпоновкиданных ' + 'расположениелегендыдиаграммыкомпоновкиданных типпримененияотборакомпоновкиданных режимотображенияэлементанастройкикомпоновкиданных ' + 'режимотображениянастроеккомпоновкиданных состояниеэлементанастройкикомпоновкиданных способвосстановлениянастроеккомпоновкиданных ' + 'режимкомпоновкирезультата использованиепараметракомпоновкиданных автопозицияресурсовкомпоновкиданных ' + 'вариантиспользованиягруппировкикомпоновкиданных расположениересурсоввдиаграммекомпоновкиданных фиксациякомпоновкиданных ' + 'использованиеусловногооформлениякомпоновкиданных '; // v8 системные перечисления - почта ==> class
+    const v8_system_enums_data_composition_system = 'видсравнениякомпоновкиданных действиеобработкирасшифровкикомпоновкиданных направлениесортировкикомпоновкиданных ' + 'расположениевложенныхэлементоврезультатакомпоновкиданных расположениеитоговкомпоновкиданных расположениегруппировкикомпоновкиданных ' + 'расположениеполейгруппировкикомпоновкиданных расположениеполякомпоновкиданных расположениереквизитовкомпоновкиданных ' + 'расположениересурсовкомпоновкиданных типбухгалтерскогоостаткакомпоновкиданных типвыводатекстакомпоновкиданных ' + 'типгруппировкикомпоновкиданных типгруппыэлементовотборакомпоновкиданных типдополненияпериодакомпоновкиданных ' + 'типзаголовкаполейкомпоновкиданных типмакетагруппировкикомпоновкиданных типмакетаобластикомпоновкиданных типостаткакомпоновкиданных ' + 'типпериодакомпоновкиданных типразмещениятекстакомпоновкиданных типсвязинаборовданныхкомпоновкиданных типэлементарезультатакомпоновкиданных ' + 'расположениелегендыдиаграммыкомпоновкиданных типпримененияотборакомпоновкиданных режимотображенияэлементанастройкикомпоновкиданных ' + 'режимотображениянастроеккомпоновкиданных состояниеэлементанастройкикомпоновкиданных способвосстановлениянастроеккомпоновкиданных ' + 'режимкомпоновкирезультата использованиепараметракомпоновкиданных автопозицияресурсовкомпоновкиданных ' + 'вариантиспользованиягруппировкикомпоновкиданных расположениересурсоввдиаграммекомпоновкиданных фиксациякомпоновкиданных ' + 'использованиеусловногооформлениякомпоновкиданных '; // v8 системные перечисления - почта ==> class
 
-    var v8_system_enums_email = 'важностьинтернетпочтовогосообщения обработкатекстаинтернетпочтовогосообщения способкодированияинтернетпочтовоговложения ' + 'способкодированиянеasciiсимволовинтернетпочтовогосообщения типтекстапочтовогосообщения протоколинтернетпочты ' + 'статусразборапочтовогосообщения '; // v8 системные перечисления - журнал регистрации ==> class
+    const v8_system_enums_email = 'важностьинтернетпочтовогосообщения обработкатекстаинтернетпочтовогосообщения способкодированияинтернетпочтовоговложения ' + 'способкодированиянеasciiсимволовинтернетпочтовогосообщения типтекстапочтовогосообщения протоколинтернетпочты ' + 'статусразборапочтовогосообщения '; // v8 системные перечисления - журнал регистрации ==> class
 
-    var v8_system_enums_logbook = 'режимтранзакциизаписижурналарегистрации статустранзакциизаписижурналарегистрации уровеньжурналарегистрации '; // v8 системные перечисления - криптография ==> class
+    const v8_system_enums_logbook = 'режимтранзакциизаписижурналарегистрации статустранзакциизаписижурналарегистрации уровеньжурналарегистрации '; // v8 системные перечисления - криптография ==> class
 
-    var v8_system_enums_cryptography = 'расположениехранилищасертификатовкриптографии режимвключениясертификатовкриптографии режимпроверкисертификатакриптографии ' + 'типхранилищасертификатовкриптографии '; // v8 системные перечисления - ZIP ==> class
+    const v8_system_enums_cryptography = 'расположениехранилищасертификатовкриптографии режимвключениясертификатовкриптографии режимпроверкисертификатакриптографии ' + 'типхранилищасертификатовкриптографии '; // v8 системные перечисления - ZIP ==> class
 
-    var v8_system_enums_zip = 'кодировкаименфайловвzipфайле методсжатияzip методшифрованияzip режимвосстановленияпутейфайловzip режимобработкиподкаталоговzip ' + 'режимсохраненияпутейzip уровеньсжатияzip '; // v8 системные перечисления -
+    const v8_system_enums_zip = 'кодировкаименфайловвzipфайле методсжатияzip методшифрованияzip режимвосстановленияпутейфайловzip режимобработкиподкаталоговzip ' + 'режимсохраненияпутейzip уровеньсжатияzip '; // v8 системные перечисления -
     // Блокировка данных, Фоновые задания, Автоматизированное тестирование,
     // Доставляемые уведомления, Встроенные покупки, Интернет, Работа с двоичными данными ==> class
 
-    var v8_system_enums_other = 'звуковоеоповещение направлениепереходакстроке позициявпотоке порядокбайтов режимблокировкиданных режимуправленияблокировкойданных ' + 'сервисвстроенныхпокупок состояниефоновогозадания типподписчикадоставляемыхуведомлений уровеньиспользованиязащищенногосоединенияftp '; // v8 системные перечисления - схема запроса ==> class
+    const v8_system_enums_other = 'звуковоеоповещение направлениепереходакстроке позициявпотоке порядокбайтов режимблокировкиданных режимуправленияблокировкойданных ' + 'сервисвстроенныхпокупок состояниефоновогозадания типподписчикадоставляемыхуведомлений уровеньиспользованиязащищенногосоединенияftp '; // v8 системные перечисления - схема запроса ==> class
 
-    var v8_system_enums_request_schema = 'направлениепорядкасхемызапроса типдополненияпериодамисхемызапроса типконтрольнойточкисхемызапроса типобъединениясхемызапроса ' + 'типпараметрадоступнойтаблицысхемызапроса типсоединениясхемызапроса '; // v8 системные перечисления - свойства объектов метаданных ==> class
+    const v8_system_enums_request_schema = 'направлениепорядкасхемызапроса типдополненияпериодамисхемызапроса типконтрольнойточкисхемызапроса типобъединениясхемызапроса ' + 'типпараметрадоступнойтаблицысхемызапроса типсоединениясхемызапроса '; // v8 системные перечисления - свойства объектов метаданных ==> class
 
-    var v8_system_enums_properties_of_metadata_objects = 'httpметод автоиспользованиеобщегореквизита автопрефиксномеразадачи вариантвстроенногоязыка видиерархии видрегистранакопления ' + 'видтаблицывнешнегоисточникаданных записьдвиженийприпроведении заполнениепоследовательностей индексирование ' + 'использованиебазыпланавидоврасчета использованиебыстроговыбора использованиеобщегореквизита использованиеподчинения ' + 'использованиеполнотекстовогопоиска использованиеразделяемыхданныхобщегореквизита использованиереквизита ' + 'назначениеиспользованияприложения назначениерасширенияконфигурации направлениепередачи обновлениепредопределенныхданных ' + 'оперативноепроведение основноепредставлениевидарасчета основноепредставлениевидахарактеристики основноепредставлениезадачи ' + 'основноепредставлениепланаобмена основноепредставлениесправочника основноепредставлениесчета перемещениеграницыприпроведении ' + 'периодичностьномерабизнеспроцесса периодичностьномерадокумента периодичностьрегистрарасчета периодичностьрегистрасведений ' + 'повторноеиспользованиевозвращаемыхзначений полнотекстовыйпоискпривводепостроке принадлежностьобъекта проведение ' + 'разделениеаутентификацииобщегореквизита разделениеданныхобщегореквизита разделениерасширенийконфигурацииобщегореквизита ' + 'режимавтонумерацииобъектов режимзаписирегистра режимиспользованиямодальности ' + 'режимиспользованиясинхронныхвызововрасширенийплатформыивнешнихкомпонент режимповторногоиспользованиясеансов ' + 'режимполученияданныхвыборапривводепостроке режимсовместимости режимсовместимостиинтерфейса ' + 'режимуправленияблокировкойданныхпоумолчанию сериикодовпланавидовхарактеристик сериикодовпланасчетов ' + 'сериикодовсправочника созданиепривводе способвыбора способпоискастрокипривводепостроке способредактирования ' + 'типданныхтаблицывнешнегоисточникаданных типкодапланавидоврасчета типкодасправочника типмакета типномерабизнеспроцесса ' + 'типномерадокумента типномеразадачи типформы удалениедвижений '; // v8 системные перечисления - разные ==> class
+    const v8_system_enums_properties_of_metadata_objects = 'httpметод автоиспользованиеобщегореквизита автопрефиксномеразадачи вариантвстроенногоязыка видиерархии видрегистранакопления ' + 'видтаблицывнешнегоисточникаданных записьдвиженийприпроведении заполнениепоследовательностей индексирование ' + 'использованиебазыпланавидоврасчета использованиебыстроговыбора использованиеобщегореквизита использованиеподчинения ' + 'использованиеполнотекстовогопоиска использованиеразделяемыхданныхобщегореквизита использованиереквизита ' + 'назначениеиспользованияприложения назначениерасширенияконфигурации направлениепередачи обновлениепредопределенныхданных ' + 'оперативноепроведение основноепредставлениевидарасчета основноепредставлениевидахарактеристики основноепредставлениезадачи ' + 'основноепредставлениепланаобмена основноепредставлениесправочника основноепредставлениесчета перемещениеграницыприпроведении ' + 'периодичностьномерабизнеспроцесса периодичностьномерадокумента периодичностьрегистрарасчета периодичностьрегистрасведений ' + 'повторноеиспользованиевозвращаемыхзначений полнотекстовыйпоискпривводепостроке принадлежностьобъекта проведение ' + 'разделениеаутентификацииобщегореквизита разделениеданныхобщегореквизита разделениерасширенийконфигурацииобщегореквизита ' + 'режимавтонумерацииобъектов режимзаписирегистра режимиспользованиямодальности ' + 'режимиспользованиясинхронныхвызововрасширенийплатформыивнешнихкомпонент режимповторногоиспользованиясеансов ' + 'режимполученияданныхвыборапривводепостроке режимсовместимости режимсовместимостиинтерфейса ' + 'режимуправленияблокировкойданныхпоумолчанию сериикодовпланавидовхарактеристик сериикодовпланасчетов ' + 'сериикодовсправочника созданиепривводе способвыбора способпоискастрокипривводепостроке способредактирования ' + 'типданныхтаблицывнешнегоисточникаданных типкодапланавидоврасчета типкодасправочника типмакета типномерабизнеспроцесса ' + 'типномерадокумента типномеразадачи типформы удалениедвижений '; // v8 системные перечисления - разные ==> class
 
-    var v8_system_enums_differents = 'важностьпроблемыприменениярасширенияконфигурации вариантинтерфейсаклиентскогоприложения вариантмасштабаформклиентскогоприложения ' + 'вариантосновногошрифтаклиентскогоприложения вариантстандартногопериода вариантстандартнойдатыначала видграницы видкартинки ' + 'видотображенияполнотекстовогопоиска видрамки видсравнения видцвета видчисловогозначения видшрифта допустимаядлина допустимыйзнак ' + 'использованиеbyteordermark использованиеметаданныхполнотекстовогопоиска источникрасширенийконфигурации клавиша кодвозвратадиалога ' + 'кодировкаxbase кодировкатекста направлениепоиска направлениесортировки обновлениепредопределенныхданных обновлениеприизмененииданных ' + 'отображениепанелиразделов проверказаполнения режимдиалогавопрос режимзапускаклиентскогоприложения режимокругления режимоткрытияформприложения ' + 'режимполнотекстовогопоиска скоростьклиентскогосоединения состояниевнешнегоисточникаданных состояниеобновленияконфигурациибазыданных ' + 'способвыборасертификатаwindows способкодированиястроки статуссообщения типвнешнейкомпоненты типплатформы типповеденияклавишиenter ' + 'типэлементаинформацииовыполненииобновленияконфигурациибазыданных уровеньизоляциитранзакций хешфункция частидаты'; // class: встроенные наборы значений, системные перечисления (содержат дочерние значения, обращения к которым через разыменование)
+    const v8_system_enums_differents = 'важностьпроблемыприменениярасширенияконфигурации вариантинтерфейсаклиентскогоприложения вариантмасштабаформклиентскогоприложения ' + 'вариантосновногошрифтаклиентскогоприложения вариантстандартногопериода вариантстандартнойдатыначала видграницы видкартинки ' + 'видотображенияполнотекстовогопоиска видрамки видсравнения видцвета видчисловогозначения видшрифта допустимаядлина допустимыйзнак ' + 'использованиеbyteordermark использованиеметаданныхполнотекстовогопоиска источникрасширенийконфигурации клавиша кодвозвратадиалога ' + 'кодировкаxbase кодировкатекста направлениепоиска направлениесортировки обновлениепредопределенныхданных обновлениеприизмененииданных ' + 'отображениепанелиразделов проверказаполнения режимдиалогавопрос режимзапускаклиентскогоприложения режимокругления режимоткрытияформприложения ' + 'режимполнотекстовогопоиска скоростьклиентскогосоединения состояниевнешнегоисточникаданных состояниеобновленияконфигурациибазыданных ' + 'способвыборасертификатаwindows способкодированиястроки статуссообщения типвнешнейкомпоненты типплатформы типповеденияклавишиenter ' + 'типэлементаинформацииовыполненииобновленияконфигурациибазыданных уровеньизоляциитранзакций хешфункция частидаты'; // class: встроенные наборы значений, системные перечисления (содержат дочерние значения, обращения к которым через разыменование)
 
-    var CLASS = v8_system_sets_of_values + v8_system_enums_interface + v8_system_enums_objects_properties + v8_system_enums_exchange_plans + v8_system_enums_tabular_document + v8_system_enums_sheduler + v8_system_enums_formatted_document + v8_system_enums_query + v8_system_enums_report_builder + v8_system_enums_files + v8_system_enums_query_builder + v8_system_enums_data_analysis + v8_system_enums_xml_json_xs_dom_xdto_ws + v8_system_enums_data_composition_system + v8_system_enums_email + v8_system_enums_logbook + v8_system_enums_cryptography + v8_system_enums_zip + v8_system_enums_other + v8_system_enums_request_schema + v8_system_enums_properties_of_metadata_objects + v8_system_enums_differents; // v8 общие объекты (у объектов есть конструктор, экземпляры создаются методом НОВЫЙ) ==> type
+    const CLASS = v8_system_sets_of_values + v8_system_enums_interface + v8_system_enums_objects_properties + v8_system_enums_exchange_plans + v8_system_enums_tabular_document + v8_system_enums_sheduler + v8_system_enums_formatted_document + v8_system_enums_query + v8_system_enums_report_builder + v8_system_enums_files + v8_system_enums_query_builder + v8_system_enums_data_analysis + v8_system_enums_xml_json_xs_dom_xdto_ws + v8_system_enums_data_composition_system + v8_system_enums_email + v8_system_enums_logbook + v8_system_enums_cryptography + v8_system_enums_zip + v8_system_enums_other + v8_system_enums_request_schema + v8_system_enums_properties_of_metadata_objects + v8_system_enums_differents; // v8 общие объекты (у объектов есть конструктор, экземпляры создаются методом НОВЫЙ) ==> type
 
-    var v8_shared_object = 'comобъект ftpсоединение httpзапрос httpсервисответ httpсоединение wsопределения wsпрокси xbase анализданных аннотацияxs ' + 'блокировкаданных буфердвоичныхданных включениеxs выражениекомпоновкиданных генераторслучайныхчисел географическаясхема ' + 'географическиекоординаты графическаясхема группамоделиxs данныерасшифровкикомпоновкиданных двоичныеданные дендрограмма ' + 'диаграмма диаграммаганта диалогвыборафайла диалогвыборацвета диалогвыборашрифта диалограсписаниярегламентногозадания ' + 'диалогредактированиястандартногопериода диапазон документdom документhtml документацияxs доставляемоеуведомление ' + 'записьdom записьfastinfoset записьhtml записьjson записьxml записьzipфайла записьданных записьтекста записьузловdom ' + 'запрос защищенноесоединениеopenssl значенияполейрасшифровкикомпоновкиданных извлечениетекста импортxs интернетпочта ' + 'интернетпочтовоесообщение интернетпочтовыйпрофиль интернетпрокси интернетсоединение информациядляприложенияxs ' + 'использованиеатрибутаxs использованиесобытияжурналарегистрации источникдоступныхнастроеккомпоновкиданных ' + 'итераторузловdom картинка квалификаторыдаты квалификаторыдвоичныхданных квалификаторыстроки квалификаторычисла ' + 'компоновщикмакетакомпоновкиданных компоновщикнастроеккомпоновкиданных конструктормакетаоформлениякомпоновкиданных ' + 'конструкторнастроеккомпоновкиданных конструкторформатнойстроки линия макеткомпоновкиданных макетобластикомпоновкиданных ' + 'макетоформлениякомпоновкиданных маскаxs менеджеркриптографии наборсхемxml настройкикомпоновкиданных настройкисериализацииjson ' + 'обработкакартинок обработкарасшифровкикомпоновкиданных обходдереваdom объявлениеатрибутаxs объявлениенотацииxs ' + 'объявлениеэлементаxs описаниеиспользованиясобытиядоступжурналарегистрации ' + 'описаниеиспользованиясобытияотказвдоступежурналарегистрации описаниеобработкирасшифровкикомпоновкиданных ' + 'описаниепередаваемогофайла описаниетипов определениегруппыатрибутовxs определениегруппымоделиxs ' + 'определениеограниченияидентичностиxs определениепростоготипаxs определениесоставноготипаxs определениетипадокументаdom ' + 'определенияxpathxs отборкомпоновкиданных пакетотображаемыхдокументов параметрвыбора параметркомпоновкиданных ' + 'параметрызаписиjson параметрызаписиxml параметрычтенияxml переопределениеxs планировщик полеанализаданных ' + 'полекомпоновкиданных построительdom построительзапроса построительотчета построительотчетаанализаданных ' + 'построительсхемxml поток потоквпамяти почта почтовоесообщение преобразованиеxsl преобразованиекканоническомуxml ' + 'процессорвыводарезультатакомпоновкиданныхвколлекциюзначений процессорвыводарезультатакомпоновкиданныхвтабличныйдокумент ' + 'процессоркомпоновкиданных разыменовательпространствименdom рамка расписаниерегламентногозадания расширенноеимяxml ' + 'результатчтенияданных своднаядиаграмма связьпараметравыбора связьпотипу связьпотипукомпоновкиданных сериализаторxdto ' + 'сертификатклиентаwindows сертификатклиентафайл сертификаткриптографии сертификатыудостоверяющихцентровwindows ' + 'сертификатыудостоверяющихцентровфайл сжатиеданных системнаяинформация сообщениепользователю сочетаниеклавиш ' + 'сравнениезначений стандартнаядатаначала стандартныйпериод схемаxml схемакомпоновкиданных табличныйдокумент ' + 'текстовыйдокумент тестируемоеприложение типданныхxml уникальныйидентификатор фабрикаxdto файл файловыйпоток ' + 'фасетдлиныxs фасетколичестваразрядовдробнойчастиxs фасетмаксимальноговключающегозначенияxs ' + 'фасетмаксимальногоисключающегозначенияxs фасетмаксимальнойдлиныxs фасетминимальноговключающегозначенияxs ' + 'фасетминимальногоисключающегозначенияxs фасетминимальнойдлиныxs фасетобразцаxs фасетобщегоколичестваразрядовxs ' + 'фасетперечисленияxs фасетпробельныхсимволовxs фильтрузловdom форматированнаястрока форматированныйдокумент ' + 'фрагментxs хешированиеданных хранилищезначения цвет чтениеfastinfoset чтениеhtml чтениеjson чтениеxml чтениеzipфайла ' + 'чтениеданных чтениетекста чтениеузловdom шрифт элементрезультатакомпоновкиданных '; // v8 универсальные коллекции значений ==> type
+    const v8_shared_object = 'comобъект ftpсоединение httpзапрос httpсервисответ httpсоединение wsопределения wsпрокси xbase анализданных аннотацияxs ' + 'блокировкаданных буфердвоичныхданных включениеxs выражениекомпоновкиданных генераторслучайныхчисел географическаясхема ' + 'географическиекоординаты графическаясхема группамоделиxs данныерасшифровкикомпоновкиданных двоичныеданные дендрограмма ' + 'диаграмма диаграммаганта диалогвыборафайла диалогвыборацвета диалогвыборашрифта диалограсписаниярегламентногозадания ' + 'диалогредактированиястандартногопериода диапазон документdom документhtml документацияxs доставляемоеуведомление ' + 'записьdom записьfastinfoset записьhtml записьjson записьxml записьzipфайла записьданных записьтекста записьузловdom ' + 'запрос защищенноесоединениеopenssl значенияполейрасшифровкикомпоновкиданных извлечениетекста импортxs интернетпочта ' + 'интернетпочтовоесообщение интернетпочтовыйпрофиль интернетпрокси интернетсоединение информациядляприложенияxs ' + 'использованиеатрибутаxs использованиесобытияжурналарегистрации источникдоступныхнастроеккомпоновкиданных ' + 'итераторузловdom картинка квалификаторыдаты квалификаторыдвоичныхданных квалификаторыстроки квалификаторычисла ' + 'компоновщикмакетакомпоновкиданных компоновщикнастроеккомпоновкиданных конструктормакетаоформлениякомпоновкиданных ' + 'конструкторнастроеккомпоновкиданных конструкторформатнойстроки линия макеткомпоновкиданных макетобластикомпоновкиданных ' + 'макетоформлениякомпоновкиданных маскаxs менеджеркриптографии наборсхемxml настройкикомпоновкиданных настройкисериализацииjson ' + 'обработкакартинок обработкарасшифровкикомпоновкиданных обходдереваdom объявлениеатрибутаxs объявлениенотацииxs ' + 'объявлениеэлементаxs описаниеиспользованиясобытиядоступжурналарегистрации ' + 'описаниеиспользованиясобытияотказвдоступежурналарегистрации описаниеобработкирасшифровкикомпоновкиданных ' + 'описаниепередаваемогофайла описаниетипов определениегруппыатрибутовxs определениегруппымоделиxs ' + 'определениеограниченияидентичностиxs определениепростоготипаxs определениесоставноготипаxs определениетипадокументаdom ' + 'определенияxpathxs отборкомпоновкиданных пакетотображаемыхдокументов параметрвыбора параметркомпоновкиданных ' + 'параметрызаписиjson параметрызаписиxml параметрычтенияxml переопределениеxs планировщик полеанализаданных ' + 'полекомпоновкиданных построительdom построительзапроса построительотчета построительотчетаанализаданных ' + 'построительсхемxml поток потоквпамяти почта почтовоесообщение преобразованиеxsl преобразованиекканоническомуxml ' + 'процессорвыводарезультатакомпоновкиданныхвколлекциюзначений процессорвыводарезультатакомпоновкиданныхвтабличныйдокумент ' + 'процессоркомпоновкиданных разыменовательпространствименdom рамка расписаниерегламентногозадания расширенноеимяxml ' + 'результатчтенияданных своднаядиаграмма связьпараметравыбора связьпотипу связьпотипукомпоновкиданных сериализаторxdto ' + 'сертификатклиентаwindows сертификатклиентафайл сертификаткриптографии сертификатыудостоверяющихцентровwindows ' + 'сертификатыудостоверяющихцентровфайл сжатиеданных системнаяинформация сообщениепользователю сочетаниеклавиш ' + 'сравнениезначений стандартнаядатаначала стандартныйпериод схемаxml схемакомпоновкиданных табличныйдокумент ' + 'текстовыйдокумент тестируемоеприложение типданныхxml уникальныйидентификатор фабрикаxdto файл файловыйпоток ' + 'фасетдлиныxs фасетколичестваразрядовдробнойчастиxs фасетмаксимальноговключающегозначенияxs ' + 'фасетмаксимальногоисключающегозначенияxs фасетмаксимальнойдлиныxs фасетминимальноговключающегозначенияxs ' + 'фасетминимальногоисключающегозначенияxs фасетминимальнойдлиныxs фасетобразцаxs фасетобщегоколичестваразрядовxs ' + 'фасетперечисленияxs фасетпробельныхсимволовxs фильтрузловdom форматированнаястрока форматированныйдокумент ' + 'фрагментxs хешированиеданных хранилищезначения цвет чтениеfastinfoset чтениеhtml чтениеjson чтениеxml чтениеzipфайла ' + 'чтениеданных чтениетекста чтениеузловdom шрифт элементрезультатакомпоновкиданных '; // v8 универсальные коллекции значений ==> type
 
-    var v8_universal_collection = 'comsafearray деревозначений массив соответствие списокзначений структура таблицазначений фиксированнаяструктура ' + 'фиксированноесоответствие фиксированныймассив '; // type : встроенные типы
+    const v8_universal_collection = 'comsafearray деревозначений массив соответствие списокзначений структура таблицазначений фиксированнаяструктура ' + 'фиксированноесоответствие фиксированныймассив '; // type : встроенные типы
 
-    var TYPE = v8_shared_object + v8_universal_collection; // literal : примитивные типы
+    const TYPE = v8_shared_object + v8_universal_collection; // literal : примитивные типы
 
-    var LITERAL = 'null истина ложь неопределено'; // number : числа
+    const LITERAL = 'null истина ложь неопределено'; // number : числа
 
-    var NUMBERS = hljs.inherit(hljs.NUMBER_MODE); // string : строки
+    const NUMBERS = hljs.inherit(hljs.NUMBER_MODE); // string : строки
 
-    var STRINGS = {
+    const STRINGS = {
       className: 'string',
       begin: '"|\\|',
       end: '"|$',
@@ -19604,7 +19616,7 @@ export default {
       }]
     }; // number : даты
 
-    var DATE = {
+    const DATE = {
       begin: "'",
       end: "'",
       excludeBegin: true,
@@ -19615,9 +19627,9 @@ export default {
       }]
     }; // comment : комментарии
 
-    var COMMENTS = hljs.inherit(hljs.C_LINE_COMMENT_MODE); // meta : инструкции препроцессора, директивы компиляции
+    const COMMENTS = hljs.inherit(hljs.C_LINE_COMMENT_MODE); // meta : инструкции препроцессора, директивы компиляции
 
-    var META = {
+    const META = {
       className: 'meta',
       begin: '#|&',
       end: '$',
@@ -19628,14 +19640,14 @@ export default {
       contains: [COMMENTS]
     }; // symbol : метка goto
 
-    var SYMBOL = {
+    const SYMBOL = {
       className: 'symbol',
       begin: '~',
       end: ';|:',
       excludeEnd: true
     }; // function : объявление процедур и функций
 
-    var FUNCTION = {
+    const FUNCTION = {
       className: 'function',
       variants: [{
         begin: 'процедура|функция',
@@ -20039,7 +20051,7 @@ export default {
   function angelscript(hljs) {
     const builtInTypeMode = {
       className: 'built_in',
-      begin: '\\b(void|bool|int|int8|int16|int32|int64|uint|uint8|uint16|uint32|uint64|string|ref|array|double|float|auto|dictionary)'
+      begin: '\\b(void|bool|int8|int16|int32|int64|int|uint8|uint16|uint32|uint64|uint|string|ref|array|double|float|auto|dictionary)'
     };
     const objectHandleMode = {
       className: 'symbol',
@@ -20240,7 +20252,7 @@ export default {
       keywords: {
         keyword: 'about above after against and around as at back before beginning ' + 'behind below beneath beside between but by considering ' + 'contain contains continue copy div does eighth else end equal ' + 'equals error every exit fifth first for fourth from front ' + 'get given global if ignoring in into is it its last local me ' + 'middle mod my ninth not of on onto or over prop property put ref ' + 'reference repeat returning script second set seventh since ' + 'sixth some tell tenth that the|0 then third through thru ' + 'timeout times to transaction try until where while whose with ' + 'without',
         literal: 'AppleScript false linefeed return pi quote result space tab true',
-        built_in: 'alias application boolean class constant date file integer list ' + 'number real record string text ' + 'activate beep count delay launch log offset read round ' + 'run say summarize write ' + 'character characters contents day frontmost id item length ' + 'month name paragraph paragraphs rest reverse running time version ' + 'weekday word words year'
+        built_in: 'alias application boolean class constant date file integer list ' + 'number real record string text ' + 'activate beep count delay launch log offset read round ' + 'run say summarize write ' + 'character characters contents day frontmost id item length ' + 'month name|0 paragraph paragraphs rest reverse running time version ' + 'weekday word words year'
       },
       contains: [STRING, hljs.C_NUMBER_MODE, {
         className: 'built_in',
@@ -20643,24 +20655,24 @@ export default {
       keywords: {
         $pattern: '\\.?' + hljs.IDENT_RE,
         meta: // GNU preprocs
-        '.2byte .4byte .align .ascii .asciz .balign .byte .code .data .else .end .endif .endm .endr .equ .err .exitm .extern .global .hword .if .ifdef .ifndef .include .irp .long .macro .rept .req .section .set .skip .space .text .word .arm .thumb .code16 .code32 .force_thumb .thumb_func .ltorg ' + // ARM directives
-        'ALIAS ALIGN ARM AREA ASSERT ATTR CN CODE CODE16 CODE32 COMMON CP DATA DCB DCD DCDU DCDO DCFD DCFDU DCI DCQ DCQU DCW DCWU DN ELIF ELSE END ENDFUNC ENDIF ENDP ENTRY EQU EXPORT EXPORTAS EXTERN FIELD FILL FUNCTION GBLA GBLL GBLS GET GLOBAL IF IMPORT INCBIN INCLUDE INFO KEEP LCLA LCLL LCLS LTORG MACRO MAP MEND MEXIT NOFP OPT PRESERVE8 PROC QN READONLY RELOC REQUIRE REQUIRE8 RLIST FN ROUT SETA SETL SETS SN SPACE SUBT THUMB THUMBX TTL WHILE WEND ',
-        built_in: 'r0 r1 r2 r3 r4 r5 r6 r7 r8 r9 r10 r11 r12 r13 r14 r15 ' + // standard registers
-        'pc lr sp ip sl sb fp ' + // typical regs plus backward compatibility
-        'a1 a2 a3 a4 v1 v2 v3 v4 v5 v6 v7 v8 f0 f1 f2 f3 f4 f5 f6 f7 ' + // more regs and fp
-        'p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 ' + // coprocessor regs
-        'c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13 c14 c15 ' + // more coproc
-        'q0 q1 q2 q3 q4 q5 q6 q7 q8 q9 q10 q11 q12 q13 q14 q15 ' + // advanced SIMD NEON regs
+        '.2byte .4byte .align .ascii .asciz .balign .byte .code .data .else .end .endif .endm .endr .equ .err .exitm .extern .global .hword .if .ifdef .ifndef .include .irp .long .macro .rept .req .section .set .skip .space .text .word .arm .thumb .code16 .code32 .force_thumb .thumb_func .ltorg ' // ARM directives
+        + 'ALIAS ALIGN ARM AREA ASSERT ATTR CN CODE CODE16 CODE32 COMMON CP DATA DCB DCD DCDU DCDO DCFD DCFDU DCI DCQ DCQU DCW DCWU DN ELIF ELSE END ENDFUNC ENDIF ENDP ENTRY EQU EXPORT EXPORTAS EXTERN FIELD FILL FUNCTION GBLA GBLL GBLS GET GLOBAL IF IMPORT INCBIN INCLUDE INFO KEEP LCLA LCLL LCLS LTORG MACRO MAP MEND MEXIT NOFP OPT PRESERVE8 PROC QN READONLY RELOC REQUIRE REQUIRE8 RLIST FN ROUT SETA SETL SETS SN SPACE SUBT THUMB THUMBX TTL WHILE WEND ',
+        built_in: 'r0 r1 r2 r3 r4 r5 r6 r7 r8 r9 r10 r11 r12 r13 r14 r15 ' // standard registers
+        + 'pc lr sp ip sl sb fp ' // typical regs plus backward compatibility
+        + 'a1 a2 a3 a4 v1 v2 v3 v4 v5 v6 v7 v8 f0 f1 f2 f3 f4 f5 f6 f7 ' // more regs and fp
+        + 'p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 ' // coprocessor regs
+        + 'c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13 c14 c15 ' // more coproc
+        + 'q0 q1 q2 q3 q4 q5 q6 q7 q8 q9 q10 q11 q12 q13 q14 q15 ' // advanced SIMD NEON regs
         // program status registers
-        'cpsr_c cpsr_x cpsr_s cpsr_f cpsr_cx cpsr_cxs cpsr_xs cpsr_xsf cpsr_sf cpsr_cxsf ' + 'spsr_c spsr_x spsr_s spsr_f spsr_cx spsr_cxs spsr_xs spsr_xsf spsr_sf spsr_cxsf ' + // NEON and VFP registers
-        's0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 ' + 's16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 ' + 'd0 d1 d2 d3 d4 d5 d6 d7 d8 d9 d10 d11 d12 d13 d14 d15 ' + 'd16 d17 d18 d19 d20 d21 d22 d23 d24 d25 d26 d27 d28 d29 d30 d31 ' + '{PC} {VAR} {TRUE} {FALSE} {OPT} {CONFIG} {ENDIAN} {CODESIZE} {CPU} {FPU} {ARCHITECTURE} {PCSTOREOFFSET} {ARMASM_VERSION} {INTER} {ROPI} {RWPI} {SWST} {NOSWST} . @'
+        + 'cpsr_c cpsr_x cpsr_s cpsr_f cpsr_cx cpsr_cxs cpsr_xs cpsr_xsf cpsr_sf cpsr_cxsf ' + 'spsr_c spsr_x spsr_s spsr_f spsr_cx spsr_cxs spsr_xs spsr_xsf spsr_sf spsr_cxsf ' // NEON and VFP registers
+        + 's0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 ' + 's16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 ' + 'd0 d1 d2 d3 d4 d5 d6 d7 d8 d9 d10 d11 d12 d13 d14 d15 ' + 'd16 d17 d18 d19 d20 d21 d22 d23 d24 d25 d26 d27 d28 d29 d30 d31 ' + '{PC} {VAR} {TRUE} {FALSE} {OPT} {CONFIG} {ENDIAN} {CODESIZE} {CPU} {FPU} {ARCHITECTURE} {PCSTOREOFFSET} {ARMASM_VERSION} {INTER} {ROPI} {RWPI} {SWST} {NOSWST} . @'
       },
       contains: [{
         className: 'keyword',
-        begin: '\\b(' + // mnemonics
-        'adc|' + '(qd?|sh?|u[qh]?)?add(8|16)?|usada?8|(q|sh?|u[qh]?)?(as|sa)x|' + 'and|adrl?|sbc|rs[bc]|asr|b[lx]?|blx|bxj|cbn?z|tb[bh]|bic|' + 'bfc|bfi|[su]bfx|bkpt|cdp2?|clz|clrex|cmp|cmn|cpsi[ed]|cps|' + 'setend|dbg|dmb|dsb|eor|isb|it[te]{0,3}|lsl|lsr|ror|rrx|' + 'ldm(([id][ab])|f[ds])?|ldr((s|ex)?[bhd])?|movt?|mvn|mra|mar|' + 'mul|[us]mull|smul[bwt][bt]|smu[as]d|smmul|smmla|' + 'mla|umlaal|smlal?([wbt][bt]|d)|mls|smlsl?[ds]|smc|svc|sev|' + 'mia([bt]{2}|ph)?|mrr?c2?|mcrr2?|mrs|msr|orr|orn|pkh(tb|bt)|rbit|' + 'rev(16|sh)?|sel|[su]sat(16)?|nop|pop|push|rfe([id][ab])?|' + 'stm([id][ab])?|str(ex)?[bhd]?|(qd?)?sub|(sh?|q|u[qh]?)?sub(8|16)|' + '[su]xt(a?h|a?b(16)?)|srs([id][ab])?|swpb?|swi|smi|tst|teq|' + 'wfe|wfi|yield' + ')' + '(eq|ne|cs|cc|mi|pl|vs|vc|hi|ls|ge|lt|gt|le|al|hs|lo)?' + // condition codes
-        '[sptrx]?' + // legal postfixes
-        '(?=\\s)' // followed by space
+        begin: '\\b(' // mnemonics
+        + 'adc|' + '(qd?|sh?|u[qh]?)?add(8|16)?|usada?8|(q|sh?|u[qh]?)?(as|sa)x|' + 'and|adrl?|sbc|rs[bc]|asr|b[lx]?|blx|bxj|cbn?z|tb[bh]|bic|' + 'bfc|bfi|[su]bfx|bkpt|cdp2?|clz|clrex|cmp|cmn|cpsi[ed]|cps|' + 'setend|dbg|dmb|dsb|eor|isb|it[te]{0,3}|lsl|lsr|ror|rrx|' + 'ldm(([id][ab])|f[ds])?|ldr((s|ex)?[bhd])?|movt?|mvn|mra|mar|' + 'mul|[us]mull|smul[bwt][bt]|smu[as]d|smmul|smmla|' + 'mla|umlaal|smlal?([wbt][bt]|d)|mls|smlsl?[ds]|smc|svc|sev|' + 'mia([bt]{2}|ph)?|mrr?c2?|mcrr2?|mrs|msr|orr|orn|pkh(tb|bt)|rbit|' + 'rev(16|sh)?|sel|[su]sat(16)?|nop|pop|push|rfe([id][ab])?|' + 'stm([id][ab])?|str(ex)?[bhd]?|(qd?)?sub|(sh?|q|u[qh]?)?sub(8|16)|' + '[su]xt(a?h|a?b(16)?)|srs([id][ab])?|swpb?|swi|smi|tst|teq|' + 'wfe|wfi|yield' + ')' + '(eq|ne|cs|cc|mi|pl|vs|vc|hi|ls|ge|lt|gt|le|al|hs|lo)?' // condition codes
+        + '[sptrx]?' // legal postfixes
+        + '(?=\\s)' // followed by space
 
       }, COMMENT, hljs.QUOTE_STRING_MODE, {
         className: 'string',
@@ -20796,11 +20808,17 @@ export default {
         begin: /<!\[CDATA\[/,
         end: /\]\]>/,
         relevance: 10
-      }, XML_ENTITIES, {
+      }, XML_ENTITIES, // xml processing instructions
+      {
         className: 'meta',
-        begin: /<\?xml/,
         end: /\?>/,
-        relevance: 10
+        variants: [{
+          begin: /<\?xml/,
+          relevance: 10,
+          contains: [QUOTE_META_STRING_MODE]
+        }, {
+          begin: /<\?[a-z][a-z0-9]+/
+        }]
       }, {
         className: 'tag',
 
@@ -21397,9 +21415,9 @@ export default {
         'adc add adiw and andi asr bclr bld brbc brbs brcc brcs break breq brge brhc brhs ' + 'brid brie brlo brlt brmi brne brpl brsh brtc brts brvc brvs bset bst call cbi cbr ' + 'clc clh cli cln clr cls clt clv clz com cp cpc cpi cpse dec eicall eijmp elpm eor ' + 'fmul fmuls fmulsu icall ijmp in inc jmp ld ldd ldi lds lpm lsl lsr mov movw mul ' + 'muls mulsu neg nop or ori out pop push rcall ret reti rjmp rol ror sbc sbr sbrc sbrs ' + 'sec seh sbi sbci sbic sbis sbiw sei sen ser ses set sev sez sleep spm st std sts sub ' + 'subi swap tst wdr',
         built_in:
         /* general purpose registers */
-        'r0 r1 r2 r3 r4 r5 r6 r7 r8 r9 r10 r11 r12 r13 r14 r15 r16 r17 r18 r19 r20 r21 r22 ' + 'r23 r24 r25 r26 r27 r28 r29 r30 r31 x|0 xh xl y|0 yh yl z|0 zh zl ' +
+        'r0 r1 r2 r3 r4 r5 r6 r7 r8 r9 r10 r11 r12 r13 r14 r15 r16 r17 r18 r19 r20 r21 r22 ' + 'r23 r24 r25 r26 r27 r28 r29 r30 r31 x|0 xh xl y|0 yh yl z|0 zh zl '
         /* IO Registers (ATMega128) */
-        'ucsr1c udr1 ucsr1a ucsr1b ubrr1l ubrr1h ucsr0c ubrr0h tccr3c tccr3a tccr3b tcnt3h ' + 'tcnt3l ocr3ah ocr3al ocr3bh ocr3bl ocr3ch ocr3cl icr3h icr3l etimsk etifr tccr1c ' + 'ocr1ch ocr1cl twcr twdr twar twsr twbr osccal xmcra xmcrb eicra spmcsr spmcr portg ' + 'ddrg ping portf ddrf sreg sph spl xdiv rampz eicrb eimsk gimsk gicr eifr gifr timsk ' + 'tifr mcucr mcucsr tccr0 tcnt0 ocr0 assr tccr1a tccr1b tcnt1h tcnt1l ocr1ah ocr1al ' + 'ocr1bh ocr1bl icr1h icr1l tccr2 tcnt2 ocr2 ocdr wdtcr sfior eearh eearl eedr eecr ' + 'porta ddra pina portb ddrb pinb portc ddrc pinc portd ddrd pind spdr spsr spcr udr0 ' + 'ucsr0a ucsr0b ubrr0l acsr admux adcsr adch adcl porte ddre pine pinf',
+        + 'ucsr1c udr1 ucsr1a ucsr1b ubrr1l ubrr1h ucsr0c ubrr0h tccr3c tccr3a tccr3b tcnt3h ' + 'tcnt3l ocr3ah ocr3al ocr3bh ocr3bl ocr3ch ocr3cl icr3h icr3l etimsk etifr tccr1c ' + 'ocr1ch ocr1cl twcr twdr twar twsr twbr osccal xmcra xmcrb eicra spmcsr spmcr portg ' + 'ddrg ping portf ddrf sreg sph spl xdiv rampz eicrb eimsk gimsk gicr eifr gifr timsk ' + 'tifr mcucr mcucsr tccr0 tcnt0 ocr0 assr tccr1a tccr1b tcnt1h tcnt1l ocr1ah ocr1al ' + 'ocr1bh ocr1bl icr1h icr1l tccr2 tcnt2 ocr2 ocdr wdtcr sfior eearh eearl eedr eecr ' + 'porta ddra pina portb ddrb pinb portc ddrc pinc portd ddrd pind spdr spsr spcr udr0 ' + 'ucsr0a ucsr0b ubrr0l acsr admux adcsr adch adcl porte ddre pine pinf',
         meta: '.byte .cseg .db .def .device .dseg .dw .endmacro .equ .eseg .exit .include .list ' + '.listmac .macro .nolist .org .set'
       },
       contains: [hljs.C_BLOCK_COMMENT_MODE, hljs.COMMENT(';', '$', {
@@ -21633,7 +21651,7 @@ export default {
       name: 'Bash',
       aliases: ['sh'],
       keywords: {
-        $pattern: /\b[a-z._-]+\b/,
+        $pattern: /\b[a-z][a-z0-9._-]+\b/,
         keyword: KEYWORDS,
         literal: LITERALS,
         built_in: [...SHELL_BUILT_INS, ...BASH_BUILT_INS, // Shell modifiers
@@ -21734,13 +21752,17 @@ export default {
   function brainfuck(hljs) {
     const LITERAL = {
       className: 'literal',
-      begin: /[+-]/,
+      begin: /[+-]+/,
       relevance: 0
     };
     return {
       name: 'Brainfuck',
       aliases: ['bf'],
-      contains: [hljs.COMMENT('[^\\[\\]\\.,\\+\\-<> \r\n]', '[\\[\\]\\.,\\+\\-<> \r\n]', {
+      contains: [hljs.COMMENT(/[^\[\]\.,\+\-<> \r\n]/, /[\[\]\.,\+\-<> \r\n]/, {
+        contains: [{
+          match: /[ ]+[^\[\]\.,\+\-<> \r\n]/,
+          relevance: 0
+        }],
         returnEnd: true,
         relevance: 0
       }), {
@@ -21753,7 +21775,9 @@ export default {
         relevance: 0
       }, {
         // this mode works as the only relevance counter
-        begin: /(?:\+\+|--)/,
+        // it looks ahead to find the start of a run of literals
+        // so only the runs are counted as relevant
+        begin: /(?=\+\+|--)/,
         contains: [LITERAL]
       }, LITERAL]
     };
@@ -22323,7 +22347,7 @@ export default {
     return {
       name: 'Clojure REPL',
       contains: [{
-        className: 'meta',
+        className: 'meta.prompt',
         begin: /^([\w.-]+|\s*#_)?=>/,
         starts: {
           end: /$/,
@@ -22350,11 +22374,11 @@ export default {
       case_insensitive: true,
       keywords: {
         keyword: // scripting commands
-        'break cmake_host_system_information cmake_minimum_required cmake_parse_arguments ' + 'cmake_policy configure_file continue elseif else endforeach endfunction endif endmacro ' + 'endwhile execute_process file find_file find_library find_package find_path ' + 'find_program foreach function get_cmake_property get_directory_property ' + 'get_filename_component get_property if include include_guard list macro ' + 'mark_as_advanced math message option return separate_arguments ' + 'set_directory_properties set_property set site_name string unset variable_watch while ' + // project commands
-        'add_compile_definitions add_compile_options add_custom_command add_custom_target ' + 'add_definitions add_dependencies add_executable add_library add_link_options ' + 'add_subdirectory add_test aux_source_directory build_command create_test_sourcelist ' + 'define_property enable_language enable_testing export fltk_wrap_ui ' + 'get_source_file_property get_target_property get_test_property include_directories ' + 'include_external_msproject include_regular_expression install link_directories ' + 'link_libraries load_cache project qt_wrap_cpp qt_wrap_ui remove_definitions ' + 'set_source_files_properties set_target_properties set_tests_properties source_group ' + 'target_compile_definitions target_compile_features target_compile_options ' + 'target_include_directories target_link_directories target_link_libraries ' + 'target_link_options target_sources try_compile try_run ' + // CTest commands
-        'ctest_build ctest_configure ctest_coverage ctest_empty_binary_directory ctest_memcheck ' + 'ctest_read_custom_files ctest_run_script ctest_sleep ctest_start ctest_submit ' + 'ctest_test ctest_update ctest_upload ' + // deprecated commands
-        'build_name exec_program export_library_dependencies install_files install_programs ' + 'install_targets load_command make_directory output_required_files remove ' + 'subdir_depends subdirs use_mangled_mesa utility_source variable_requires write_file ' + 'qt5_use_modules qt5_use_package qt5_wrap_cpp ' + // core keywords
-        'on off true false and or not command policy target test exists is_newer_than ' + 'is_directory is_symlink is_absolute matches less greater equal less_equal ' + 'greater_equal strless strgreater strequal strless_equal strgreater_equal version_less ' + 'version_greater version_equal version_less_equal version_greater_equal in_list defined'
+        'break cmake_host_system_information cmake_minimum_required cmake_parse_arguments ' + 'cmake_policy configure_file continue elseif else endforeach endfunction endif endmacro ' + 'endwhile execute_process file find_file find_library find_package find_path ' + 'find_program foreach function get_cmake_property get_directory_property ' + 'get_filename_component get_property if include include_guard list macro ' + 'mark_as_advanced math message option return separate_arguments ' + 'set_directory_properties set_property set site_name string unset variable_watch while ' // project commands
+        + 'add_compile_definitions add_compile_options add_custom_command add_custom_target ' + 'add_definitions add_dependencies add_executable add_library add_link_options ' + 'add_subdirectory add_test aux_source_directory build_command create_test_sourcelist ' + 'define_property enable_language enable_testing export fltk_wrap_ui ' + 'get_source_file_property get_target_property get_test_property include_directories ' + 'include_external_msproject include_regular_expression install link_directories ' + 'link_libraries load_cache project qt_wrap_cpp qt_wrap_ui remove_definitions ' + 'set_source_files_properties set_target_properties set_tests_properties source_group ' + 'target_compile_definitions target_compile_features target_compile_options ' + 'target_include_directories target_link_directories target_link_libraries ' + 'target_link_options target_sources try_compile try_run ' // CTest commands
+        + 'ctest_build ctest_configure ctest_coverage ctest_empty_binary_directory ctest_memcheck ' + 'ctest_read_custom_files ctest_run_script ctest_sleep ctest_start ctest_submit ' + 'ctest_test ctest_update ctest_upload ' // deprecated commands
+        + 'build_name exec_program export_library_dependencies install_files install_programs ' + 'install_targets load_command make_directory output_required_files remove ' + 'subdir_depends subdirs use_mangled_mesa utility_source variable_requires write_file ' + 'qt5_use_modules qt5_use_package qt5_wrap_cpp ' // core keywords
+        + 'on off true false and or not command policy target test exists is_newer_than ' + 'is_directory is_symlink is_absolute matches less greater equal less_equal ' + 'greater_equal strless strgreater strequal strless_equal strgreater_equal version_less ' + 'version_greater version_equal version_less_equal version_greater_equal in_list defined'
       },
       contains: [{
         className: 'variable',
@@ -23517,7 +23541,7 @@ export default {
   ]; // https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
 
   const PSEUDO_ELEMENTS$3 = ['after', 'backdrop', 'before', 'cue', 'cue-region', 'first-letter', 'first-line', 'grammar-error', 'marker', 'part', 'placeholder', 'selection', 'slotted', 'spelling-error'];
-  const ATTRIBUTES$3 = ['align-content', 'align-items', 'align-self', 'all', 'animation', 'animation-delay', 'animation-direction', 'animation-duration', 'animation-fill-mode', 'animation-iteration-count', 'animation-name', 'animation-play-state', 'animation-timing-function', 'backface-visibility', 'background', 'background-attachment', 'background-clip', 'background-color', 'background-image', 'background-origin', 'background-position', 'background-repeat', 'background-size', 'border', 'border-bottom', 'border-bottom-color', 'border-bottom-left-radius', 'border-bottom-right-radius', 'border-bottom-style', 'border-bottom-width', 'border-collapse', 'border-color', 'border-image', 'border-image-outset', 'border-image-repeat', 'border-image-slice', 'border-image-source', 'border-image-width', 'border-left', 'border-left-color', 'border-left-style', 'border-left-width', 'border-radius', 'border-right', 'border-right-color', 'border-right-style', 'border-right-width', 'border-spacing', 'border-style', 'border-top', 'border-top-color', 'border-top-left-radius', 'border-top-right-radius', 'border-top-style', 'border-top-width', 'border-width', 'bottom', 'box-decoration-break', 'box-shadow', 'box-sizing', 'break-after', 'break-before', 'break-inside', 'caption-side', 'caret-color', 'clear', 'clip', 'clip-path', 'clip-rule', 'color', 'column-count', 'column-fill', 'column-gap', 'column-rule', 'column-rule-color', 'column-rule-style', 'column-rule-width', 'column-span', 'column-width', 'columns', 'contain', 'content', 'content-visibility', 'counter-increment', 'counter-reset', 'cue', 'cue-after', 'cue-before', 'cursor', 'direction', 'display', 'empty-cells', 'filter', 'flex', 'flex-basis', 'flex-direction', 'flex-flow', 'flex-grow', 'flex-shrink', 'flex-wrap', 'float', 'flow', 'font', 'font-display', 'font-family', 'font-feature-settings', 'font-kerning', 'font-language-override', 'font-size', 'font-size-adjust', 'font-smoothing', 'font-stretch', 'font-style', 'font-synthesis', 'font-variant', 'font-variant-caps', 'font-variant-east-asian', 'font-variant-ligatures', 'font-variant-numeric', 'font-variant-position', 'font-variation-settings', 'font-weight', 'gap', 'glyph-orientation-vertical', 'grid', 'grid-area', 'grid-auto-columns', 'grid-auto-flow', 'grid-auto-rows', 'grid-column', 'grid-column-end', 'grid-column-start', 'grid-gap', 'grid-row', 'grid-row-end', 'grid-row-start', 'grid-template', 'grid-template-areas', 'grid-template-columns', 'grid-template-rows', 'hanging-punctuation', 'height', 'hyphens', 'icon', 'image-orientation', 'image-rendering', 'image-resolution', 'ime-mode', 'isolation', 'justify-content', 'left', 'letter-spacing', 'line-break', 'line-height', 'list-style', 'list-style-image', 'list-style-position', 'list-style-type', 'margin', 'margin-bottom', 'margin-left', 'margin-right', 'margin-top', 'marks', 'mask', 'mask-border', 'mask-border-mode', 'mask-border-outset', 'mask-border-repeat', 'mask-border-slice', 'mask-border-source', 'mask-border-width', 'mask-clip', 'mask-composite', 'mask-image', 'mask-mode', 'mask-origin', 'mask-position', 'mask-repeat', 'mask-size', 'mask-type', 'max-height', 'max-width', 'min-height', 'min-width', 'mix-blend-mode', 'nav-down', 'nav-index', 'nav-left', 'nav-right', 'nav-up', 'none', 'normal', 'object-fit', 'object-position', 'opacity', 'order', 'orphans', 'outline', 'outline-color', 'outline-offset', 'outline-style', 'outline-width', 'overflow', 'overflow-wrap', 'overflow-x', 'overflow-y', 'padding', 'padding-bottom', 'padding-left', 'padding-right', 'padding-top', 'page-break-after', 'page-break-before', 'page-break-inside', 'pause', 'pause-after', 'pause-before', 'perspective', 'perspective-origin', 'pointer-events', 'position', 'quotes', 'resize', 'rest', 'rest-after', 'rest-before', 'right', 'row-gap', 'scroll-margin', 'scroll-margin-block', 'scroll-margin-block-end', 'scroll-margin-block-start', 'scroll-margin-bottom', 'scroll-margin-inline', 'scroll-margin-inline-end', 'scroll-margin-inline-start', 'scroll-margin-left', 'scroll-margin-right', 'scroll-margin-top', 'scroll-padding', 'scroll-padding-block', 'scroll-padding-block-end', 'scroll-padding-block-start', 'scroll-padding-bottom', 'scroll-padding-inline', 'scroll-padding-inline-end', 'scroll-padding-inline-start', 'scroll-padding-left', 'scroll-padding-right', 'scroll-padding-top', 'scroll-snap-align', 'scroll-snap-stop', 'scroll-snap-type', 'shape-image-threshold', 'shape-margin', 'shape-outside', 'speak', 'speak-as', 'src', // @font-face
+  const ATTRIBUTES$3 = ['align-content', 'align-items', 'align-self', 'all', 'animation', 'animation-delay', 'animation-direction', 'animation-duration', 'animation-fill-mode', 'animation-iteration-count', 'animation-name', 'animation-play-state', 'animation-timing-function', 'backface-visibility', 'background', 'background-attachment', 'background-blend-mode', 'background-clip', 'background-color', 'background-image', 'background-origin', 'background-position', 'background-repeat', 'background-size', 'block-size', 'border', 'border-block', 'border-block-color', 'border-block-end', 'border-block-end-color', 'border-block-end-style', 'border-block-end-width', 'border-block-start', 'border-block-start-color', 'border-block-start-style', 'border-block-start-width', 'border-block-style', 'border-block-width', 'border-bottom', 'border-bottom-color', 'border-bottom-left-radius', 'border-bottom-right-radius', 'border-bottom-style', 'border-bottom-width', 'border-collapse', 'border-color', 'border-image', 'border-image-outset', 'border-image-repeat', 'border-image-slice', 'border-image-source', 'border-image-width', 'border-inline', 'border-inline-color', 'border-inline-end', 'border-inline-end-color', 'border-inline-end-style', 'border-inline-end-width', 'border-inline-start', 'border-inline-start-color', 'border-inline-start-style', 'border-inline-start-width', 'border-inline-style', 'border-inline-width', 'border-left', 'border-left-color', 'border-left-style', 'border-left-width', 'border-radius', 'border-right', 'border-right-color', 'border-right-style', 'border-right-width', 'border-spacing', 'border-style', 'border-top', 'border-top-color', 'border-top-left-radius', 'border-top-right-radius', 'border-top-style', 'border-top-width', 'border-width', 'bottom', 'box-decoration-break', 'box-shadow', 'box-sizing', 'break-after', 'break-before', 'break-inside', 'caption-side', 'caret-color', 'clear', 'clip', 'clip-path', 'clip-rule', 'color', 'column-count', 'column-fill', 'column-gap', 'column-rule', 'column-rule-color', 'column-rule-style', 'column-rule-width', 'column-span', 'column-width', 'columns', 'contain', 'content', 'content-visibility', 'counter-increment', 'counter-reset', 'cue', 'cue-after', 'cue-before', 'cursor', 'direction', 'display', 'empty-cells', 'filter', 'flex', 'flex-basis', 'flex-direction', 'flex-flow', 'flex-grow', 'flex-shrink', 'flex-wrap', 'float', 'flow', 'font', 'font-display', 'font-family', 'font-feature-settings', 'font-kerning', 'font-language-override', 'font-size', 'font-size-adjust', 'font-smoothing', 'font-stretch', 'font-style', 'font-synthesis', 'font-variant', 'font-variant-caps', 'font-variant-east-asian', 'font-variant-ligatures', 'font-variant-numeric', 'font-variant-position', 'font-variation-settings', 'font-weight', 'gap', 'glyph-orientation-vertical', 'grid', 'grid-area', 'grid-auto-columns', 'grid-auto-flow', 'grid-auto-rows', 'grid-column', 'grid-column-end', 'grid-column-start', 'grid-gap', 'grid-row', 'grid-row-end', 'grid-row-start', 'grid-template', 'grid-template-areas', 'grid-template-columns', 'grid-template-rows', 'hanging-punctuation', 'height', 'hyphens', 'icon', 'image-orientation', 'image-rendering', 'image-resolution', 'ime-mode', 'inline-size', 'isolation', 'justify-content', 'left', 'letter-spacing', 'line-break', 'line-height', 'list-style', 'list-style-image', 'list-style-position', 'list-style-type', 'margin', 'margin-block', 'margin-block-end', 'margin-block-start', 'margin-bottom', 'margin-inline', 'margin-inline-end', 'margin-inline-start', 'margin-left', 'margin-right', 'margin-top', 'marks', 'mask', 'mask-border', 'mask-border-mode', 'mask-border-outset', 'mask-border-repeat', 'mask-border-slice', 'mask-border-source', 'mask-border-width', 'mask-clip', 'mask-composite', 'mask-image', 'mask-mode', 'mask-origin', 'mask-position', 'mask-repeat', 'mask-size', 'mask-type', 'max-block-size', 'max-height', 'max-inline-size', 'max-width', 'min-block-size', 'min-height', 'min-inline-size', 'min-width', 'mix-blend-mode', 'nav-down', 'nav-index', 'nav-left', 'nav-right', 'nav-up', 'none', 'normal', 'object-fit', 'object-position', 'opacity', 'order', 'orphans', 'outline', 'outline-color', 'outline-offset', 'outline-style', 'outline-width', 'overflow', 'overflow-wrap', 'overflow-x', 'overflow-y', 'padding', 'padding-block', 'padding-block-end', 'padding-block-start', 'padding-bottom', 'padding-inline', 'padding-inline-end', 'padding-inline-start', 'padding-left', 'padding-right', 'padding-top', 'page-break-after', 'page-break-before', 'page-break-inside', 'pause', 'pause-after', 'pause-before', 'perspective', 'perspective-origin', 'pointer-events', 'position', 'quotes', 'resize', 'rest', 'rest-after', 'rest-before', 'right', 'row-gap', 'scroll-margin', 'scroll-margin-block', 'scroll-margin-block-end', 'scroll-margin-block-start', 'scroll-margin-bottom', 'scroll-margin-inline', 'scroll-margin-inline-end', 'scroll-margin-inline-start', 'scroll-margin-left', 'scroll-margin-right', 'scroll-margin-top', 'scroll-padding', 'scroll-padding-block', 'scroll-padding-block-end', 'scroll-padding-block-start', 'scroll-padding-bottom', 'scroll-padding-inline', 'scroll-padding-inline-end', 'scroll-padding-inline-start', 'scroll-padding-left', 'scroll-padding-right', 'scroll-padding-top', 'scroll-snap-align', 'scroll-snap-stop', 'scroll-snap-type', 'scrollbar-color', 'scrollbar-gutter', 'scrollbar-width', 'shape-image-threshold', 'shape-margin', 'shape-outside', 'speak', 'speak-as', 'src', // @font-face
   'tab-size', 'table-layout', 'text-align', 'text-align-all', 'text-align-last', 'text-combine-upright', 'text-decoration', 'text-decoration-color', 'text-decoration-line', 'text-decoration-style', 'text-emphasis', 'text-emphasis-color', 'text-emphasis-position', 'text-emphasis-style', 'text-indent', 'text-justify', 'text-orientation', 'text-overflow', 'text-rendering', 'text-shadow', 'text-transform', 'text-underline-position', 'top', 'transform', 'transform-box', 'transform-origin', 'transform-style', 'transition', 'transition-delay', 'transition-duration', 'transition-property', 'transition-timing-function', 'unicode-bidi', 'vertical-align', 'visibility', 'voice-balance', 'voice-duration', 'voice-family', 'voice-pitch', 'voice-range', 'voice-rate', 'voice-stress', 'voice-volume', 'white-space', 'widows', 'width', 'will-change', 'word-break', 'word-spacing', 'word-wrap', 'writing-mode', 'z-index' // reverse makes sure longer attributes `font-weight` are matched fully
   // instead of getting false positives on say `font`
   ].reverse();
@@ -23695,12 +23719,12 @@ export default {
      * @type {String}
      */
 
-    const escape_sequence_re = '\\\\(' + '[\'"\\?\\\\abfnrtv]|' + // common escapes
-    'u[\\dA-Fa-f]{4}|' + // four hex digit unicode codepoint
-    '[0-7]{1,3}|' + // one to three octal digit ascii char code
-    'x[\\dA-Fa-f]{2}|' + // two hex digit ascii char code
-    'U[\\dA-Fa-f]{8}' + // eight hex digit unicode codepoint
-    ')|' + '&[a-zA-Z\\d]{2,};'; // named character entity
+    const escape_sequence_re = '\\\\(' + '[\'"\\?\\\\abfnrtv]|' // common escapes
+    + 'u[\\dA-Fa-f]{4}|' // four hex digit unicode codepoint
+    + '[0-7]{1,3}|' // one to three octal digit ascii char code
+    + 'x[\\dA-Fa-f]{2}|' // two hex digit ascii char code
+    + 'U[\\dA-Fa-f]{8}' // eight hex digit unicode codepoint
+    + ')|' + '&[a-zA-Z\\d]{2,};'; // named character entity
 
     /**
      * D integer number literals
@@ -23997,12 +24021,22 @@ export default {
         end: /_/,
         relevance: 0
       }]
-    };
-    BOLD.contains.push(ITALIC);
-    ITALIC.contains.push(BOLD);
+    }; // 3 level deep nesting is not allowed because it would create confusion
+    // in cases like `***testing***` because where we don't know if the last
+    // `***` is starting a new bold/italic or finishing the last one
+
+    const BOLD_WITHOUT_ITALIC = hljs.inherit(BOLD, {
+      contains: []
+    });
+    const ITALIC_WITHOUT_BOLD = hljs.inherit(ITALIC, {
+      contains: []
+    });
+    BOLD.contains.push(ITALIC_WITHOUT_BOLD);
+    ITALIC.contains.push(BOLD_WITHOUT_ITALIC);
     let CONTAINABLE = [INLINE_HTML, LINK];
-    BOLD.contains = BOLD.contains.concat(CONTAINABLE);
-    ITALIC.contains = ITALIC.contains.concat(CONTAINABLE);
+    [BOLD, ITALIC, BOLD_WITHOUT_ITALIC, ITALIC_WITHOUT_BOLD].forEach(m => {
+      m.contains = m.contains.concat(CONTAINABLE);
+    });
     CONTAINABLE = CONTAINABLE.concat(BOLD, ITALIC);
     const HEADER = {
       className: 'section',
@@ -24570,7 +24604,8 @@ export default {
     };
     const NODE = {
       className: 'title.class',
-      begin: /[a-zA-Z_][a-zA-Z\d_@-]*(?=\s\{)/
+      begin: /[a-zA-Z_][a-zA-Z\d_@-]*(?=\s\{)/,
+      relevance: 0.2
     };
     const ROOT_NODE = {
       className: 'title.class',
@@ -24703,7 +24738,7 @@ export default {
     const regex = hljs.regex;
     const ELIXIR_IDENT_RE = '[a-zA-Z_][a-zA-Z0-9_.]*(!|\\?)?';
     const ELIXIR_METHOD_RE = '[a-zA-Z_]\\w*[!?=]?|[-+~]@|<<|>>|=~|===?|<=>|[<>]=?|\\*\\*|[-/+%^&*~`|]|\\[\\]=?';
-    const KEYWORDS = ["after", "alias", "and", "case", "catch", "cond", "defstruct", "do", "else", "end", "fn", "for", "if", "import", "in", "not", "or", "quote", "raise", "receive", "require", "reraise", "rescue", "try", "unless", "unquote", "unquote_splicing", "use", "when", "with|0"];
+    const KEYWORDS = ["after", "alias", "and", "case", "catch", "cond", "defstruct", "defguard", "do", "else", "end", "fn", "for", "if", "import", "in", "not", "or", "quote", "raise", "receive", "require", "reraise", "rescue", "try", "unless", "unquote", "unquote_splicing", "use", "when", "with|0"];
     const LITERALS = ["false", "nil", "true"];
     const KWS = {
       $pattern: ELIXIR_IDENT_RE,
@@ -24863,6 +24898,11 @@ export default {
       className: 'symbol',
       begin: ELIXIR_IDENT_RE + ':(?!:)',
       relevance: 0
+    }, {
+      // Usage of a module, struct, etc.
+      className: 'title.class',
+      begin: /(\b[A-Z][a-zA-Z0-9_]+)/,
+      relevance: 0
     }, NUMBER, {
       className: 'variable',
       begin: '(\\$\\W)|((\\$|@@?)(\\w+))'
@@ -24973,11 +25013,17 @@ export default {
   */
   function ruby(hljs) {
     const regex = hljs.regex;
-    const RUBY_METHOD_RE = '([a-zA-Z_]\\w*[!?=]?|[-+~]@|<<|>>|=~|===?|<=>|[<>]=?|\\*\\*|[-/+%^&*~`|]|\\[\\]=?)';
+    const RUBY_METHOD_RE = '([a-zA-Z_]\\w*[!?=]?|[-+~]@|<<|>>|=~|===?|<=>|[<>]=?|\\*\\*|[-/+%^&*~`|]|\\[\\]=?)'; // TODO: move concepts like CAMEL_CASE into `modes.js`
+
+    const CLASS_NAME_RE = regex.either(/\b([A-Z]+[a-z0-9]+)+/, // ends in caps
+    /\b([A-Z]+[a-z0-9]+)+[A-Z]+/);
+    const CLASS_NAME_WITH_NAMESPACE_RE = regex.concat(CLASS_NAME_RE, /(::\w+)*/);
     const RUBY_KEYWORDS = {
-      keyword: 'and then defined module in return redo if BEGIN retry end for self when ' + 'next until do begin unless END rescue else break undef not super class case ' + 'require yield alias while ensure elsif or include attr_reader attr_writer attr_accessor ' + '__FILE__',
-      built_in: 'proc lambda',
-      literal: 'true false nil'
+      "variable.constant": ["__FILE__", "__LINE__"],
+      "variable.language": ["self", "super"],
+      keyword: ["alias", "and", "attr_accessor", "attr_reader", "attr_writer", "begin", "BEGIN", "break", "case", "class", "defined", "do", "else", "elsif", "end", "END", "ensure", "for", "if", "in", "include", "module", "next", "not", "or", "redo", "require", "rescue", "retry", "return", "then", "undef", "unless", "until", "when", "while", "yield"],
+      built_in: ["proc", "lambda"],
+      literal: ["true", "false", "nil"]
     };
     const YARDOCTAG = {
       className: 'doctag',
@@ -24992,7 +25038,7 @@ export default {
     }), hljs.COMMENT('^=begin', '^=end', {
       contains: [YARDOCTAG],
       relevance: 10
-    }), hljs.COMMENT('^__END__', '\\n$')];
+    }), hljs.COMMENT('^__END__', hljs.MATCH_NOTHING_RE)];
     const SUBST = {
       className: 'subst',
       begin: /#\{/,
@@ -25088,42 +25134,50 @@ export default {
       }]
     };
     const PARAMS = {
-      className: 'params',
-      begin: '\\(',
-      end: '\\)',
-      endsParent: true,
+      variants: [{
+        match: /\(\)/
+      }, {
+        className: 'params',
+        begin: /\(/,
+        end: /(?=\))/,
+        excludeBegin: true,
+        endsParent: true,
+        keywords: RUBY_KEYWORDS
+      }]
+    };
+    const CLASS_DEFINITION = {
+      variants: [{
+        match: [/class\s+/, CLASS_NAME_WITH_NAMESPACE_RE, /\s+<\s+/, CLASS_NAME_WITH_NAMESPACE_RE]
+      }, {
+        match: [/class\s+/, CLASS_NAME_WITH_NAMESPACE_RE]
+      }],
+      scope: {
+        2: "title.class",
+        4: "title.class.inherited"
+      },
       keywords: RUBY_KEYWORDS
     };
-    const RUBY_DEFAULT_CONTAINS = [STRING, {
-      className: 'class',
-      beginKeywords: 'class module',
-      end: '$|;',
-      illegal: /=/,
-      contains: [hljs.inherit(hljs.TITLE_MODE, {
-        begin: '[A-Za-z_]\\w*(::\\w+)*(\\?|!)?'
-      }), {
-        begin: '<\\s*',
-        contains: [{
-          begin: '(' + hljs.IDENT_RE + '::)?' + hljs.IDENT_RE,
-          // we already get points for <, we don't need poitns
-          // for the name also
-          relevance: 0
-        }]
-      }].concat(COMMENT_MODES)
-    }, {
-      className: 'function',
-      // def method_name(
-      // def method_name;
-      // def method_name (end of line)
-      begin: regex.concat(/def\s+/, regex.lookahead(RUBY_METHOD_RE + "\\s*(\\(|;|$)")),
+    const UPPER_CASE_CONSTANT = {
       relevance: 0,
-      // relevance comes from kewords
-      keywords: "def",
-      end: '$|;',
-      contains: [hljs.inherit(hljs.TITLE_MODE, {
-        begin: RUBY_METHOD_RE
-      }), PARAMS].concat(COMMENT_MODES)
-    }, {
+      match: /\b[A-Z][A-Z_0-9]+\b/,
+      className: "variable.constant"
+    };
+    const METHOD_DEFINITION = {
+      match: [/def/, /\s+/, RUBY_METHOD_RE],
+      scope: {
+        1: "keyword",
+        3: "title.function"
+      },
+      contains: [PARAMS]
+    };
+    const OBJECT_CREATION = {
+      relevance: 0,
+      match: [CLASS_NAME_WITH_NAMESPACE_RE, /\.new[ (]/],
+      scope: {
+        1: "title.class"
+      }
+    };
+    const RUBY_DEFAULT_CONTAINS = [STRING, CLASS_DEFINITION, OBJECT_CREATION, UPPER_CASE_CONSTANT, METHOD_DEFINITION, {
       // swallow namespace qualifiers before symbols
       begin: hljs.IDENT_RE + '::'
     }, {
@@ -25146,6 +25200,8 @@ export default {
       className: 'params',
       begin: /\|/,
       end: /\|/,
+      excludeBegin: true,
+      excludeEnd: true,
       relevance: 0,
       // this could be a lot of things (in other languages) other than params
       keywords: RUBY_KEYWORDS
@@ -25182,7 +25238,7 @@ export default {
 
     const SIMPLE_PROMPT = "[>?]>"; // irb(main):001:0>
 
-    const DEFAULT_PROMPT = "[\\w#]+\\(\\w+\\):\\d+:\\d+>";
+    const DEFAULT_PROMPT = "[\\w#]+\\(\\w+\\):\\d+:\\d+[>*]";
     const RVM_PROMPT = "(\\w+-)?\\d+\\.\\d+\\.\\d+(p\\d+)?[^\\d][^>]+>";
     const IRB_DEFAULT = [{
       begin: /^\s*=>/,
@@ -25191,10 +25247,11 @@ export default {
         contains: RUBY_DEFAULT_CONTAINS
       }
     }, {
-      className: 'meta',
+      className: 'meta.prompt',
       begin: '^(' + SIMPLE_PROMPT + "|" + DEFAULT_PROMPT + '|' + RVM_PROMPT + ')(?=[ ])',
       starts: {
         end: '$',
+        keywords: RUBY_KEYWORDS,
         contains: RUBY_DEFAULT_CONTAINS
       }
     }];
@@ -25256,7 +25313,7 @@ export default {
         keyword: 'after and andalso|10 band begin bnot bor bsl bsr bxor case catch cond div end fun if ' + 'let not of or orelse|10 query receive rem try when xor'
       },
       contains: [{
-        className: 'meta',
+        className: 'meta.prompt',
         begin: '^[0-9]+> ',
         relevance: 10
       }, hljs.COMMENT('%', '$'), {
@@ -26372,13 +26429,13 @@ export default {
       name: 'GLSL',
       keywords: {
         keyword: // Statements
-        'break continue discard do else for if return while switch case default ' + // Qualifiers
-        'attribute binding buffer ccw centroid centroid varying coherent column_major const cw ' + 'depth_any depth_greater depth_less depth_unchanged early_fragment_tests equal_spacing ' + 'flat fractional_even_spacing fractional_odd_spacing highp in index inout invariant ' + 'invocations isolines layout line_strip lines lines_adjacency local_size_x local_size_y ' + 'local_size_z location lowp max_vertices mediump noperspective offset origin_upper_left ' + 'out packed patch pixel_center_integer point_mode points precise precision quads r11f_g11f_b10f ' + 'r16 r16_snorm r16f r16i r16ui r32f r32i r32ui r8 r8_snorm r8i r8ui readonly restrict ' + 'rg16 rg16_snorm rg16f rg16i rg16ui rg32f rg32i rg32ui rg8 rg8_snorm rg8i rg8ui rgb10_a2 ' + 'rgb10_a2ui rgba16 rgba16_snorm rgba16f rgba16i rgba16ui rgba32f rgba32i rgba32ui rgba8 ' + 'rgba8_snorm rgba8i rgba8ui row_major sample shared smooth std140 std430 stream triangle_strip ' + 'triangles triangles_adjacency uniform varying vertices volatile writeonly',
+        'break continue discard do else for if return while switch case default ' // Qualifiers
+        + 'attribute binding buffer ccw centroid centroid varying coherent column_major const cw ' + 'depth_any depth_greater depth_less depth_unchanged early_fragment_tests equal_spacing ' + 'flat fractional_even_spacing fractional_odd_spacing highp in index inout invariant ' + 'invocations isolines layout line_strip lines lines_adjacency local_size_x local_size_y ' + 'local_size_z location lowp max_vertices mediump noperspective offset origin_upper_left ' + 'out packed patch pixel_center_integer point_mode points precise precision quads r11f_g11f_b10f ' + 'r16 r16_snorm r16f r16i r16ui r32f r32i r32ui r8 r8_snorm r8i r8ui readonly restrict ' + 'rg16 rg16_snorm rg16f rg16i rg16ui rg32f rg32i rg32ui rg8 rg8_snorm rg8i rg8ui rgb10_a2 ' + 'rgb10_a2ui rgba16 rgba16_snorm rgba16f rgba16i rgba16ui rgba32f rgba32i rgba32ui rgba8 ' + 'rgba8_snorm rgba8i rgba8ui row_major sample shared smooth std140 std430 stream triangle_strip ' + 'triangles triangles_adjacency uniform varying vertices volatile writeonly',
         type: 'atomic_uint bool bvec2 bvec3 bvec4 dmat2 dmat2x2 dmat2x3 dmat2x4 dmat3 dmat3x2 dmat3x3 ' + 'dmat3x4 dmat4 dmat4x2 dmat4x3 dmat4x4 double dvec2 dvec3 dvec4 float iimage1D iimage1DArray ' + 'iimage2D iimage2DArray iimage2DMS iimage2DMSArray iimage2DRect iimage3D iimageBuffer ' + 'iimageCube iimageCubeArray image1D image1DArray image2D image2DArray image2DMS image2DMSArray ' + 'image2DRect image3D imageBuffer imageCube imageCubeArray int isampler1D isampler1DArray ' + 'isampler2D isampler2DArray isampler2DMS isampler2DMSArray isampler2DRect isampler3D ' + 'isamplerBuffer isamplerCube isamplerCubeArray ivec2 ivec3 ivec4 mat2 mat2x2 mat2x3 ' + 'mat2x4 mat3 mat3x2 mat3x3 mat3x4 mat4 mat4x2 mat4x3 mat4x4 sampler1D sampler1DArray ' + 'sampler1DArrayShadow sampler1DShadow sampler2D sampler2DArray sampler2DArrayShadow ' + 'sampler2DMS sampler2DMSArray sampler2DRect sampler2DRectShadow sampler2DShadow sampler3D ' + 'samplerBuffer samplerCube samplerCubeArray samplerCubeArrayShadow samplerCubeShadow ' + 'image1D uimage1DArray uimage2D uimage2DArray uimage2DMS uimage2DMSArray uimage2DRect ' + 'uimage3D uimageBuffer uimageCube uimageCubeArray uint usampler1D usampler1DArray ' + 'usampler2D usampler2DArray usampler2DMS usampler2DMSArray usampler2DRect usampler3D ' + 'samplerBuffer usamplerCube usamplerCubeArray uvec2 uvec3 uvec4 vec2 vec3 vec4 void',
         built_in: // Constants
-        'gl_MaxAtomicCounterBindings gl_MaxAtomicCounterBufferSize gl_MaxClipDistances gl_MaxClipPlanes ' + 'gl_MaxCombinedAtomicCounterBuffers gl_MaxCombinedAtomicCounters gl_MaxCombinedImageUniforms ' + 'gl_MaxCombinedImageUnitsAndFragmentOutputs gl_MaxCombinedTextureImageUnits gl_MaxComputeAtomicCounterBuffers ' + 'gl_MaxComputeAtomicCounters gl_MaxComputeImageUniforms gl_MaxComputeTextureImageUnits ' + 'gl_MaxComputeUniformComponents gl_MaxComputeWorkGroupCount gl_MaxComputeWorkGroupSize ' + 'gl_MaxDrawBuffers gl_MaxFragmentAtomicCounterBuffers gl_MaxFragmentAtomicCounters ' + 'gl_MaxFragmentImageUniforms gl_MaxFragmentInputComponents gl_MaxFragmentInputVectors ' + 'gl_MaxFragmentUniformComponents gl_MaxFragmentUniformVectors gl_MaxGeometryAtomicCounterBuffers ' + 'gl_MaxGeometryAtomicCounters gl_MaxGeometryImageUniforms gl_MaxGeometryInputComponents ' + 'gl_MaxGeometryOutputComponents gl_MaxGeometryOutputVertices gl_MaxGeometryTextureImageUnits ' + 'gl_MaxGeometryTotalOutputComponents gl_MaxGeometryUniformComponents gl_MaxGeometryVaryingComponents ' + 'gl_MaxImageSamples gl_MaxImageUnits gl_MaxLights gl_MaxPatchVertices gl_MaxProgramTexelOffset ' + 'gl_MaxTessControlAtomicCounterBuffers gl_MaxTessControlAtomicCounters gl_MaxTessControlImageUniforms ' + 'gl_MaxTessControlInputComponents gl_MaxTessControlOutputComponents gl_MaxTessControlTextureImageUnits ' + 'gl_MaxTessControlTotalOutputComponents gl_MaxTessControlUniformComponents ' + 'gl_MaxTessEvaluationAtomicCounterBuffers gl_MaxTessEvaluationAtomicCounters ' + 'gl_MaxTessEvaluationImageUniforms gl_MaxTessEvaluationInputComponents gl_MaxTessEvaluationOutputComponents ' + 'gl_MaxTessEvaluationTextureImageUnits gl_MaxTessEvaluationUniformComponents ' + 'gl_MaxTessGenLevel gl_MaxTessPatchComponents gl_MaxTextureCoords gl_MaxTextureImageUnits ' + 'gl_MaxTextureUnits gl_MaxVaryingComponents gl_MaxVaryingFloats gl_MaxVaryingVectors ' + 'gl_MaxVertexAtomicCounterBuffers gl_MaxVertexAtomicCounters gl_MaxVertexAttribs gl_MaxVertexImageUniforms ' + 'gl_MaxVertexOutputComponents gl_MaxVertexOutputVectors gl_MaxVertexTextureImageUnits ' + 'gl_MaxVertexUniformComponents gl_MaxVertexUniformVectors gl_MaxViewports gl_MinProgramTexelOffset ' + // Variables
-        'gl_BackColor gl_BackLightModelProduct gl_BackLightProduct gl_BackMaterial ' + 'gl_BackSecondaryColor gl_ClipDistance gl_ClipPlane gl_ClipVertex gl_Color ' + 'gl_DepthRange gl_EyePlaneQ gl_EyePlaneR gl_EyePlaneS gl_EyePlaneT gl_Fog gl_FogCoord ' + 'gl_FogFragCoord gl_FragColor gl_FragCoord gl_FragData gl_FragDepth gl_FrontColor ' + 'gl_FrontFacing gl_FrontLightModelProduct gl_FrontLightProduct gl_FrontMaterial ' + 'gl_FrontSecondaryColor gl_GlobalInvocationID gl_InstanceID gl_InvocationID gl_Layer gl_LightModel ' + 'gl_LightSource gl_LocalInvocationID gl_LocalInvocationIndex gl_ModelViewMatrix ' + 'gl_ModelViewMatrixInverse gl_ModelViewMatrixInverseTranspose gl_ModelViewMatrixTranspose ' + 'gl_ModelViewProjectionMatrix gl_ModelViewProjectionMatrixInverse gl_ModelViewProjectionMatrixInverseTranspose ' + 'gl_ModelViewProjectionMatrixTranspose gl_MultiTexCoord0 gl_MultiTexCoord1 gl_MultiTexCoord2 ' + 'gl_MultiTexCoord3 gl_MultiTexCoord4 gl_MultiTexCoord5 gl_MultiTexCoord6 gl_MultiTexCoord7 ' + 'gl_Normal gl_NormalMatrix gl_NormalScale gl_NumSamples gl_NumWorkGroups gl_ObjectPlaneQ ' + 'gl_ObjectPlaneR gl_ObjectPlaneS gl_ObjectPlaneT gl_PatchVerticesIn gl_Point gl_PointCoord ' + 'gl_PointSize gl_Position gl_PrimitiveID gl_PrimitiveIDIn gl_ProjectionMatrix gl_ProjectionMatrixInverse ' + 'gl_ProjectionMatrixInverseTranspose gl_ProjectionMatrixTranspose gl_SampleID gl_SampleMask ' + 'gl_SampleMaskIn gl_SamplePosition gl_SecondaryColor gl_TessCoord gl_TessLevelInner gl_TessLevelOuter ' + 'gl_TexCoord gl_TextureEnvColor gl_TextureMatrix gl_TextureMatrixInverse gl_TextureMatrixInverseTranspose ' + 'gl_TextureMatrixTranspose gl_Vertex gl_VertexID gl_ViewportIndex gl_WorkGroupID gl_WorkGroupSize gl_in gl_out ' + // Functions
-        'EmitStreamVertex EmitVertex EndPrimitive EndStreamPrimitive abs acos acosh all any asin ' + 'asinh atan atanh atomicAdd atomicAnd atomicCompSwap atomicCounter atomicCounterDecrement ' + 'atomicCounterIncrement atomicExchange atomicMax atomicMin atomicOr atomicXor barrier ' + 'bitCount bitfieldExtract bitfieldInsert bitfieldReverse ceil clamp cos cosh cross ' + 'dFdx dFdy degrees determinant distance dot equal exp exp2 faceforward findLSB findMSB ' + 'floatBitsToInt floatBitsToUint floor fma fract frexp ftransform fwidth greaterThan ' + 'greaterThanEqual groupMemoryBarrier imageAtomicAdd imageAtomicAnd imageAtomicCompSwap ' + 'imageAtomicExchange imageAtomicMax imageAtomicMin imageAtomicOr imageAtomicXor imageLoad ' + 'imageSize imageStore imulExtended intBitsToFloat interpolateAtCentroid interpolateAtOffset ' + 'interpolateAtSample inverse inversesqrt isinf isnan ldexp length lessThan lessThanEqual log ' + 'log2 matrixCompMult max memoryBarrier memoryBarrierAtomicCounter memoryBarrierBuffer ' + 'memoryBarrierImage memoryBarrierShared min mix mod modf noise1 noise2 noise3 noise4 ' + 'normalize not notEqual outerProduct packDouble2x32 packHalf2x16 packSnorm2x16 packSnorm4x8 ' + 'packUnorm2x16 packUnorm4x8 pow radians reflect refract round roundEven shadow1D shadow1DLod ' + 'shadow1DProj shadow1DProjLod shadow2D shadow2DLod shadow2DProj shadow2DProjLod sign sin sinh ' + 'smoothstep sqrt step tan tanh texelFetch texelFetchOffset texture texture1D texture1DLod ' + 'texture1DProj texture1DProjLod texture2D texture2DLod texture2DProj texture2DProjLod ' + 'texture3D texture3DLod texture3DProj texture3DProjLod textureCube textureCubeLod ' + 'textureGather textureGatherOffset textureGatherOffsets textureGrad textureGradOffset ' + 'textureLod textureLodOffset textureOffset textureProj textureProjGrad textureProjGradOffset ' + 'textureProjLod textureProjLodOffset textureProjOffset textureQueryLevels textureQueryLod ' + 'textureSize transpose trunc uaddCarry uintBitsToFloat umulExtended unpackDouble2x32 ' + 'unpackHalf2x16 unpackSnorm2x16 unpackSnorm4x8 unpackUnorm2x16 unpackUnorm4x8 usubBorrow',
+        'gl_MaxAtomicCounterBindings gl_MaxAtomicCounterBufferSize gl_MaxClipDistances gl_MaxClipPlanes ' + 'gl_MaxCombinedAtomicCounterBuffers gl_MaxCombinedAtomicCounters gl_MaxCombinedImageUniforms ' + 'gl_MaxCombinedImageUnitsAndFragmentOutputs gl_MaxCombinedTextureImageUnits gl_MaxComputeAtomicCounterBuffers ' + 'gl_MaxComputeAtomicCounters gl_MaxComputeImageUniforms gl_MaxComputeTextureImageUnits ' + 'gl_MaxComputeUniformComponents gl_MaxComputeWorkGroupCount gl_MaxComputeWorkGroupSize ' + 'gl_MaxDrawBuffers gl_MaxFragmentAtomicCounterBuffers gl_MaxFragmentAtomicCounters ' + 'gl_MaxFragmentImageUniforms gl_MaxFragmentInputComponents gl_MaxFragmentInputVectors ' + 'gl_MaxFragmentUniformComponents gl_MaxFragmentUniformVectors gl_MaxGeometryAtomicCounterBuffers ' + 'gl_MaxGeometryAtomicCounters gl_MaxGeometryImageUniforms gl_MaxGeometryInputComponents ' + 'gl_MaxGeometryOutputComponents gl_MaxGeometryOutputVertices gl_MaxGeometryTextureImageUnits ' + 'gl_MaxGeometryTotalOutputComponents gl_MaxGeometryUniformComponents gl_MaxGeometryVaryingComponents ' + 'gl_MaxImageSamples gl_MaxImageUnits gl_MaxLights gl_MaxPatchVertices gl_MaxProgramTexelOffset ' + 'gl_MaxTessControlAtomicCounterBuffers gl_MaxTessControlAtomicCounters gl_MaxTessControlImageUniforms ' + 'gl_MaxTessControlInputComponents gl_MaxTessControlOutputComponents gl_MaxTessControlTextureImageUnits ' + 'gl_MaxTessControlTotalOutputComponents gl_MaxTessControlUniformComponents ' + 'gl_MaxTessEvaluationAtomicCounterBuffers gl_MaxTessEvaluationAtomicCounters ' + 'gl_MaxTessEvaluationImageUniforms gl_MaxTessEvaluationInputComponents gl_MaxTessEvaluationOutputComponents ' + 'gl_MaxTessEvaluationTextureImageUnits gl_MaxTessEvaluationUniformComponents ' + 'gl_MaxTessGenLevel gl_MaxTessPatchComponents gl_MaxTextureCoords gl_MaxTextureImageUnits ' + 'gl_MaxTextureUnits gl_MaxVaryingComponents gl_MaxVaryingFloats gl_MaxVaryingVectors ' + 'gl_MaxVertexAtomicCounterBuffers gl_MaxVertexAtomicCounters gl_MaxVertexAttribs gl_MaxVertexImageUniforms ' + 'gl_MaxVertexOutputComponents gl_MaxVertexOutputVectors gl_MaxVertexTextureImageUnits ' + 'gl_MaxVertexUniformComponents gl_MaxVertexUniformVectors gl_MaxViewports gl_MinProgramTexelOffset ' // Variables
+        + 'gl_BackColor gl_BackLightModelProduct gl_BackLightProduct gl_BackMaterial ' + 'gl_BackSecondaryColor gl_ClipDistance gl_ClipPlane gl_ClipVertex gl_Color ' + 'gl_DepthRange gl_EyePlaneQ gl_EyePlaneR gl_EyePlaneS gl_EyePlaneT gl_Fog gl_FogCoord ' + 'gl_FogFragCoord gl_FragColor gl_FragCoord gl_FragData gl_FragDepth gl_FrontColor ' + 'gl_FrontFacing gl_FrontLightModelProduct gl_FrontLightProduct gl_FrontMaterial ' + 'gl_FrontSecondaryColor gl_GlobalInvocationID gl_InstanceID gl_InvocationID gl_Layer gl_LightModel ' + 'gl_LightSource gl_LocalInvocationID gl_LocalInvocationIndex gl_ModelViewMatrix ' + 'gl_ModelViewMatrixInverse gl_ModelViewMatrixInverseTranspose gl_ModelViewMatrixTranspose ' + 'gl_ModelViewProjectionMatrix gl_ModelViewProjectionMatrixInverse gl_ModelViewProjectionMatrixInverseTranspose ' + 'gl_ModelViewProjectionMatrixTranspose gl_MultiTexCoord0 gl_MultiTexCoord1 gl_MultiTexCoord2 ' + 'gl_MultiTexCoord3 gl_MultiTexCoord4 gl_MultiTexCoord5 gl_MultiTexCoord6 gl_MultiTexCoord7 ' + 'gl_Normal gl_NormalMatrix gl_NormalScale gl_NumSamples gl_NumWorkGroups gl_ObjectPlaneQ ' + 'gl_ObjectPlaneR gl_ObjectPlaneS gl_ObjectPlaneT gl_PatchVerticesIn gl_Point gl_PointCoord ' + 'gl_PointSize gl_Position gl_PrimitiveID gl_PrimitiveIDIn gl_ProjectionMatrix gl_ProjectionMatrixInverse ' + 'gl_ProjectionMatrixInverseTranspose gl_ProjectionMatrixTranspose gl_SampleID gl_SampleMask ' + 'gl_SampleMaskIn gl_SamplePosition gl_SecondaryColor gl_TessCoord gl_TessLevelInner gl_TessLevelOuter ' + 'gl_TexCoord gl_TextureEnvColor gl_TextureMatrix gl_TextureMatrixInverse gl_TextureMatrixInverseTranspose ' + 'gl_TextureMatrixTranspose gl_Vertex gl_VertexID gl_ViewportIndex gl_WorkGroupID gl_WorkGroupSize gl_in gl_out ' // Functions
+        + 'EmitStreamVertex EmitVertex EndPrimitive EndStreamPrimitive abs acos acosh all any asin ' + 'asinh atan atanh atomicAdd atomicAnd atomicCompSwap atomicCounter atomicCounterDecrement ' + 'atomicCounterIncrement atomicExchange atomicMax atomicMin atomicOr atomicXor barrier ' + 'bitCount bitfieldExtract bitfieldInsert bitfieldReverse ceil clamp cos cosh cross ' + 'dFdx dFdy degrees determinant distance dot equal exp exp2 faceforward findLSB findMSB ' + 'floatBitsToInt floatBitsToUint floor fma fract frexp ftransform fwidth greaterThan ' + 'greaterThanEqual groupMemoryBarrier imageAtomicAdd imageAtomicAnd imageAtomicCompSwap ' + 'imageAtomicExchange imageAtomicMax imageAtomicMin imageAtomicOr imageAtomicXor imageLoad ' + 'imageSize imageStore imulExtended intBitsToFloat interpolateAtCentroid interpolateAtOffset ' + 'interpolateAtSample inverse inversesqrt isinf isnan ldexp length lessThan lessThanEqual log ' + 'log2 matrixCompMult max memoryBarrier memoryBarrierAtomicCounter memoryBarrierBuffer ' + 'memoryBarrierImage memoryBarrierShared min mix mod modf noise1 noise2 noise3 noise4 ' + 'normalize not notEqual outerProduct packDouble2x32 packHalf2x16 packSnorm2x16 packSnorm4x8 ' + 'packUnorm2x16 packUnorm4x8 pow radians reflect refract round roundEven shadow1D shadow1DLod ' + 'shadow1DProj shadow1DProjLod shadow2D shadow2DLod shadow2DProj shadow2DProjLod sign sin sinh ' + 'smoothstep sqrt step tan tanh texelFetch texelFetchOffset texture texture1D texture1DLod ' + 'texture1DProj texture1DProjLod texture2D texture2DLod texture2DProj texture2DProjLod ' + 'texture3D texture3DLod texture3DProj texture3DProjLod textureCube textureCubeLod ' + 'textureGather textureGatherOffset textureGatherOffsets textureGrad textureGradOffset ' + 'textureLod textureLodOffset textureOffset textureProj textureProjGrad textureProjGradOffset ' + 'textureProjLod textureProjLodOffset textureProjOffset textureQueryLevels textureQueryLod ' + 'textureSize transpose trunc uaddCarry uintBitsToFloat umulExtended unpackDouble2x32 ' + 'unpackHalf2x16 unpackSnorm2x16 unpackSnorm4x8 unpackUnorm2x16 unpackUnorm4x8 usubBorrow',
         literal: 'true false'
       },
       illegal: '"',
@@ -26522,6 +26579,55 @@ export default {
   }
 
   var gradle_1 = gradle;
+
+  /*
+   Language: graphql
+   Category: scripting, protocols, web
+   Author: John Foster (GH jf990), and others
+   Description: Highlight GraphQL queries with highlight.js.
+  */
+
+  /** @type LanguageFn */
+  function graphql(hljs) {
+    const regex = hljs.regex;
+    const GQL_NAME = /[_A-Za-z][_0-9A-Za-z]*/;
+    return {
+      name: "GraphQL",
+      aliases: ["gql"],
+      case_insensitive: true,
+      disableAutodetect: false,
+      keywords: {
+        keyword: ["query", "mutation", "subscription", "type", "input", "schema", "directive", "interface", "union", "scalar", "fragment", "enum", "on"],
+        literal: ["true", "false", "null"]
+      },
+      contains: [hljs.HASH_COMMENT_MODE, hljs.QUOTE_STRING_MODE, hljs.NUMBER_MODE, {
+        scope: "punctuation",
+        match: /[.]{3}/,
+        relevance: 0
+      }, {
+        scope: "punctuation",
+        begin: /[\!\(\)\:\=\[\]\{\|\}]{1}/,
+        relevance: 0
+      }, {
+        scope: "variable",
+        begin: /\$/,
+        end: /\W/,
+        excludeEnd: true,
+        relevance: 0
+      }, {
+        scope: "meta",
+        match: /@\w+/,
+        excludeEnd: true
+      }, {
+        scope: "symbol",
+        begin: regex.concat(GQL_NAME, regex.lookahead(/\s*:/)),
+        relevance: 0
+      }],
+      illegal: [/[;<']/, /BEGIN/]
+    };
+  }
+
+  var graphql_1 = graphql;
 
   /*
    Language: Groovy
@@ -27361,10 +27467,10 @@ export default {
       keywords: {
         // Some keywords more or less unique to I7, for relevance.
         keyword: // kind:
-        'thing room person man woman animal container ' + 'supporter backdrop door ' + // characteristic:
-        'scenery open closed locked inside gender ' + // verb:
-        'is are say understand ' + // misc keyword:
-        'kind of rule'
+        'thing room person man woman animal container ' + 'supporter backdrop door ' // characteristic:
+        + 'scenery open closed locked inside gender ' // verb:
+        + 'is are say understand ' // misc keyword:
+        + 'kind of rule'
       },
       contains: [{
         className: 'string',
@@ -27523,10 +27629,10 @@ export default {
     };
     const F_KEYWORDS = {
       literal: '.False. .True.',
-      keyword: 'kind do while private call intrinsic where elsewhere ' + 'type endtype endmodule endselect endinterface end enddo endif if forall endforall only contains default return stop then ' + 'public subroutine|10 function program .and. .or. .not. .le. .eq. .ge. .gt. .lt. ' + 'goto save else use module select case ' + 'access blank direct exist file fmt form formatted iostat name named nextrec number opened rec recl sequential status unformatted unit ' + 'continue format pause cycle exit ' + 'c_null_char c_alert c_backspace c_form_feed flush wait decimal round iomsg ' + 'synchronous nopass non_overridable pass protected volatile abstract extends import ' + 'non_intrinsic value deferred generic final enumerator class associate bind enum ' + 'c_int c_short c_long c_long_long c_signed_char c_size_t c_int8_t c_int16_t c_int32_t c_int64_t c_int_least8_t c_int_least16_t ' + 'c_int_least32_t c_int_least64_t c_int_fast8_t c_int_fast16_t c_int_fast32_t c_int_fast64_t c_intmax_t C_intptr_t c_float c_double ' + 'c_long_double c_float_complex c_double_complex c_long_double_complex c_bool c_char c_null_ptr c_null_funptr ' + 'c_new_line c_carriage_return c_horizontal_tab c_vertical_tab iso_c_binding c_loc c_funloc c_associated  c_f_pointer ' + 'c_ptr c_funptr iso_fortran_env character_storage_size error_unit file_storage_size input_unit iostat_end iostat_eor ' + 'numeric_storage_size output_unit c_f_procpointer ieee_arithmetic ieee_support_underflow_control ' + 'ieee_get_underflow_mode ieee_set_underflow_mode newunit contiguous recursive ' + 'pad position action delim readwrite eor advance nml interface procedure namelist include sequence elemental pure ' + 'integer real character complex logical dimension allocatable|10 parameter ' + 'external implicit|10 none double precision assign intent optional pointer ' + 'target in out common equivalence data ' + // IRPF90 special keywords
-      'begin_provider &begin_provider end_provider begin_shell end_shell begin_template end_template subst assert touch ' + 'soft_touch provide no_dep free irp_if irp_else irp_endif irp_write irp_read',
-      built_in: 'alog alog10 amax0 amax1 amin0 amin1 amod cabs ccos cexp clog csin csqrt dabs dacos dasin datan datan2 dcos dcosh ddim dexp dint ' + 'dlog dlog10 dmax1 dmin1 dmod dnint dsign dsin dsinh dsqrt dtan dtanh float iabs idim idint idnint ifix isign max0 max1 min0 min1 sngl ' + 'algama cdabs cdcos cdexp cdlog cdsin cdsqrt cqabs cqcos cqexp cqlog cqsin cqsqrt dcmplx dconjg derf derfc dfloat dgamma dimag dlgama ' + 'iqint qabs qacos qasin qatan qatan2 qcmplx qconjg qcos qcosh qdim qerf qerfc qexp qgamma qimag qlgama qlog qlog10 qmax1 qmin1 qmod ' + 'qnint qsign qsin qsinh qsqrt qtan qtanh abs acos aimag aint anint asin atan atan2 char cmplx conjg cos cosh exp ichar index int log ' + 'log10 max min nint sign sin sinh sqrt tan tanh print write dim lge lgt lle llt mod nullify allocate deallocate ' + 'adjustl adjustr all allocated any associated bit_size btest ceiling count cshift date_and_time digits dot_product ' + 'eoshift epsilon exponent floor fraction huge iand ibclr ibits ibset ieor ior ishft ishftc lbound len_trim matmul ' + 'maxexponent maxloc maxval merge minexponent minloc minval modulo mvbits nearest pack present product ' + 'radix random_number random_seed range repeat reshape rrspacing scale scan selected_int_kind selected_real_kind ' + 'set_exponent shape size spacing spread sum system_clock tiny transpose trim ubound unpack verify achar iachar transfer ' + 'dble entry dprod cpu_time command_argument_count get_command get_command_argument get_environment_variable is_iostat_end ' + 'ieee_arithmetic ieee_support_underflow_control ieee_get_underflow_mode ieee_set_underflow_mode ' + 'is_iostat_eor move_alloc new_line selected_char_kind same_type_as extends_type_of ' + 'acosh asinh atanh bessel_j0 bessel_j1 bessel_jn bessel_y0 bessel_y1 bessel_yn erf erfc erfc_scaled gamma log_gamma hypot norm2 ' + 'atomic_define atomic_ref execute_command_line leadz trailz storage_size merge_bits ' + 'bge bgt ble blt dshiftl dshiftr findloc iall iany iparity image_index lcobound ucobound maskl maskr ' + 'num_images parity popcnt poppar shifta shiftl shiftr this_image ' + // IRPF90 special built_ins
-      'IRP_ALIGN irp_here'
+      keyword: 'kind do while private call intrinsic where elsewhere ' + 'type endtype endmodule endselect endinterface end enddo endif if forall endforall only contains default return stop then ' + 'public subroutine|10 function program .and. .or. .not. .le. .eq. .ge. .gt. .lt. ' + 'goto save else use module select case ' + 'access blank direct exist file fmt form formatted iostat name named nextrec number opened rec recl sequential status unformatted unit ' + 'continue format pause cycle exit ' + 'c_null_char c_alert c_backspace c_form_feed flush wait decimal round iomsg ' + 'synchronous nopass non_overridable pass protected volatile abstract extends import ' + 'non_intrinsic value deferred generic final enumerator class associate bind enum ' + 'c_int c_short c_long c_long_long c_signed_char c_size_t c_int8_t c_int16_t c_int32_t c_int64_t c_int_least8_t c_int_least16_t ' + 'c_int_least32_t c_int_least64_t c_int_fast8_t c_int_fast16_t c_int_fast32_t c_int_fast64_t c_intmax_t C_intptr_t c_float c_double ' + 'c_long_double c_float_complex c_double_complex c_long_double_complex c_bool c_char c_null_ptr c_null_funptr ' + 'c_new_line c_carriage_return c_horizontal_tab c_vertical_tab iso_c_binding c_loc c_funloc c_associated  c_f_pointer ' + 'c_ptr c_funptr iso_fortran_env character_storage_size error_unit file_storage_size input_unit iostat_end iostat_eor ' + 'numeric_storage_size output_unit c_f_procpointer ieee_arithmetic ieee_support_underflow_control ' + 'ieee_get_underflow_mode ieee_set_underflow_mode newunit contiguous recursive ' + 'pad position action delim readwrite eor advance nml interface procedure namelist include sequence elemental pure ' + 'integer real character complex logical dimension allocatable|10 parameter ' + 'external implicit|10 none double precision assign intent optional pointer ' + 'target in out common equivalence data ' // IRPF90 special keywords
+      + 'begin_provider &begin_provider end_provider begin_shell end_shell begin_template end_template subst assert touch ' + 'soft_touch provide no_dep free irp_if irp_else irp_endif irp_write irp_read',
+      built_in: 'alog alog10 amax0 amax1 amin0 amin1 amod cabs ccos cexp clog csin csqrt dabs dacos dasin datan datan2 dcos dcosh ddim dexp dint ' + 'dlog dlog10 dmax1 dmin1 dmod dnint dsign dsin dsinh dsqrt dtan dtanh float iabs idim idint idnint ifix isign max0 max1 min0 min1 sngl ' + 'algama cdabs cdcos cdexp cdlog cdsin cdsqrt cqabs cqcos cqexp cqlog cqsin cqsqrt dcmplx dconjg derf derfc dfloat dgamma dimag dlgama ' + 'iqint qabs qacos qasin qatan qatan2 qcmplx qconjg qcos qcosh qdim qerf qerfc qexp qgamma qimag qlgama qlog qlog10 qmax1 qmin1 qmod ' + 'qnint qsign qsin qsinh qsqrt qtan qtanh abs acos aimag aint anint asin atan atan2 char cmplx conjg cos cosh exp ichar index int log ' + 'log10 max min nint sign sin sinh sqrt tan tanh print write dim lge lgt lle llt mod nullify allocate deallocate ' + 'adjustl adjustr all allocated any associated bit_size btest ceiling count cshift date_and_time digits dot_product ' + 'eoshift epsilon exponent floor fraction huge iand ibclr ibits ibset ieor ior ishft ishftc lbound len_trim matmul ' + 'maxexponent maxloc maxval merge minexponent minloc minval modulo mvbits nearest pack present product ' + 'radix random_number random_seed range repeat reshape rrspacing scale scan selected_int_kind selected_real_kind ' + 'set_exponent shape size spacing spread sum system_clock tiny transpose trim ubound unpack verify achar iachar transfer ' + 'dble entry dprod cpu_time command_argument_count get_command get_command_argument get_environment_variable is_iostat_end ' + 'ieee_arithmetic ieee_support_underflow_control ieee_get_underflow_mode ieee_set_underflow_mode ' + 'is_iostat_eor move_alloc new_line selected_char_kind same_type_as extends_type_of ' + 'acosh asinh atanh bessel_j0 bessel_j1 bessel_jn bessel_y0 bessel_y1 bessel_yn erf erfc erfc_scaled gamma log_gamma hypot norm2 ' + 'atomic_define atomic_ref execute_command_line leadz trailz storage_size merge_bits ' + 'bge bgt ble blt dshiftl dshiftr findloc iall iany iparity image_index lcobound ucobound maskl maskr ' + 'num_images parity popcnt poppar shifta shiftl shiftr this_image ' // IRPF90 special built_ins
+      + 'IRP_ALIGN irp_here'
     };
     return {
       name: 'IRPF90',
@@ -28001,7 +28107,7 @@ export default {
 
 
   function java(hljs) {
-    hljs.regex;
+    const regex = hljs.regex;
     const JAVA_IDENT_RE = '[\u00C0-\u02B8a-zA-Z_$][\u00C0-\u02B8a-zA-Z_$0-9]*';
     const GENERIC_IDENT_RE = JAVA_IDENT_RE + recurRegex('(?:<' + JAVA_IDENT_RE + '~~~(?:\\s*,\\s*' + JAVA_IDENT_RE + '~~~)*>)?', /~~~/g, 2);
     const MAIN_KEYWORDS = ['synchronized', 'abstract', 'private', 'var', 'static', 'if', 'const ', 'for', 'while', 'strictfp', 'finally', 'protected', 'import', 'native', 'final', 'void', 'enum', 'else', 'break', 'transient', 'catch', 'instanceof', 'volatile', 'case', 'assert', 'package', 'default', 'public', 'try', 'switch', 'continue', 'throws', 'protected', 'public', 'private', 'module', 'requires', 'exports', 'do', 'sealed'];
@@ -28069,7 +28175,7 @@ export default {
         match: /non-sealed/,
         scope: "keyword"
       }, {
-        begin: [JAVA_IDENT_RE, /\s+/, JAVA_IDENT_RE, /\s+/, /=/],
+        begin: [regex.concat(/(?!else)/, JAVA_IDENT_RE), /\s+/, JAVA_IDENT_RE, /\s+/, /=/],
         className: {
           1: "type",
           3: "variable",
@@ -28670,7 +28776,7 @@ export default {
     // built-ins) are automatically generated from Julia 1.5.2 itself through
     // the following scripts for each.
     // ref: https://docs.julialang.org/en/v1/manual/variables/#Allowed-Variable-Names
-    var VARIABLE_NAME_RE = '[A-Za-z_\\u00A1-\\uFFFF][A-Za-z_0-9\\u00A1-\\uFFFF]*'; // # keyword generator, multi-word keywords handled manually below (Julia 1.5.2)
+    const VARIABLE_NAME_RE = '[A-Za-z_\\u00A1-\\uFFFF][A-Za-z_0-9\\u00A1-\\uFFFF]*'; // # keyword generator, multi-word keywords handled manually below (Julia 1.5.2)
     // import REPL.REPLCompletions
     // res = String["in", "isa", "where"]
     // for kw in collect(x.keyword for x in REPLCompletions.complete_keyword(""))
@@ -28681,7 +28787,7 @@ export default {
     // sort!(unique!(res))
     // foreach(x -> println("\'", x, "\',"), res)
 
-    var KEYWORD_LIST = ['baremodule', 'begin', 'break', 'catch', 'ccall', 'const', 'continue', 'do', 'else', 'elseif', 'end', 'export', 'false', 'finally', 'for', 'function', 'global', 'if', 'import', 'in', 'isa', 'let', 'local', 'macro', 'module', 'quote', 'return', 'true', 'try', 'using', 'where', 'while']; // # literal generator (Julia 1.5.2)
+    const KEYWORD_LIST = ['baremodule', 'begin', 'break', 'catch', 'ccall', 'const', 'continue', 'do', 'else', 'elseif', 'end', 'export', 'false', 'finally', 'for', 'function', 'global', 'if', 'import', 'in', 'isa', 'let', 'local', 'macro', 'module', 'quote', 'return', 'true', 'try', 'using', 'where', 'while']; // # literal generator (Julia 1.5.2)
     // import REPL.REPLCompletions
     // res = String["true", "false"]
     // for compl in filter!(x -> isa(x, REPLCompletions.ModuleCompletion) && (x.parent === Base || x.parent === Core),
@@ -28697,7 +28803,7 @@ export default {
     // sort!(unique!(res))
     // foreach(x -> println("\'", x, "\',"), res)
 
-    var LITERAL_LIST = ['ARGS', 'C_NULL', 'DEPOT_PATH', 'ENDIAN_BOM', 'ENV', 'Inf', 'Inf16', 'Inf32', 'Inf64', 'InsertionSort', 'LOAD_PATH', 'MergeSort', 'NaN', 'NaN16', 'NaN32', 'NaN64', 'PROGRAM_FILE', 'QuickSort', 'RoundDown', 'RoundFromZero', 'RoundNearest', 'RoundNearestTiesAway', 'RoundNearestTiesUp', 'RoundToZero', 'RoundUp', 'VERSION|0', 'devnull', 'false', 'im', 'missing', 'nothing', 'pi', 'stderr', 'stdin', 'stdout', 'true', 'undef', 'π', 'ℯ']; // # built_in generator (Julia 1.5.2)
+    const LITERAL_LIST = ['ARGS', 'C_NULL', 'DEPOT_PATH', 'ENDIAN_BOM', 'ENV', 'Inf', 'Inf16', 'Inf32', 'Inf64', 'InsertionSort', 'LOAD_PATH', 'MergeSort', 'NaN', 'NaN16', 'NaN32', 'NaN64', 'PROGRAM_FILE', 'QuickSort', 'RoundDown', 'RoundFromZero', 'RoundNearest', 'RoundNearestTiesAway', 'RoundNearestTiesUp', 'RoundToZero', 'RoundUp', 'VERSION|0', 'devnull', 'false', 'im', 'missing', 'nothing', 'pi', 'stderr', 'stdin', 'stdout', 'true', 'undef', 'π', 'ℯ']; // # built_in generator (Julia 1.5.2)
     // import REPL.REPLCompletions
     // res = String[]
     // for compl in filter!(x -> isa(x, REPLCompletions.ModuleCompletion) && (x.parent === Base || x.parent === Core),
@@ -28713,20 +28819,20 @@ export default {
     // sort!(unique!(res))
     // foreach(x -> println("\'", x, "\',"), res)
 
-    var BUILT_IN_LIST = ['AbstractArray', 'AbstractChannel', 'AbstractChar', 'AbstractDict', 'AbstractDisplay', 'AbstractFloat', 'AbstractIrrational', 'AbstractMatrix', 'AbstractRange', 'AbstractSet', 'AbstractString', 'AbstractUnitRange', 'AbstractVecOrMat', 'AbstractVector', 'Any', 'ArgumentError', 'Array', 'AssertionError', 'BigFloat', 'BigInt', 'BitArray', 'BitMatrix', 'BitSet', 'BitVector', 'Bool', 'BoundsError', 'CapturedException', 'CartesianIndex', 'CartesianIndices', 'Cchar', 'Cdouble', 'Cfloat', 'Channel', 'Char', 'Cint', 'Cintmax_t', 'Clong', 'Clonglong', 'Cmd', 'Colon', 'Complex', 'ComplexF16', 'ComplexF32', 'ComplexF64', 'CompositeException', 'Condition', 'Cptrdiff_t', 'Cshort', 'Csize_t', 'Cssize_t', 'Cstring', 'Cuchar', 'Cuint', 'Cuintmax_t', 'Culong', 'Culonglong', 'Cushort', 'Cvoid', 'Cwchar_t', 'Cwstring', 'DataType', 'DenseArray', 'DenseMatrix', 'DenseVecOrMat', 'DenseVector', 'Dict', 'DimensionMismatch', 'Dims', 'DivideError', 'DomainError', 'EOFError', 'Enum', 'ErrorException', 'Exception', 'ExponentialBackOff', 'Expr', 'Float16', 'Float32', 'Float64', 'Function', 'GlobalRef', 'HTML', 'IO', 'IOBuffer', 'IOContext', 'IOStream', 'IdDict', 'IndexCartesian', 'IndexLinear', 'IndexStyle', 'InexactError', 'InitError', 'Int', 'Int128', 'Int16', 'Int32', 'Int64', 'Int8', 'Integer', 'InterruptException', 'InvalidStateException', 'Irrational', 'KeyError', 'LinRange', 'LineNumberNode', 'LinearIndices', 'LoadError', 'MIME', 'Matrix', 'Method', 'MethodError', 'Missing', 'MissingException', 'Module', 'NTuple', 'NamedTuple', 'Nothing', 'Number', 'OrdinalRange', 'OutOfMemoryError', 'OverflowError', 'Pair', 'PartialQuickSort', 'PermutedDimsArray', 'Pipe', 'ProcessFailedException', 'Ptr', 'QuoteNode', 'Rational', 'RawFD', 'ReadOnlyMemoryError', 'Real', 'ReentrantLock', 'Ref', 'Regex', 'RegexMatch', 'RoundingMode', 'SegmentationFault', 'Set', 'Signed', 'Some', 'StackOverflowError', 'StepRange', 'StepRangeLen', 'StridedArray', 'StridedMatrix', 'StridedVecOrMat', 'StridedVector', 'String', 'StringIndexError', 'SubArray', 'SubString', 'SubstitutionString', 'Symbol', 'SystemError', 'Task', 'TaskFailedException', 'Text', 'TextDisplay', 'Timer', 'Tuple', 'Type', 'TypeError', 'TypeVar', 'UInt', 'UInt128', 'UInt16', 'UInt32', 'UInt64', 'UInt8', 'UndefInitializer', 'UndefKeywordError', 'UndefRefError', 'UndefVarError', 'Union', 'UnionAll', 'UnitRange', 'Unsigned', 'Val', 'Vararg', 'VecElement', 'VecOrMat', 'Vector', 'VersionNumber', 'WeakKeyDict', 'WeakRef'];
-    var KEYWORDS = {
+    const BUILT_IN_LIST = ['AbstractArray', 'AbstractChannel', 'AbstractChar', 'AbstractDict', 'AbstractDisplay', 'AbstractFloat', 'AbstractIrrational', 'AbstractMatrix', 'AbstractRange', 'AbstractSet', 'AbstractString', 'AbstractUnitRange', 'AbstractVecOrMat', 'AbstractVector', 'Any', 'ArgumentError', 'Array', 'AssertionError', 'BigFloat', 'BigInt', 'BitArray', 'BitMatrix', 'BitSet', 'BitVector', 'Bool', 'BoundsError', 'CapturedException', 'CartesianIndex', 'CartesianIndices', 'Cchar', 'Cdouble', 'Cfloat', 'Channel', 'Char', 'Cint', 'Cintmax_t', 'Clong', 'Clonglong', 'Cmd', 'Colon', 'Complex', 'ComplexF16', 'ComplexF32', 'ComplexF64', 'CompositeException', 'Condition', 'Cptrdiff_t', 'Cshort', 'Csize_t', 'Cssize_t', 'Cstring', 'Cuchar', 'Cuint', 'Cuintmax_t', 'Culong', 'Culonglong', 'Cushort', 'Cvoid', 'Cwchar_t', 'Cwstring', 'DataType', 'DenseArray', 'DenseMatrix', 'DenseVecOrMat', 'DenseVector', 'Dict', 'DimensionMismatch', 'Dims', 'DivideError', 'DomainError', 'EOFError', 'Enum', 'ErrorException', 'Exception', 'ExponentialBackOff', 'Expr', 'Float16', 'Float32', 'Float64', 'Function', 'GlobalRef', 'HTML', 'IO', 'IOBuffer', 'IOContext', 'IOStream', 'IdDict', 'IndexCartesian', 'IndexLinear', 'IndexStyle', 'InexactError', 'InitError', 'Int', 'Int128', 'Int16', 'Int32', 'Int64', 'Int8', 'Integer', 'InterruptException', 'InvalidStateException', 'Irrational', 'KeyError', 'LinRange', 'LineNumberNode', 'LinearIndices', 'LoadError', 'MIME', 'Matrix', 'Method', 'MethodError', 'Missing', 'MissingException', 'Module', 'NTuple', 'NamedTuple', 'Nothing', 'Number', 'OrdinalRange', 'OutOfMemoryError', 'OverflowError', 'Pair', 'PartialQuickSort', 'PermutedDimsArray', 'Pipe', 'ProcessFailedException', 'Ptr', 'QuoteNode', 'Rational', 'RawFD', 'ReadOnlyMemoryError', 'Real', 'ReentrantLock', 'Ref', 'Regex', 'RegexMatch', 'RoundingMode', 'SegmentationFault', 'Set', 'Signed', 'Some', 'StackOverflowError', 'StepRange', 'StepRangeLen', 'StridedArray', 'StridedMatrix', 'StridedVecOrMat', 'StridedVector', 'String', 'StringIndexError', 'SubArray', 'SubString', 'SubstitutionString', 'Symbol', 'SystemError', 'Task', 'TaskFailedException', 'Text', 'TextDisplay', 'Timer', 'Tuple', 'Type', 'TypeError', 'TypeVar', 'UInt', 'UInt128', 'UInt16', 'UInt32', 'UInt64', 'UInt8', 'UndefInitializer', 'UndefKeywordError', 'UndefRefError', 'UndefVarError', 'Union', 'UnionAll', 'UnitRange', 'Unsigned', 'Val', 'Vararg', 'VecElement', 'VecOrMat', 'Vector', 'VersionNumber', 'WeakKeyDict', 'WeakRef'];
+    const KEYWORDS = {
       $pattern: VARIABLE_NAME_RE,
       keyword: KEYWORD_LIST,
       literal: LITERAL_LIST,
       built_in: BUILT_IN_LIST
     }; // placeholder for recursive self-reference
 
-    var DEFAULT = {
+    const DEFAULT = {
       keywords: KEYWORDS,
       illegal: /<\//
     }; // ref: https://docs.julialang.org/en/v1/manual/integers-and-floating-point-numbers/
 
-    var NUMBER = {
+    const NUMBER = {
       className: 'number',
       // supported numeric literals:
       //  * binary literal (e.g. 0x10)
@@ -28738,22 +28844,22 @@ export default {
       begin: /(\b0x[\d_]*(\.[\d_]*)?|0x\.\d[\d_]*)p[-+]?\d+|\b0[box][a-fA-F0-9][a-fA-F0-9_]*|(\b\d[\d_]*(\.[\d_]*)?|\.\d[\d_]*)([eEfF][-+]?\d+)?/,
       relevance: 0
     };
-    var CHAR = {
+    const CHAR = {
       className: 'string',
       begin: /'(.|\\[xXuU][a-zA-Z0-9]+)'/
     };
-    var INTERPOLATION = {
+    const INTERPOLATION = {
       className: 'subst',
       begin: /\$\(/,
       end: /\)/,
       keywords: KEYWORDS
     };
-    var INTERPOLATED_VARIABLE = {
+    const INTERPOLATED_VARIABLE = {
       className: 'variable',
       begin: '\\$' + VARIABLE_NAME_RE
     }; // TODO: neatly escape normal code in string literal
 
-    var STRING = {
+    const STRING = {
       className: 'string',
       contains: [hljs.BACKSLASH_ESCAPE, INTERPOLATION, INTERPOLATED_VARIABLE],
       variants: [{
@@ -28765,17 +28871,17 @@ export default {
         end: /"\w*/
       }]
     };
-    var COMMAND = {
+    const COMMAND = {
       className: 'string',
       contains: [hljs.BACKSLASH_ESCAPE, INTERPOLATION, INTERPOLATED_VARIABLE],
       begin: '`',
       end: '`'
     };
-    var MACROCALL = {
+    const MACROCALL = {
       className: 'meta',
       begin: '@' + VARIABLE_NAME_RE
     };
-    var COMMENT = {
+    const COMMENT = {
       className: 'comment',
       variants: [{
         begin: '#=',
@@ -28827,7 +28933,7 @@ export default {
     return {
       name: 'Julia REPL',
       contains: [{
-        className: 'meta',
+        className: 'meta.prompt',
         begin: /^julia>/,
         relevance: 10,
         starts: {
@@ -29517,7 +29623,7 @@ export default {
   ]; // https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
 
   const PSEUDO_ELEMENTS$2 = ['after', 'backdrop', 'before', 'cue', 'cue-region', 'first-letter', 'first-line', 'grammar-error', 'marker', 'part', 'placeholder', 'selection', 'slotted', 'spelling-error'];
-  const ATTRIBUTES$2 = ['align-content', 'align-items', 'align-self', 'all', 'animation', 'animation-delay', 'animation-direction', 'animation-duration', 'animation-fill-mode', 'animation-iteration-count', 'animation-name', 'animation-play-state', 'animation-timing-function', 'backface-visibility', 'background', 'background-attachment', 'background-clip', 'background-color', 'background-image', 'background-origin', 'background-position', 'background-repeat', 'background-size', 'border', 'border-bottom', 'border-bottom-color', 'border-bottom-left-radius', 'border-bottom-right-radius', 'border-bottom-style', 'border-bottom-width', 'border-collapse', 'border-color', 'border-image', 'border-image-outset', 'border-image-repeat', 'border-image-slice', 'border-image-source', 'border-image-width', 'border-left', 'border-left-color', 'border-left-style', 'border-left-width', 'border-radius', 'border-right', 'border-right-color', 'border-right-style', 'border-right-width', 'border-spacing', 'border-style', 'border-top', 'border-top-color', 'border-top-left-radius', 'border-top-right-radius', 'border-top-style', 'border-top-width', 'border-width', 'bottom', 'box-decoration-break', 'box-shadow', 'box-sizing', 'break-after', 'break-before', 'break-inside', 'caption-side', 'caret-color', 'clear', 'clip', 'clip-path', 'clip-rule', 'color', 'column-count', 'column-fill', 'column-gap', 'column-rule', 'column-rule-color', 'column-rule-style', 'column-rule-width', 'column-span', 'column-width', 'columns', 'contain', 'content', 'content-visibility', 'counter-increment', 'counter-reset', 'cue', 'cue-after', 'cue-before', 'cursor', 'direction', 'display', 'empty-cells', 'filter', 'flex', 'flex-basis', 'flex-direction', 'flex-flow', 'flex-grow', 'flex-shrink', 'flex-wrap', 'float', 'flow', 'font', 'font-display', 'font-family', 'font-feature-settings', 'font-kerning', 'font-language-override', 'font-size', 'font-size-adjust', 'font-smoothing', 'font-stretch', 'font-style', 'font-synthesis', 'font-variant', 'font-variant-caps', 'font-variant-east-asian', 'font-variant-ligatures', 'font-variant-numeric', 'font-variant-position', 'font-variation-settings', 'font-weight', 'gap', 'glyph-orientation-vertical', 'grid', 'grid-area', 'grid-auto-columns', 'grid-auto-flow', 'grid-auto-rows', 'grid-column', 'grid-column-end', 'grid-column-start', 'grid-gap', 'grid-row', 'grid-row-end', 'grid-row-start', 'grid-template', 'grid-template-areas', 'grid-template-columns', 'grid-template-rows', 'hanging-punctuation', 'height', 'hyphens', 'icon', 'image-orientation', 'image-rendering', 'image-resolution', 'ime-mode', 'isolation', 'justify-content', 'left', 'letter-spacing', 'line-break', 'line-height', 'list-style', 'list-style-image', 'list-style-position', 'list-style-type', 'margin', 'margin-bottom', 'margin-left', 'margin-right', 'margin-top', 'marks', 'mask', 'mask-border', 'mask-border-mode', 'mask-border-outset', 'mask-border-repeat', 'mask-border-slice', 'mask-border-source', 'mask-border-width', 'mask-clip', 'mask-composite', 'mask-image', 'mask-mode', 'mask-origin', 'mask-position', 'mask-repeat', 'mask-size', 'mask-type', 'max-height', 'max-width', 'min-height', 'min-width', 'mix-blend-mode', 'nav-down', 'nav-index', 'nav-left', 'nav-right', 'nav-up', 'none', 'normal', 'object-fit', 'object-position', 'opacity', 'order', 'orphans', 'outline', 'outline-color', 'outline-offset', 'outline-style', 'outline-width', 'overflow', 'overflow-wrap', 'overflow-x', 'overflow-y', 'padding', 'padding-bottom', 'padding-left', 'padding-right', 'padding-top', 'page-break-after', 'page-break-before', 'page-break-inside', 'pause', 'pause-after', 'pause-before', 'perspective', 'perspective-origin', 'pointer-events', 'position', 'quotes', 'resize', 'rest', 'rest-after', 'rest-before', 'right', 'row-gap', 'scroll-margin', 'scroll-margin-block', 'scroll-margin-block-end', 'scroll-margin-block-start', 'scroll-margin-bottom', 'scroll-margin-inline', 'scroll-margin-inline-end', 'scroll-margin-inline-start', 'scroll-margin-left', 'scroll-margin-right', 'scroll-margin-top', 'scroll-padding', 'scroll-padding-block', 'scroll-padding-block-end', 'scroll-padding-block-start', 'scroll-padding-bottom', 'scroll-padding-inline', 'scroll-padding-inline-end', 'scroll-padding-inline-start', 'scroll-padding-left', 'scroll-padding-right', 'scroll-padding-top', 'scroll-snap-align', 'scroll-snap-stop', 'scroll-snap-type', 'shape-image-threshold', 'shape-margin', 'shape-outside', 'speak', 'speak-as', 'src', // @font-face
+  const ATTRIBUTES$2 = ['align-content', 'align-items', 'align-self', 'all', 'animation', 'animation-delay', 'animation-direction', 'animation-duration', 'animation-fill-mode', 'animation-iteration-count', 'animation-name', 'animation-play-state', 'animation-timing-function', 'backface-visibility', 'background', 'background-attachment', 'background-blend-mode', 'background-clip', 'background-color', 'background-image', 'background-origin', 'background-position', 'background-repeat', 'background-size', 'block-size', 'border', 'border-block', 'border-block-color', 'border-block-end', 'border-block-end-color', 'border-block-end-style', 'border-block-end-width', 'border-block-start', 'border-block-start-color', 'border-block-start-style', 'border-block-start-width', 'border-block-style', 'border-block-width', 'border-bottom', 'border-bottom-color', 'border-bottom-left-radius', 'border-bottom-right-radius', 'border-bottom-style', 'border-bottom-width', 'border-collapse', 'border-color', 'border-image', 'border-image-outset', 'border-image-repeat', 'border-image-slice', 'border-image-source', 'border-image-width', 'border-inline', 'border-inline-color', 'border-inline-end', 'border-inline-end-color', 'border-inline-end-style', 'border-inline-end-width', 'border-inline-start', 'border-inline-start-color', 'border-inline-start-style', 'border-inline-start-width', 'border-inline-style', 'border-inline-width', 'border-left', 'border-left-color', 'border-left-style', 'border-left-width', 'border-radius', 'border-right', 'border-right-color', 'border-right-style', 'border-right-width', 'border-spacing', 'border-style', 'border-top', 'border-top-color', 'border-top-left-radius', 'border-top-right-radius', 'border-top-style', 'border-top-width', 'border-width', 'bottom', 'box-decoration-break', 'box-shadow', 'box-sizing', 'break-after', 'break-before', 'break-inside', 'caption-side', 'caret-color', 'clear', 'clip', 'clip-path', 'clip-rule', 'color', 'column-count', 'column-fill', 'column-gap', 'column-rule', 'column-rule-color', 'column-rule-style', 'column-rule-width', 'column-span', 'column-width', 'columns', 'contain', 'content', 'content-visibility', 'counter-increment', 'counter-reset', 'cue', 'cue-after', 'cue-before', 'cursor', 'direction', 'display', 'empty-cells', 'filter', 'flex', 'flex-basis', 'flex-direction', 'flex-flow', 'flex-grow', 'flex-shrink', 'flex-wrap', 'float', 'flow', 'font', 'font-display', 'font-family', 'font-feature-settings', 'font-kerning', 'font-language-override', 'font-size', 'font-size-adjust', 'font-smoothing', 'font-stretch', 'font-style', 'font-synthesis', 'font-variant', 'font-variant-caps', 'font-variant-east-asian', 'font-variant-ligatures', 'font-variant-numeric', 'font-variant-position', 'font-variation-settings', 'font-weight', 'gap', 'glyph-orientation-vertical', 'grid', 'grid-area', 'grid-auto-columns', 'grid-auto-flow', 'grid-auto-rows', 'grid-column', 'grid-column-end', 'grid-column-start', 'grid-gap', 'grid-row', 'grid-row-end', 'grid-row-start', 'grid-template', 'grid-template-areas', 'grid-template-columns', 'grid-template-rows', 'hanging-punctuation', 'height', 'hyphens', 'icon', 'image-orientation', 'image-rendering', 'image-resolution', 'ime-mode', 'inline-size', 'isolation', 'justify-content', 'left', 'letter-spacing', 'line-break', 'line-height', 'list-style', 'list-style-image', 'list-style-position', 'list-style-type', 'margin', 'margin-block', 'margin-block-end', 'margin-block-start', 'margin-bottom', 'margin-inline', 'margin-inline-end', 'margin-inline-start', 'margin-left', 'margin-right', 'margin-top', 'marks', 'mask', 'mask-border', 'mask-border-mode', 'mask-border-outset', 'mask-border-repeat', 'mask-border-slice', 'mask-border-source', 'mask-border-width', 'mask-clip', 'mask-composite', 'mask-image', 'mask-mode', 'mask-origin', 'mask-position', 'mask-repeat', 'mask-size', 'mask-type', 'max-block-size', 'max-height', 'max-inline-size', 'max-width', 'min-block-size', 'min-height', 'min-inline-size', 'min-width', 'mix-blend-mode', 'nav-down', 'nav-index', 'nav-left', 'nav-right', 'nav-up', 'none', 'normal', 'object-fit', 'object-position', 'opacity', 'order', 'orphans', 'outline', 'outline-color', 'outline-offset', 'outline-style', 'outline-width', 'overflow', 'overflow-wrap', 'overflow-x', 'overflow-y', 'padding', 'padding-block', 'padding-block-end', 'padding-block-start', 'padding-bottom', 'padding-inline', 'padding-inline-end', 'padding-inline-start', 'padding-left', 'padding-right', 'padding-top', 'page-break-after', 'page-break-before', 'page-break-inside', 'pause', 'pause-after', 'pause-before', 'perspective', 'perspective-origin', 'pointer-events', 'position', 'quotes', 'resize', 'rest', 'rest-after', 'rest-before', 'right', 'row-gap', 'scroll-margin', 'scroll-margin-block', 'scroll-margin-block-end', 'scroll-margin-block-start', 'scroll-margin-bottom', 'scroll-margin-inline', 'scroll-margin-inline-end', 'scroll-margin-inline-start', 'scroll-margin-left', 'scroll-margin-right', 'scroll-margin-top', 'scroll-padding', 'scroll-padding-block', 'scroll-padding-block-end', 'scroll-padding-block-start', 'scroll-padding-bottom', 'scroll-padding-inline', 'scroll-padding-inline-end', 'scroll-padding-inline-start', 'scroll-padding-left', 'scroll-padding-right', 'scroll-padding-top', 'scroll-snap-align', 'scroll-snap-stop', 'scroll-snap-type', 'scrollbar-color', 'scrollbar-gutter', 'scrollbar-width', 'shape-image-threshold', 'shape-margin', 'shape-outside', 'speak', 'speak-as', 'src', // @font-face
   'tab-size', 'table-layout', 'text-align', 'text-align-all', 'text-align-last', 'text-combine-upright', 'text-decoration', 'text-decoration-color', 'text-decoration-line', 'text-decoration-style', 'text-emphasis', 'text-emphasis-color', 'text-emphasis-position', 'text-emphasis-style', 'text-indent', 'text-justify', 'text-orientation', 'text-overflow', 'text-rendering', 'text-shadow', 'text-transform', 'text-underline-position', 'top', 'transform', 'transform-box', 'transform-origin', 'transform-style', 'transition', 'transition-delay', 'transition-duration', 'transition-property', 'transition-timing-function', 'unicode-bidi', 'vertical-align', 'visibility', 'voice-balance', 'voice-duration', 'voice-family', 'voice-pitch', 'voice-range', 'voice-rate', 'voice-stress', 'voice-volume', 'white-space', 'widows', 'width', 'will-change', 'word-break', 'word-spacing', 'word-wrap', 'writing-mode', 'z-index' // reverse makes sure longer attributes `font-weight` are matched fully
   // instead of getting false positives on say `font`
   ].reverse(); // some grammars use them all as a single group
@@ -29716,14 +29822,14 @@ export default {
   Category: lisp
   */
   function lisp(hljs) {
-    var LISP_IDENT_RE = '[a-zA-Z_\\-+\\*\\/<=>&#][a-zA-Z0-9_\\-+*\\/<=>&#!]*';
-    var MEC_RE = '\\|[^]*?\\|';
-    var LISP_SIMPLE_NUMBER_RE = '(-|\\+)?\\d+(\\.\\d+|\\/\\d+)?((d|e|f|l|s|D|E|F|L|S)(\\+|-)?\\d+)?';
-    var LITERAL = {
+    const LISP_IDENT_RE = '[a-zA-Z_\\-+\\*\\/<=>&#][a-zA-Z0-9_\\-+*\\/<=>&#!]*';
+    const MEC_RE = '\\|[^]*?\\|';
+    const LISP_SIMPLE_NUMBER_RE = '(-|\\+)?\\d+(\\.\\d+|\\/\\d+)?((d|e|f|l|s|D|E|F|L|S)(\\+|-)?\\d+)?';
+    const LITERAL = {
       className: 'literal',
       begin: '\\b(t{1}|nil)\\b'
     };
-    var NUMBER = {
+    const NUMBER = {
       className: 'number',
       variants: [{
         begin: LISP_SIMPLE_NUMBER_RE,
@@ -29739,33 +29845,33 @@ export default {
         end: '\\)'
       }]
     };
-    var STRING = hljs.inherit(hljs.QUOTE_STRING_MODE, {
+    const STRING = hljs.inherit(hljs.QUOTE_STRING_MODE, {
       illegal: null
     });
-    var COMMENT = hljs.COMMENT(';', '$', {
+    const COMMENT = hljs.COMMENT(';', '$', {
       relevance: 0
     });
-    var VARIABLE = {
+    const VARIABLE = {
       begin: '\\*',
       end: '\\*'
     };
-    var KEYWORD = {
+    const KEYWORD = {
       className: 'symbol',
       begin: '[:&]' + LISP_IDENT_RE
     };
-    var IDENT = {
+    const IDENT = {
       begin: LISP_IDENT_RE,
       relevance: 0
     };
-    var MEC = {
+    const MEC = {
       begin: MEC_RE
     };
-    var QUOTED_LIST = {
+    const QUOTED_LIST = {
       begin: '\\(',
       end: '\\)',
       contains: ['self', LITERAL, STRING, NUMBER, IDENT]
     };
-    var QUOTED = {
+    const QUOTED = {
       contains: [NUMBER, STRING, VARIABLE, KEYWORD, QUOTED_LIST, IDENT],
       variants: [{
         begin: '[\'`]\\(',
@@ -29780,18 +29886,18 @@ export default {
         begin: '\'' + MEC_RE
       }]
     };
-    var QUOTED_ATOM = {
+    const QUOTED_ATOM = {
       variants: [{
         begin: '\'' + LISP_IDENT_RE
       }, {
         begin: '#\'' + LISP_IDENT_RE + '(::' + LISP_IDENT_RE + ')*'
       }]
     };
-    var LIST = {
+    const LIST = {
       begin: '\\(\\s*',
       end: '\\)'
     };
-    var BODY = {
+    const BODY = {
       endsWithParent: true,
       relevance: 0
     };
@@ -30087,9 +30193,9 @@ export default {
     const NUMBER = {
       className: 'number',
       variants: [{
-        begin: /0[xX][a-fA-F0-9]+/
+        begin: /[su]?0[xX][KMLHR]?[a-fA-F0-9]+/
       }, {
-        begin: /-?\d+(?:[.]\d+)?(?:[eE][-+]?\d+(?:[.]\d+)?)?/
+        begin: /[-+]?\d+(?:[.]\d+)?(?:[eE][-+]?\d+(?:[.]\d+)?)?/
       }],
       relevance: 0
     };
@@ -30136,12 +30242,13 @@ export default {
       // another language than an actual comment
       hljs.COMMENT(/;\s*$/, null, {
         relevance: 0
-      }), hljs.COMMENT(/;/, /$/), hljs.QUOTE_STRING_MODE, {
+      }), hljs.COMMENT(/;/, /$/), {
         className: 'string',
-        variants: [// Double-quoted string
-        {
-          begin: /"/,
-          end: /[^\\]"/
+        begin: /"/,
+        end: /"/,
+        contains: [{
+          className: 'char.escape',
+          match: /\\\d\d/
         }]
       }, FUNCTION, PUNCTUATION, OPERATOR, VARIABLE, LABEL, NUMBER]
     };
@@ -30157,22 +30264,22 @@ export default {
   Category: scripting
   */
   function lsl(hljs) {
-    var LSL_STRING_ESCAPE_CHARS = {
+    const LSL_STRING_ESCAPE_CHARS = {
       className: 'subst',
       begin: /\\[tn"\\]/
     };
-    var LSL_STRINGS = {
+    const LSL_STRINGS = {
       className: 'string',
       begin: '"',
       end: '"',
       contains: [LSL_STRING_ESCAPE_CHARS]
     };
-    var LSL_NUMBERS = {
+    const LSL_NUMBERS = {
       className: 'number',
       relevance: 0,
       begin: hljs.C_NUMBER_RE
     };
-    var LSL_CONSTANTS = {
+    const LSL_CONSTANTS = {
       className: 'literal',
       variants: [{
         begin: '\\b(PI|TWO_PI|PI_BY_TWO|DEG_TO_RAD|RAD_TO_DEG|SQRT2)\\b'
@@ -30188,7 +30295,7 @@ export default {
         begin: '\\b(ZERO_VECTOR|TOUCH_INVALID_(TEXCOORD|VECTOR))\\b'
       }]
     };
-    var LSL_FUNCTIONS = {
+    const LSL_FUNCTIONS = {
       className: 'built_in',
       begin: '\\b(ll(AgentInExperience|(Create|DataSize|Delete|KeyCount|Keys|Read|Update)KeyValue|GetExperience(Details|ErrorMessage)|ReturnObjectsBy(ID|Owner)|Json(2List|[GS]etValue|ValueType)|Sin|Cos|Tan|Atan2|Sqrt|Pow|Abs|Fabs|Frand|Floor|Ceil|Round|Vec(Mag|Norm|Dist)|Rot(Between|2(Euler|Fwd|Left|Up))|(Euler|Axes)2Rot|Whisper|(Region|Owner)?Say|Shout|Listen(Control|Remove)?|Sensor(Repeat|Remove)?|Detected(Name|Key|Owner|Type|Pos|Vel|Grab|Rot|Group|LinkNumber)|Die|Ground|Wind|([GS]et)(AnimationOverride|MemoryLimit|PrimMediaParams|ParcelMusicURL|Object(Desc|Name)|PhysicsMaterial|Status|Scale|Color|Alpha|Texture|Pos|Rot|Force|Torque)|ResetAnimationOverride|(Scale|Offset|Rotate)Texture|(Rot)?Target(Remove)?|(Stop)?MoveToTarget|Apply(Rotational)?Impulse|Set(KeyframedMotion|ContentType|RegionPos|(Angular)?Velocity|Buoyancy|HoverHeight|ForceAndTorque|TimerEvent|ScriptState|Damage|TextureAnim|Sound(Queueing|Radius)|Vehicle(Type|(Float|Vector|Rotation)Param)|(Touch|Sit)?Text|Camera(Eye|At)Offset|PrimitiveParams|ClickAction|Link(Alpha|Color|PrimitiveParams(Fast)?|Texture(Anim)?|Camera|Media)|RemoteScriptAccessPin|PayPrice|LocalRot)|ScaleByFactor|Get((Max|Min)ScaleFactor|ClosestNavPoint|StaticPath|SimStats|Env|PrimitiveParams|Link(PrimitiveParams|Number(OfSides)?|Key|Name|Media)|HTTPHeader|FreeURLs|Object(Details|PermMask|PrimCount)|Parcel(MaxPrims|Details|Prim(Count|Owners))|Attached(List)?|(SPMax|Free|Used)Memory|Region(Name|TimeDilation|FPS|Corner|AgentCount)|Root(Position|Rotation)|UnixTime|(Parcel|Region)Flags|(Wall|GMT)clock|SimulatorHostname|BoundingBox|GeometricCenter|Creator|NumberOf(Prims|NotecardLines|Sides)|Animation(List)?|(Camera|Local)(Pos|Rot)|Vel|Accel|Omega|Time(stamp|OfDay)|(Object|CenterOf)?Mass|MassMKS|Energy|Owner|(Owner)?Key|SunDirection|Texture(Offset|Scale|Rot)|Inventory(Number|Name|Key|Type|Creator|PermMask)|Permissions(Key)?|StartParameter|List(Length|EntryType)|Date|Agent(Size|Info|Language|List)|LandOwnerAt|NotecardLine|Script(Name|State))|(Get|Reset|GetAndReset)Time|PlaySound(Slave)?|LoopSound(Master|Slave)?|(Trigger|Stop|Preload)Sound|((Get|Delete)Sub|Insert)String|To(Upper|Lower)|Give(InventoryList|Money)|RezObject|(Stop)?LookAt|Sleep|CollisionFilter|(Take|Release)Controls|DetachFromAvatar|AttachToAvatar(Temp)?|InstantMessage|(GetNext)?Email|StopHover|MinEventDelay|RotLookAt|String(Length|Trim)|(Start|Stop)Animation|TargetOmega|Request(Experience)?Permissions|(Create|Break)Link|BreakAllLinks|(Give|Remove)Inventory|Water|PassTouches|Request(Agent|Inventory)Data|TeleportAgent(Home|GlobalCoords)?|ModifyLand|CollisionSound|ResetScript|MessageLinked|PushObject|PassCollisions|AxisAngle2Rot|Rot2(Axis|Angle)|A(cos|sin)|AngleBetween|AllowInventoryDrop|SubStringIndex|List2(CSV|Integer|Json|Float|String|Key|Vector|Rot|List(Strided)?)|DeleteSubList|List(Statistics|Sort|Randomize|(Insert|Find|Replace)List)|EdgeOfWorld|AdjustSoundVolume|Key2Name|TriggerSoundLimited|EjectFromLand|(CSV|ParseString)2List|OverMyLand|SameGroup|UnSit|Ground(Slope|Normal|Contour)|GroundRepel|(Set|Remove)VehicleFlags|SitOnLink|(AvatarOn)?(Link)?SitTarget|Script(Danger|Profiler)|Dialog|VolumeDetect|ResetOtherScript|RemoteLoadScriptPin|(Open|Close)RemoteDataChannel|SendRemoteData|RemoteDataReply|(Integer|String)ToBase64|XorBase64|Log(10)?|Base64To(String|Integer)|ParseStringKeepNulls|RezAtRoot|RequestSimulatorData|ForceMouselook|(Load|Release|(E|Une)scape)URL|ParcelMedia(CommandList|Query)|ModPow|MapDestination|(RemoveFrom|AddTo|Reset)Land(Pass|Ban)List|(Set|Clear)CameraParams|HTTP(Request|Response)|TextBox|DetectedTouch(UV|Face|Pos|(N|Bin)ormal|ST)|(MD5|SHA1|DumpList2)String|Request(Secure)?URL|Clear(Prim|Link)Media|(Link)?ParticleSystem|(Get|Request)(Username|DisplayName)|RegionSayTo|CastRay|GenerateKey|TransferLindenDollars|ManageEstateAccess|(Create|Delete)Character|ExecCharacterCmd|Evade|FleeFrom|NavigateTo|PatrolPoints|Pursue|UpdateCharacter|WanderWithin))\\b'
     };
@@ -30241,9 +30348,9 @@ export default {
         literal: "true false nil",
         keyword: "and break do else elseif end for goto if in local not or repeat return then until while",
         built_in: // Metatags and globals:
-        '_G _ENV _VERSION __index __newindex __mode __call __metatable __tostring __len ' + '__gc __add __sub __mul __div __mod __pow __concat __unm __eq __lt __le assert ' + // Standard methods and properties:
-        'collectgarbage dofile error getfenv getmetatable ipairs load loadfile loadstring ' + 'module next pairs pcall print rawequal rawget rawset require select setfenv ' + 'setmetatable tonumber tostring type unpack xpcall arg self ' + // Library methods and properties (one line per library):
-        'coroutine resume yield status wrap create running debug getupvalue ' + 'debug sethook getmetatable gethook setmetatable setlocal traceback setfenv getinfo setupvalue getlocal getregistry getfenv ' + 'io lines write close flush open output type read stderr stdin input stdout popen tmpfile ' + 'math log max acos huge ldexp pi cos tanh pow deg tan cosh sinh random randomseed frexp ceil floor rad abs sqrt modf asin min mod fmod log10 atan2 exp sin atan ' + 'os exit setlocale date getenv difftime remove time clock tmpname rename execute package preload loadlib loaded loaders cpath config path seeall ' + 'string sub upper len gfind rep find match char dump gmatch reverse byte format gsub lower ' + 'table setn insert getn foreachi maxn foreach concat sort remove'
+        '_G _ENV _VERSION __index __newindex __mode __call __metatable __tostring __len ' + '__gc __add __sub __mul __div __mod __pow __concat __unm __eq __lt __le assert ' // Standard methods and properties:
+        + 'collectgarbage dofile error getfenv getmetatable ipairs load loadfile loadstring ' + 'module next pairs pcall print rawequal rawget rawset require select setfenv ' + 'setmetatable tonumber tostring type unpack xpcall arg self ' // Library methods and properties (one line per library):
+        + 'coroutine resume yield status wrap create running debug getupvalue ' + 'debug sethook getmetatable gethook setmetatable setlocal traceback setfenv getinfo setupvalue getlocal getregistry getfenv ' + 'io lines write close flush open output type read stderr stdin input stdout popen tmpfile ' + 'math log max acos huge ldexp pi cos tanh pow deg tan cosh sinh random randomseed frexp ceil floor rad abs sqrt modf asin min mod fmod log10 atan2 exp sin atan ' + 'os exit setlocale date getenv difftime remove time clock tmpname rename execute package preload loadlib loaded loaders cpath config path seeall ' + 'string sub upper len gfind rep find match char dump gmatch reverse byte format gsub lower ' + 'table setn insert getn foreachi maxn foreach concat sort remove'
       },
       contains: COMMENTS.concat([{
         className: 'function',
@@ -30455,8 +30562,8 @@ export default {
     https://github.com/kornilova-l/matlab-IntelliJ-plugin/blob/master/src/main/grammar/Matlab.bnf
   */
   function matlab(hljs) {
-    var TRANSPOSE_RE = '(\'|\\.\')+';
-    var TRANSPOSE = {
+    const TRANSPOSE_RE = '(\'|\\.\')+';
+    const TRANSPOSE = {
       relevance: 0,
       contains: [{
         begin: TRANSPOSE_RE
@@ -30609,8 +30716,8 @@ export default {
     const KEYWORDS = {
       keyword: 'module use_module import_module include_module end_module initialise ' + 'mutable initialize finalize finalise interface implementation pred ' + 'mode func type inst solver any_pred any_func is semidet det nondet ' + 'multi erroneous failure cc_nondet cc_multi typeclass instance where ' + 'pragma promise external trace atomic or_else require_complete_switch ' + 'require_det require_semidet require_multi require_nondet ' + 'require_cc_multi require_cc_nondet require_erroneous require_failure',
       meta: // pragma
-      'inline no_inline type_spec source_file fact_table obsolete memo ' + 'loop_check minimal_model terminates does_not_terminate ' + 'check_termination promise_equivalent_clauses ' + // preprocessor
-      'foreign_proc foreign_decl foreign_code foreign_type ' + 'foreign_import_module foreign_export_enum foreign_export ' + 'foreign_enum may_call_mercury will_not_call_mercury thread_safe ' + 'not_thread_safe maybe_thread_safe promise_pure promise_semipure ' + 'tabled_for_io local untrailed trailed attach_to_io_state ' + 'can_pass_as_mercury_type stable will_not_throw_exception ' + 'may_modify_trail will_not_modify_trail may_duplicate ' + 'may_not_duplicate affects_liveness does_not_affect_liveness ' + 'doesnt_affect_liveness no_sharing unknown_sharing sharing',
+      'inline no_inline type_spec source_file fact_table obsolete memo ' + 'loop_check minimal_model terminates does_not_terminate ' + 'check_termination promise_equivalent_clauses ' // preprocessor
+      + 'foreign_proc foreign_decl foreign_code foreign_type ' + 'foreign_import_module foreign_export_enum foreign_export ' + 'foreign_enum may_call_mercury will_not_call_mercury thread_safe ' + 'not_thread_safe maybe_thread_safe promise_pure promise_semipure ' + 'tabled_for_io local untrailed trailed attach_to_io_state ' + 'can_pass_as_mercury_type stable will_not_throw_exception ' + 'may_modify_trail will_not_modify_trail may_duplicate ' + 'may_not_duplicate affects_liveness does_not_affect_liveness ' + 'doesnt_affect_liveness no_sharing unknown_sharing sharing',
       built_in: 'some all not if then else true fail false try catch catch_any ' + 'semidet_true semidet_false semidet_fail impure_true impure semipure'
     };
     const COMMENT = hljs.COMMENT('%', '$');
@@ -30690,26 +30797,26 @@ export default {
         $pattern: '\\.?' + hljs.IDENT_RE,
         meta: // GNU preprocs
         '.2byte .4byte .align .ascii .asciz .balign .byte .code .data .else .end .endif .endm .endr .equ .err .exitm .extern .global .hword .if .ifdef .ifndef .include .irp .long .macro .rept .req .section .set .skip .space .text .word .ltorg ',
-        built_in: '$0 $1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12 $13 $14 $15 ' + // integer registers
-        '$16 $17 $18 $19 $20 $21 $22 $23 $24 $25 $26 $27 $28 $29 $30 $31 ' + // integer registers
-        'zero at v0 v1 a0 a1 a2 a3 a4 a5 a6 a7 ' + // integer register aliases
-        't0 t1 t2 t3 t4 t5 t6 t7 t8 t9 s0 s1 s2 s3 s4 s5 s6 s7 s8 ' + // integer register aliases
-        'k0 k1 gp sp fp ra ' + // integer register aliases
-        '$f0 $f1 $f2 $f2 $f4 $f5 $f6 $f7 $f8 $f9 $f10 $f11 $f12 $f13 $f14 $f15 ' + // floating-point registers
-        '$f16 $f17 $f18 $f19 $f20 $f21 $f22 $f23 $f24 $f25 $f26 $f27 $f28 $f29 $f30 $f31 ' + // floating-point registers
-        'Context Random EntryLo0 EntryLo1 Context PageMask Wired EntryHi ' + // Coprocessor 0 registers
-        'HWREna BadVAddr Count Compare SR IntCtl SRSCtl SRSMap Cause EPC PRId ' + // Coprocessor 0 registers
-        'EBase Config Config1 Config2 Config3 LLAddr Debug DEPC DESAVE CacheErr ' + // Coprocessor 0 registers
-        'ECC ErrorEPC TagLo DataLo TagHi DataHi WatchLo WatchHi PerfCtl PerfCnt ' // Coprocessor 0 registers
+        built_in: '$0 $1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12 $13 $14 $15 ' // integer registers
+        + '$16 $17 $18 $19 $20 $21 $22 $23 $24 $25 $26 $27 $28 $29 $30 $31 ' // integer registers
+        + 'zero at v0 v1 a0 a1 a2 a3 a4 a5 a6 a7 ' // integer register aliases
+        + 't0 t1 t2 t3 t4 t5 t6 t7 t8 t9 s0 s1 s2 s3 s4 s5 s6 s7 s8 ' // integer register aliases
+        + 'k0 k1 gp sp fp ra ' // integer register aliases
+        + '$f0 $f1 $f2 $f2 $f4 $f5 $f6 $f7 $f8 $f9 $f10 $f11 $f12 $f13 $f14 $f15 ' // floating-point registers
+        + '$f16 $f17 $f18 $f19 $f20 $f21 $f22 $f23 $f24 $f25 $f26 $f27 $f28 $f29 $f30 $f31 ' // floating-point registers
+        + 'Context Random EntryLo0 EntryLo1 Context PageMask Wired EntryHi ' // Coprocessor 0 registers
+        + 'HWREna BadVAddr Count Compare SR IntCtl SRSCtl SRSMap Cause EPC PRId ' // Coprocessor 0 registers
+        + 'EBase Config Config1 Config2 Config3 LLAddr Debug DEPC DESAVE CacheErr ' // Coprocessor 0 registers
+        + 'ECC ErrorEPC TagLo DataLo TagHi DataHi WatchLo WatchHi PerfCtl PerfCnt ' // Coprocessor 0 registers
 
       },
       contains: [{
         className: 'keyword',
-        begin: '\\b(' + // mnemonics
+        begin: '\\b(' // mnemonics
         // 32-bit integer instructions
-        'addi?u?|andi?|b(al)?|beql?|bgez(al)?l?|bgtzl?|blezl?|bltz(al)?l?|' + 'bnel?|cl[oz]|divu?|ext|ins|j(al)?|jalr(\\.hb)?|jr(\\.hb)?|lbu?|lhu?|' + 'll|lui|lw[lr]?|maddu?|mfhi|mflo|movn|movz|move|msubu?|mthi|mtlo|mul|' + 'multu?|nop|nor|ori?|rotrv?|sb|sc|se[bh]|sh|sllv?|slti?u?|srav?|' + 'srlv?|subu?|sw[lr]?|xori?|wsbh|' + // floating-point instructions
-        'abs\\.[sd]|add\\.[sd]|alnv.ps|bc1[ft]l?|' + 'c\\.(s?f|un|u?eq|[ou]lt|[ou]le|ngle?|seq|l[et]|ng[et])\\.[sd]|' + '(ceil|floor|round|trunc)\\.[lw]\\.[sd]|cfc1|cvt\\.d\\.[lsw]|' + 'cvt\\.l\\.[dsw]|cvt\\.ps\\.s|cvt\\.s\\.[dlw]|cvt\\.s\\.p[lu]|cvt\\.w\\.[dls]|' + 'div\\.[ds]|ldx?c1|luxc1|lwx?c1|madd\\.[sd]|mfc1|mov[fntz]?\\.[ds]|' + 'msub\\.[sd]|mth?c1|mul\\.[ds]|neg\\.[ds]|nmadd\\.[ds]|nmsub\\.[ds]|' + 'p[lu][lu]\\.ps|recip\\.fmt|r?sqrt\\.[ds]|sdx?c1|sub\\.[ds]|suxc1|' + 'swx?c1|' + // system control instructions
-        'break|cache|d?eret|[de]i|ehb|mfc0|mtc0|pause|prefx?|rdhwr|' + 'rdpgpr|sdbbp|ssnop|synci?|syscall|teqi?|tgei?u?|tlb(p|r|w[ir])|' + 'tlti?u?|tnei?|wait|wrpgpr' + ')',
+        + 'addi?u?|andi?|b(al)?|beql?|bgez(al)?l?|bgtzl?|blezl?|bltz(al)?l?|' + 'bnel?|cl[oz]|divu?|ext|ins|j(al)?|jalr(\\.hb)?|jr(\\.hb)?|lbu?|lhu?|' + 'll|lui|lw[lr]?|maddu?|mfhi|mflo|movn|movz|move|msubu?|mthi|mtlo|mul|' + 'multu?|nop|nor|ori?|rotrv?|sb|sc|se[bh]|sh|sllv?|slti?u?|srav?|' + 'srlv?|subu?|sw[lr]?|xori?|wsbh|' // floating-point instructions
+        + 'abs\\.[sd]|add\\.[sd]|alnv.ps|bc1[ft]l?|' + 'c\\.(s?f|un|u?eq|[ou]lt|[ou]le|ngle?|seq|l[et]|ng[et])\\.[sd]|' + '(ceil|floor|round|trunc)\\.[lw]\\.[sd]|cfc1|cvt\\.d\\.[lsw]|' + 'cvt\\.l\\.[dsw]|cvt\\.ps\\.s|cvt\\.s\\.[dlw]|cvt\\.s\\.p[lu]|cvt\\.w\\.[dls]|' + 'div\\.[ds]|ldx?c1|luxc1|lwx?c1|madd\\.[sd]|mfc1|mov[fntz]?\\.[ds]|' + 'msub\\.[sd]|mth?c1|mul\\.[ds]|neg\\.[ds]|nmadd\\.[ds]|nmsub\\.[ds]|' + 'p[lu][lu]\\.ps|recip\\.fmt|r?sqrt\\.[ds]|sdx?c1|sub\\.[ds]|suxc1|' + 'swx?c1|' // system control instructions
+        + 'break|cache|d?eret|[de]i|ehb|mfc0|mtc0|pause|prefx?|rdhwr|' + 'rdpgpr|sdbbp|ssnop|synci?|syscall|teqi?|tgei?u?|tlb(p|r|w[ir])|' + 'tlti?u?|tnei?|wait|wrpgpr' + ')',
         end: '\\s'
       }, // lines ending with ; or # aren't really comments, probably auto-detect fail
       hljs.COMMENT('[;#](?!\\s*$)', '$'), hljs.C_BLOCK_COMMENT_MODE, hljs.QUOTE_STRING_MODE, {
@@ -31478,7 +31585,8 @@ export default {
       relevance: 0,
       contains: [{
         className: 'attr',
-        begin: /\S+/
+        begin: /\S+/,
+        relevance: 0.2
       }]
     };
     const STRING = {
@@ -31516,7 +31624,7 @@ export default {
     return {
       name: 'Node REPL',
       contains: [{
-        className: 'meta',
+        className: 'meta.prompt',
         starts: {
           // a space separates the REPL prefix from the actual code
           // this is purely for cleaner HTML output
@@ -31603,7 +31711,7 @@ export default {
       illegal: /\n/,
       contains: [ESCAPE_CHARS, CONSTANTS, DEFINES, VARIABLES, LANGUAGES]
     };
-    const KEYWORDS = ["Abort", "AddBrandingImage", "AddSize", "AllowRootDirInstall", "AllowSkipFiles", "AutoCloseWindow", "BGFont", "BGGradient", "BrandingText", "BringToFront", "Call", "CallInstDLL", "Caption", "ChangeUI", "CheckBitmap", "ClearErrors", "CompletedText", "ComponentText", "CopyFiles", "CRCCheck", "CreateDirectory", "CreateFont", "CreateShortCut", "Delete", "DeleteINISec", "DeleteINIStr", "DeleteRegKey", "DeleteRegValue", "DetailPrint", "DetailsButtonText", "DirText", "DirVar", "DirVerify", "EnableWindow", "EnumRegKey", "EnumRegValue", "Exch", "Exec", "ExecShell", "ExecShellWait", "ExecWait", "ExpandEnvStrings", "File", "FileBufSize", "FileClose", "FileErrorText", "FileOpen", "FileRead", "FileReadByte", "FileReadUTF16LE", "FileReadWord", "FileWriteUTF16LE", "FileSeek", "FileWrite", "FileWriteByte", "FileWriteWord", "FindClose", "FindFirst", "FindNext", "FindWindow", "FlushINI", "GetCurInstType", "GetCurrentAddress", "GetDlgItem", "GetDLLVersion", "GetDLLVersionLocal", "GetErrorLevel", "GetFileTime", "GetFileTimeLocal", "GetFullPathName", "GetFunctionAddress", "GetInstDirError", "GetKnownFolderPath", "GetLabelAddress", "GetTempFileName", "GetWinVer", "Goto", "HideWindow", "Icon", "IfAbort", "IfErrors", "IfFileExists", "IfRebootFlag", "IfRtlLanguage", "IfShellVarContextAll", "IfSilent", "InitPluginsDir", "InstallButtonText", "InstallColors", "InstallDir", "InstallDirRegKey", "InstProgressFlags", "InstType", "InstTypeGetText", "InstTypeSetText", "Int64Cmp", "Int64CmpU", "Int64Fmt", "IntCmp", "IntCmpU", "IntFmt", "IntOp", "IntPtrCmp", "IntPtrCmpU", "IntPtrOp", "IsWindow", "LangString", "LicenseBkColor", "LicenseData", "LicenseForceSelection", "LicenseLangString", "LicenseText", "LoadAndSetImage", "LoadLanguageFile", "LockWindow", "LogSet", "LogText", "ManifestDPIAware", "ManifestLongPathAware", "ManifestMaxVersionTested", "ManifestSupportedOS", "MessageBox", "MiscButtonText", "Name", "Nop", "OutFile", "Page", "PageCallbacks", "PEAddResource", "PEDllCharacteristics", "PERemoveResource", "PESubsysVer", "Pop", "Push", "Quit", "ReadEnvStr", "ReadINIStr", "ReadRegDWORD", "ReadRegStr", "Reboot", "RegDLL", "Rename", "RequestExecutionLevel", "ReserveFile", "Return", "RMDir", "SearchPath", "SectionGetFlags", "SectionGetInstTypes", "SectionGetSize", "SectionGetText", "SectionIn", "SectionSetFlags", "SectionSetInstTypes", "SectionSetSize", "SectionSetText", "SendMessage", "SetAutoClose", "SetBrandingImage", "SetCompress", "SetCompressor", "SetCompressorDictSize", "SetCtlColors", "SetCurInstType", "SetDatablockOptimize", "SetDateSave", "SetDetailsPrint", "SetDetailsView", "SetErrorLevel", "SetErrors", "SetFileAttributes", "SetFont", "SetOutPath", "SetOverwrite", "SetRebootFlag", "SetRegView", "SetShellVarContext", "SetSilent", "ShowInstDetails", "ShowUninstDetails", "ShowWindow", "SilentInstall", "SilentUnInstall", "Sleep", "SpaceTexts", "StrCmp", "StrCmpS", "StrCpy", "StrLen", "SubCaption", "Unicode", "UninstallButtonText", "UninstallCaption", "UninstallIcon", "UninstallSubCaption", "UninstallText", "UninstPage", "UnRegDLL", "Var", "VIAddVersionKey", "VIFileVersion", "VIProductVersion", "WindowIcon", "WriteINIStr", "WriteRegBin", "WriteRegDWORD", "WriteRegExpandStr", "WriteRegMultiStr", "WriteRegNone", "WriteRegStr", "WriteUninstaller", "XPStyle"];
+    const KEYWORDS = ["Abort", "AddBrandingImage", "AddSize", "AllowRootDirInstall", "AllowSkipFiles", "AutoCloseWindow", "BGFont", "BGGradient", "BrandingText", "BringToFront", "Call", "CallInstDLL", "Caption", "ChangeUI", "CheckBitmap", "ClearErrors", "CompletedText", "ComponentText", "CopyFiles", "CRCCheck", "CreateDirectory", "CreateFont", "CreateShortCut", "Delete", "DeleteINISec", "DeleteINIStr", "DeleteRegKey", "DeleteRegValue", "DetailPrint", "DetailsButtonText", "DirText", "DirVar", "DirVerify", "EnableWindow", "EnumRegKey", "EnumRegValue", "Exch", "Exec", "ExecShell", "ExecShellWait", "ExecWait", "ExpandEnvStrings", "File", "FileBufSize", "FileClose", "FileErrorText", "FileOpen", "FileRead", "FileReadByte", "FileReadUTF16LE", "FileReadWord", "FileWriteUTF16LE", "FileSeek", "FileWrite", "FileWriteByte", "FileWriteWord", "FindClose", "FindFirst", "FindNext", "FindWindow", "FlushINI", "GetCurInstType", "GetCurrentAddress", "GetDlgItem", "GetDLLVersion", "GetDLLVersionLocal", "GetErrorLevel", "GetFileTime", "GetFileTimeLocal", "GetFullPathName", "GetFunctionAddress", "GetInstDirError", "GetKnownFolderPath", "GetLabelAddress", "GetTempFileName", "GetWinVer", "Goto", "HideWindow", "Icon", "IfAbort", "IfErrors", "IfFileExists", "IfRebootFlag", "IfRtlLanguage", "IfShellVarContextAll", "IfSilent", "InitPluginsDir", "InstallButtonText", "InstallColors", "InstallDir", "InstallDirRegKey", "InstProgressFlags", "InstType", "InstTypeGetText", "InstTypeSetText", "Int64Cmp", "Int64CmpU", "Int64Fmt", "IntCmp", "IntCmpU", "IntFmt", "IntOp", "IntPtrCmp", "IntPtrCmpU", "IntPtrOp", "IsWindow", "LangString", "LicenseBkColor", "LicenseData", "LicenseForceSelection", "LicenseLangString", "LicenseText", "LoadAndSetImage", "LoadLanguageFile", "LockWindow", "LogSet", "LogText", "ManifestDPIAware", "ManifestLongPathAware", "ManifestMaxVersionTested", "ManifestSupportedOS", "MessageBox", "MiscButtonText", "Name|0", "Nop", "OutFile", "Page", "PageCallbacks", "PEAddResource", "PEDllCharacteristics", "PERemoveResource", "PESubsysVer", "Pop", "Push", "Quit", "ReadEnvStr", "ReadINIStr", "ReadRegDWORD", "ReadRegStr", "Reboot", "RegDLL", "Rename", "RequestExecutionLevel", "ReserveFile", "Return", "RMDir", "SearchPath", "SectionGetFlags", "SectionGetInstTypes", "SectionGetSize", "SectionGetText", "SectionIn", "SectionSetFlags", "SectionSetInstTypes", "SectionSetSize", "SectionSetText", "SendMessage", "SetAutoClose", "SetBrandingImage", "SetCompress", "SetCompressor", "SetCompressorDictSize", "SetCtlColors", "SetCurInstType", "SetDatablockOptimize", "SetDateSave", "SetDetailsPrint", "SetDetailsView", "SetErrorLevel", "SetErrors", "SetFileAttributes", "SetFont", "SetOutPath", "SetOverwrite", "SetRebootFlag", "SetRegView", "SetShellVarContext", "SetSilent", "ShowInstDetails", "ShowUninstDetails", "ShowWindow", "SilentInstall", "SilentUnInstall", "Sleep", "SpaceTexts", "StrCmp", "StrCmpS", "StrCpy", "StrLen", "SubCaption", "Unicode", "UninstallButtonText", "UninstallCaption", "UninstallIcon", "UninstallSubCaption", "UninstallText", "UninstPage", "UnRegDLL", "Var", "VIAddVersionKey", "VIFileVersion", "VIProductVersion", "WindowIcon", "WriteINIStr", "WriteRegBin", "WriteRegDWORD", "WriteRegExpandStr", "WriteRegMultiStr", "WriteRegNone", "WriteRegStr", "WriteUninstaller", "XPStyle"];
     const LITERALS = ["admin", "all", "auto", "both", "bottom", "bzip2", "colored", "components", "current", "custom", "directory", "false", "force", "hide", "highest", "ifdiff", "ifnewer", "instfiles", "lastused", "leave", "left", "license", "listonly", "lzma", "nevershow", "none", "normal", "notset", "off", "on", "open", "print", "right", "show", "silent", "silentlog", "smooth", "textonly", "top", "true", "try", "un.components", "un.custom", "un.directory", "un.instfiles", "un.license", "uninstConfirm", "user", "Win10", "Win7", "Win8", "WinVista", "zlib"];
     const FUNCTION_DEFINITION = {
       match: [/Function/, /\s+/, regex.concat(/(\.)?/, hljs.IDENT_RE)],
@@ -31653,14 +31761,17 @@ export default {
       begin: '\\b(AV|CA|CF|CG|CI|CL|CM|CN|CT|MK|MP|MTK|MTL|NS|SCN|SK|UI|WK|XC)\\w+'
     };
     const IDENTIFIER_RE = /[a-zA-Z@][a-zA-Z0-9_]*/;
-    const KWS = ["int", "float", "while", "char", "export", "sizeof", "typedef", "const", "struct", "for", "union", "unsigned", "long", "volatile", "static", "bool", "mutable", "if", "do", "return", "goto", "void", "enum", "else", "break", "extern", "asm", "case", "short", "default", "double", "register", "explicit", "signed", "typename", "this", "switch", "continue", "wchar_t", "inline", "readonly", "assign", "readwrite", "self", "@synchronized", "id", "typeof", "nonatomic", "super", "unichar", "IBOutlet", "IBAction", "strong", "weak", "copy", "in", "out", "inout", "bycopy", "byref", "oneway", "__strong", "__weak", "__block", "__autoreleasing", "@private", "@protected", "@public", "@try", "@property", "@end", "@throw", "@catch", "@finally", "@autoreleasepool", "@synthesize", "@dynamic", "@selector", "@optional", "@required", "@encode", "@package", "@import", "@defs", "@compatibility_alias", "__bridge", "__bridge_transfer", "__bridge_retained", "__bridge_retain", "__covariant", "__contravariant", "__kindof", "_Nonnull", "_Nullable", "_Null_unspecified", "__FUNCTION__", "__PRETTY_FUNCTION__", "__attribute__", "getter", "setter", "retain", "unsafe_unretained", "nonnull", "nullable", "null_unspecified", "null_resettable", "class", "instancetype", "NS_DESIGNATED_INITIALIZER", "NS_UNAVAILABLE", "NS_REQUIRES_SUPER", "NS_RETURNS_INNER_POINTER", "NS_INLINE", "NS_AVAILABLE", "NS_DEPRECATED", "NS_ENUM", "NS_OPTIONS", "NS_SWIFT_UNAVAILABLE", "NS_ASSUME_NONNULL_BEGIN", "NS_ASSUME_NONNULL_END", "NS_REFINED_FOR_SWIFT", "NS_SWIFT_NAME", "NS_SWIFT_NOTHROW", "NS_DURING", "NS_HANDLER", "NS_ENDHANDLER", "NS_VALUERETURN", "NS_VOIDRETURN"];
+    const TYPES = ["int", "float", "char", "unsigned", "signed", "short", "long", "double", "wchar_t", "unichar", "void", "bool", "BOOL", "id|0", "_Bool"];
+    const KWS = ["while", "export", "sizeof", "typedef", "const", "struct", "for", "union", "volatile", "static", "mutable", "if", "do", "return", "goto", "enum", "else", "break", "extern", "asm", "case", "default", "register", "explicit", "typename", "switch", "continue", "inline", "readonly", "assign", "readwrite", "self", "@synchronized", "id", "typeof", "nonatomic", "IBOutlet", "IBAction", "strong", "weak", "copy", "in", "out", "inout", "bycopy", "byref", "oneway", "__strong", "__weak", "__block", "__autoreleasing", "@private", "@protected", "@public", "@try", "@property", "@end", "@throw", "@catch", "@finally", "@autoreleasepool", "@synthesize", "@dynamic", "@selector", "@optional", "@required", "@encode", "@package", "@import", "@defs", "@compatibility_alias", "__bridge", "__bridge_transfer", "__bridge_retained", "__bridge_retain", "__covariant", "__contravariant", "__kindof", "_Nonnull", "_Nullable", "_Null_unspecified", "__FUNCTION__", "__PRETTY_FUNCTION__", "__attribute__", "getter", "setter", "retain", "unsafe_unretained", "nonnull", "nullable", "null_unspecified", "null_resettable", "class", "instancetype", "NS_DESIGNATED_INITIALIZER", "NS_UNAVAILABLE", "NS_REQUIRES_SUPER", "NS_RETURNS_INNER_POINTER", "NS_INLINE", "NS_AVAILABLE", "NS_DEPRECATED", "NS_ENUM", "NS_OPTIONS", "NS_SWIFT_UNAVAILABLE", "NS_ASSUME_NONNULL_BEGIN", "NS_ASSUME_NONNULL_END", "NS_REFINED_FOR_SWIFT", "NS_SWIFT_NAME", "NS_SWIFT_NOTHROW", "NS_DURING", "NS_HANDLER", "NS_ENDHANDLER", "NS_VALUERETURN", "NS_VOIDRETURN"];
     const LITERALS = ["false", "true", "FALSE", "TRUE", "nil", "YES", "NO", "NULL"];
-    const BUILT_INS = ["BOOL", "dispatch_once_t", "dispatch_queue_t", "dispatch_sync", "dispatch_async", "dispatch_once"];
+    const BUILT_INS = ["dispatch_once_t", "dispatch_queue_t", "dispatch_sync", "dispatch_async", "dispatch_once"];
     const KEYWORDS = {
+      "variable.language": ["this", "super"],
       $pattern: IDENTIFIER_RE,
       keyword: KWS,
       literal: LITERALS,
-      built_in: BUILT_INS
+      built_in: BUILT_INS,
+      type: TYPES
     };
     const CLASS_KEYWORDS = {
       $pattern: IDENTIFIER_RE,
@@ -31728,14 +31839,14 @@ export default {
       aliases: ['ml'],
       keywords: {
         $pattern: '[a-z_]\\w*!?',
-        keyword: 'and as assert asr begin class constraint do done downto else end ' + 'exception external for fun function functor if in include ' + 'inherit! inherit initializer land lazy let lor lsl lsr lxor match method!|10 method ' + 'mod module mutable new object of open! open or private rec sig struct ' + 'then to try type val! val virtual when while with ' +
+        keyword: 'and as assert asr begin class constraint do done downto else end ' + 'exception external for fun function functor if in include ' + 'inherit! inherit initializer land lazy let lor lsl lsr lxor match method!|10 method ' + 'mod module mutable new object of open! open or private rec sig struct ' + 'then to try type val! val virtual when while with '
         /* camlp4 */
-        'parser value',
+        + 'parser value',
         built_in:
         /* built-in types */
-        'array bool bytes char exn|5 float int int32 int64 list lazy_t|5 nativeint|5 string unit ' +
+        'array bool bytes char exn|5 float int int32 int64 list lazy_t|5 nativeint|5 string unit '
         /* (some) types in Pervasives */
-        'in_channel out_channel ref',
+        + 'in_channel out_channel ref',
         literal: 'true false'
       },
       illegal: /\/\/|>>/,
@@ -31761,7 +31872,7 @@ export default {
         begin: '\\b[A-Z][\\w\']*',
         relevance: 0
       }, {
-        /* don't color identifiers, but safely catch all identifiers with '*/
+        /* don't color identifiers, but safely catch all identifiers with ' */
         begin: '[a-z_]\\w*\'[\\w\']*',
         relevance: 0
       }, hljs.inherit(hljs.APOS_STRING_MODE, {
@@ -31954,7 +32065,8 @@ export default {
   function pf(hljs) {
     const MACRO = {
       className: 'variable',
-      begin: /\$[\w\d#@][\w\d_]*/
+      begin: /\$[\w\d#@][\w\d_]*/,
+      relevance: 0
     };
     const TABLE = {
       className: 'variable',
@@ -32005,56 +32117,56 @@ export default {
     const SQL_KW = // https://www.postgresql.org/docs/11/static/sql-keywords-appendix.html
     // https://www.postgresql.org/docs/11/static/sql-commands.html
     // SQL commands (starting words)
-    'ABORT ALTER ANALYZE BEGIN CALL CHECKPOINT|10 CLOSE CLUSTER COMMENT COMMIT COPY CREATE DEALLOCATE DECLARE ' + 'DELETE DISCARD DO DROP END EXECUTE EXPLAIN FETCH GRANT IMPORT INSERT LISTEN LOAD LOCK MOVE NOTIFY ' + 'PREPARE REASSIGN|10 REFRESH REINDEX RELEASE RESET REVOKE ROLLBACK SAVEPOINT SECURITY SELECT SET SHOW ' + 'START TRUNCATE UNLISTEN|10 UPDATE VACUUM|10 VALUES ' + // SQL commands (others)
-    'AGGREGATE COLLATION CONVERSION|10 DATABASE DEFAULT PRIVILEGES DOMAIN TRIGGER EXTENSION FOREIGN ' + 'WRAPPER|10 TABLE FUNCTION GROUP LANGUAGE LARGE OBJECT MATERIALIZED VIEW OPERATOR CLASS ' + 'FAMILY POLICY PUBLICATION|10 ROLE RULE SCHEMA SEQUENCE SERVER STATISTICS SUBSCRIPTION SYSTEM ' + 'TABLESPACE CONFIGURATION DICTIONARY PARSER TEMPLATE TYPE USER MAPPING PREPARED ACCESS ' + 'METHOD CAST AS TRANSFORM TRANSACTION OWNED TO INTO SESSION AUTHORIZATION ' + 'INDEX PROCEDURE ASSERTION ' + // additional reserved key words
-    'ALL ANALYSE AND ANY ARRAY ASC ASYMMETRIC|10 BOTH CASE CHECK ' + 'COLLATE COLUMN CONCURRENTLY|10 CONSTRAINT CROSS ' + 'DEFERRABLE RANGE ' + 'DESC DISTINCT ELSE EXCEPT FOR FREEZE|10 FROM FULL HAVING ' + 'ILIKE IN INITIALLY INNER INTERSECT IS ISNULL JOIN LATERAL LEADING LIKE LIMIT ' + 'NATURAL NOT NOTNULL NULL OFFSET ON ONLY OR ORDER OUTER OVERLAPS PLACING PRIMARY ' + 'REFERENCES RETURNING SIMILAR SOME SYMMETRIC TABLESAMPLE THEN ' + 'TRAILING UNION UNIQUE USING VARIADIC|10 VERBOSE WHEN WHERE WINDOW WITH ' + // some of non-reserved (which are used in clauses or as PL/pgSQL keyword)
-    'BY RETURNS INOUT OUT SETOF|10 IF STRICT CURRENT CONTINUE OWNER LOCATION OVER PARTITION WITHIN ' + 'BETWEEN ESCAPE EXTERNAL INVOKER DEFINER WORK RENAME VERSION CONNECTION CONNECT ' + 'TABLES TEMP TEMPORARY FUNCTIONS SEQUENCES TYPES SCHEMAS OPTION CASCADE RESTRICT ADD ADMIN ' + 'EXISTS VALID VALIDATE ENABLE DISABLE REPLICA|10 ALWAYS PASSING COLUMNS PATH ' + 'REF VALUE OVERRIDING IMMUTABLE STABLE VOLATILE BEFORE AFTER EACH ROW PROCEDURAL ' + 'ROUTINE NO HANDLER VALIDATOR OPTIONS STORAGE OIDS|10 WITHOUT INHERIT DEPENDS CALLED ' + 'INPUT LEAKPROOF|10 COST ROWS NOWAIT SEARCH UNTIL ENCRYPTED|10 PASSWORD CONFLICT|10 ' + 'INSTEAD INHERITS CHARACTERISTICS WRITE CURSOR ALSO STATEMENT SHARE EXCLUSIVE INLINE ' + 'ISOLATION REPEATABLE READ COMMITTED SERIALIZABLE UNCOMMITTED LOCAL GLOBAL SQL PROCEDURES ' + 'RECURSIVE SNAPSHOT ROLLUP CUBE TRUSTED|10 INCLUDE FOLLOWING PRECEDING UNBOUNDED RANGE GROUPS ' + 'UNENCRYPTED|10 SYSID FORMAT DELIMITER HEADER QUOTE ENCODING FILTER OFF ' + // some parameters of VACUUM/ANALYZE/EXPLAIN
-    'FORCE_QUOTE FORCE_NOT_NULL FORCE_NULL COSTS BUFFERS TIMING SUMMARY DISABLE_PAGE_SKIPPING ' + //
-    'RESTART CYCLE GENERATED IDENTITY DEFERRED IMMEDIATE LEVEL LOGGED UNLOGGED ' + 'OF NOTHING NONE EXCLUDE ATTRIBUTE ' + // from GRANT (not keywords actually)
-    'USAGE ROUTINES ' + // actually literals, but look better this way (due to IS TRUE, IS FALSE, ISNULL etc)
-    'TRUE FALSE NAN INFINITY ';
+    'ABORT ALTER ANALYZE BEGIN CALL CHECKPOINT|10 CLOSE CLUSTER COMMENT COMMIT COPY CREATE DEALLOCATE DECLARE ' + 'DELETE DISCARD DO DROP END EXECUTE EXPLAIN FETCH GRANT IMPORT INSERT LISTEN LOAD LOCK MOVE NOTIFY ' + 'PREPARE REASSIGN|10 REFRESH REINDEX RELEASE RESET REVOKE ROLLBACK SAVEPOINT SECURITY SELECT SET SHOW ' + 'START TRUNCATE UNLISTEN|10 UPDATE VACUUM|10 VALUES ' // SQL commands (others)
+    + 'AGGREGATE COLLATION CONVERSION|10 DATABASE DEFAULT PRIVILEGES DOMAIN TRIGGER EXTENSION FOREIGN ' + 'WRAPPER|10 TABLE FUNCTION GROUP LANGUAGE LARGE OBJECT MATERIALIZED VIEW OPERATOR CLASS ' + 'FAMILY POLICY PUBLICATION|10 ROLE RULE SCHEMA SEQUENCE SERVER STATISTICS SUBSCRIPTION SYSTEM ' + 'TABLESPACE CONFIGURATION DICTIONARY PARSER TEMPLATE TYPE USER MAPPING PREPARED ACCESS ' + 'METHOD CAST AS TRANSFORM TRANSACTION OWNED TO INTO SESSION AUTHORIZATION ' + 'INDEX PROCEDURE ASSERTION ' // additional reserved key words
+    + 'ALL ANALYSE AND ANY ARRAY ASC ASYMMETRIC|10 BOTH CASE CHECK ' + 'COLLATE COLUMN CONCURRENTLY|10 CONSTRAINT CROSS ' + 'DEFERRABLE RANGE ' + 'DESC DISTINCT ELSE EXCEPT FOR FREEZE|10 FROM FULL HAVING ' + 'ILIKE IN INITIALLY INNER INTERSECT IS ISNULL JOIN LATERAL LEADING LIKE LIMIT ' + 'NATURAL NOT NOTNULL NULL OFFSET ON ONLY OR ORDER OUTER OVERLAPS PLACING PRIMARY ' + 'REFERENCES RETURNING SIMILAR SOME SYMMETRIC TABLESAMPLE THEN ' + 'TRAILING UNION UNIQUE USING VARIADIC|10 VERBOSE WHEN WHERE WINDOW WITH ' // some of non-reserved (which are used in clauses or as PL/pgSQL keyword)
+    + 'BY RETURNS INOUT OUT SETOF|10 IF STRICT CURRENT CONTINUE OWNER LOCATION OVER PARTITION WITHIN ' + 'BETWEEN ESCAPE EXTERNAL INVOKER DEFINER WORK RENAME VERSION CONNECTION CONNECT ' + 'TABLES TEMP TEMPORARY FUNCTIONS SEQUENCES TYPES SCHEMAS OPTION CASCADE RESTRICT ADD ADMIN ' + 'EXISTS VALID VALIDATE ENABLE DISABLE REPLICA|10 ALWAYS PASSING COLUMNS PATH ' + 'REF VALUE OVERRIDING IMMUTABLE STABLE VOLATILE BEFORE AFTER EACH ROW PROCEDURAL ' + 'ROUTINE NO HANDLER VALIDATOR OPTIONS STORAGE OIDS|10 WITHOUT INHERIT DEPENDS CALLED ' + 'INPUT LEAKPROOF|10 COST ROWS NOWAIT SEARCH UNTIL ENCRYPTED|10 PASSWORD CONFLICT|10 ' + 'INSTEAD INHERITS CHARACTERISTICS WRITE CURSOR ALSO STATEMENT SHARE EXCLUSIVE INLINE ' + 'ISOLATION REPEATABLE READ COMMITTED SERIALIZABLE UNCOMMITTED LOCAL GLOBAL SQL PROCEDURES ' + 'RECURSIVE SNAPSHOT ROLLUP CUBE TRUSTED|10 INCLUDE FOLLOWING PRECEDING UNBOUNDED RANGE GROUPS ' + 'UNENCRYPTED|10 SYSID FORMAT DELIMITER HEADER QUOTE ENCODING FILTER OFF ' // some parameters of VACUUM/ANALYZE/EXPLAIN
+    + 'FORCE_QUOTE FORCE_NOT_NULL FORCE_NULL COSTS BUFFERS TIMING SUMMARY DISABLE_PAGE_SKIPPING ' //
+    + 'RESTART CYCLE GENERATED IDENTITY DEFERRED IMMEDIATE LEVEL LOGGED UNLOGGED ' + 'OF NOTHING NONE EXCLUDE ATTRIBUTE ' // from GRANT (not keywords actually)
+    + 'USAGE ROUTINES ' // actually literals, but look better this way (due to IS TRUE, IS FALSE, ISNULL etc)
+    + 'TRUE FALSE NAN INFINITY ';
     const ROLE_ATTRS = // only those not in keywrods already
     'SUPERUSER NOSUPERUSER CREATEDB NOCREATEDB CREATEROLE NOCREATEROLE INHERIT NOINHERIT ' + 'LOGIN NOLOGIN REPLICATION NOREPLICATION BYPASSRLS NOBYPASSRLS ';
     const PLPGSQL_KW = 'ALIAS BEGIN CONSTANT DECLARE END EXCEPTION RETURN PERFORM|10 RAISE GET DIAGNOSTICS ' + 'STACKED|10 FOREACH LOOP ELSIF EXIT WHILE REVERSE SLICE DEBUG LOG INFO NOTICE WARNING ASSERT ' + 'OPEN ';
     const TYPES = // https://www.postgresql.org/docs/11/static/datatype.html
-    'BIGINT INT8 BIGSERIAL SERIAL8 BIT VARYING VARBIT BOOLEAN BOOL BOX BYTEA CHARACTER CHAR VARCHAR ' + 'CIDR CIRCLE DATE DOUBLE PRECISION FLOAT8 FLOAT INET INTEGER INT INT4 INTERVAL JSON JSONB LINE LSEG|10 ' + 'MACADDR MACADDR8 MONEY NUMERIC DEC DECIMAL PATH POINT POLYGON REAL FLOAT4 SMALLINT INT2 ' + 'SMALLSERIAL|10 SERIAL2|10 SERIAL|10 SERIAL4|10 TEXT TIME ZONE TIMETZ|10 TIMESTAMP TIMESTAMPTZ|10 TSQUERY|10 TSVECTOR|10 ' + 'TXID_SNAPSHOT|10 UUID XML NATIONAL NCHAR ' + 'INT4RANGE|10 INT8RANGE|10 NUMRANGE|10 TSRANGE|10 TSTZRANGE|10 DATERANGE|10 ' + // pseudotypes
-    'ANYELEMENT ANYARRAY ANYNONARRAY ANYENUM ANYRANGE CSTRING INTERNAL ' + 'RECORD PG_DDL_COMMAND VOID UNKNOWN OPAQUE REFCURSOR ' + // spec. type
-    'NAME ' + // OID-types
-    'OID REGPROC|10 REGPROCEDURE|10 REGOPER|10 REGOPERATOR|10 REGCLASS|10 REGTYPE|10 REGROLE|10 ' + 'REGNAMESPACE|10 REGCONFIG|10 REGDICTIONARY|10 '; // +
+    'BIGINT INT8 BIGSERIAL SERIAL8 BIT VARYING VARBIT BOOLEAN BOOL BOX BYTEA CHARACTER CHAR VARCHAR ' + 'CIDR CIRCLE DATE DOUBLE PRECISION FLOAT8 FLOAT INET INTEGER INT INT4 INTERVAL JSON JSONB LINE LSEG|10 ' + 'MACADDR MACADDR8 MONEY NUMERIC DEC DECIMAL PATH POINT POLYGON REAL FLOAT4 SMALLINT INT2 ' + 'SMALLSERIAL|10 SERIAL2|10 SERIAL|10 SERIAL4|10 TEXT TIME ZONE TIMETZ|10 TIMESTAMP TIMESTAMPTZ|10 TSQUERY|10 TSVECTOR|10 ' + 'TXID_SNAPSHOT|10 UUID XML NATIONAL NCHAR ' + 'INT4RANGE|10 INT8RANGE|10 NUMRANGE|10 TSRANGE|10 TSTZRANGE|10 DATERANGE|10 ' // pseudotypes
+    + 'ANYELEMENT ANYARRAY ANYNONARRAY ANYENUM ANYRANGE CSTRING INTERNAL ' + 'RECORD PG_DDL_COMMAND VOID UNKNOWN OPAQUE REFCURSOR ' // spec. type
+    + 'NAME ' // OID-types
+    + 'OID REGPROC|10 REGPROCEDURE|10 REGOPER|10 REGOPERATOR|10 REGCLASS|10 REGTYPE|10 REGROLE|10 ' + 'REGNAMESPACE|10 REGCONFIG|10 REGDICTIONARY|10 '; // +
 
     const TYPES_RE = TYPES.trim().split(' ').map(function (val) {
       return val.split('|')[0];
     }).join('|');
     const SQL_BI = 'CURRENT_TIME CURRENT_TIMESTAMP CURRENT_USER CURRENT_CATALOG|10 CURRENT_DATE LOCALTIME LOCALTIMESTAMP ' + 'CURRENT_ROLE|10 CURRENT_SCHEMA|10 SESSION_USER PUBLIC ';
-    const PLPGSQL_BI = 'FOUND NEW OLD TG_NAME|10 TG_WHEN|10 TG_LEVEL|10 TG_OP|10 TG_RELID|10 TG_RELNAME|10 ' + 'TG_TABLE_NAME|10 TG_TABLE_SCHEMA|10 TG_NARGS|10 TG_ARGV|10 TG_EVENT|10 TG_TAG|10 ' + // get diagnostics
-    'ROW_COUNT RESULT_OID|10 PG_CONTEXT|10 RETURNED_SQLSTATE COLUMN_NAME CONSTRAINT_NAME ' + 'PG_DATATYPE_NAME|10 MESSAGE_TEXT TABLE_NAME SCHEMA_NAME PG_EXCEPTION_DETAIL|10 ' + 'PG_EXCEPTION_HINT|10 PG_EXCEPTION_CONTEXT|10 ';
+    const PLPGSQL_BI = 'FOUND NEW OLD TG_NAME|10 TG_WHEN|10 TG_LEVEL|10 TG_OP|10 TG_RELID|10 TG_RELNAME|10 ' + 'TG_TABLE_NAME|10 TG_TABLE_SCHEMA|10 TG_NARGS|10 TG_ARGV|10 TG_EVENT|10 TG_TAG|10 ' // get diagnostics
+    + 'ROW_COUNT RESULT_OID|10 PG_CONTEXT|10 RETURNED_SQLSTATE COLUMN_NAME CONSTRAINT_NAME ' + 'PG_DATATYPE_NAME|10 MESSAGE_TEXT TABLE_NAME SCHEMA_NAME PG_EXCEPTION_DETAIL|10 ' + 'PG_EXCEPTION_HINT|10 PG_EXCEPTION_CONTEXT|10 ';
     const PLPGSQL_EXCEPTIONS = // exceptions https://www.postgresql.org/docs/current/static/errcodes-appendix.html
     'SQLSTATE SQLERRM|10 ' + 'SUCCESSFUL_COMPLETION WARNING DYNAMIC_RESULT_SETS_RETURNED IMPLICIT_ZERO_BIT_PADDING ' + 'NULL_VALUE_ELIMINATED_IN_SET_FUNCTION PRIVILEGE_NOT_GRANTED PRIVILEGE_NOT_REVOKED ' + 'STRING_DATA_RIGHT_TRUNCATION DEPRECATED_FEATURE NO_DATA NO_ADDITIONAL_DYNAMIC_RESULT_SETS_RETURNED ' + 'SQL_STATEMENT_NOT_YET_COMPLETE CONNECTION_EXCEPTION CONNECTION_DOES_NOT_EXIST CONNECTION_FAILURE ' + 'SQLCLIENT_UNABLE_TO_ESTABLISH_SQLCONNECTION SQLSERVER_REJECTED_ESTABLISHMENT_OF_SQLCONNECTION ' + 'TRANSACTION_RESOLUTION_UNKNOWN PROTOCOL_VIOLATION TRIGGERED_ACTION_EXCEPTION FEATURE_NOT_SUPPORTED ' + 'INVALID_TRANSACTION_INITIATION LOCATOR_EXCEPTION INVALID_LOCATOR_SPECIFICATION INVALID_GRANTOR ' + 'INVALID_GRANT_OPERATION INVALID_ROLE_SPECIFICATION DIAGNOSTICS_EXCEPTION ' + 'STACKED_DIAGNOSTICS_ACCESSED_WITHOUT_ACTIVE_HANDLER CASE_NOT_FOUND CARDINALITY_VIOLATION ' + 'DATA_EXCEPTION ARRAY_SUBSCRIPT_ERROR CHARACTER_NOT_IN_REPERTOIRE DATETIME_FIELD_OVERFLOW ' + 'DIVISION_BY_ZERO ERROR_IN_ASSIGNMENT ESCAPE_CHARACTER_CONFLICT INDICATOR_OVERFLOW ' + 'INTERVAL_FIELD_OVERFLOW INVALID_ARGUMENT_FOR_LOGARITHM INVALID_ARGUMENT_FOR_NTILE_FUNCTION ' + 'INVALID_ARGUMENT_FOR_NTH_VALUE_FUNCTION INVALID_ARGUMENT_FOR_POWER_FUNCTION ' + 'INVALID_ARGUMENT_FOR_WIDTH_BUCKET_FUNCTION INVALID_CHARACTER_VALUE_FOR_CAST ' + 'INVALID_DATETIME_FORMAT INVALID_ESCAPE_CHARACTER INVALID_ESCAPE_OCTET INVALID_ESCAPE_SEQUENCE ' + 'NONSTANDARD_USE_OF_ESCAPE_CHARACTER INVALID_INDICATOR_PARAMETER_VALUE INVALID_PARAMETER_VALUE ' + 'INVALID_REGULAR_EXPRESSION INVALID_ROW_COUNT_IN_LIMIT_CLAUSE ' + 'INVALID_ROW_COUNT_IN_RESULT_OFFSET_CLAUSE INVALID_TABLESAMPLE_ARGUMENT INVALID_TABLESAMPLE_REPEAT ' + 'INVALID_TIME_ZONE_DISPLACEMENT_VALUE INVALID_USE_OF_ESCAPE_CHARACTER MOST_SPECIFIC_TYPE_MISMATCH ' + 'NULL_VALUE_NOT_ALLOWED NULL_VALUE_NO_INDICATOR_PARAMETER NUMERIC_VALUE_OUT_OF_RANGE ' + 'SEQUENCE_GENERATOR_LIMIT_EXCEEDED STRING_DATA_LENGTH_MISMATCH STRING_DATA_RIGHT_TRUNCATION ' + 'SUBSTRING_ERROR TRIM_ERROR UNTERMINATED_C_STRING ZERO_LENGTH_CHARACTER_STRING ' + 'FLOATING_POINT_EXCEPTION INVALID_TEXT_REPRESENTATION INVALID_BINARY_REPRESENTATION ' + 'BAD_COPY_FILE_FORMAT UNTRANSLATABLE_CHARACTER NOT_AN_XML_DOCUMENT INVALID_XML_DOCUMENT ' + 'INVALID_XML_CONTENT INVALID_XML_COMMENT INVALID_XML_PROCESSING_INSTRUCTION ' + 'INTEGRITY_CONSTRAINT_VIOLATION RESTRICT_VIOLATION NOT_NULL_VIOLATION FOREIGN_KEY_VIOLATION ' + 'UNIQUE_VIOLATION CHECK_VIOLATION EXCLUSION_VIOLATION INVALID_CURSOR_STATE ' + 'INVALID_TRANSACTION_STATE ACTIVE_SQL_TRANSACTION BRANCH_TRANSACTION_ALREADY_ACTIVE ' + 'HELD_CURSOR_REQUIRES_SAME_ISOLATION_LEVEL INAPPROPRIATE_ACCESS_MODE_FOR_BRANCH_TRANSACTION ' + 'INAPPROPRIATE_ISOLATION_LEVEL_FOR_BRANCH_TRANSACTION ' + 'NO_ACTIVE_SQL_TRANSACTION_FOR_BRANCH_TRANSACTION READ_ONLY_SQL_TRANSACTION ' + 'SCHEMA_AND_DATA_STATEMENT_MIXING_NOT_SUPPORTED NO_ACTIVE_SQL_TRANSACTION ' + 'IN_FAILED_SQL_TRANSACTION IDLE_IN_TRANSACTION_SESSION_TIMEOUT INVALID_SQL_STATEMENT_NAME ' + 'TRIGGERED_DATA_CHANGE_VIOLATION INVALID_AUTHORIZATION_SPECIFICATION INVALID_PASSWORD ' + 'DEPENDENT_PRIVILEGE_DESCRIPTORS_STILL_EXIST DEPENDENT_OBJECTS_STILL_EXIST ' + 'INVALID_TRANSACTION_TERMINATION SQL_ROUTINE_EXCEPTION FUNCTION_EXECUTED_NO_RETURN_STATEMENT ' + 'MODIFYING_SQL_DATA_NOT_PERMITTED PROHIBITED_SQL_STATEMENT_ATTEMPTED ' + 'READING_SQL_DATA_NOT_PERMITTED INVALID_CURSOR_NAME EXTERNAL_ROUTINE_EXCEPTION ' + 'CONTAINING_SQL_NOT_PERMITTED MODIFYING_SQL_DATA_NOT_PERMITTED ' + 'PROHIBITED_SQL_STATEMENT_ATTEMPTED READING_SQL_DATA_NOT_PERMITTED ' + 'EXTERNAL_ROUTINE_INVOCATION_EXCEPTION INVALID_SQLSTATE_RETURNED NULL_VALUE_NOT_ALLOWED ' + 'TRIGGER_PROTOCOL_VIOLATED SRF_PROTOCOL_VIOLATED EVENT_TRIGGER_PROTOCOL_VIOLATED ' + 'SAVEPOINT_EXCEPTION INVALID_SAVEPOINT_SPECIFICATION INVALID_CATALOG_NAME ' + 'INVALID_SCHEMA_NAME TRANSACTION_ROLLBACK TRANSACTION_INTEGRITY_CONSTRAINT_VIOLATION ' + 'SERIALIZATION_FAILURE STATEMENT_COMPLETION_UNKNOWN DEADLOCK_DETECTED ' + 'SYNTAX_ERROR_OR_ACCESS_RULE_VIOLATION SYNTAX_ERROR INSUFFICIENT_PRIVILEGE CANNOT_COERCE ' + 'GROUPING_ERROR WINDOWING_ERROR INVALID_RECURSION INVALID_FOREIGN_KEY INVALID_NAME ' + 'NAME_TOO_LONG RESERVED_NAME DATATYPE_MISMATCH INDETERMINATE_DATATYPE COLLATION_MISMATCH ' + 'INDETERMINATE_COLLATION WRONG_OBJECT_TYPE GENERATED_ALWAYS UNDEFINED_COLUMN ' + 'UNDEFINED_FUNCTION UNDEFINED_TABLE UNDEFINED_PARAMETER UNDEFINED_OBJECT ' + 'DUPLICATE_COLUMN DUPLICATE_CURSOR DUPLICATE_DATABASE DUPLICATE_FUNCTION ' + 'DUPLICATE_PREPARED_STATEMENT DUPLICATE_SCHEMA DUPLICATE_TABLE DUPLICATE_ALIAS ' + 'DUPLICATE_OBJECT AMBIGUOUS_COLUMN AMBIGUOUS_FUNCTION AMBIGUOUS_PARAMETER AMBIGUOUS_ALIAS ' + 'INVALID_COLUMN_REFERENCE INVALID_COLUMN_DEFINITION INVALID_CURSOR_DEFINITION ' + 'INVALID_DATABASE_DEFINITION INVALID_FUNCTION_DEFINITION ' + 'INVALID_PREPARED_STATEMENT_DEFINITION INVALID_SCHEMA_DEFINITION INVALID_TABLE_DEFINITION ' + 'INVALID_OBJECT_DEFINITION WITH_CHECK_OPTION_VIOLATION INSUFFICIENT_RESOURCES DISK_FULL ' + 'OUT_OF_MEMORY TOO_MANY_CONNECTIONS CONFIGURATION_LIMIT_EXCEEDED PROGRAM_LIMIT_EXCEEDED ' + 'STATEMENT_TOO_COMPLEX TOO_MANY_COLUMNS TOO_MANY_ARGUMENTS OBJECT_NOT_IN_PREREQUISITE_STATE ' + 'OBJECT_IN_USE CANT_CHANGE_RUNTIME_PARAM LOCK_NOT_AVAILABLE OPERATOR_INTERVENTION ' + 'QUERY_CANCELED ADMIN_SHUTDOWN CRASH_SHUTDOWN CANNOT_CONNECT_NOW DATABASE_DROPPED ' + 'SYSTEM_ERROR IO_ERROR UNDEFINED_FILE DUPLICATE_FILE SNAPSHOT_TOO_OLD CONFIG_FILE_ERROR ' + 'LOCK_FILE_EXISTS FDW_ERROR FDW_COLUMN_NAME_NOT_FOUND FDW_DYNAMIC_PARAMETER_VALUE_NEEDED ' + 'FDW_FUNCTION_SEQUENCE_ERROR FDW_INCONSISTENT_DESCRIPTOR_INFORMATION ' + 'FDW_INVALID_ATTRIBUTE_VALUE FDW_INVALID_COLUMN_NAME FDW_INVALID_COLUMN_NUMBER ' + 'FDW_INVALID_DATA_TYPE FDW_INVALID_DATA_TYPE_DESCRIPTORS ' + 'FDW_INVALID_DESCRIPTOR_FIELD_IDENTIFIER FDW_INVALID_HANDLE FDW_INVALID_OPTION_INDEX ' + 'FDW_INVALID_OPTION_NAME FDW_INVALID_STRING_LENGTH_OR_BUFFER_LENGTH ' + 'FDW_INVALID_STRING_FORMAT FDW_INVALID_USE_OF_NULL_POINTER FDW_TOO_MANY_HANDLES ' + 'FDW_OUT_OF_MEMORY FDW_NO_SCHEMAS FDW_OPTION_NAME_NOT_FOUND FDW_REPLY_HANDLE ' + 'FDW_SCHEMA_NOT_FOUND FDW_TABLE_NOT_FOUND FDW_UNABLE_TO_CREATE_EXECUTION ' + 'FDW_UNABLE_TO_CREATE_REPLY FDW_UNABLE_TO_ESTABLISH_CONNECTION PLPGSQL_ERROR ' + 'RAISE_EXCEPTION NO_DATA_FOUND TOO_MANY_ROWS ASSERT_FAILURE INTERNAL_ERROR DATA_CORRUPTED ' + 'INDEX_CORRUPTED ';
     const FUNCTIONS = // https://www.postgresql.org/docs/11/static/functions-aggregate.html
-    'ARRAY_AGG AVG BIT_AND BIT_OR BOOL_AND BOOL_OR COUNT EVERY JSON_AGG JSONB_AGG JSON_OBJECT_AGG ' + 'JSONB_OBJECT_AGG MAX MIN MODE STRING_AGG SUM XMLAGG ' + 'CORR COVAR_POP COVAR_SAMP REGR_AVGX REGR_AVGY REGR_COUNT REGR_INTERCEPT REGR_R2 REGR_SLOPE ' + 'REGR_SXX REGR_SXY REGR_SYY STDDEV STDDEV_POP STDDEV_SAMP VARIANCE VAR_POP VAR_SAMP ' + 'PERCENTILE_CONT PERCENTILE_DISC ' + // https://www.postgresql.org/docs/11/static/functions-window.html
-    'ROW_NUMBER RANK DENSE_RANK PERCENT_RANK CUME_DIST NTILE LAG LEAD FIRST_VALUE LAST_VALUE NTH_VALUE ' + // https://www.postgresql.org/docs/11/static/functions-comparison.html
-    'NUM_NONNULLS NUM_NULLS ' + // https://www.postgresql.org/docs/11/static/functions-math.html
-    'ABS CBRT CEIL CEILING DEGREES DIV EXP FLOOR LN LOG MOD PI POWER RADIANS ROUND SCALE SIGN SQRT ' + 'TRUNC WIDTH_BUCKET ' + 'RANDOM SETSEED ' + 'ACOS ACOSD ASIN ASIND ATAN ATAND ATAN2 ATAN2D COS COSD COT COTD SIN SIND TAN TAND ' + // https://www.postgresql.org/docs/11/static/functions-string.html
-    'BIT_LENGTH CHAR_LENGTH CHARACTER_LENGTH LOWER OCTET_LENGTH OVERLAY POSITION SUBSTRING TREAT TRIM UPPER ' + 'ASCII BTRIM CHR CONCAT CONCAT_WS CONVERT CONVERT_FROM CONVERT_TO DECODE ENCODE INITCAP ' + 'LEFT LENGTH LPAD LTRIM MD5 PARSE_IDENT PG_CLIENT_ENCODING QUOTE_IDENT|10 QUOTE_LITERAL|10 ' + 'QUOTE_NULLABLE|10 REGEXP_MATCH REGEXP_MATCHES REGEXP_REPLACE REGEXP_SPLIT_TO_ARRAY ' + 'REGEXP_SPLIT_TO_TABLE REPEAT REPLACE REVERSE RIGHT RPAD RTRIM SPLIT_PART STRPOS SUBSTR ' + 'TO_ASCII TO_HEX TRANSLATE ' + // https://www.postgresql.org/docs/11/static/functions-binarystring.html
-    'OCTET_LENGTH GET_BIT GET_BYTE SET_BIT SET_BYTE ' + // https://www.postgresql.org/docs/11/static/functions-formatting.html
-    'TO_CHAR TO_DATE TO_NUMBER TO_TIMESTAMP ' + // https://www.postgresql.org/docs/11/static/functions-datetime.html
-    'AGE CLOCK_TIMESTAMP|10 DATE_PART DATE_TRUNC ISFINITE JUSTIFY_DAYS JUSTIFY_HOURS JUSTIFY_INTERVAL ' + 'MAKE_DATE MAKE_INTERVAL|10 MAKE_TIME MAKE_TIMESTAMP|10 MAKE_TIMESTAMPTZ|10 NOW STATEMENT_TIMESTAMP|10 ' + 'TIMEOFDAY TRANSACTION_TIMESTAMP|10 ' + // https://www.postgresql.org/docs/11/static/functions-enum.html
-    'ENUM_FIRST ENUM_LAST ENUM_RANGE ' + // https://www.postgresql.org/docs/11/static/functions-geometry.html
-    'AREA CENTER DIAMETER HEIGHT ISCLOSED ISOPEN NPOINTS PCLOSE POPEN RADIUS WIDTH ' + 'BOX BOUND_BOX CIRCLE LINE LSEG PATH POLYGON ' + // https://www.postgresql.org/docs/11/static/functions-net.html
-    'ABBREV BROADCAST HOST HOSTMASK MASKLEN NETMASK NETWORK SET_MASKLEN TEXT INET_SAME_FAMILY ' + 'INET_MERGE MACADDR8_SET7BIT ' + // https://www.postgresql.org/docs/11/static/functions-textsearch.html
-    'ARRAY_TO_TSVECTOR GET_CURRENT_TS_CONFIG NUMNODE PLAINTO_TSQUERY PHRASETO_TSQUERY WEBSEARCH_TO_TSQUERY ' + 'QUERYTREE SETWEIGHT STRIP TO_TSQUERY TO_TSVECTOR JSON_TO_TSVECTOR JSONB_TO_TSVECTOR TS_DELETE ' + 'TS_FILTER TS_HEADLINE TS_RANK TS_RANK_CD TS_REWRITE TSQUERY_PHRASE TSVECTOR_TO_ARRAY ' + 'TSVECTOR_UPDATE_TRIGGER TSVECTOR_UPDATE_TRIGGER_COLUMN ' + // https://www.postgresql.org/docs/11/static/functions-xml.html
-    'XMLCOMMENT XMLCONCAT XMLELEMENT XMLFOREST XMLPI XMLROOT ' + 'XMLEXISTS XML_IS_WELL_FORMED XML_IS_WELL_FORMED_DOCUMENT XML_IS_WELL_FORMED_CONTENT ' + 'XPATH XPATH_EXISTS XMLTABLE XMLNAMESPACES ' + 'TABLE_TO_XML TABLE_TO_XMLSCHEMA TABLE_TO_XML_AND_XMLSCHEMA ' + 'QUERY_TO_XML QUERY_TO_XMLSCHEMA QUERY_TO_XML_AND_XMLSCHEMA ' + 'CURSOR_TO_XML CURSOR_TO_XMLSCHEMA ' + 'SCHEMA_TO_XML SCHEMA_TO_XMLSCHEMA SCHEMA_TO_XML_AND_XMLSCHEMA ' + 'DATABASE_TO_XML DATABASE_TO_XMLSCHEMA DATABASE_TO_XML_AND_XMLSCHEMA ' + 'XMLATTRIBUTES ' + // https://www.postgresql.org/docs/11/static/functions-json.html
-    'TO_JSON TO_JSONB ARRAY_TO_JSON ROW_TO_JSON JSON_BUILD_ARRAY JSONB_BUILD_ARRAY JSON_BUILD_OBJECT ' + 'JSONB_BUILD_OBJECT JSON_OBJECT JSONB_OBJECT JSON_ARRAY_LENGTH JSONB_ARRAY_LENGTH JSON_EACH ' + 'JSONB_EACH JSON_EACH_TEXT JSONB_EACH_TEXT JSON_EXTRACT_PATH JSONB_EXTRACT_PATH ' + 'JSON_OBJECT_KEYS JSONB_OBJECT_KEYS JSON_POPULATE_RECORD JSONB_POPULATE_RECORD JSON_POPULATE_RECORDSET ' + 'JSONB_POPULATE_RECORDSET JSON_ARRAY_ELEMENTS JSONB_ARRAY_ELEMENTS JSON_ARRAY_ELEMENTS_TEXT ' + 'JSONB_ARRAY_ELEMENTS_TEXT JSON_TYPEOF JSONB_TYPEOF JSON_TO_RECORD JSONB_TO_RECORD JSON_TO_RECORDSET ' + 'JSONB_TO_RECORDSET JSON_STRIP_NULLS JSONB_STRIP_NULLS JSONB_SET JSONB_INSERT JSONB_PRETTY ' + // https://www.postgresql.org/docs/11/static/functions-sequence.html
-    'CURRVAL LASTVAL NEXTVAL SETVAL ' + // https://www.postgresql.org/docs/11/static/functions-conditional.html
-    'COALESCE NULLIF GREATEST LEAST ' + // https://www.postgresql.org/docs/11/static/functions-array.html
-    'ARRAY_APPEND ARRAY_CAT ARRAY_NDIMS ARRAY_DIMS ARRAY_FILL ARRAY_LENGTH ARRAY_LOWER ARRAY_POSITION ' + 'ARRAY_POSITIONS ARRAY_PREPEND ARRAY_REMOVE ARRAY_REPLACE ARRAY_TO_STRING ARRAY_UPPER CARDINALITY ' + 'STRING_TO_ARRAY UNNEST ' + // https://www.postgresql.org/docs/11/static/functions-range.html
-    'ISEMPTY LOWER_INC UPPER_INC LOWER_INF UPPER_INF RANGE_MERGE ' + // https://www.postgresql.org/docs/11/static/functions-srf.html
-    'GENERATE_SERIES GENERATE_SUBSCRIPTS ' + // https://www.postgresql.org/docs/11/static/functions-info.html
-    'CURRENT_DATABASE CURRENT_QUERY CURRENT_SCHEMA|10 CURRENT_SCHEMAS|10 INET_CLIENT_ADDR INET_CLIENT_PORT ' + 'INET_SERVER_ADDR INET_SERVER_PORT ROW_SECURITY_ACTIVE FORMAT_TYPE ' + 'TO_REGCLASS TO_REGPROC TO_REGPROCEDURE TO_REGOPER TO_REGOPERATOR TO_REGTYPE TO_REGNAMESPACE TO_REGROLE ' + 'COL_DESCRIPTION OBJ_DESCRIPTION SHOBJ_DESCRIPTION ' + 'TXID_CURRENT TXID_CURRENT_IF_ASSIGNED TXID_CURRENT_SNAPSHOT TXID_SNAPSHOT_XIP TXID_SNAPSHOT_XMAX ' + 'TXID_SNAPSHOT_XMIN TXID_VISIBLE_IN_SNAPSHOT TXID_STATUS ' + // https://www.postgresql.org/docs/11/static/functions-admin.html
-    'CURRENT_SETTING SET_CONFIG BRIN_SUMMARIZE_NEW_VALUES BRIN_SUMMARIZE_RANGE BRIN_DESUMMARIZE_RANGE ' + 'GIN_CLEAN_PENDING_LIST ' + // https://www.postgresql.org/docs/11/static/functions-trigger.html
-    'SUPPRESS_REDUNDANT_UPDATES_TRIGGER ' + // ihttps://www.postgresql.org/docs/devel/static/lo-funcs.html
-    'LO_FROM_BYTEA LO_PUT LO_GET LO_CREAT LO_CREATE LO_UNLINK LO_IMPORT LO_EXPORT LOREAD LOWRITE ' + //
-    'GROUPING CAST ';
+    'ARRAY_AGG AVG BIT_AND BIT_OR BOOL_AND BOOL_OR COUNT EVERY JSON_AGG JSONB_AGG JSON_OBJECT_AGG ' + 'JSONB_OBJECT_AGG MAX MIN MODE STRING_AGG SUM XMLAGG ' + 'CORR COVAR_POP COVAR_SAMP REGR_AVGX REGR_AVGY REGR_COUNT REGR_INTERCEPT REGR_R2 REGR_SLOPE ' + 'REGR_SXX REGR_SXY REGR_SYY STDDEV STDDEV_POP STDDEV_SAMP VARIANCE VAR_POP VAR_SAMP ' + 'PERCENTILE_CONT PERCENTILE_DISC ' // https://www.postgresql.org/docs/11/static/functions-window.html
+    + 'ROW_NUMBER RANK DENSE_RANK PERCENT_RANK CUME_DIST NTILE LAG LEAD FIRST_VALUE LAST_VALUE NTH_VALUE ' // https://www.postgresql.org/docs/11/static/functions-comparison.html
+    + 'NUM_NONNULLS NUM_NULLS ' // https://www.postgresql.org/docs/11/static/functions-math.html
+    + 'ABS CBRT CEIL CEILING DEGREES DIV EXP FLOOR LN LOG MOD PI POWER RADIANS ROUND SCALE SIGN SQRT ' + 'TRUNC WIDTH_BUCKET ' + 'RANDOM SETSEED ' + 'ACOS ACOSD ASIN ASIND ATAN ATAND ATAN2 ATAN2D COS COSD COT COTD SIN SIND TAN TAND ' // https://www.postgresql.org/docs/11/static/functions-string.html
+    + 'BIT_LENGTH CHAR_LENGTH CHARACTER_LENGTH LOWER OCTET_LENGTH OVERLAY POSITION SUBSTRING TREAT TRIM UPPER ' + 'ASCII BTRIM CHR CONCAT CONCAT_WS CONVERT CONVERT_FROM CONVERT_TO DECODE ENCODE INITCAP ' + 'LEFT LENGTH LPAD LTRIM MD5 PARSE_IDENT PG_CLIENT_ENCODING QUOTE_IDENT|10 QUOTE_LITERAL|10 ' + 'QUOTE_NULLABLE|10 REGEXP_MATCH REGEXP_MATCHES REGEXP_REPLACE REGEXP_SPLIT_TO_ARRAY ' + 'REGEXP_SPLIT_TO_TABLE REPEAT REPLACE REVERSE RIGHT RPAD RTRIM SPLIT_PART STRPOS SUBSTR ' + 'TO_ASCII TO_HEX TRANSLATE ' // https://www.postgresql.org/docs/11/static/functions-binarystring.html
+    + 'OCTET_LENGTH GET_BIT GET_BYTE SET_BIT SET_BYTE ' // https://www.postgresql.org/docs/11/static/functions-formatting.html
+    + 'TO_CHAR TO_DATE TO_NUMBER TO_TIMESTAMP ' // https://www.postgresql.org/docs/11/static/functions-datetime.html
+    + 'AGE CLOCK_TIMESTAMP|10 DATE_PART DATE_TRUNC ISFINITE JUSTIFY_DAYS JUSTIFY_HOURS JUSTIFY_INTERVAL ' + 'MAKE_DATE MAKE_INTERVAL|10 MAKE_TIME MAKE_TIMESTAMP|10 MAKE_TIMESTAMPTZ|10 NOW STATEMENT_TIMESTAMP|10 ' + 'TIMEOFDAY TRANSACTION_TIMESTAMP|10 ' // https://www.postgresql.org/docs/11/static/functions-enum.html
+    + 'ENUM_FIRST ENUM_LAST ENUM_RANGE ' // https://www.postgresql.org/docs/11/static/functions-geometry.html
+    + 'AREA CENTER DIAMETER HEIGHT ISCLOSED ISOPEN NPOINTS PCLOSE POPEN RADIUS WIDTH ' + 'BOX BOUND_BOX CIRCLE LINE LSEG PATH POLYGON ' // https://www.postgresql.org/docs/11/static/functions-net.html
+    + 'ABBREV BROADCAST HOST HOSTMASK MASKLEN NETMASK NETWORK SET_MASKLEN TEXT INET_SAME_FAMILY ' + 'INET_MERGE MACADDR8_SET7BIT ' // https://www.postgresql.org/docs/11/static/functions-textsearch.html
+    + 'ARRAY_TO_TSVECTOR GET_CURRENT_TS_CONFIG NUMNODE PLAINTO_TSQUERY PHRASETO_TSQUERY WEBSEARCH_TO_TSQUERY ' + 'QUERYTREE SETWEIGHT STRIP TO_TSQUERY TO_TSVECTOR JSON_TO_TSVECTOR JSONB_TO_TSVECTOR TS_DELETE ' + 'TS_FILTER TS_HEADLINE TS_RANK TS_RANK_CD TS_REWRITE TSQUERY_PHRASE TSVECTOR_TO_ARRAY ' + 'TSVECTOR_UPDATE_TRIGGER TSVECTOR_UPDATE_TRIGGER_COLUMN ' // https://www.postgresql.org/docs/11/static/functions-xml.html
+    + 'XMLCOMMENT XMLCONCAT XMLELEMENT XMLFOREST XMLPI XMLROOT ' + 'XMLEXISTS XML_IS_WELL_FORMED XML_IS_WELL_FORMED_DOCUMENT XML_IS_WELL_FORMED_CONTENT ' + 'XPATH XPATH_EXISTS XMLTABLE XMLNAMESPACES ' + 'TABLE_TO_XML TABLE_TO_XMLSCHEMA TABLE_TO_XML_AND_XMLSCHEMA ' + 'QUERY_TO_XML QUERY_TO_XMLSCHEMA QUERY_TO_XML_AND_XMLSCHEMA ' + 'CURSOR_TO_XML CURSOR_TO_XMLSCHEMA ' + 'SCHEMA_TO_XML SCHEMA_TO_XMLSCHEMA SCHEMA_TO_XML_AND_XMLSCHEMA ' + 'DATABASE_TO_XML DATABASE_TO_XMLSCHEMA DATABASE_TO_XML_AND_XMLSCHEMA ' + 'XMLATTRIBUTES ' // https://www.postgresql.org/docs/11/static/functions-json.html
+    + 'TO_JSON TO_JSONB ARRAY_TO_JSON ROW_TO_JSON JSON_BUILD_ARRAY JSONB_BUILD_ARRAY JSON_BUILD_OBJECT ' + 'JSONB_BUILD_OBJECT JSON_OBJECT JSONB_OBJECT JSON_ARRAY_LENGTH JSONB_ARRAY_LENGTH JSON_EACH ' + 'JSONB_EACH JSON_EACH_TEXT JSONB_EACH_TEXT JSON_EXTRACT_PATH JSONB_EXTRACT_PATH ' + 'JSON_OBJECT_KEYS JSONB_OBJECT_KEYS JSON_POPULATE_RECORD JSONB_POPULATE_RECORD JSON_POPULATE_RECORDSET ' + 'JSONB_POPULATE_RECORDSET JSON_ARRAY_ELEMENTS JSONB_ARRAY_ELEMENTS JSON_ARRAY_ELEMENTS_TEXT ' + 'JSONB_ARRAY_ELEMENTS_TEXT JSON_TYPEOF JSONB_TYPEOF JSON_TO_RECORD JSONB_TO_RECORD JSON_TO_RECORDSET ' + 'JSONB_TO_RECORDSET JSON_STRIP_NULLS JSONB_STRIP_NULLS JSONB_SET JSONB_INSERT JSONB_PRETTY ' // https://www.postgresql.org/docs/11/static/functions-sequence.html
+    + 'CURRVAL LASTVAL NEXTVAL SETVAL ' // https://www.postgresql.org/docs/11/static/functions-conditional.html
+    + 'COALESCE NULLIF GREATEST LEAST ' // https://www.postgresql.org/docs/11/static/functions-array.html
+    + 'ARRAY_APPEND ARRAY_CAT ARRAY_NDIMS ARRAY_DIMS ARRAY_FILL ARRAY_LENGTH ARRAY_LOWER ARRAY_POSITION ' + 'ARRAY_POSITIONS ARRAY_PREPEND ARRAY_REMOVE ARRAY_REPLACE ARRAY_TO_STRING ARRAY_UPPER CARDINALITY ' + 'STRING_TO_ARRAY UNNEST ' // https://www.postgresql.org/docs/11/static/functions-range.html
+    + 'ISEMPTY LOWER_INC UPPER_INC LOWER_INF UPPER_INF RANGE_MERGE ' // https://www.postgresql.org/docs/11/static/functions-srf.html
+    + 'GENERATE_SERIES GENERATE_SUBSCRIPTS ' // https://www.postgresql.org/docs/11/static/functions-info.html
+    + 'CURRENT_DATABASE CURRENT_QUERY CURRENT_SCHEMA|10 CURRENT_SCHEMAS|10 INET_CLIENT_ADDR INET_CLIENT_PORT ' + 'INET_SERVER_ADDR INET_SERVER_PORT ROW_SECURITY_ACTIVE FORMAT_TYPE ' + 'TO_REGCLASS TO_REGPROC TO_REGPROCEDURE TO_REGOPER TO_REGOPERATOR TO_REGTYPE TO_REGNAMESPACE TO_REGROLE ' + 'COL_DESCRIPTION OBJ_DESCRIPTION SHOBJ_DESCRIPTION ' + 'TXID_CURRENT TXID_CURRENT_IF_ASSIGNED TXID_CURRENT_SNAPSHOT TXID_SNAPSHOT_XIP TXID_SNAPSHOT_XMAX ' + 'TXID_SNAPSHOT_XMIN TXID_VISIBLE_IN_SNAPSHOT TXID_STATUS ' // https://www.postgresql.org/docs/11/static/functions-admin.html
+    + 'CURRENT_SETTING SET_CONFIG BRIN_SUMMARIZE_NEW_VALUES BRIN_SUMMARIZE_RANGE BRIN_DESUMMARIZE_RANGE ' + 'GIN_CLEAN_PENDING_LIST ' // https://www.postgresql.org/docs/11/static/functions-trigger.html
+    + 'SUPPRESS_REDUNDANT_UPDATES_TRIGGER ' // ihttps://www.postgresql.org/docs/devel/static/lo-funcs.html
+    + 'LO_FROM_BYTEA LO_PUT LO_GET LO_CREAT LO_CREATE LO_UNLINK LO_IMPORT LO_EXPORT LOREAD LOWRITE ' //
+    + 'GROUPING CAST ';
     const FUNCTIONS_RE = FUNCTIONS.trim().split(' ').map(function (val) {
       return val.split('|')[0];
     }).join('|');
@@ -32317,13 +32429,13 @@ export default {
    * @returns {LanguageDetail}
    * */
   function php(hljs) {
-    const regex = hljs.regex;
-    const IDENT_RE_CORE = '[a-zA-Z0-9_\x7f-\xff]*' + // negative look-ahead tries to avoid matching patterns that are not
+    const regex = hljs.regex; // negative look-ahead tries to avoid matching patterns that are not
     // Perl at all like $ident$, @ident@, etc.
-    '(?![A-Za-z0-9])(?![$]))';
-    const IDENT_RE = regex.concat("([a-zA-Z_\\x7f-\\xff]", IDENT_RE_CORE); // Will not detect camelCase classes
 
-    const PASCAL_CASE_CLASS_NAME_RE = regex.concat("([A-Z]", IDENT_RE_CORE);
+    const NOT_PERL_ETC = /(?![A-Za-z0-9])(?![$])/;
+    const IDENT_RE = regex.concat(/[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/, NOT_PERL_ETC); // Will not detect camelCase classes
+
+    const PASCAL_CASE_CLASS_NAME_RE = regex.concat(/(\\?[A-Z][a-z0-9_\x7f-\xff]+|\\?[A-Z]+(?=[A-Z][a-z0-9_\x7f-\xff])){1,}/, NOT_PERL_ETC);
     const VARIABLE = {
       scope: 'variable',
       match: '\\$+' + IDENT_RE
@@ -32335,7 +32447,11 @@ export default {
         relevance: 10
       }, // boost for obvious PHP
       {
-        begin: /<\?[=]?/
+        begin: /<\?=/
+      }, // less relevant per PSR-1 which says not to use short-tags
+      {
+        begin: /<\?/,
+        relevance: 0.1
       }, {
         begin: /\?>/
       } // end php tag
@@ -32442,20 +32558,12 @@ export default {
     const CONSTRUCTOR_CALL = {
       variants: [{
         match: [/new/, regex.concat(WHITESPACE, "+"), // to prevent built ins from being confused as the class constructor call
-        regex.concat("(?!", normalizeKeywords(BUILT_INS).join("\\b|"), "\\b)"), regex.concat(/\\?/, IDENT_RE), regex.concat(WHITESPACE, "*", /\(/)],
+        regex.concat("(?!", normalizeKeywords(BUILT_INS).join("\\b|"), "\\b)"), PASCAL_CASE_CLASS_NAME_RE],
         scope: {
           1: "keyword",
           4: "title.class"
         }
       }]
-    };
-    const FUNCTION_INVOKE = {
-      relevance: 0,
-      match: [/\b/, // to prevent keywords from being confused as the function title
-      regex.concat("(?!fn\\b|function\\b|", normalizeKeywords(KWS).join("\\b|"), "|", normalizeKeywords(BUILT_INS).join("\\b|"), "\\b)"), IDENT_RE, regex.concat(WHITESPACE, "*"), regex.lookahead(/(?=\()/)],
-      scope: {
-        3: "title.function.invoke"
-      }
     };
     const CONSTANT_REFERENCE = regex.concat(IDENT_RE, "\\b(?!\\()");
     const LEFT_AND_RIGHT_SIDE_OF_DOUBLE_COLON = {
@@ -32470,6 +32578,12 @@ export default {
           2: "variable.language"
         }
       }, {
+        match: [PASCAL_CASE_CLASS_NAME_RE, regex.concat(/::/, regex.lookahead(/(?!class\b)/)), CONSTANT_REFERENCE],
+        scope: {
+          1: "title.class",
+          3: "variable.constant"
+        }
+      }, {
         match: [PASCAL_CASE_CLASS_NAME_RE, regex.concat("::", regex.lookahead(/(?!class\b)/))],
         scope: {
           1: "title.class"
@@ -32482,10 +32596,54 @@ export default {
         }
       }]
     };
+    const NAMED_ARGUMENT = {
+      scope: 'attr',
+      match: regex.concat(IDENT_RE, regex.lookahead(':'), regex.lookahead(/(?!::)/))
+    };
+    const PARAMS_MODE = {
+      relevance: 0,
+      begin: /\(/,
+      end: /\)/,
+      keywords: KEYWORDS,
+      contains: [NAMED_ARGUMENT, VARIABLE, LEFT_AND_RIGHT_SIDE_OF_DOUBLE_COLON, hljs.C_BLOCK_COMMENT_MODE, STRING, NUMBER, CONSTRUCTOR_CALL]
+    };
+    const FUNCTION_INVOKE = {
+      relevance: 0,
+      match: [/\b/, // to prevent keywords from being confused as the function title
+      regex.concat("(?!fn\\b|function\\b|", normalizeKeywords(KWS).join("\\b|"), "|", normalizeKeywords(BUILT_INS).join("\\b|"), "\\b)"), IDENT_RE, regex.concat(WHITESPACE, "*"), regex.lookahead(/(?=\()/)],
+      scope: {
+        3: "title.function.invoke"
+      },
+      contains: [PARAMS_MODE]
+    };
+    PARAMS_MODE.contains.push(FUNCTION_INVOKE);
+    const ATTRIBUTE_CONTAINS = [NAMED_ARGUMENT, LEFT_AND_RIGHT_SIDE_OF_DOUBLE_COLON, hljs.C_BLOCK_COMMENT_MODE, STRING, NUMBER, CONSTRUCTOR_CALL];
+    const ATTRIBUTES = {
+      begin: regex.concat(/#\[\s*/, PASCAL_CASE_CLASS_NAME_RE),
+      beginScope: "meta",
+      end: /]/,
+      endScope: "meta",
+      keywords: {
+        literal: LITERALS,
+        keyword: ['new', 'array']
+      },
+      contains: [{
+        begin: /\[/,
+        end: /]/,
+        keywords: {
+          literal: LITERALS,
+          keyword: ['new', 'array']
+        },
+        contains: ['self', ...ATTRIBUTE_CONTAINS]
+      }, ...ATTRIBUTE_CONTAINS, {
+        scope: 'meta',
+        match: PASCAL_CASE_CLASS_NAME_RE
+      }]
+    };
     return {
       case_insensitive: false,
       keywords: KEYWORDS,
-      contains: [hljs.HASH_COMMENT_MODE, hljs.COMMENT('//', '$'), hljs.COMMENT('/\\*', '\\*/', {
+      contains: [ATTRIBUTES, hljs.HASH_COMMENT_MODE, hljs.COMMENT('//', '$'), hljs.COMMENT('/\\*', '\\*/', {
         contains: [{
           scope: 'doctag',
           match: '@[A-Za-z]+'
@@ -32506,7 +32664,7 @@ export default {
         scope: 'variable.language',
         match: /\$this\b/
       }, VARIABLE, FUNCTION_INVOKE, LEFT_AND_RIGHT_SIDE_OF_DOUBLE_COLON, {
-        match: [/const/, /\s/, IDENT_RE, /\s*=/],
+        match: [/const/, /\s/, IDENT_RE],
         scope: {
           1: "keyword",
           3: "variable.constant"
@@ -33194,9 +33352,9 @@ export default {
       'and case default else elsif false if in import enherits node or true undef unless main settings $string ',
       literal:
       /* metaparameters */
-      'alias audit before loglevel noop require subscribe tag ' +
+      'alias audit before loglevel noop require subscribe tag '
       /* normal attributes */
-      'owner ensure group mode name|0 changes context force incl lens load_path onlyif provider returns root show_diff type_check ' + 'en_address ip_address realname command environment hour monute month monthday special target weekday ' + 'creates cwd ogoutput refresh refreshonly tries try_sleep umask backup checksum content ctime force ignore ' + 'links mtime purge recurse recurselimit replace selinux_ignore_defaults selrange selrole seltype seluser source ' + 'souirce_permissions sourceselect validate_cmd validate_replacement allowdupe attribute_membership auth_membership forcelocal gid ' + 'ia_load_module members system host_aliases ip allowed_trunk_vlans description device_url duplex encapsulation etherchannel ' + 'native_vlan speed principals allow_root auth_class auth_type authenticate_user k_of_n mechanisms rule session_owner shared options ' + 'device fstype enable hasrestart directory present absent link atboot blockdevice device dump pass remounts poller_tag use ' + 'message withpath adminfile allow_virtual allowcdrom category configfiles flavor install_options instance package_settings platform ' + 'responsefile status uninstall_options vendor unless_system_user unless_uid binary control flags hasstatus manifest pattern restart running ' + 'start stop allowdupe auths expiry gid groups home iterations key_membership keys managehome membership password password_max_age ' + 'password_min_age profile_membership profiles project purge_ssh_keys role_membership roles salt shell uid baseurl cost descr enabled ' + 'enablegroups exclude failovermethod gpgcheck gpgkey http_caching include includepkgs keepalive metadata_expire metalink mirrorlist ' + 'priority protect proxy proxy_password proxy_username repo_gpgcheck s3_enabled skip_if_unavailable sslcacert sslclientcert sslclientkey ' + 'sslverify mounted',
+      + 'owner ensure group mode name|0 changes context force incl lens load_path onlyif provider returns root show_diff type_check ' + 'en_address ip_address realname command environment hour monute month monthday special target weekday ' + 'creates cwd ogoutput refresh refreshonly tries try_sleep umask backup checksum content ctime force ignore ' + 'links mtime purge recurse recurselimit replace selinux_ignore_defaults selrange selrole seltype seluser source ' + 'souirce_permissions sourceselect validate_cmd validate_replacement allowdupe attribute_membership auth_membership forcelocal gid ' + 'ia_load_module members system host_aliases ip allowed_trunk_vlans description device_url duplex encapsulation etherchannel ' + 'native_vlan speed principals allow_root auth_class auth_type authenticate_user k_of_n mechanisms rule session_owner shared options ' + 'device fstype enable hasrestart directory present absent link atboot blockdevice device dump pass remounts poller_tag use ' + 'message withpath adminfile allow_virtual allowcdrom category configfiles flavor install_options instance package_settings platform ' + 'responsefile status uninstall_options vendor unless_system_user unless_uid binary control flags hasstatus manifest pattern restart running ' + 'start stop allowdupe auths expiry gid groups home iterations key_membership keys managehome membership password password_max_age ' + 'password_min_age profile_membership profiles project purge_ssh_keys role_membership roles salt shell uid baseurl cost descr enabled ' + 'enablegroups exclude failovermethod gpgcheck gpgkey http_caching include includepkgs keepalive metadata_expire metalink mirrorlist ' + 'priority protect proxy proxy_password proxy_username repo_gpgcheck s3_enabled skip_if_unavailable sslcacert sslclientcert sslclientkey ' + 'sslverify mounted',
       built_in:
       /* core facts */
       'architecture augeasversion blockdevices boardmanufacturer boardproductname boardserialnumber cfkey dhcp_servers ' + 'domain ec2_ ec2_userdata facterversion filesystems ldom fqdn gid hardwareisa hardwaremodel hostname id|0 interfaces ' + 'ipaddress ipaddress_ ipaddress6 ipaddress6_ iphostnumber is_virtual kernel kernelmajversion kernelrelease kernelversion ' + 'kernelrelease kernelversion lsbdistcodename lsbdistdescription lsbdistid lsbdistrelease lsbmajdistrelease lsbminordistrelease ' + 'lsbrelease macaddress macaddress_ macosx_buildversion macosx_productname macosx_productversion macosx_productverson_major ' + 'macosx_productversion_minor manufacturer memoryfree memorysize netmask metmask_ network_ operatingsystem operatingsystemmajrelease ' + 'operatingsystemrelease osfamily partitions path physicalprocessorcount processor processorcount productname ps puppetversion ' + 'rubysitedir rubyversion selinux selinux_config_mode selinux_config_policy selinux_current_mode selinux_current_mode selinux_enforced ' + 'selinux_policyversion serialnumber sp_ sshdsakey sshecdsakey sshrsakey swapencrypted swapfree swapsize timezone type uniqueid uptime ' + 'uptime_days uptime_hours uptime_seconds uuid virtual vlans xendomains zfs_version zonenae zones zpool_version'
@@ -33243,7 +33401,8 @@ export default {
         end: /\S/,
         contains: [{
           className: 'keyword',
-          begin: hljs.IDENT_RE
+          begin: hljs.IDENT_RE,
+          relevance: 0.2
         }, {
           begin: /\{/,
           end: /\}/,
@@ -33562,7 +33721,7 @@ export default {
     return {
       aliases: ['pycon'],
       contains: [{
-        className: 'meta',
+        className: 'meta.prompt',
         starts: {
           // a space separates the REPL prefix from the actual code
           // this is purely for cleaner HTML output
@@ -33784,10 +33943,10 @@ export default {
         keyword: 'function if in break next repeat else for while',
         literal: 'NULL NA TRUE FALSE Inf NaN NA_integer_|10 NA_real_|10 ' + 'NA_character_|10 NA_complex_|10',
         built_in: // Builtin constants
-        'LETTERS letters month.abb month.name pi T F ' + // Primitive functions
+        'LETTERS letters month.abb month.name pi T F ' // Primitive functions
         // These are all the functions in `base` that are implemented as a
         // `.Primitive`, minus those functions that are also keywords.
-        'abs acos acosh all any anyNA Arg as.call as.character ' + 'as.complex as.double as.environment as.integer as.logical ' + 'as.null.default as.numeric as.raw asin asinh atan atanh attr ' + 'attributes baseenv browser c call ceiling class Conj cos cosh ' + 'cospi cummax cummin cumprod cumsum digamma dim dimnames ' + 'emptyenv exp expression floor forceAndCall gamma gc.time ' + 'globalenv Im interactive invisible is.array is.atomic is.call ' + 'is.character is.complex is.double is.environment is.expression ' + 'is.finite is.function is.infinite is.integer is.language ' + 'is.list is.logical is.matrix is.na is.name is.nan is.null ' + 'is.numeric is.object is.pairlist is.raw is.recursive is.single ' + 'is.symbol lazyLoadDBfetch length lgamma list log max min ' + 'missing Mod names nargs nzchar oldClass on.exit pos.to.env ' + 'proc.time prod quote range Re rep retracemem return round ' + 'seq_along seq_len seq.int sign signif sin sinh sinpi sqrt ' + 'standardGeneric substitute sum switch tan tanh tanpi tracemem ' + 'trigamma trunc unclass untracemem UseMethod xtfrm'
+        + 'abs acos acosh all any anyNA Arg as.call as.character ' + 'as.complex as.double as.environment as.integer as.logical ' + 'as.null.default as.numeric as.raw asin asinh atan atanh attr ' + 'attributes baseenv browser c call ceiling class Conj cos cosh ' + 'cospi cummax cummin cumprod cumsum digamma dim dimnames ' + 'emptyenv exp expression floor forceAndCall gamma gc.time ' + 'globalenv Im interactive invisible is.array is.atomic is.call ' + 'is.character is.complex is.double is.environment is.expression ' + 'is.finite is.function is.infinite is.integer is.language ' + 'is.list is.logical is.matrix is.na is.name is.nan is.null ' + 'is.numeric is.object is.pairlist is.raw is.recursive is.single ' + 'is.symbol lazyLoadDBfetch length lgamma list log max min ' + 'missing Mod names nargs nzchar oldClass on.exit pos.to.env ' + 'proc.time prod quote range Re rep retracemem return round ' + 'seq_along seq_len seq.int sign signif sin sinh sinpi sqrt ' + 'standardGeneric substitute sum switch tan tanh tanpi tracemem ' + 'trigamma trunc unclass untracemem UseMethod xtfrm'
       },
       contains: [// Roxygen comments
       hljs.COMMENT(/#'/, /$/, {
@@ -34954,7 +35113,7 @@ export default {
   ]; // https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
 
   const PSEUDO_ELEMENTS$1 = ['after', 'backdrop', 'before', 'cue', 'cue-region', 'first-letter', 'first-line', 'grammar-error', 'marker', 'part', 'placeholder', 'selection', 'slotted', 'spelling-error'];
-  const ATTRIBUTES$1 = ['align-content', 'align-items', 'align-self', 'all', 'animation', 'animation-delay', 'animation-direction', 'animation-duration', 'animation-fill-mode', 'animation-iteration-count', 'animation-name', 'animation-play-state', 'animation-timing-function', 'backface-visibility', 'background', 'background-attachment', 'background-clip', 'background-color', 'background-image', 'background-origin', 'background-position', 'background-repeat', 'background-size', 'border', 'border-bottom', 'border-bottom-color', 'border-bottom-left-radius', 'border-bottom-right-radius', 'border-bottom-style', 'border-bottom-width', 'border-collapse', 'border-color', 'border-image', 'border-image-outset', 'border-image-repeat', 'border-image-slice', 'border-image-source', 'border-image-width', 'border-left', 'border-left-color', 'border-left-style', 'border-left-width', 'border-radius', 'border-right', 'border-right-color', 'border-right-style', 'border-right-width', 'border-spacing', 'border-style', 'border-top', 'border-top-color', 'border-top-left-radius', 'border-top-right-radius', 'border-top-style', 'border-top-width', 'border-width', 'bottom', 'box-decoration-break', 'box-shadow', 'box-sizing', 'break-after', 'break-before', 'break-inside', 'caption-side', 'caret-color', 'clear', 'clip', 'clip-path', 'clip-rule', 'color', 'column-count', 'column-fill', 'column-gap', 'column-rule', 'column-rule-color', 'column-rule-style', 'column-rule-width', 'column-span', 'column-width', 'columns', 'contain', 'content', 'content-visibility', 'counter-increment', 'counter-reset', 'cue', 'cue-after', 'cue-before', 'cursor', 'direction', 'display', 'empty-cells', 'filter', 'flex', 'flex-basis', 'flex-direction', 'flex-flow', 'flex-grow', 'flex-shrink', 'flex-wrap', 'float', 'flow', 'font', 'font-display', 'font-family', 'font-feature-settings', 'font-kerning', 'font-language-override', 'font-size', 'font-size-adjust', 'font-smoothing', 'font-stretch', 'font-style', 'font-synthesis', 'font-variant', 'font-variant-caps', 'font-variant-east-asian', 'font-variant-ligatures', 'font-variant-numeric', 'font-variant-position', 'font-variation-settings', 'font-weight', 'gap', 'glyph-orientation-vertical', 'grid', 'grid-area', 'grid-auto-columns', 'grid-auto-flow', 'grid-auto-rows', 'grid-column', 'grid-column-end', 'grid-column-start', 'grid-gap', 'grid-row', 'grid-row-end', 'grid-row-start', 'grid-template', 'grid-template-areas', 'grid-template-columns', 'grid-template-rows', 'hanging-punctuation', 'height', 'hyphens', 'icon', 'image-orientation', 'image-rendering', 'image-resolution', 'ime-mode', 'isolation', 'justify-content', 'left', 'letter-spacing', 'line-break', 'line-height', 'list-style', 'list-style-image', 'list-style-position', 'list-style-type', 'margin', 'margin-bottom', 'margin-left', 'margin-right', 'margin-top', 'marks', 'mask', 'mask-border', 'mask-border-mode', 'mask-border-outset', 'mask-border-repeat', 'mask-border-slice', 'mask-border-source', 'mask-border-width', 'mask-clip', 'mask-composite', 'mask-image', 'mask-mode', 'mask-origin', 'mask-position', 'mask-repeat', 'mask-size', 'mask-type', 'max-height', 'max-width', 'min-height', 'min-width', 'mix-blend-mode', 'nav-down', 'nav-index', 'nav-left', 'nav-right', 'nav-up', 'none', 'normal', 'object-fit', 'object-position', 'opacity', 'order', 'orphans', 'outline', 'outline-color', 'outline-offset', 'outline-style', 'outline-width', 'overflow', 'overflow-wrap', 'overflow-x', 'overflow-y', 'padding', 'padding-bottom', 'padding-left', 'padding-right', 'padding-top', 'page-break-after', 'page-break-before', 'page-break-inside', 'pause', 'pause-after', 'pause-before', 'perspective', 'perspective-origin', 'pointer-events', 'position', 'quotes', 'resize', 'rest', 'rest-after', 'rest-before', 'right', 'row-gap', 'scroll-margin', 'scroll-margin-block', 'scroll-margin-block-end', 'scroll-margin-block-start', 'scroll-margin-bottom', 'scroll-margin-inline', 'scroll-margin-inline-end', 'scroll-margin-inline-start', 'scroll-margin-left', 'scroll-margin-right', 'scroll-margin-top', 'scroll-padding', 'scroll-padding-block', 'scroll-padding-block-end', 'scroll-padding-block-start', 'scroll-padding-bottom', 'scroll-padding-inline', 'scroll-padding-inline-end', 'scroll-padding-inline-start', 'scroll-padding-left', 'scroll-padding-right', 'scroll-padding-top', 'scroll-snap-align', 'scroll-snap-stop', 'scroll-snap-type', 'shape-image-threshold', 'shape-margin', 'shape-outside', 'speak', 'speak-as', 'src', // @font-face
+  const ATTRIBUTES$1 = ['align-content', 'align-items', 'align-self', 'all', 'animation', 'animation-delay', 'animation-direction', 'animation-duration', 'animation-fill-mode', 'animation-iteration-count', 'animation-name', 'animation-play-state', 'animation-timing-function', 'backface-visibility', 'background', 'background-attachment', 'background-blend-mode', 'background-clip', 'background-color', 'background-image', 'background-origin', 'background-position', 'background-repeat', 'background-size', 'block-size', 'border', 'border-block', 'border-block-color', 'border-block-end', 'border-block-end-color', 'border-block-end-style', 'border-block-end-width', 'border-block-start', 'border-block-start-color', 'border-block-start-style', 'border-block-start-width', 'border-block-style', 'border-block-width', 'border-bottom', 'border-bottom-color', 'border-bottom-left-radius', 'border-bottom-right-radius', 'border-bottom-style', 'border-bottom-width', 'border-collapse', 'border-color', 'border-image', 'border-image-outset', 'border-image-repeat', 'border-image-slice', 'border-image-source', 'border-image-width', 'border-inline', 'border-inline-color', 'border-inline-end', 'border-inline-end-color', 'border-inline-end-style', 'border-inline-end-width', 'border-inline-start', 'border-inline-start-color', 'border-inline-start-style', 'border-inline-start-width', 'border-inline-style', 'border-inline-width', 'border-left', 'border-left-color', 'border-left-style', 'border-left-width', 'border-radius', 'border-right', 'border-right-color', 'border-right-style', 'border-right-width', 'border-spacing', 'border-style', 'border-top', 'border-top-color', 'border-top-left-radius', 'border-top-right-radius', 'border-top-style', 'border-top-width', 'border-width', 'bottom', 'box-decoration-break', 'box-shadow', 'box-sizing', 'break-after', 'break-before', 'break-inside', 'caption-side', 'caret-color', 'clear', 'clip', 'clip-path', 'clip-rule', 'color', 'column-count', 'column-fill', 'column-gap', 'column-rule', 'column-rule-color', 'column-rule-style', 'column-rule-width', 'column-span', 'column-width', 'columns', 'contain', 'content', 'content-visibility', 'counter-increment', 'counter-reset', 'cue', 'cue-after', 'cue-before', 'cursor', 'direction', 'display', 'empty-cells', 'filter', 'flex', 'flex-basis', 'flex-direction', 'flex-flow', 'flex-grow', 'flex-shrink', 'flex-wrap', 'float', 'flow', 'font', 'font-display', 'font-family', 'font-feature-settings', 'font-kerning', 'font-language-override', 'font-size', 'font-size-adjust', 'font-smoothing', 'font-stretch', 'font-style', 'font-synthesis', 'font-variant', 'font-variant-caps', 'font-variant-east-asian', 'font-variant-ligatures', 'font-variant-numeric', 'font-variant-position', 'font-variation-settings', 'font-weight', 'gap', 'glyph-orientation-vertical', 'grid', 'grid-area', 'grid-auto-columns', 'grid-auto-flow', 'grid-auto-rows', 'grid-column', 'grid-column-end', 'grid-column-start', 'grid-gap', 'grid-row', 'grid-row-end', 'grid-row-start', 'grid-template', 'grid-template-areas', 'grid-template-columns', 'grid-template-rows', 'hanging-punctuation', 'height', 'hyphens', 'icon', 'image-orientation', 'image-rendering', 'image-resolution', 'ime-mode', 'inline-size', 'isolation', 'justify-content', 'left', 'letter-spacing', 'line-break', 'line-height', 'list-style', 'list-style-image', 'list-style-position', 'list-style-type', 'margin', 'margin-block', 'margin-block-end', 'margin-block-start', 'margin-bottom', 'margin-inline', 'margin-inline-end', 'margin-inline-start', 'margin-left', 'margin-right', 'margin-top', 'marks', 'mask', 'mask-border', 'mask-border-mode', 'mask-border-outset', 'mask-border-repeat', 'mask-border-slice', 'mask-border-source', 'mask-border-width', 'mask-clip', 'mask-composite', 'mask-image', 'mask-mode', 'mask-origin', 'mask-position', 'mask-repeat', 'mask-size', 'mask-type', 'max-block-size', 'max-height', 'max-inline-size', 'max-width', 'min-block-size', 'min-height', 'min-inline-size', 'min-width', 'mix-blend-mode', 'nav-down', 'nav-index', 'nav-left', 'nav-right', 'nav-up', 'none', 'normal', 'object-fit', 'object-position', 'opacity', 'order', 'orphans', 'outline', 'outline-color', 'outline-offset', 'outline-style', 'outline-width', 'overflow', 'overflow-wrap', 'overflow-x', 'overflow-y', 'padding', 'padding-block', 'padding-block-end', 'padding-block-start', 'padding-bottom', 'padding-inline', 'padding-inline-end', 'padding-inline-start', 'padding-left', 'padding-right', 'padding-top', 'page-break-after', 'page-break-before', 'page-break-inside', 'pause', 'pause-after', 'pause-before', 'perspective', 'perspective-origin', 'pointer-events', 'position', 'quotes', 'resize', 'rest', 'rest-after', 'rest-before', 'right', 'row-gap', 'scroll-margin', 'scroll-margin-block', 'scroll-margin-block-end', 'scroll-margin-block-start', 'scroll-margin-bottom', 'scroll-margin-inline', 'scroll-margin-inline-end', 'scroll-margin-inline-start', 'scroll-margin-left', 'scroll-margin-right', 'scroll-margin-top', 'scroll-padding', 'scroll-padding-block', 'scroll-padding-block-end', 'scroll-padding-block-start', 'scroll-padding-bottom', 'scroll-padding-inline', 'scroll-padding-inline-end', 'scroll-padding-inline-start', 'scroll-padding-left', 'scroll-padding-right', 'scroll-padding-top', 'scroll-snap-align', 'scroll-snap-stop', 'scroll-snap-type', 'scrollbar-color', 'scrollbar-gutter', 'scrollbar-width', 'shape-image-threshold', 'shape-margin', 'shape-outside', 'speak', 'speak-as', 'src', // @font-face
   'tab-size', 'table-layout', 'text-align', 'text-align-all', 'text-align-last', 'text-combine-upright', 'text-decoration', 'text-decoration-color', 'text-decoration-line', 'text-decoration-style', 'text-emphasis', 'text-emphasis-color', 'text-emphasis-position', 'text-emphasis-style', 'text-indent', 'text-justify', 'text-orientation', 'text-overflow', 'text-rendering', 'text-shadow', 'text-transform', 'text-underline-position', 'top', 'transform', 'transform-box', 'transform-origin', 'transform-style', 'transition', 'transition-delay', 'transition-duration', 'transition-property', 'transition-timing-function', 'unicode-bidi', 'vertical-align', 'visibility', 'voice-balance', 'voice-duration', 'voice-family', 'voice-pitch', 'voice-range', 'voice-rate', 'voice-stress', 'voice-volume', 'white-space', 'widows', 'width', 'will-change', 'word-break', 'word-spacing', 'word-wrap', 'writing-mode', 'z-index' // reverse makes sure longer attributes `font-weight` are matched fully
   // instead of getting false positives on say `font`
   ].reverse();
@@ -34978,7 +35137,8 @@ export default {
     const IDENT_RE = '[a-zA-Z-][a-zA-Z0-9_-]*';
     const VARIABLE = {
       className: 'variable',
-      begin: '(\\$' + IDENT_RE + ')\\b'
+      begin: '(\\$' + IDENT_RE + ')\\b',
+      relevance: 0
     };
     return {
       name: 'SCSS',
@@ -35064,7 +35224,7 @@ export default {
       name: 'Shell Session',
       aliases: ['console', 'shellsession'],
       contains: [{
-        className: 'meta',
+        className: 'meta.prompt',
         // We cannot add \s (spaces) in the regular expression otherwise it will be too broad and produce unexpected result.
         // For instance, in the following example, it would match "echo /path/to/home >" as a prompt:
         // echo /path/to/home > t.exe
@@ -35588,7 +35748,8 @@ export default {
         begin: /`[a-zA-Z0-9_]+'/
       }, {
         className: 'variable',
-        begin: /\$\{?[a-zA-Z0-9_]+\}?/
+        begin: /\$\{?[a-zA-Z0-9_]+\}?/,
+        relevance: 0
       }, {
         className: 'string',
         variants: [{
@@ -35711,7 +35872,7 @@ export default {
   ]; // https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
 
   const PSEUDO_ELEMENTS = ['after', 'backdrop', 'before', 'cue', 'cue-region', 'first-letter', 'first-line', 'grammar-error', 'marker', 'part', 'placeholder', 'selection', 'slotted', 'spelling-error'];
-  const ATTRIBUTES = ['align-content', 'align-items', 'align-self', 'all', 'animation', 'animation-delay', 'animation-direction', 'animation-duration', 'animation-fill-mode', 'animation-iteration-count', 'animation-name', 'animation-play-state', 'animation-timing-function', 'backface-visibility', 'background', 'background-attachment', 'background-clip', 'background-color', 'background-image', 'background-origin', 'background-position', 'background-repeat', 'background-size', 'border', 'border-bottom', 'border-bottom-color', 'border-bottom-left-radius', 'border-bottom-right-radius', 'border-bottom-style', 'border-bottom-width', 'border-collapse', 'border-color', 'border-image', 'border-image-outset', 'border-image-repeat', 'border-image-slice', 'border-image-source', 'border-image-width', 'border-left', 'border-left-color', 'border-left-style', 'border-left-width', 'border-radius', 'border-right', 'border-right-color', 'border-right-style', 'border-right-width', 'border-spacing', 'border-style', 'border-top', 'border-top-color', 'border-top-left-radius', 'border-top-right-radius', 'border-top-style', 'border-top-width', 'border-width', 'bottom', 'box-decoration-break', 'box-shadow', 'box-sizing', 'break-after', 'break-before', 'break-inside', 'caption-side', 'caret-color', 'clear', 'clip', 'clip-path', 'clip-rule', 'color', 'column-count', 'column-fill', 'column-gap', 'column-rule', 'column-rule-color', 'column-rule-style', 'column-rule-width', 'column-span', 'column-width', 'columns', 'contain', 'content', 'content-visibility', 'counter-increment', 'counter-reset', 'cue', 'cue-after', 'cue-before', 'cursor', 'direction', 'display', 'empty-cells', 'filter', 'flex', 'flex-basis', 'flex-direction', 'flex-flow', 'flex-grow', 'flex-shrink', 'flex-wrap', 'float', 'flow', 'font', 'font-display', 'font-family', 'font-feature-settings', 'font-kerning', 'font-language-override', 'font-size', 'font-size-adjust', 'font-smoothing', 'font-stretch', 'font-style', 'font-synthesis', 'font-variant', 'font-variant-caps', 'font-variant-east-asian', 'font-variant-ligatures', 'font-variant-numeric', 'font-variant-position', 'font-variation-settings', 'font-weight', 'gap', 'glyph-orientation-vertical', 'grid', 'grid-area', 'grid-auto-columns', 'grid-auto-flow', 'grid-auto-rows', 'grid-column', 'grid-column-end', 'grid-column-start', 'grid-gap', 'grid-row', 'grid-row-end', 'grid-row-start', 'grid-template', 'grid-template-areas', 'grid-template-columns', 'grid-template-rows', 'hanging-punctuation', 'height', 'hyphens', 'icon', 'image-orientation', 'image-rendering', 'image-resolution', 'ime-mode', 'isolation', 'justify-content', 'left', 'letter-spacing', 'line-break', 'line-height', 'list-style', 'list-style-image', 'list-style-position', 'list-style-type', 'margin', 'margin-bottom', 'margin-left', 'margin-right', 'margin-top', 'marks', 'mask', 'mask-border', 'mask-border-mode', 'mask-border-outset', 'mask-border-repeat', 'mask-border-slice', 'mask-border-source', 'mask-border-width', 'mask-clip', 'mask-composite', 'mask-image', 'mask-mode', 'mask-origin', 'mask-position', 'mask-repeat', 'mask-size', 'mask-type', 'max-height', 'max-width', 'min-height', 'min-width', 'mix-blend-mode', 'nav-down', 'nav-index', 'nav-left', 'nav-right', 'nav-up', 'none', 'normal', 'object-fit', 'object-position', 'opacity', 'order', 'orphans', 'outline', 'outline-color', 'outline-offset', 'outline-style', 'outline-width', 'overflow', 'overflow-wrap', 'overflow-x', 'overflow-y', 'padding', 'padding-bottom', 'padding-left', 'padding-right', 'padding-top', 'page-break-after', 'page-break-before', 'page-break-inside', 'pause', 'pause-after', 'pause-before', 'perspective', 'perspective-origin', 'pointer-events', 'position', 'quotes', 'resize', 'rest', 'rest-after', 'rest-before', 'right', 'row-gap', 'scroll-margin', 'scroll-margin-block', 'scroll-margin-block-end', 'scroll-margin-block-start', 'scroll-margin-bottom', 'scroll-margin-inline', 'scroll-margin-inline-end', 'scroll-margin-inline-start', 'scroll-margin-left', 'scroll-margin-right', 'scroll-margin-top', 'scroll-padding', 'scroll-padding-block', 'scroll-padding-block-end', 'scroll-padding-block-start', 'scroll-padding-bottom', 'scroll-padding-inline', 'scroll-padding-inline-end', 'scroll-padding-inline-start', 'scroll-padding-left', 'scroll-padding-right', 'scroll-padding-top', 'scroll-snap-align', 'scroll-snap-stop', 'scroll-snap-type', 'shape-image-threshold', 'shape-margin', 'shape-outside', 'speak', 'speak-as', 'src', // @font-face
+  const ATTRIBUTES = ['align-content', 'align-items', 'align-self', 'all', 'animation', 'animation-delay', 'animation-direction', 'animation-duration', 'animation-fill-mode', 'animation-iteration-count', 'animation-name', 'animation-play-state', 'animation-timing-function', 'backface-visibility', 'background', 'background-attachment', 'background-blend-mode', 'background-clip', 'background-color', 'background-image', 'background-origin', 'background-position', 'background-repeat', 'background-size', 'block-size', 'border', 'border-block', 'border-block-color', 'border-block-end', 'border-block-end-color', 'border-block-end-style', 'border-block-end-width', 'border-block-start', 'border-block-start-color', 'border-block-start-style', 'border-block-start-width', 'border-block-style', 'border-block-width', 'border-bottom', 'border-bottom-color', 'border-bottom-left-radius', 'border-bottom-right-radius', 'border-bottom-style', 'border-bottom-width', 'border-collapse', 'border-color', 'border-image', 'border-image-outset', 'border-image-repeat', 'border-image-slice', 'border-image-source', 'border-image-width', 'border-inline', 'border-inline-color', 'border-inline-end', 'border-inline-end-color', 'border-inline-end-style', 'border-inline-end-width', 'border-inline-start', 'border-inline-start-color', 'border-inline-start-style', 'border-inline-start-width', 'border-inline-style', 'border-inline-width', 'border-left', 'border-left-color', 'border-left-style', 'border-left-width', 'border-radius', 'border-right', 'border-right-color', 'border-right-style', 'border-right-width', 'border-spacing', 'border-style', 'border-top', 'border-top-color', 'border-top-left-radius', 'border-top-right-radius', 'border-top-style', 'border-top-width', 'border-width', 'bottom', 'box-decoration-break', 'box-shadow', 'box-sizing', 'break-after', 'break-before', 'break-inside', 'caption-side', 'caret-color', 'clear', 'clip', 'clip-path', 'clip-rule', 'color', 'column-count', 'column-fill', 'column-gap', 'column-rule', 'column-rule-color', 'column-rule-style', 'column-rule-width', 'column-span', 'column-width', 'columns', 'contain', 'content', 'content-visibility', 'counter-increment', 'counter-reset', 'cue', 'cue-after', 'cue-before', 'cursor', 'direction', 'display', 'empty-cells', 'filter', 'flex', 'flex-basis', 'flex-direction', 'flex-flow', 'flex-grow', 'flex-shrink', 'flex-wrap', 'float', 'flow', 'font', 'font-display', 'font-family', 'font-feature-settings', 'font-kerning', 'font-language-override', 'font-size', 'font-size-adjust', 'font-smoothing', 'font-stretch', 'font-style', 'font-synthesis', 'font-variant', 'font-variant-caps', 'font-variant-east-asian', 'font-variant-ligatures', 'font-variant-numeric', 'font-variant-position', 'font-variation-settings', 'font-weight', 'gap', 'glyph-orientation-vertical', 'grid', 'grid-area', 'grid-auto-columns', 'grid-auto-flow', 'grid-auto-rows', 'grid-column', 'grid-column-end', 'grid-column-start', 'grid-gap', 'grid-row', 'grid-row-end', 'grid-row-start', 'grid-template', 'grid-template-areas', 'grid-template-columns', 'grid-template-rows', 'hanging-punctuation', 'height', 'hyphens', 'icon', 'image-orientation', 'image-rendering', 'image-resolution', 'ime-mode', 'inline-size', 'isolation', 'justify-content', 'left', 'letter-spacing', 'line-break', 'line-height', 'list-style', 'list-style-image', 'list-style-position', 'list-style-type', 'margin', 'margin-block', 'margin-block-end', 'margin-block-start', 'margin-bottom', 'margin-inline', 'margin-inline-end', 'margin-inline-start', 'margin-left', 'margin-right', 'margin-top', 'marks', 'mask', 'mask-border', 'mask-border-mode', 'mask-border-outset', 'mask-border-repeat', 'mask-border-slice', 'mask-border-source', 'mask-border-width', 'mask-clip', 'mask-composite', 'mask-image', 'mask-mode', 'mask-origin', 'mask-position', 'mask-repeat', 'mask-size', 'mask-type', 'max-block-size', 'max-height', 'max-inline-size', 'max-width', 'min-block-size', 'min-height', 'min-inline-size', 'min-width', 'mix-blend-mode', 'nav-down', 'nav-index', 'nav-left', 'nav-right', 'nav-up', 'none', 'normal', 'object-fit', 'object-position', 'opacity', 'order', 'orphans', 'outline', 'outline-color', 'outline-offset', 'outline-style', 'outline-width', 'overflow', 'overflow-wrap', 'overflow-x', 'overflow-y', 'padding', 'padding-block', 'padding-block-end', 'padding-block-start', 'padding-bottom', 'padding-inline', 'padding-inline-end', 'padding-inline-start', 'padding-left', 'padding-right', 'padding-top', 'page-break-after', 'page-break-before', 'page-break-inside', 'pause', 'pause-after', 'pause-before', 'perspective', 'perspective-origin', 'pointer-events', 'position', 'quotes', 'resize', 'rest', 'rest-after', 'rest-before', 'right', 'row-gap', 'scroll-margin', 'scroll-margin-block', 'scroll-margin-block-end', 'scroll-margin-block-start', 'scroll-margin-bottom', 'scroll-margin-inline', 'scroll-margin-inline-end', 'scroll-margin-inline-start', 'scroll-margin-left', 'scroll-margin-right', 'scroll-margin-top', 'scroll-padding', 'scroll-padding-block', 'scroll-padding-block-end', 'scroll-padding-block-start', 'scroll-padding-bottom', 'scroll-padding-inline', 'scroll-padding-inline-end', 'scroll-padding-inline-start', 'scroll-padding-left', 'scroll-padding-right', 'scroll-padding-top', 'scroll-snap-align', 'scroll-snap-stop', 'scroll-snap-type', 'scrollbar-color', 'scrollbar-gutter', 'scrollbar-width', 'shape-image-threshold', 'shape-margin', 'shape-outside', 'speak', 'speak-as', 'src', // @font-face
   'tab-size', 'table-layout', 'text-align', 'text-align-all', 'text-align-last', 'text-combine-upright', 'text-decoration', 'text-decoration-color', 'text-decoration-line', 'text-decoration-style', 'text-emphasis', 'text-emphasis-color', 'text-emphasis-position', 'text-emphasis-style', 'text-indent', 'text-justify', 'text-orientation', 'text-overflow', 'text-rendering', 'text-shadow', 'text-transform', 'text-underline-position', 'top', 'transform', 'transform-box', 'transform-origin', 'transform-style', 'transition', 'transition-delay', 'transition-duration', 'transition-property', 'transition-timing-function', 'unicode-bidi', 'vertical-align', 'visibility', 'voice-balance', 'voice-duration', 'voice-family', 'voice-pitch', 'voice-range', 'voice-rate', 'voice-stress', 'voice-volume', 'white-space', 'widows', 'width', 'will-change', 'word-break', 'word-spacing', 'word-wrap', 'writing-mode', 'z-index' // reverse makes sure longer attributes `font-weight` are matched fully
   // instead of getting false positives on say `font`
   ].reverse();
@@ -36781,9 +36942,9 @@ export default {
   */
   function twig(hljs) {
     const regex = hljs.regex;
-    const FUNCTION_NAMES = ["attribute", "block", "constant", "country_timezones", "cycle", "date", "dump", "html_classes", "include", "max", "min", "parent", "random", "range", "source", "template_from_string"];
-    const FILTERS = ["abs", "batch", "capitalize", "column", "convert_encoding", "country_name", "currency_name", "currency_symbol", "data_uri", "date", "date_modify", "default", "escape", "filter", "first", "format", "format_currency", "format_date", "format_datetime", "format_number", "format_time", "html_to_markdown", "inky_to_html", "inline_css", "join", "json_encode", "keys", "language_name", "last", "length", "locale_name", "lower", "map", "markdown", "markdown_to_html", "merge", "nl2br", "number_format", "raw", "reduce", "replace", "reverse", "round", "slice", "slug", "sort", "spaceless", "split", "striptags", "timezone_name", "title", "trim", "u|0", "upper", "url_encode"];
-    let TAG_NAMES = ["apply", "autoescape", "block", "cache", "deprecated", "do", "embed", "extends", "filter", "flush", "for", "from", "if", "import", "include", "macro", "sandbox", "set", "use", "verbatim", "with"];
+    const FUNCTION_NAMES = ["absolute_url", "asset|0", "asset_version", "attribute", "block", "constant", "controller|0", "country_timezones", "csrf_token", "cycle", "date", "dump", "expression", "form|0", "form_end", "form_errors", "form_help", "form_label", "form_rest", "form_row", "form_start", "form_widget", "html_classes", "include", "is_granted", "logout_path", "logout_url", "max", "min", "parent", "path|0", "random", "range", "relative_path", "render", "render_esi", "source", "template_from_string", "url|0"];
+    const FILTERS = ["abs", "abbr_class", "abbr_method", "batch", "capitalize", "column", "convert_encoding", "country_name", "currency_name", "currency_symbol", "data_uri", "date", "date_modify", "default", "escape", "file_excerpt", "file_link", "file_relative", "filter", "first", "format", "format_args", "format_args_as_text", "format_currency", "format_date", "format_datetime", "format_file", "format_file_from_text", "format_number", "format_time", "html_to_markdown", "humanize", "inky_to_html", "inline_css", "join", "json_encode", "keys", "language_name", "last", "length", "locale_name", "lower", "map", "markdown", "markdown_to_html", "merge", "nl2br", "number_format", "raw", "reduce", "replace", "reverse", "round", "slice", "slug", "sort", "spaceless", "split", "striptags", "timezone_name", "title", "trans", "transchoice", "trim", "u|0", "upper", "url_encode", "yaml_dump", "yaml_encode"];
+    let TAG_NAMES = ["apply", "autoescape", "block", "cache", "deprecated", "do", "embed", "extends", "filter", "flush", "for", "form_theme", "from", "if", "import", "include", "macro", "sandbox", "set", "stopwatch", "trans", "trans_default_domain", "transchoice", "use", "verbatim", "with"];
     TAG_NAMES = TAG_NAMES.concat(TAG_NAMES.map(t => `end${t}`));
     const STRING = {
       scope: 'string',
@@ -37339,7 +37500,7 @@ export default {
   function typescript(hljs) {
     const tsLanguage = javascript$1(hljs);
     const IDENT_RE$1$1 = IDENT_RE$1;
-    const TYPES = ["any", "void", "number", "boolean", "string", "object", "never", "enum"];
+    const TYPES = ["any", "void", "number", "boolean", "string", "object", "never", "symbol", "bigint", "unknown"];
     const NAMESPACE = {
       beginKeywords: 'namespace',
       end: /\{/,
@@ -37361,7 +37522,7 @@ export default {
       relevance: 10,
       begin: /^\s*['"]use strict['"]/
     };
-    const TS_SPECIFIC_KEYWORDS = ["type", "namespace", "typedef", "interface", "public", "private", "protected", "implements", "declare", "abstract", "readonly"];
+    const TS_SPECIFIC_KEYWORDS = ["type", "namespace", "interface", "public", "private", "protected", "implements", "declare", "abstract", "readonly", "enum", "override"];
     const KEYWORDS$1$1 = {
       $pattern: IDENT_RE$1,
       keyword: KEYWORDS$1.concat(TS_SPECIFIC_KEYWORDS),
@@ -37416,12 +37577,12 @@ export default {
       name: 'Vala',
       keywords: {
         keyword: // Value types
-        'char uchar unichar int uint long ulong short ushort int8 int16 int32 int64 uint8 ' + 'uint16 uint32 uint64 float double bool struct enum string void ' + // Reference types
-        'weak unowned owned ' + // Modifiers
-        'async signal static abstract interface override virtual delegate ' + // Control Structures
-        'if while do for foreach else switch case break default return try catch ' + // Visibility
-        'public private protected internal ' + // Other
-        'using new this get set const stdout stdin stderr var',
+        'char uchar unichar int uint long ulong short ushort int8 int16 int32 int64 uint8 ' + 'uint16 uint32 uint64 float double bool struct enum string void ' // Reference types
+        + 'weak unowned owned ' // Modifiers
+        + 'async signal static abstract interface override virtual delegate ' // Control Structures
+        + 'if while do for foreach else switch case break default return try catch ' // Visibility
+        + 'public private protected internal ' // Other
+        + 'using new this get set const stdout stdin stderr var',
         built_in: 'DBus GLib CCode Gee Object Gtk Posix',
         literal: 'false true null'
       },
@@ -37556,32 +37717,32 @@ export default {
         label: 'symbol'
       },
       keywords: {
-        keyword: 'addhandler alias aggregate ansi as async assembly auto binary by byref byval ' +
+        keyword: 'addhandler alias aggregate ansi as async assembly auto binary by byref byval '
         /* a-b */
-        'call case catch class compare const continue custom declare default delegate dim distinct do ' +
+        + 'call case catch class compare const continue custom declare default delegate dim distinct do '
         /* c-d */
-        'each equals else elseif end enum erase error event exit explicit finally for friend from function ' +
+        + 'each equals else elseif end enum erase error event exit explicit finally for friend from function '
         /* e-f */
-        'get global goto group handles if implements imports in inherits interface into iterator ' +
+        + 'get global goto group handles if implements imports in inherits interface into iterator '
         /* g-i */
-        'join key let lib loop me mid module mustinherit mustoverride mybase myclass ' +
+        + 'join key let lib loop me mid module mustinherit mustoverride mybase myclass '
         /* j-m */
-        'namespace narrowing new next notinheritable notoverridable ' +
+        + 'namespace narrowing new next notinheritable notoverridable '
         /* n */
-        'of off on operator option optional order overloads overridable overrides ' +
+        + 'of off on operator option optional order overloads overridable overrides '
         /* o */
-        'paramarray partial preserve private property protected public ' +
+        + 'paramarray partial preserve private property protected public '
         /* p */
-        'raiseevent readonly redim removehandler resume return ' +
+        + 'raiseevent readonly redim removehandler resume return '
         /* r */
-        'select set shadows shared skip static step stop structure strict sub synclock ' +
+        + 'select set shadows shared skip static step stop structure strict sub synclock '
         /* s */
-        'take text then throw to try unicode until using when where while widening with withevents writeonly yield'
+        + 'take text then throw to try unicode until using when where while widening with withevents writeonly yield'
         /* t-y */
         ,
         built_in: // Operators https://docs.microsoft.com/dotnet/visual-basic/language-reference/operators
-        'addressof and andalso await directcast gettype getxmlnamespace is isfalse isnot istrue like mod nameof new not or orelse trycast typeof xor ' + // Type Conversion Functions https://docs.microsoft.com/dotnet/visual-basic/language-reference/functions/type-conversion-functions
-        'cbool cbyte cchar cdate cdbl cdec cint clng cobj csbyte cshort csng cstr cuint culng cushort',
+        'addressof and andalso await directcast gettype getxmlnamespace is isfalse isnot istrue like mod nameof new not or orelse trycast typeof xor ' // Type Conversion Functions https://docs.microsoft.com/dotnet/visual-basic/language-reference/functions/type-conversion-functions
+        + 'cbool cbyte cchar cdate cdbl cdec cint clng cobj csbyte cshort csng cstr cuint culng cushort',
         type: // Data types https://docs.microsoft.com/dotnet/visual-basic/language-reference/data-types
         'boolean byte char date decimal double integer long object sbyte short single string uinteger ulong ushort',
         literal: 'true false nothing'
@@ -37786,8 +37947,8 @@ export default {
       keywords: {
         $pattern: /[!#@\w]+/,
         keyword: // express version except: ! & * < = > !! # @ @@
-        'N|0 P|0 X|0 a|0 ab abc abo al am an|0 ar arga argd arge argdo argg argl argu as au aug aun b|0 bN ba bad bd be bel bf bl bm bn bo bp br brea breaka breakd breakl bro bufdo buffers bun bw c|0 cN cNf ca cabc caddb cad caddf cal cat cb cc ccl cd ce cex cf cfir cgetb cgete cg changes chd che checkt cl cla clo cm cmapc cme cn cnew cnf cno cnorea cnoreme co col colo com comc comp con conf cope ' + 'cp cpf cq cr cs cst cu cuna cunme cw delm deb debugg delc delf dif diffg diffo diffp diffpu diffs diffthis dig di dl dell dj dli do doautoa dp dr ds dsp e|0 ea ec echoe echoh echom echon el elsei em en endfo endf endt endw ene ex exe exi exu f|0 files filet fin fina fini fir fix fo foldc foldd folddoc foldo for fu go gr grepa gu gv ha helpf helpg helpt hi hid his ia iabc if ij il im imapc ' + 'ime ino inorea inoreme int is isp iu iuna iunme j|0 ju k|0 keepa kee keepj lN lNf l|0 lad laddb laddf la lan lat lb lc lch lcl lcs le lefta let lex lf lfir lgetb lgete lg lgr lgrepa lh ll lla lli lmak lm lmapc lne lnew lnf ln loadk lo loc lockv lol lope lp lpf lr ls lt lu lua luad luaf lv lvimgrepa lw m|0 ma mak map mapc marks mat me menut mes mk mks mksp mkv mkvie mod mz mzf nbc nb nbs new nm nmapc nme nn nnoreme noa no noh norea noreme norm nu nun nunme ol o|0 om omapc ome on ono onoreme opt ou ounme ow p|0 ' + 'profd prof pro promptr pc ped pe perld po popu pp pre prev ps pt ptN ptf ptj ptl ptn ptp ptr pts pu pw py3 python3 py3d py3f py pyd pyf quita qa rec red redi redr redraws reg res ret retu rew ri rightb rub rubyd rubyf rund ru rv sN san sa sal sav sb sbN sba sbf sbl sbm sbn sbp sbr scrip scripte scs se setf setg setl sf sfir sh sim sig sil sl sla sm smap smapc sme sn sni sno snor snoreme sor ' + 'so spelld spe spelli spellr spellu spellw sp spr sre st sta startg startr star stopi stj sts sun sunm sunme sus sv sw sy synti sync tN tabN tabc tabdo tabe tabf tabfir tabl tabm tabnew ' + 'tabn tabo tabp tabr tabs tab ta tags tc tcld tclf te tf th tj tl tm tn to tp tr try ts tu u|0 undoj undol una unh unl unlo unm unme uns up ve verb vert vim vimgrepa vi viu vie vm vmapc vme vne vn vnoreme vs vu vunme windo w|0 wN wa wh wi winc winp wn wp wq wqa ws wu wv x|0 xa xmapc xm xme xn xnoreme xu xunme y|0 z|0 ~ ' + // full version
-        'Next Print append abbreviate abclear aboveleft all amenu anoremenu args argadd argdelete argedit argglobal arglocal argument ascii autocmd augroup aunmenu buffer bNext ball badd bdelete behave belowright bfirst blast bmodified bnext botright bprevious brewind break breakadd breakdel breaklist browse bunload ' + 'bwipeout change cNext cNfile cabbrev cabclear caddbuffer caddexpr caddfile call catch cbuffer cclose center cexpr cfile cfirst cgetbuffer cgetexpr cgetfile chdir checkpath checktime clist clast close cmap cmapclear cmenu cnext cnewer cnfile cnoremap cnoreabbrev cnoremenu copy colder colorscheme command comclear compiler continue confirm copen cprevious cpfile cquit crewind cscope cstag cunmap ' + 'cunabbrev cunmenu cwindow delete delmarks debug debuggreedy delcommand delfunction diffupdate diffget diffoff diffpatch diffput diffsplit digraphs display deletel djump dlist doautocmd doautoall deletep drop dsearch dsplit edit earlier echo echoerr echohl echomsg else elseif emenu endif endfor ' + 'endfunction endtry endwhile enew execute exit exusage file filetype find finally finish first fixdel fold foldclose folddoopen folddoclosed foldopen function global goto grep grepadd gui gvim hardcopy help helpfind helpgrep helptags highlight hide history insert iabbrev iabclear ijump ilist imap ' + 'imapclear imenu inoremap inoreabbrev inoremenu intro isearch isplit iunmap iunabbrev iunmenu join jumps keepalt keepmarks keepjumps lNext lNfile list laddexpr laddbuffer laddfile last language later lbuffer lcd lchdir lclose lcscope left leftabove lexpr lfile lfirst lgetbuffer lgetexpr lgetfile lgrep lgrepadd lhelpgrep llast llist lmake lmap lmapclear lnext lnewer lnfile lnoremap loadkeymap loadview ' + 'lockmarks lockvar lolder lopen lprevious lpfile lrewind ltag lunmap luado luafile lvimgrep lvimgrepadd lwindow move mark make mapclear match menu menutranslate messages mkexrc mksession mkspell mkvimrc mkview mode mzscheme mzfile nbclose nbkey nbsart next nmap nmapclear nmenu nnoremap ' + 'nnoremenu noautocmd noremap nohlsearch noreabbrev noremenu normal number nunmap nunmenu oldfiles open omap omapclear omenu only onoremap onoremenu options ounmap ounmenu ownsyntax print profdel profile promptfind promptrepl pclose pedit perl perldo pop popup ppop preserve previous psearch ptag ptNext ' + 'ptfirst ptjump ptlast ptnext ptprevious ptrewind ptselect put pwd py3do py3file python pydo pyfile quit quitall qall read recover redo redir redraw redrawstatus registers resize retab return rewind right rightbelow ruby rubydo rubyfile rundo runtime rviminfo substitute sNext sandbox sargument sall saveas sbuffer sbNext sball sbfirst sblast sbmodified sbnext sbprevious sbrewind scriptnames scriptencoding ' + 'scscope set setfiletype setglobal setlocal sfind sfirst shell simalt sign silent sleep slast smagic smapclear smenu snext sniff snomagic snoremap snoremenu sort source spelldump spellgood spellinfo spellrepall spellundo spellwrong split sprevious srewind stop stag startgreplace startreplace ' + 'startinsert stopinsert stjump stselect sunhide sunmap sunmenu suspend sview swapname syntax syntime syncbind tNext tabNext tabclose tabedit tabfind tabfirst tablast tabmove tabnext tabonly tabprevious tabrewind tag tcl tcldo tclfile tearoff tfirst throw tjump tlast tmenu tnext topleft tprevious ' + 'trewind tselect tunmenu undo undojoin undolist unabbreviate unhide unlet unlockvar unmap unmenu unsilent update vglobal version verbose vertical vimgrep vimgrepadd visual viusage view vmap vmapclear vmenu vnew ' + 'vnoremap vnoremenu vsplit vunmap vunmenu write wNext wall while winsize wincmd winpos wnext wprevious wqall wsverb wundo wviminfo xit xall xmapclear xmap xmenu xnoremap xnoremenu xunmap xunmenu yank',
+        'N|0 P|0 X|0 a|0 ab abc abo al am an|0 ar arga argd arge argdo argg argl argu as au aug aun b|0 bN ba bad bd be bel bf bl bm bn bo bp br brea breaka breakd breakl bro bufdo buffers bun bw c|0 cN cNf ca cabc caddb cad caddf cal cat cb cc ccl cd ce cex cf cfir cgetb cgete cg changes chd che checkt cl cla clo cm cmapc cme cn cnew cnf cno cnorea cnoreme co col colo com comc comp con conf cope ' + 'cp cpf cq cr cs cst cu cuna cunme cw delm deb debugg delc delf dif diffg diffo diffp diffpu diffs diffthis dig di dl dell dj dli do doautoa dp dr ds dsp e|0 ea ec echoe echoh echom echon el elsei em en endfo endf endt endw ene ex exe exi exu f|0 files filet fin fina fini fir fix fo foldc foldd folddoc foldo for fu go gr grepa gu gv ha helpf helpg helpt hi hid his ia iabc if ij il im imapc ' + 'ime ino inorea inoreme int is isp iu iuna iunme j|0 ju k|0 keepa kee keepj lN lNf l|0 lad laddb laddf la lan lat lb lc lch lcl lcs le lefta let lex lf lfir lgetb lgete lg lgr lgrepa lh ll lla lli lmak lm lmapc lne lnew lnf ln loadk lo loc lockv lol lope lp lpf lr ls lt lu lua luad luaf lv lvimgrepa lw m|0 ma mak map mapc marks mat me menut mes mk mks mksp mkv mkvie mod mz mzf nbc nb nbs new nm nmapc nme nn nnoreme noa no noh norea noreme norm nu nun nunme ol o|0 om omapc ome on ono onoreme opt ou ounme ow p|0 ' + 'profd prof pro promptr pc ped pe perld po popu pp pre prev ps pt ptN ptf ptj ptl ptn ptp ptr pts pu pw py3 python3 py3d py3f py pyd pyf quita qa rec red redi redr redraws reg res ret retu rew ri rightb rub rubyd rubyf rund ru rv sN san sa sal sav sb sbN sba sbf sbl sbm sbn sbp sbr scrip scripte scs se setf setg setl sf sfir sh sim sig sil sl sla sm smap smapc sme sn sni sno snor snoreme sor ' + 'so spelld spe spelli spellr spellu spellw sp spr sre st sta startg startr star stopi stj sts sun sunm sunme sus sv sw sy synti sync tN tabN tabc tabdo tabe tabf tabfir tabl tabm tabnew ' + 'tabn tabo tabp tabr tabs tab ta tags tc tcld tclf te tf th tj tl tm tn to tp tr try ts tu u|0 undoj undol una unh unl unlo unm unme uns up ve verb vert vim vimgrepa vi viu vie vm vmapc vme vne vn vnoreme vs vu vunme windo w|0 wN wa wh wi winc winp wn wp wq wqa ws wu wv x|0 xa xmapc xm xme xn xnoreme xu xunme y|0 z|0 ~ ' // full version
+        + 'Next Print append abbreviate abclear aboveleft all amenu anoremenu args argadd argdelete argedit argglobal arglocal argument ascii autocmd augroup aunmenu buffer bNext ball badd bdelete behave belowright bfirst blast bmodified bnext botright bprevious brewind break breakadd breakdel breaklist browse bunload ' + 'bwipeout change cNext cNfile cabbrev cabclear caddbuffer caddexpr caddfile call catch cbuffer cclose center cexpr cfile cfirst cgetbuffer cgetexpr cgetfile chdir checkpath checktime clist clast close cmap cmapclear cmenu cnext cnewer cnfile cnoremap cnoreabbrev cnoremenu copy colder colorscheme command comclear compiler continue confirm copen cprevious cpfile cquit crewind cscope cstag cunmap ' + 'cunabbrev cunmenu cwindow delete delmarks debug debuggreedy delcommand delfunction diffupdate diffget diffoff diffpatch diffput diffsplit digraphs display deletel djump dlist doautocmd doautoall deletep drop dsearch dsplit edit earlier echo echoerr echohl echomsg else elseif emenu endif endfor ' + 'endfunction endtry endwhile enew execute exit exusage file filetype find finally finish first fixdel fold foldclose folddoopen folddoclosed foldopen function global goto grep grepadd gui gvim hardcopy help helpfind helpgrep helptags highlight hide history insert iabbrev iabclear ijump ilist imap ' + 'imapclear imenu inoremap inoreabbrev inoremenu intro isearch isplit iunmap iunabbrev iunmenu join jumps keepalt keepmarks keepjumps lNext lNfile list laddexpr laddbuffer laddfile last language later lbuffer lcd lchdir lclose lcscope left leftabove lexpr lfile lfirst lgetbuffer lgetexpr lgetfile lgrep lgrepadd lhelpgrep llast llist lmake lmap lmapclear lnext lnewer lnfile lnoremap loadkeymap loadview ' + 'lockmarks lockvar lolder lopen lprevious lpfile lrewind ltag lunmap luado luafile lvimgrep lvimgrepadd lwindow move mark make mapclear match menu menutranslate messages mkexrc mksession mkspell mkvimrc mkview mode mzscheme mzfile nbclose nbkey nbsart next nmap nmapclear nmenu nnoremap ' + 'nnoremenu noautocmd noremap nohlsearch noreabbrev noremenu normal number nunmap nunmenu oldfiles open omap omapclear omenu only onoremap onoremenu options ounmap ounmenu ownsyntax print profdel profile promptfind promptrepl pclose pedit perl perldo pop popup ppop preserve previous psearch ptag ptNext ' + 'ptfirst ptjump ptlast ptnext ptprevious ptrewind ptselect put pwd py3do py3file python pydo pyfile quit quitall qall read recover redo redir redraw redrawstatus registers resize retab return rewind right rightbelow ruby rubydo rubyfile rundo runtime rviminfo substitute sNext sandbox sargument sall saveas sbuffer sbNext sball sbfirst sblast sbmodified sbnext sbprevious sbrewind scriptnames scriptencoding ' + 'scscope set setfiletype setglobal setlocal sfind sfirst shell simalt sign silent sleep slast smagic smapclear smenu snext sniff snomagic snoremap snoremenu sort source spelldump spellgood spellinfo spellrepall spellundo spellwrong split sprevious srewind stop stag startgreplace startreplace ' + 'startinsert stopinsert stjump stselect sunhide sunmap sunmenu suspend sview swapname syntax syntime syncbind tNext tabNext tabclose tabedit tabfind tabfirst tablast tabmove tabnext tabonly tabprevious tabrewind tag tcl tcldo tclfile tearoff tfirst throw tjump tlast tmenu tnext topleft tprevious ' + 'trewind tselect tunmenu undo undojoin undolist unabbreviate unhide unlet unlockvar unmap unmenu unsilent update vglobal version verbose vertical vimgrep vimgrepadd visual viusage view vmap vmapclear vmenu vnew ' + 'vnoremap vnoremenu vsplit vunmap vunmenu write wNext wall while winsize wincmd winpos wnext wprevious wqall wsverb wundo wviminfo xit xall xmapclear xmap xmenu xnoremap xnoremenu xunmap xunmenu yank',
         built_in: // built in func
         'synIDtrans atan2 range matcharg did_filetype asin feedkeys xor argv ' + 'complete_check add getwinposx getqflist getwinposy screencol ' + 'clearmatches empty extend getcmdpos mzeval garbagecollect setreg ' + 'ceil sqrt diff_hlID inputsecret get getfperm getpid filewritable ' + 'shiftwidth max sinh isdirectory synID system inputrestore winline ' + 'atan visualmode inputlist tabpagewinnr round getregtype mapcheck ' + 'hasmapto histdel argidx findfile sha256 exists toupper getcmdline ' + 'taglist string getmatches bufnr strftime winwidth bufexists ' + 'strtrans tabpagebuflist setcmdpos remote_read printf setloclist ' + 'getpos getline bufwinnr float2nr len getcmdtype diff_filler luaeval ' + 'resolve libcallnr foldclosedend reverse filter has_key bufname ' + 'str2float strlen setline getcharmod setbufvar index searchpos ' + 'shellescape undofile foldclosed setqflist buflisted strchars str2nr ' + 'virtcol floor remove undotree remote_expr winheight gettabwinvar ' + 'reltime cursor tabpagenr finddir localtime acos getloclist search ' + 'tanh matchend rename gettabvar strdisplaywidth type abs py3eval ' + 'setwinvar tolower wildmenumode log10 spellsuggest bufloaded ' + 'synconcealed nextnonblank server2client complete settabwinvar ' + 'executable input wincol setmatches getftype hlID inputsave ' + 'searchpair or screenrow line settabvar histadd deepcopy strpart ' + 'remote_peek and eval getftime submatch screenchar winsaveview ' + 'matchadd mkdir screenattr getfontname libcall reltimestr getfsize ' + 'winnr invert pow getbufline byte2line soundfold repeat fnameescape ' + 'tagfiles sin strwidth spellbadword trunc maparg log lispindent ' + 'hostname setpos globpath remote_foreground getchar synIDattr ' + 'fnamemodify cscope_connection stridx winbufnr indent min ' + 'complete_add nr2char searchpairpos inputdialog values matchlist ' + 'items hlexists strridx browsedir expand fmod pathshorten line2byte ' + 'argc count getwinvar glob foldtextresult getreg foreground cosh ' + 'matchdelete has char2nr simplify histget searchdecl iconv ' + 'winrestcmd pumvisible writefile foldlevel haslocaldir keys cos ' + 'matchstr foldtext histnr tan tempname getcwd byteidx getbufvar ' + 'islocked escape eventhandler remote_send serverlist winrestview ' + 'synstack pyeval prevnonblank readfile cindent filereadable changenr ' + 'exp'
       },
@@ -38078,21 +38239,21 @@ export default {
         $pattern: '[.%]?' + hljs.IDENT_RE,
         keyword: 'lock rep repe repz repne repnz xaquire xrelease bnd nobnd ' + 'aaa aad aam aas adc add and arpl bb0_reset bb1_reset bound bsf bsr bswap bt btc btr bts call cbw cdq cdqe clc cld cli clts cmc cmp cmpsb cmpsd cmpsq cmpsw cmpxchg cmpxchg486 cmpxchg8b cmpxchg16b cpuid cpu_read cpu_write cqo cwd cwde daa das dec div dmint emms enter equ f2xm1 fabs fadd faddp fbld fbstp fchs fclex fcmovb fcmovbe fcmove fcmovnb fcmovnbe fcmovne fcmovnu fcmovu fcom fcomi fcomip fcomp fcompp fcos fdecstp fdisi fdiv fdivp fdivr fdivrp femms feni ffree ffreep fiadd ficom ficomp fidiv fidivr fild fimul fincstp finit fist fistp fisttp fisub fisubr fld fld1 fldcw fldenv fldl2e fldl2t fldlg2 fldln2 fldpi fldz fmul fmulp fnclex fndisi fneni fninit fnop fnsave fnstcw fnstenv fnstsw fpatan fprem fprem1 fptan frndint frstor fsave fscale fsetpm fsin fsincos fsqrt fst fstcw fstenv fstp fstsw fsub fsubp fsubr fsubrp ftst fucom fucomi fucomip fucomp fucompp fxam fxch fxtract fyl2x fyl2xp1 hlt ibts icebp idiv imul in inc incbin insb insd insw int int01 int1 int03 int3 into invd invpcid invlpg invlpga iret iretd iretq iretw jcxz jecxz jrcxz jmp jmpe lahf lar lds lea leave les lfence lfs lgdt lgs lidt lldt lmsw loadall loadall286 lodsb lodsd lodsq lodsw loop loope loopne loopnz loopz lsl lss ltr mfence monitor mov movd movq movsb movsd movsq movsw movsx movsxd movzx mul mwait neg nop not or out outsb outsd outsw packssdw packsswb packuswb paddb paddd paddsb paddsiw paddsw paddusb paddusw paddw pand pandn pause paveb pavgusb pcmpeqb pcmpeqd pcmpeqw pcmpgtb pcmpgtd pcmpgtw pdistib pf2id pfacc pfadd pfcmpeq pfcmpge pfcmpgt pfmax pfmin pfmul pfrcp pfrcpit1 pfrcpit2 pfrsqit1 pfrsqrt pfsub pfsubr pi2fd pmachriw pmaddwd pmagw pmulhriw pmulhrwa pmulhrwc pmulhw pmullw pmvgezb pmvlzb pmvnzb pmvzb pop popa popad popaw popf popfd popfq popfw por prefetch prefetchw pslld psllq psllw psrad psraw psrld psrlq psrlw psubb psubd psubsb psubsiw psubsw psubusb psubusw psubw punpckhbw punpckhdq punpckhwd punpcklbw punpckldq punpcklwd push pusha pushad pushaw pushf pushfd pushfq pushfw pxor rcl rcr rdshr rdmsr rdpmc rdtsc rdtscp ret retf retn rol ror rdm rsdc rsldt rsm rsts sahf sal salc sar sbb scasb scasd scasq scasw sfence sgdt shl shld shr shrd sidt sldt skinit smi smint smintold smsw stc std sti stosb stosd stosq stosw str sub svdc svldt svts swapgs syscall sysenter sysexit sysret test ud0 ud1 ud2b ud2 ud2a umov verr verw fwait wbinvd wrshr wrmsr xadd xbts xchg xlatb xlat xor cmove cmovz cmovne cmovnz cmova cmovnbe cmovae cmovnb cmovb cmovnae cmovbe cmovna cmovg cmovnle cmovge cmovnl cmovl cmovnge cmovle cmovng cmovc cmovnc cmovo cmovno cmovs cmovns cmovp cmovpe cmovnp cmovpo je jz jne jnz ja jnbe jae jnb jb jnae jbe jna jg jnle jge jnl jl jnge jle jng jc jnc jo jno js jns jpo jnp jpe jp sete setz setne setnz seta setnbe setae setnb setnc setb setnae setcset setbe setna setg setnle setge setnl setl setnge setle setng sets setns seto setno setpe setp setpo setnp addps addss andnps andps cmpeqps cmpeqss cmpleps cmpless cmpltps cmpltss cmpneqps cmpneqss cmpnleps cmpnless cmpnltps cmpnltss cmpordps cmpordss cmpunordps cmpunordss cmpps cmpss comiss cvtpi2ps cvtps2pi cvtsi2ss cvtss2si cvttps2pi cvttss2si divps divss ldmxcsr maxps maxss minps minss movaps movhps movlhps movlps movhlps movmskps movntps movss movups mulps mulss orps rcpps rcpss rsqrtps rsqrtss shufps sqrtps sqrtss stmxcsr subps subss ucomiss unpckhps unpcklps xorps fxrstor fxrstor64 fxsave fxsave64 xgetbv xsetbv xsave xsave64 xsaveopt xsaveopt64 xrstor xrstor64 prefetchnta prefetcht0 prefetcht1 prefetcht2 maskmovq movntq pavgb pavgw pextrw pinsrw pmaxsw pmaxub pminsw pminub pmovmskb pmulhuw psadbw pshufw pf2iw pfnacc pfpnacc pi2fw pswapd maskmovdqu clflush movntdq movnti movntpd movdqa movdqu movdq2q movq2dq paddq pmuludq pshufd pshufhw pshuflw pslldq psrldq psubq punpckhqdq punpcklqdq addpd addsd andnpd andpd cmpeqpd cmpeqsd cmplepd cmplesd cmpltpd cmpltsd cmpneqpd cmpneqsd cmpnlepd cmpnlesd cmpnltpd cmpnltsd cmpordpd cmpordsd cmpunordpd cmpunordsd cmppd comisd cvtdq2pd cvtdq2ps cvtpd2dq cvtpd2pi cvtpd2ps cvtpi2pd cvtps2dq cvtps2pd cvtsd2si cvtsd2ss cvtsi2sd cvtss2sd cvttpd2pi cvttpd2dq cvttps2dq cvttsd2si divpd divsd maxpd maxsd minpd minsd movapd movhpd movlpd movmskpd movupd mulpd mulsd orpd shufpd sqrtpd sqrtsd subpd subsd ucomisd unpckhpd unpcklpd xorpd addsubpd addsubps haddpd haddps hsubpd hsubps lddqu movddup movshdup movsldup clgi stgi vmcall vmclear vmfunc vmlaunch vmload vmmcall vmptrld vmptrst vmread vmresume vmrun vmsave vmwrite vmxoff vmxon invept invvpid pabsb pabsw pabsd palignr phaddw phaddd phaddsw phsubw phsubd phsubsw pmaddubsw pmulhrsw pshufb psignb psignw psignd extrq insertq movntsd movntss lzcnt blendpd blendps blendvpd blendvps dppd dpps extractps insertps movntdqa mpsadbw packusdw pblendvb pblendw pcmpeqq pextrb pextrd pextrq phminposuw pinsrb pinsrd pinsrq pmaxsb pmaxsd pmaxud pmaxuw pminsb pminsd pminud pminuw pmovsxbw pmovsxbd pmovsxbq pmovsxwd pmovsxwq pmovsxdq pmovzxbw pmovzxbd pmovzxbq pmovzxwd pmovzxwq pmovzxdq pmuldq pmulld ptest roundpd roundps roundsd roundss crc32 pcmpestri pcmpestrm pcmpistri pcmpistrm pcmpgtq popcnt getsec pfrcpv pfrsqrtv movbe aesenc aesenclast aesdec aesdeclast aesimc aeskeygenassist vaesenc vaesenclast vaesdec vaesdeclast vaesimc vaeskeygenassist vaddpd vaddps vaddsd vaddss vaddsubpd vaddsubps vandpd vandps vandnpd vandnps vblendpd vblendps vblendvpd vblendvps vbroadcastss vbroadcastsd vbroadcastf128 vcmpeq_ospd vcmpeqpd vcmplt_ospd vcmpltpd vcmple_ospd vcmplepd vcmpunord_qpd vcmpunordpd vcmpneq_uqpd vcmpneqpd vcmpnlt_uspd vcmpnltpd vcmpnle_uspd vcmpnlepd vcmpord_qpd vcmpordpd vcmpeq_uqpd vcmpnge_uspd vcmpngepd vcmpngt_uspd vcmpngtpd vcmpfalse_oqpd vcmpfalsepd vcmpneq_oqpd vcmpge_ospd vcmpgepd vcmpgt_ospd vcmpgtpd vcmptrue_uqpd vcmptruepd vcmplt_oqpd vcmple_oqpd vcmpunord_spd vcmpneq_uspd vcmpnlt_uqpd vcmpnle_uqpd vcmpord_spd vcmpeq_uspd vcmpnge_uqpd vcmpngt_uqpd vcmpfalse_ospd vcmpneq_ospd vcmpge_oqpd vcmpgt_oqpd vcmptrue_uspd vcmppd vcmpeq_osps vcmpeqps vcmplt_osps vcmpltps vcmple_osps vcmpleps vcmpunord_qps vcmpunordps vcmpneq_uqps vcmpneqps vcmpnlt_usps vcmpnltps vcmpnle_usps vcmpnleps vcmpord_qps vcmpordps vcmpeq_uqps vcmpnge_usps vcmpngeps vcmpngt_usps vcmpngtps vcmpfalse_oqps vcmpfalseps vcmpneq_oqps vcmpge_osps vcmpgeps vcmpgt_osps vcmpgtps vcmptrue_uqps vcmptrueps vcmplt_oqps vcmple_oqps vcmpunord_sps vcmpneq_usps vcmpnlt_uqps vcmpnle_uqps vcmpord_sps vcmpeq_usps vcmpnge_uqps vcmpngt_uqps vcmpfalse_osps vcmpneq_osps vcmpge_oqps vcmpgt_oqps vcmptrue_usps vcmpps vcmpeq_ossd vcmpeqsd vcmplt_ossd vcmpltsd vcmple_ossd vcmplesd vcmpunord_qsd vcmpunordsd vcmpneq_uqsd vcmpneqsd vcmpnlt_ussd vcmpnltsd vcmpnle_ussd vcmpnlesd vcmpord_qsd vcmpordsd vcmpeq_uqsd vcmpnge_ussd vcmpngesd vcmpngt_ussd vcmpngtsd vcmpfalse_oqsd vcmpfalsesd vcmpneq_oqsd vcmpge_ossd vcmpgesd vcmpgt_ossd vcmpgtsd vcmptrue_uqsd vcmptruesd vcmplt_oqsd vcmple_oqsd vcmpunord_ssd vcmpneq_ussd vcmpnlt_uqsd vcmpnle_uqsd vcmpord_ssd vcmpeq_ussd vcmpnge_uqsd vcmpngt_uqsd vcmpfalse_ossd vcmpneq_ossd vcmpge_oqsd vcmpgt_oqsd vcmptrue_ussd vcmpsd vcmpeq_osss vcmpeqss vcmplt_osss vcmpltss vcmple_osss vcmpless vcmpunord_qss vcmpunordss vcmpneq_uqss vcmpneqss vcmpnlt_usss vcmpnltss vcmpnle_usss vcmpnless vcmpord_qss vcmpordss vcmpeq_uqss vcmpnge_usss vcmpngess vcmpngt_usss vcmpngtss vcmpfalse_oqss vcmpfalsess vcmpneq_oqss vcmpge_osss vcmpgess vcmpgt_osss vcmpgtss vcmptrue_uqss vcmptruess vcmplt_oqss vcmple_oqss vcmpunord_sss vcmpneq_usss vcmpnlt_uqss vcmpnle_uqss vcmpord_sss vcmpeq_usss vcmpnge_uqss vcmpngt_uqss vcmpfalse_osss vcmpneq_osss vcmpge_oqss vcmpgt_oqss vcmptrue_usss vcmpss vcomisd vcomiss vcvtdq2pd vcvtdq2ps vcvtpd2dq vcvtpd2ps vcvtps2dq vcvtps2pd vcvtsd2si vcvtsd2ss vcvtsi2sd vcvtsi2ss vcvtss2sd vcvtss2si vcvttpd2dq vcvttps2dq vcvttsd2si vcvttss2si vdivpd vdivps vdivsd vdivss vdppd vdpps vextractf128 vextractps vhaddpd vhaddps vhsubpd vhsubps vinsertf128 vinsertps vlddqu vldqqu vldmxcsr vmaskmovdqu vmaskmovps vmaskmovpd vmaxpd vmaxps vmaxsd vmaxss vminpd vminps vminsd vminss vmovapd vmovaps vmovd vmovq vmovddup vmovdqa vmovqqa vmovdqu vmovqqu vmovhlps vmovhpd vmovhps vmovlhps vmovlpd vmovlps vmovmskpd vmovmskps vmovntdq vmovntqq vmovntdqa vmovntpd vmovntps vmovsd vmovshdup vmovsldup vmovss vmovupd vmovups vmpsadbw vmulpd vmulps vmulsd vmulss vorpd vorps vpabsb vpabsw vpabsd vpacksswb vpackssdw vpackuswb vpackusdw vpaddb vpaddw vpaddd vpaddq vpaddsb vpaddsw vpaddusb vpaddusw vpalignr vpand vpandn vpavgb vpavgw vpblendvb vpblendw vpcmpestri vpcmpestrm vpcmpistri vpcmpistrm vpcmpeqb vpcmpeqw vpcmpeqd vpcmpeqq vpcmpgtb vpcmpgtw vpcmpgtd vpcmpgtq vpermilpd vpermilps vperm2f128 vpextrb vpextrw vpextrd vpextrq vphaddw vphaddd vphaddsw vphminposuw vphsubw vphsubd vphsubsw vpinsrb vpinsrw vpinsrd vpinsrq vpmaddwd vpmaddubsw vpmaxsb vpmaxsw vpmaxsd vpmaxub vpmaxuw vpmaxud vpminsb vpminsw vpminsd vpminub vpminuw vpminud vpmovmskb vpmovsxbw vpmovsxbd vpmovsxbq vpmovsxwd vpmovsxwq vpmovsxdq vpmovzxbw vpmovzxbd vpmovzxbq vpmovzxwd vpmovzxwq vpmovzxdq vpmulhuw vpmulhrsw vpmulhw vpmullw vpmulld vpmuludq vpmuldq vpor vpsadbw vpshufb vpshufd vpshufhw vpshuflw vpsignb vpsignw vpsignd vpslldq vpsrldq vpsllw vpslld vpsllq vpsraw vpsrad vpsrlw vpsrld vpsrlq vptest vpsubb vpsubw vpsubd vpsubq vpsubsb vpsubsw vpsubusb vpsubusw vpunpckhbw vpunpckhwd vpunpckhdq vpunpckhqdq vpunpcklbw vpunpcklwd vpunpckldq vpunpcklqdq vpxor vrcpps vrcpss vrsqrtps vrsqrtss vroundpd vroundps vroundsd vroundss vshufpd vshufps vsqrtpd vsqrtps vsqrtsd vsqrtss vstmxcsr vsubpd vsubps vsubsd vsubss vtestps vtestpd vucomisd vucomiss vunpckhpd vunpckhps vunpcklpd vunpcklps vxorpd vxorps vzeroall vzeroupper pclmullqlqdq pclmulhqlqdq pclmullqhqdq pclmulhqhqdq pclmulqdq vpclmullqlqdq vpclmulhqlqdq vpclmullqhqdq vpclmulhqhqdq vpclmulqdq vfmadd132ps vfmadd132pd vfmadd312ps vfmadd312pd vfmadd213ps vfmadd213pd vfmadd123ps vfmadd123pd vfmadd231ps vfmadd231pd vfmadd321ps vfmadd321pd vfmaddsub132ps vfmaddsub132pd vfmaddsub312ps vfmaddsub312pd vfmaddsub213ps vfmaddsub213pd vfmaddsub123ps vfmaddsub123pd vfmaddsub231ps vfmaddsub231pd vfmaddsub321ps vfmaddsub321pd vfmsub132ps vfmsub132pd vfmsub312ps vfmsub312pd vfmsub213ps vfmsub213pd vfmsub123ps vfmsub123pd vfmsub231ps vfmsub231pd vfmsub321ps vfmsub321pd vfmsubadd132ps vfmsubadd132pd vfmsubadd312ps vfmsubadd312pd vfmsubadd213ps vfmsubadd213pd vfmsubadd123ps vfmsubadd123pd vfmsubadd231ps vfmsubadd231pd vfmsubadd321ps vfmsubadd321pd vfnmadd132ps vfnmadd132pd vfnmadd312ps vfnmadd312pd vfnmadd213ps vfnmadd213pd vfnmadd123ps vfnmadd123pd vfnmadd231ps vfnmadd231pd vfnmadd321ps vfnmadd321pd vfnmsub132ps vfnmsub132pd vfnmsub312ps vfnmsub312pd vfnmsub213ps vfnmsub213pd vfnmsub123ps vfnmsub123pd vfnmsub231ps vfnmsub231pd vfnmsub321ps vfnmsub321pd vfmadd132ss vfmadd132sd vfmadd312ss vfmadd312sd vfmadd213ss vfmadd213sd vfmadd123ss vfmadd123sd vfmadd231ss vfmadd231sd vfmadd321ss vfmadd321sd vfmsub132ss vfmsub132sd vfmsub312ss vfmsub312sd vfmsub213ss vfmsub213sd vfmsub123ss vfmsub123sd vfmsub231ss vfmsub231sd vfmsub321ss vfmsub321sd vfnmadd132ss vfnmadd132sd vfnmadd312ss vfnmadd312sd vfnmadd213ss vfnmadd213sd vfnmadd123ss vfnmadd123sd vfnmadd231ss vfnmadd231sd vfnmadd321ss vfnmadd321sd vfnmsub132ss vfnmsub132sd vfnmsub312ss vfnmsub312sd vfnmsub213ss vfnmsub213sd vfnmsub123ss vfnmsub123sd vfnmsub231ss vfnmsub231sd vfnmsub321ss vfnmsub321sd rdfsbase rdgsbase rdrand wrfsbase wrgsbase vcvtph2ps vcvtps2ph adcx adox rdseed clac stac xstore xcryptecb xcryptcbc xcryptctr xcryptcfb xcryptofb montmul xsha1 xsha256 llwpcb slwpcb lwpval lwpins vfmaddpd vfmaddps vfmaddsd vfmaddss vfmaddsubpd vfmaddsubps vfmsubaddpd vfmsubaddps vfmsubpd vfmsubps vfmsubsd vfmsubss vfnmaddpd vfnmaddps vfnmaddsd vfnmaddss vfnmsubpd vfnmsubps vfnmsubsd vfnmsubss vfrczpd vfrczps vfrczsd vfrczss vpcmov vpcomb vpcomd vpcomq vpcomub vpcomud vpcomuq vpcomuw vpcomw vphaddbd vphaddbq vphaddbw vphadddq vphaddubd vphaddubq vphaddubw vphaddudq vphadduwd vphadduwq vphaddwd vphaddwq vphsubbw vphsubdq vphsubwd vpmacsdd vpmacsdqh vpmacsdql vpmacssdd vpmacssdqh vpmacssdql vpmacsswd vpmacssww vpmacswd vpmacsww vpmadcsswd vpmadcswd vpperm vprotb vprotd vprotq vprotw vpshab vpshad vpshaq vpshaw vpshlb vpshld vpshlq vpshlw vbroadcasti128 vpblendd vpbroadcastb vpbroadcastw vpbroadcastd vpbroadcastq vpermd vpermpd vpermps vpermq vperm2i128 vextracti128 vinserti128 vpmaskmovd vpmaskmovq vpsllvd vpsllvq vpsravd vpsrlvd vpsrlvq vgatherdpd vgatherqpd vgatherdps vgatherqps vpgatherdd vpgatherqd vpgatherdq vpgatherqq xabort xbegin xend xtest andn bextr blci blcic blsi blsic blcfill blsfill blcmsk blsmsk blsr blcs bzhi mulx pdep pext rorx sarx shlx shrx tzcnt tzmsk t1mskc valignd valignq vblendmpd vblendmps vbroadcastf32x4 vbroadcastf64x4 vbroadcasti32x4 vbroadcasti64x4 vcompresspd vcompressps vcvtpd2udq vcvtps2udq vcvtsd2usi vcvtss2usi vcvttpd2udq vcvttps2udq vcvttsd2usi vcvttss2usi vcvtudq2pd vcvtudq2ps vcvtusi2sd vcvtusi2ss vexpandpd vexpandps vextractf32x4 vextractf64x4 vextracti32x4 vextracti64x4 vfixupimmpd vfixupimmps vfixupimmsd vfixupimmss vgetexppd vgetexpps vgetexpsd vgetexpss vgetmantpd vgetmantps vgetmantsd vgetmantss vinsertf32x4 vinsertf64x4 vinserti32x4 vinserti64x4 vmovdqa32 vmovdqa64 vmovdqu32 vmovdqu64 vpabsq vpandd vpandnd vpandnq vpandq vpblendmd vpblendmq vpcmpltd vpcmpled vpcmpneqd vpcmpnltd vpcmpnled vpcmpd vpcmpltq vpcmpleq vpcmpneqq vpcmpnltq vpcmpnleq vpcmpq vpcmpequd vpcmpltud vpcmpleud vpcmpnequd vpcmpnltud vpcmpnleud vpcmpud vpcmpequq vpcmpltuq vpcmpleuq vpcmpnequq vpcmpnltuq vpcmpnleuq vpcmpuq vpcompressd vpcompressq vpermi2d vpermi2pd vpermi2ps vpermi2q vpermt2d vpermt2pd vpermt2ps vpermt2q vpexpandd vpexpandq vpmaxsq vpmaxuq vpminsq vpminuq vpmovdb vpmovdw vpmovqb vpmovqd vpmovqw vpmovsdb vpmovsdw vpmovsqb vpmovsqd vpmovsqw vpmovusdb vpmovusdw vpmovusqb vpmovusqd vpmovusqw vpord vporq vprold vprolq vprolvd vprolvq vprord vprorq vprorvd vprorvq vpscatterdd vpscatterdq vpscatterqd vpscatterqq vpsraq vpsravq vpternlogd vpternlogq vptestmd vptestmq vptestnmd vptestnmq vpxord vpxorq vrcp14pd vrcp14ps vrcp14sd vrcp14ss vrndscalepd vrndscaleps vrndscalesd vrndscaless vrsqrt14pd vrsqrt14ps vrsqrt14sd vrsqrt14ss vscalefpd vscalefps vscalefsd vscalefss vscatterdpd vscatterdps vscatterqpd vscatterqps vshuff32x4 vshuff64x2 vshufi32x4 vshufi64x2 kandnw kandw kmovw knotw kortestw korw kshiftlw kshiftrw kunpckbw kxnorw kxorw vpbroadcastmb2q vpbroadcastmw2d vpconflictd vpconflictq vplzcntd vplzcntq vexp2pd vexp2ps vrcp28pd vrcp28ps vrcp28sd vrcp28ss vrsqrt28pd vrsqrt28ps vrsqrt28sd vrsqrt28ss vgatherpf0dpd vgatherpf0dps vgatherpf0qpd vgatherpf0qps vgatherpf1dpd vgatherpf1dps vgatherpf1qpd vgatherpf1qps vscatterpf0dpd vscatterpf0dps vscatterpf0qpd vscatterpf0qps vscatterpf1dpd vscatterpf1dps vscatterpf1qpd vscatterpf1qps prefetchwt1 bndmk bndcl bndcu bndcn bndmov bndldx bndstx sha1rnds4 sha1nexte sha1msg1 sha1msg2 sha256rnds2 sha256msg1 sha256msg2 hint_nop0 hint_nop1 hint_nop2 hint_nop3 hint_nop4 hint_nop5 hint_nop6 hint_nop7 hint_nop8 hint_nop9 hint_nop10 hint_nop11 hint_nop12 hint_nop13 hint_nop14 hint_nop15 hint_nop16 hint_nop17 hint_nop18 hint_nop19 hint_nop20 hint_nop21 hint_nop22 hint_nop23 hint_nop24 hint_nop25 hint_nop26 hint_nop27 hint_nop28 hint_nop29 hint_nop30 hint_nop31 hint_nop32 hint_nop33 hint_nop34 hint_nop35 hint_nop36 hint_nop37 hint_nop38 hint_nop39 hint_nop40 hint_nop41 hint_nop42 hint_nop43 hint_nop44 hint_nop45 hint_nop46 hint_nop47 hint_nop48 hint_nop49 hint_nop50 hint_nop51 hint_nop52 hint_nop53 hint_nop54 hint_nop55 hint_nop56 hint_nop57 hint_nop58 hint_nop59 hint_nop60 hint_nop61 hint_nop62 hint_nop63',
         built_in: // Instruction pointer
-        'ip eip rip ' + // 8-bit registers
-        'al ah bl bh cl ch dl dh sil dil bpl spl r8b r9b r10b r11b r12b r13b r14b r15b ' + // 16-bit registers
-        'ax bx cx dx si di bp sp r8w r9w r10w r11w r12w r13w r14w r15w ' + // 32-bit registers
-        'eax ebx ecx edx esi edi ebp esp eip r8d r9d r10d r11d r12d r13d r14d r15d ' + // 64-bit registers
-        'rax rbx rcx rdx rsi rdi rbp rsp r8 r9 r10 r11 r12 r13 r14 r15 ' + // Segment registers
-        'cs ds es fs gs ss ' + // Floating point stack registers
-        'st st0 st1 st2 st3 st4 st5 st6 st7 ' + // MMX Registers
-        'mm0 mm1 mm2 mm3 mm4 mm5 mm6 mm7 ' + // SSE registers
-        'xmm0  xmm1  xmm2  xmm3  xmm4  xmm5  xmm6  xmm7  xmm8  xmm9 xmm10  xmm11 xmm12 xmm13 xmm14 xmm15 ' + 'xmm16 xmm17 xmm18 xmm19 xmm20 xmm21 xmm22 xmm23 xmm24 xmm25 xmm26 xmm27 xmm28 xmm29 xmm30 xmm31 ' + // AVX registers
-        'ymm0  ymm1  ymm2  ymm3  ymm4  ymm5  ymm6  ymm7  ymm8  ymm9 ymm10  ymm11 ymm12 ymm13 ymm14 ymm15 ' + 'ymm16 ymm17 ymm18 ymm19 ymm20 ymm21 ymm22 ymm23 ymm24 ymm25 ymm26 ymm27 ymm28 ymm29 ymm30 ymm31 ' + // AVX-512F registers
-        'zmm0  zmm1  zmm2  zmm3  zmm4  zmm5  zmm6  zmm7  zmm8  zmm9 zmm10  zmm11 zmm12 zmm13 zmm14 zmm15 ' + 'zmm16 zmm17 zmm18 zmm19 zmm20 zmm21 zmm22 zmm23 zmm24 zmm25 zmm26 zmm27 zmm28 zmm29 zmm30 zmm31 ' + // AVX-512F mask registers
-        'k0 k1 k2 k3 k4 k5 k6 k7 ' + // Bound (MPX) register
-        'bnd0 bnd1 bnd2 bnd3 ' + // Special register
-        'cr0 cr1 cr2 cr3 cr4 cr8 dr0 dr1 dr2 dr3 dr8 tr3 tr4 tr5 tr6 tr7 ' + // NASM altreg package
-        'r0 r1 r2 r3 r4 r5 r6 r7 r0b r1b r2b r3b r4b r5b r6b r7b ' + 'r0w r1w r2w r3w r4w r5w r6w r7w r0d r1d r2d r3d r4d r5d r6d r7d ' + 'r0h r1h r2h r3h ' + 'r0l r1l r2l r3l r4l r5l r6l r7l r8l r9l r10l r11l r12l r13l r14l r15l ' + 'db dw dd dq dt ddq do dy dz ' + 'resb resw resd resq rest resdq reso resy resz ' + 'incbin equ times ' + 'byte word dword qword nosplit rel abs seg wrt strict near far a32 ptr',
+        'ip eip rip ' // 8-bit registers
+        + 'al ah bl bh cl ch dl dh sil dil bpl spl r8b r9b r10b r11b r12b r13b r14b r15b ' // 16-bit registers
+        + 'ax bx cx dx si di bp sp r8w r9w r10w r11w r12w r13w r14w r15w ' // 32-bit registers
+        + 'eax ebx ecx edx esi edi ebp esp eip r8d r9d r10d r11d r12d r13d r14d r15d ' // 64-bit registers
+        + 'rax rbx rcx rdx rsi rdi rbp rsp r8 r9 r10 r11 r12 r13 r14 r15 ' // Segment registers
+        + 'cs ds es fs gs ss ' // Floating point stack registers
+        + 'st st0 st1 st2 st3 st4 st5 st6 st7 ' // MMX Registers
+        + 'mm0 mm1 mm2 mm3 mm4 mm5 mm6 mm7 ' // SSE registers
+        + 'xmm0  xmm1  xmm2  xmm3  xmm4  xmm5  xmm6  xmm7  xmm8  xmm9 xmm10  xmm11 xmm12 xmm13 xmm14 xmm15 ' + 'xmm16 xmm17 xmm18 xmm19 xmm20 xmm21 xmm22 xmm23 xmm24 xmm25 xmm26 xmm27 xmm28 xmm29 xmm30 xmm31 ' // AVX registers
+        + 'ymm0  ymm1  ymm2  ymm3  ymm4  ymm5  ymm6  ymm7  ymm8  ymm9 ymm10  ymm11 ymm12 ymm13 ymm14 ymm15 ' + 'ymm16 ymm17 ymm18 ymm19 ymm20 ymm21 ymm22 ymm23 ymm24 ymm25 ymm26 ymm27 ymm28 ymm29 ymm30 ymm31 ' // AVX-512F registers
+        + 'zmm0  zmm1  zmm2  zmm3  zmm4  zmm5  zmm6  zmm7  zmm8  zmm9 zmm10  zmm11 zmm12 zmm13 zmm14 zmm15 ' + 'zmm16 zmm17 zmm18 zmm19 zmm20 zmm21 zmm22 zmm23 zmm24 zmm25 zmm26 zmm27 zmm28 zmm29 zmm30 zmm31 ' // AVX-512F mask registers
+        + 'k0 k1 k2 k3 k4 k5 k6 k7 ' // Bound (MPX) register
+        + 'bnd0 bnd1 bnd2 bnd3 ' // Special register
+        + 'cr0 cr1 cr2 cr3 cr4 cr8 dr0 dr1 dr2 dr3 dr8 tr3 tr4 tr5 tr6 tr7 ' // NASM altreg package
+        + 'r0 r1 r2 r3 r4 r5 r6 r7 r0b r1b r2b r3b r4b r5b r6b r7b ' + 'r0w r1w r2w r3w r4w r5w r6w r7w r0d r1d r2d r3d r4d r5d r6d r7d ' + 'r0h r1h r2h r3h ' + 'r0l r1l r2l r3l r4l r5l r6l r7l r8l r9l r10l r11l r12l r13l r14l r15l ' + 'db dw dd dq dt ddq do dy dz ' + 'resb resw resd resq rest resdq reso resy resz ' + 'incbin equ times ' + 'byte word dword qword nosplit rel abs seg wrt strict near far a32 ptr',
         meta: '%define %xdefine %+ %undef %defstr %deftok %assign %strcat %strlen %substr %rotate %elif %else %endif ' + '%if %ifmacro %ifctx %ifidn %ifidni %ifid %ifnum %ifstr %iftoken %ifempty %ifenv %error %warning %fatal %rep ' + '%endrep %include %push %pop %repl %pathsearch %depend %use %arg %stacksize %local %line %comment %endcomment ' + '.nolist ' + '__FILE__ __LINE__ __SECT__  __BITS__ __OUTPUT_FORMAT__ __DATE__ __TIME__ __DATE_NUM__ __TIME_NUM__ ' + '__UTC_DATE__ __UTC_TIME__ __UTC_DATE_NUM__ __UTC_TIME_NUM__  __PASS__ struc endstruc istruc at iend ' + 'align alignb sectalign daz nodaz up down zero default option assume public ' + 'bits use16 use32 use64 default section segment absolute extern global common cpu float ' + '__utf16__ __utf16le__ __utf16be__ __utf32__ __utf32le__ __utf32be__ ' + '__float8__ __float16__ __float32__ __float64__ __float80m__ __float80e__ __float128l__ __float128h__ ' + '__Infinity__ __QNaN__ __SNaN__ Inf NaN QNaN SNaN float8 float16 float32 float64 float80m float80e ' + 'float128l float128h __FLOAT_DAZ__ __FLOAT_ROUND__ __FLOAT__'
       },
       contains: [hljs.COMMENT(';', '$', {
@@ -38384,17 +38545,17 @@ export default {
       variants: [hljs.BINARY_NUMBER_MODE, hljs.C_NUMBER_MODE]
     };
     const KEYWORDS = // classes and objects
-    'namespace class interface use extends ' + 'function return ' + 'abstract final public protected private static deprecated ' + // error handling
-    'throw try catch Exception ' + // keyword-ish things their website does NOT seem to highlight (in their own snippets)
+    'namespace class interface use extends ' + 'function return ' + 'abstract final public protected private static deprecated ' // error handling
+    + 'throw try catch Exception ' // keyword-ish things their website does NOT seem to highlight (in their own snippets)
     // 'typeof fetch in ' +
     // operators/helpers
-    'echo empty isset instanceof unset ' + // assignment/variables
-    'let var new const self ' + // control
-    'require ' + 'if else elseif switch case default ' + 'do while loop for continue break ' + 'likely unlikely ' + // magic constants
+    + 'echo empty isset instanceof unset ' // assignment/variables
+    + 'let var new const self ' // control
+    + 'require ' + 'if else elseif switch case default ' + 'do while loop for continue break ' + 'likely unlikely ' // magic constants
     // https://github.com/phalcon/zephir/blob/master/Library/Expression/Constants.php
-    '__LINE__ __FILE__ __DIR__ __FUNCTION__ __CLASS__ __TRAIT__ __METHOD__ __NAMESPACE__ ' + // types - https://docs.zephir-lang.com/0.12/en/types
-    'array boolean float double integer object resource string ' + 'char long unsigned bool int uint ulong uchar ' + // built-ins
-    'true false null undefined';
+    + '__LINE__ __FILE__ __DIR__ __FUNCTION__ __CLASS__ __TRAIT__ __METHOD__ __NAMESPACE__ ' // types - https://docs.zephir-lang.com/0.12/en/types
+    + 'array boolean float double integer object resource string ' + 'char long unsigned bool int uint ulong uchar ' // built-ins
+    + 'true false null undefined';
     return {
       name: 'Zephir',
       aliases: ['zep'],
@@ -38452,200 +38613,589 @@ export default {
 
   var zephir_1 = zephir;
 
-  core.registerLanguage('1c', _1c_1);
-  core.registerLanguage('abnf', abnf_1);
-  core.registerLanguage('accesslog', accesslog_1);
-  core.registerLanguage('actionscript', actionscript_1);
-  core.registerLanguage('ada', ada_1);
-  core.registerLanguage('angelscript', angelscript_1);
-  core.registerLanguage('apache', apache_1);
-  core.registerLanguage('applescript', applescript_1);
-  core.registerLanguage('arcade', arcade_1);
-  core.registerLanguage('arduino', arduino_1);
-  core.registerLanguage('armasm', armasm_1);
-  core.registerLanguage('xml', xml_1);
-  core.registerLanguage('asciidoc', asciidoc_1);
-  core.registerLanguage('aspectj', aspectj_1);
-  core.registerLanguage('autohotkey', autohotkey_1);
-  core.registerLanguage('autoit', autoit_1);
-  core.registerLanguage('avrasm', avrasm_1);
-  core.registerLanguage('awk', awk_1);
-  core.registerLanguage('axapta', axapta_1);
-  core.registerLanguage('bash', bash_1);
-  core.registerLanguage('basic', basic_1);
-  core.registerLanguage('bnf', bnf_1);
-  core.registerLanguage('brainfuck', brainfuck_1);
-  core.registerLanguage('c', c_1);
-  core.registerLanguage('cal', cal_1);
-  core.registerLanguage('capnproto', capnproto_1);
-  core.registerLanguage('ceylon', ceylon_1);
-  core.registerLanguage('clean', clean_1);
-  core.registerLanguage('clojure', clojure_1);
-  core.registerLanguage('clojure-repl', clojureRepl_1);
-  core.registerLanguage('cmake', cmake_1);
-  core.registerLanguage('coffeescript', coffeescript_1);
-  core.registerLanguage('coq', coq_1);
-  core.registerLanguage('cos', cos_1);
-  core.registerLanguage('cpp', cpp_1);
-  core.registerLanguage('crmsh', crmsh_1);
-  core.registerLanguage('crystal', crystal_1);
-  core.registerLanguage('csharp', csharp_1);
-  core.registerLanguage('csp', csp_1);
-  core.registerLanguage('css', css_1);
-  core.registerLanguage('d', d_1);
-  core.registerLanguage('markdown', markdown_1);
-  core.registerLanguage('dart', dart_1);
-  core.registerLanguage('delphi', delphi_1);
-  core.registerLanguage('diff', diff_1);
-  core.registerLanguage('django', django_1);
-  core.registerLanguage('dns', dns_1);
-  core.registerLanguage('dockerfile', dockerfile_1);
-  core.registerLanguage('dos', dos_1);
-  core.registerLanguage('dsconfig', dsconfig_1);
-  core.registerLanguage('dts', dts_1);
-  core.registerLanguage('dust', dust_1);
-  core.registerLanguage('ebnf', ebnf_1);
-  core.registerLanguage('elixir', elixir_1);
-  core.registerLanguage('elm', elm_1);
-  core.registerLanguage('ruby', ruby_1);
-  core.registerLanguage('erb', erb_1);
-  core.registerLanguage('erlang-repl', erlangRepl_1);
-  core.registerLanguage('erlang', erlang_1);
-  core.registerLanguage('excel', excel_1);
-  core.registerLanguage('fix', fix_1);
-  core.registerLanguage('flix', flix_1);
-  core.registerLanguage('fortran', fortran_1);
-  core.registerLanguage('fsharp', fsharp_1);
-  core.registerLanguage('gams', gams_1);
-  core.registerLanguage('gauss', gauss_1);
-  core.registerLanguage('gcode', gcode_1);
-  core.registerLanguage('gherkin', gherkin_1);
-  core.registerLanguage('glsl', glsl_1);
-  core.registerLanguage('gml', gml_1);
-  core.registerLanguage('go', go_1);
-  core.registerLanguage('golo', golo_1);
-  core.registerLanguage('gradle', gradle_1);
-  core.registerLanguage('groovy', groovy_1);
-  core.registerLanguage('haml', haml_1);
-  core.registerLanguage('handlebars', handlebars_1);
-  core.registerLanguage('haskell', haskell_1);
-  core.registerLanguage('haxe', haxe_1);
-  core.registerLanguage('hsp', hsp_1);
-  core.registerLanguage('http', http_1);
-  core.registerLanguage('hy', hy_1);
-  core.registerLanguage('inform7', inform7_1);
-  core.registerLanguage('ini', ini_1);
-  core.registerLanguage('irpf90', irpf90_1);
-  core.registerLanguage('isbl', isbl_1);
-  core.registerLanguage('java', java_1);
-  core.registerLanguage('javascript', javascript_1);
-  core.registerLanguage('jboss-cli', jbossCli_1);
-  core.registerLanguage('json', json_1);
-  core.registerLanguage('julia', julia_1);
-  core.registerLanguage('julia-repl', juliaRepl_1);
-  core.registerLanguage('kotlin', kotlin_1);
-  core.registerLanguage('lasso', lasso_1);
-  core.registerLanguage('latex', latex_1);
-  core.registerLanguage('ldif', ldif_1);
-  core.registerLanguage('leaf', leaf_1);
-  core.registerLanguage('less', less_1);
-  core.registerLanguage('lisp', lisp_1);
-  core.registerLanguage('livecodeserver', livecodeserver_1);
-  core.registerLanguage('livescript', livescript_1);
-  core.registerLanguage('llvm', llvm_1);
-  core.registerLanguage('lsl', lsl_1);
-  core.registerLanguage('lua', lua_1);
-  core.registerLanguage('makefile', makefile_1);
-  core.registerLanguage('mathematica', mathematica_1);
-  core.registerLanguage('matlab', matlab_1);
-  core.registerLanguage('maxima', maxima_1);
-  core.registerLanguage('mel', mel_1);
-  core.registerLanguage('mercury', mercury_1);
-  core.registerLanguage('mipsasm', mipsasm_1);
-  core.registerLanguage('mizar', mizar_1);
-  core.registerLanguage('perl', perl_1);
-  core.registerLanguage('mojolicious', mojolicious_1);
-  core.registerLanguage('monkey', monkey_1);
-  core.registerLanguage('moonscript', moonscript_1);
-  core.registerLanguage('n1ql', n1ql_1);
-  core.registerLanguage('nestedtext', nestedtext_1);
-  core.registerLanguage('nginx', nginx_1);
-  core.registerLanguage('nim', nim_1);
-  core.registerLanguage('nix', nix_1);
-  core.registerLanguage('node-repl', nodeRepl_1);
-  core.registerLanguage('nsis', nsis_1);
-  core.registerLanguage('objectivec', objectivec_1);
-  core.registerLanguage('ocaml', ocaml_1);
-  core.registerLanguage('openscad', openscad_1);
-  core.registerLanguage('oxygene', oxygene_1);
-  core.registerLanguage('parser3', parser3_1);
-  core.registerLanguage('pf', pf_1);
-  core.registerLanguage('pgsql', pgsql_1);
-  core.registerLanguage('php', php_1);
-  core.registerLanguage('php-template', phpTemplate_1);
-  core.registerLanguage('plaintext', plaintext_1);
-  core.registerLanguage('pony', pony_1);
-  core.registerLanguage('powershell', powershell_1);
-  core.registerLanguage('processing', processing_1);
-  core.registerLanguage('profile', profile_1);
-  core.registerLanguage('prolog', prolog_1);
-  core.registerLanguage('properties', properties_1);
-  core.registerLanguage('protobuf', protobuf_1);
-  core.registerLanguage('puppet', puppet_1);
-  core.registerLanguage('purebasic', purebasic_1);
-  core.registerLanguage('python', python_1);
-  core.registerLanguage('python-repl', pythonRepl_1);
-  core.registerLanguage('q', q_1);
-  core.registerLanguage('qml', qml_1);
-  core.registerLanguage('r', r_1);
-  core.registerLanguage('reasonml', reasonml_1);
-  core.registerLanguage('rib', rib_1);
-  core.registerLanguage('roboconf', roboconf_1);
-  core.registerLanguage('routeros', routeros_1);
-  core.registerLanguage('rsl', rsl_1);
-  core.registerLanguage('ruleslanguage', ruleslanguage_1);
-  core.registerLanguage('rust', rust_1);
-  core.registerLanguage('sas', sas_1);
-  core.registerLanguage('scala', scala_1);
-  core.registerLanguage('scheme', scheme_1);
-  core.registerLanguage('scilab', scilab_1);
-  core.registerLanguage('scss', scss_1);
-  core.registerLanguage('shell', shell_1);
-  core.registerLanguage('smali', smali_1);
-  core.registerLanguage('smalltalk', smalltalk_1);
-  core.registerLanguage('sml', sml_1);
-  core.registerLanguage('sqf', sqf_1);
-  core.registerLanguage('sql', sql_1);
-  core.registerLanguage('stan', stan_1);
-  core.registerLanguage('stata', stata_1);
-  core.registerLanguage('step21', step21_1);
-  core.registerLanguage('stylus', stylus_1);
-  core.registerLanguage('subunit', subunit_1);
-  core.registerLanguage('swift', swift_1);
-  core.registerLanguage('taggerscript', taggerscript_1);
-  core.registerLanguage('yaml', yaml_1);
-  core.registerLanguage('tap', tap_1);
-  core.registerLanguage('tcl', tcl_1);
-  core.registerLanguage('thrift', thrift_1);
-  core.registerLanguage('tp', tp_1);
-  core.registerLanguage('twig', twig_1);
-  core.registerLanguage('typescript', typescript_1);
-  core.registerLanguage('vala', vala_1);
-  core.registerLanguage('vbnet', vbnet_1);
-  core.registerLanguage('vbscript', vbscript_1);
-  core.registerLanguage('vbscript-html', vbscriptHtml_1);
-  core.registerLanguage('verilog', verilog_1);
-  core.registerLanguage('vhdl', vhdl_1);
-  core.registerLanguage('vim', vim_1);
-  core.registerLanguage('wasm', wasm_1);
-  core.registerLanguage('wren', wren_1);
-  core.registerLanguage('x86asm', x86asm_1);
-  core.registerLanguage('xl', xl_1);
-  core.registerLanguage('xquery', xquery_1);
-  core.registerLanguage('zephir', zephir_1);
-  core.HighlightJS = core;
-  core.default = core;
-  var lib = core;
+  var hljs = core;
+
+  var require$$0 = _1c_1;
+
+  var require$$1 = abnf_1;
+
+  var require$$2 = accesslog_1;
+
+  var require$$3 = actionscript_1;
+
+  var require$$4 = ada_1;
+
+  var require$$5 = angelscript_1;
+
+  var require$$6 = apache_1;
+
+  var require$$7 = applescript_1;
+
+  var require$$8 = arcade_1;
+
+  var require$$9 = arduino_1;
+
+  var require$$10 = armasm_1;
+
+  var require$$11 = xml_1;
+
+  var require$$12 = asciidoc_1;
+
+  var require$$13 = aspectj_1;
+
+  var require$$14 = autohotkey_1;
+
+  var require$$15 = autoit_1;
+
+  var require$$16 = avrasm_1;
+
+  var require$$17 = awk_1;
+
+  var require$$18 = axapta_1;
+
+  var require$$19 = bash_1;
+
+  var require$$20 = basic_1;
+
+  var require$$21 = bnf_1;
+
+  var require$$22 = brainfuck_1;
+
+  var require$$23 = c_1;
+
+  var require$$24 = cal_1;
+
+  var require$$25 = capnproto_1;
+
+  var require$$26 = ceylon_1;
+
+  var require$$27 = clean_1;
+
+  var require$$28 = clojure_1;
+
+  var require$$29 = clojureRepl_1;
+
+  var require$$30 = cmake_1;
+
+  var require$$31 = coffeescript_1;
+
+  var require$$32 = coq_1;
+
+  var require$$33 = cos_1;
+
+  var require$$34 = cpp_1;
+
+  var require$$35 = crmsh_1;
+
+  var require$$36 = crystal_1;
+
+  var require$$37 = csharp_1;
+
+  var require$$38 = csp_1;
+
+  var require$$39 = css_1;
+
+  var require$$40 = d_1;
+
+  var require$$41 = markdown_1;
+
+  var require$$42 = dart_1;
+
+  var require$$43 = delphi_1;
+
+  var require$$44 = diff_1;
+
+  var require$$45 = django_1;
+
+  var require$$46 = dns_1;
+
+  var require$$47 = dockerfile_1;
+
+  var require$$48 = dos_1;
+
+  var require$$49 = dsconfig_1;
+
+  var require$$50 = dts_1;
+
+  var require$$51 = dust_1;
+
+  var require$$52 = ebnf_1;
+
+  var require$$53 = elixir_1;
+
+  var require$$54 = elm_1;
+
+  var require$$55 = ruby_1;
+
+  var require$$56 = erb_1;
+
+  var require$$57 = erlangRepl_1;
+
+  var require$$58 = erlang_1;
+
+  var require$$59 = excel_1;
+
+  var require$$60 = fix_1;
+
+  var require$$61 = flix_1;
+
+  var require$$62 = fortran_1;
+
+  var require$$63 = fsharp_1;
+
+  var require$$64 = gams_1;
+
+  var require$$65 = gauss_1;
+
+  var require$$66 = gcode_1;
+
+  var require$$67 = gherkin_1;
+
+  var require$$68 = glsl_1;
+
+  var require$$69 = gml_1;
+
+  var require$$70 = go_1;
+
+  var require$$71 = golo_1;
+
+  var require$$72 = gradle_1;
+
+  var require$$73 = graphql_1;
+
+  var require$$74 = groovy_1;
+
+  var require$$75 = haml_1;
+
+  var require$$76 = handlebars_1;
+
+  var require$$77 = haskell_1;
+
+  var require$$78 = haxe_1;
+
+  var require$$79 = hsp_1;
+
+  var require$$80 = http_1;
+
+  var require$$81 = hy_1;
+
+  var require$$82 = inform7_1;
+
+  var require$$83 = ini_1;
+
+  var require$$84 = irpf90_1;
+
+  var require$$85 = isbl_1;
+
+  var require$$86 = java_1;
+
+  var require$$87 = javascript_1;
+
+  var require$$88 = jbossCli_1;
+
+  var require$$89 = json_1;
+
+  var require$$90 = julia_1;
+
+  var require$$91 = juliaRepl_1;
+
+  var require$$92 = kotlin_1;
+
+  var require$$93 = lasso_1;
+
+  var require$$94 = latex_1;
+
+  var require$$95 = ldif_1;
+
+  var require$$96 = leaf_1;
+
+  var require$$97 = less_1;
+
+  var require$$98 = lisp_1;
+
+  var require$$99 = livecodeserver_1;
+
+  var require$$100 = livescript_1;
+
+  var require$$101 = llvm_1;
+
+  var require$$102 = lsl_1;
+
+  var require$$103 = lua_1;
+
+  var require$$104 = makefile_1;
+
+  var require$$105 = mathematica_1;
+
+  var require$$106 = matlab_1;
+
+  var require$$107 = maxima_1;
+
+  var require$$108 = mel_1;
+
+  var require$$109 = mercury_1;
+
+  var require$$110 = mipsasm_1;
+
+  var require$$111 = mizar_1;
+
+  var require$$112 = perl_1;
+
+  var require$$113 = mojolicious_1;
+
+  var require$$114 = monkey_1;
+
+  var require$$115 = moonscript_1;
+
+  var require$$116 = n1ql_1;
+
+  var require$$117 = nestedtext_1;
+
+  var require$$118 = nginx_1;
+
+  var require$$119 = nim_1;
+
+  var require$$120 = nix_1;
+
+  var require$$121 = nodeRepl_1;
+
+  var require$$122 = nsis_1;
+
+  var require$$123 = objectivec_1;
+
+  var require$$124 = ocaml_1;
+
+  var require$$125 = openscad_1;
+
+  var require$$126 = oxygene_1;
+
+  var require$$127 = parser3_1;
+
+  var require$$128 = pf_1;
+
+  var require$$129 = pgsql_1;
+
+  var require$$130 = php_1;
+
+  var require$$131 = phpTemplate_1;
+
+  var require$$132 = plaintext_1;
+
+  var require$$133 = pony_1;
+
+  var require$$134 = powershell_1;
+
+  var require$$135 = processing_1;
+
+  var require$$136 = profile_1;
+
+  var require$$137 = prolog_1;
+
+  var require$$138 = properties_1;
+
+  var require$$139 = protobuf_1;
+
+  var require$$140 = puppet_1;
+
+  var require$$141 = purebasic_1;
+
+  var require$$142 = python_1;
+
+  var require$$143 = pythonRepl_1;
+
+  var require$$144 = q_1;
+
+  var require$$145 = qml_1;
+
+  var require$$146 = r_1;
+
+  var require$$147 = reasonml_1;
+
+  var require$$148 = rib_1;
+
+  var require$$149 = roboconf_1;
+
+  var require$$150 = routeros_1;
+
+  var require$$151 = rsl_1;
+
+  var require$$152 = ruleslanguage_1;
+
+  var require$$153 = rust_1;
+
+  var require$$154 = sas_1;
+
+  var require$$155 = scala_1;
+
+  var require$$156 = scheme_1;
+
+  var require$$157 = scilab_1;
+
+  var require$$158 = scss_1;
+
+  var require$$159 = shell_1;
+
+  var require$$160 = smali_1;
+
+  var require$$161 = smalltalk_1;
+
+  var require$$162 = sml_1;
+
+  var require$$163 = sqf_1;
+
+  var require$$164 = sql_1;
+
+  var require$$165 = stan_1;
+
+  var require$$166 = stata_1;
+
+  var require$$167 = step21_1;
+
+  var require$$168 = stylus_1;
+
+  var require$$169 = subunit_1;
+
+  var require$$170 = swift_1;
+
+  var require$$171 = taggerscript_1;
+
+  var require$$172 = yaml_1;
+
+  var require$$173 = tap_1;
+
+  var require$$174 = tcl_1;
+
+  var require$$175 = thrift_1;
+
+  var require$$176 = tp_1;
+
+  var require$$177 = twig_1;
+
+  var require$$178 = typescript_1;
+
+  var require$$179 = vala_1;
+
+  var require$$180 = vbnet_1;
+
+  var require$$181 = vbscript_1;
+
+  var require$$182 = vbscriptHtml_1;
+
+  var require$$183 = verilog_1;
+
+  var require$$184 = vhdl_1;
+
+  var require$$185 = vim_1;
+
+  var require$$186 = wasm_1;
+
+  var require$$187 = wren_1;
+
+  var require$$188 = x86asm_1;
+
+  var require$$189 = xl_1;
+
+  var require$$190 = xquery_1;
+
+  var require$$191 = zephir_1;
+
+  hljs.registerLanguage('1c', require$$0);
+  hljs.registerLanguage('abnf', require$$1);
+  hljs.registerLanguage('accesslog', require$$2);
+  hljs.registerLanguage('actionscript', require$$3);
+  hljs.registerLanguage('ada', require$$4);
+  hljs.registerLanguage('angelscript', require$$5);
+  hljs.registerLanguage('apache', require$$6);
+  hljs.registerLanguage('applescript', require$$7);
+  hljs.registerLanguage('arcade', require$$8);
+  hljs.registerLanguage('arduino', require$$9);
+  hljs.registerLanguage('armasm', require$$10);
+  hljs.registerLanguage('xml', require$$11);
+  hljs.registerLanguage('asciidoc', require$$12);
+  hljs.registerLanguage('aspectj', require$$13);
+  hljs.registerLanguage('autohotkey', require$$14);
+  hljs.registerLanguage('autoit', require$$15);
+  hljs.registerLanguage('avrasm', require$$16);
+  hljs.registerLanguage('awk', require$$17);
+  hljs.registerLanguage('axapta', require$$18);
+  hljs.registerLanguage('bash', require$$19);
+  hljs.registerLanguage('basic', require$$20);
+  hljs.registerLanguage('bnf', require$$21);
+  hljs.registerLanguage('brainfuck', require$$22);
+  hljs.registerLanguage('c', require$$23);
+  hljs.registerLanguage('cal', require$$24);
+  hljs.registerLanguage('capnproto', require$$25);
+  hljs.registerLanguage('ceylon', require$$26);
+  hljs.registerLanguage('clean', require$$27);
+  hljs.registerLanguage('clojure', require$$28);
+  hljs.registerLanguage('clojure-repl', require$$29);
+  hljs.registerLanguage('cmake', require$$30);
+  hljs.registerLanguage('coffeescript', require$$31);
+  hljs.registerLanguage('coq', require$$32);
+  hljs.registerLanguage('cos', require$$33);
+  hljs.registerLanguage('cpp', require$$34);
+  hljs.registerLanguage('crmsh', require$$35);
+  hljs.registerLanguage('crystal', require$$36);
+  hljs.registerLanguage('csharp', require$$37);
+  hljs.registerLanguage('csp', require$$38);
+  hljs.registerLanguage('css', require$$39);
+  hljs.registerLanguage('d', require$$40);
+  hljs.registerLanguage('markdown', require$$41);
+  hljs.registerLanguage('dart', require$$42);
+  hljs.registerLanguage('delphi', require$$43);
+  hljs.registerLanguage('diff', require$$44);
+  hljs.registerLanguage('django', require$$45);
+  hljs.registerLanguage('dns', require$$46);
+  hljs.registerLanguage('dockerfile', require$$47);
+  hljs.registerLanguage('dos', require$$48);
+  hljs.registerLanguage('dsconfig', require$$49);
+  hljs.registerLanguage('dts', require$$50);
+  hljs.registerLanguage('dust', require$$51);
+  hljs.registerLanguage('ebnf', require$$52);
+  hljs.registerLanguage('elixir', require$$53);
+  hljs.registerLanguage('elm', require$$54);
+  hljs.registerLanguage('ruby', require$$55);
+  hljs.registerLanguage('erb', require$$56);
+  hljs.registerLanguage('erlang-repl', require$$57);
+  hljs.registerLanguage('erlang', require$$58);
+  hljs.registerLanguage('excel', require$$59);
+  hljs.registerLanguage('fix', require$$60);
+  hljs.registerLanguage('flix', require$$61);
+  hljs.registerLanguage('fortran', require$$62);
+  hljs.registerLanguage('fsharp', require$$63);
+  hljs.registerLanguage('gams', require$$64);
+  hljs.registerLanguage('gauss', require$$65);
+  hljs.registerLanguage('gcode', require$$66);
+  hljs.registerLanguage('gherkin', require$$67);
+  hljs.registerLanguage('glsl', require$$68);
+  hljs.registerLanguage('gml', require$$69);
+  hljs.registerLanguage('go', require$$70);
+  hljs.registerLanguage('golo', require$$71);
+  hljs.registerLanguage('gradle', require$$72);
+  hljs.registerLanguage('graphql', require$$73);
+  hljs.registerLanguage('groovy', require$$74);
+  hljs.registerLanguage('haml', require$$75);
+  hljs.registerLanguage('handlebars', require$$76);
+  hljs.registerLanguage('haskell', require$$77);
+  hljs.registerLanguage('haxe', require$$78);
+  hljs.registerLanguage('hsp', require$$79);
+  hljs.registerLanguage('http', require$$80);
+  hljs.registerLanguage('hy', require$$81);
+  hljs.registerLanguage('inform7', require$$82);
+  hljs.registerLanguage('ini', require$$83);
+  hljs.registerLanguage('irpf90', require$$84);
+  hljs.registerLanguage('isbl', require$$85);
+  hljs.registerLanguage('java', require$$86);
+  hljs.registerLanguage('javascript', require$$87);
+  hljs.registerLanguage('jboss-cli', require$$88);
+  hljs.registerLanguage('json', require$$89);
+  hljs.registerLanguage('julia', require$$90);
+  hljs.registerLanguage('julia-repl', require$$91);
+  hljs.registerLanguage('kotlin', require$$92);
+  hljs.registerLanguage('lasso', require$$93);
+  hljs.registerLanguage('latex', require$$94);
+  hljs.registerLanguage('ldif', require$$95);
+  hljs.registerLanguage('leaf', require$$96);
+  hljs.registerLanguage('less', require$$97);
+  hljs.registerLanguage('lisp', require$$98);
+  hljs.registerLanguage('livecodeserver', require$$99);
+  hljs.registerLanguage('livescript', require$$100);
+  hljs.registerLanguage('llvm', require$$101);
+  hljs.registerLanguage('lsl', require$$102);
+  hljs.registerLanguage('lua', require$$103);
+  hljs.registerLanguage('makefile', require$$104);
+  hljs.registerLanguage('mathematica', require$$105);
+  hljs.registerLanguage('matlab', require$$106);
+  hljs.registerLanguage('maxima', require$$107);
+  hljs.registerLanguage('mel', require$$108);
+  hljs.registerLanguage('mercury', require$$109);
+  hljs.registerLanguage('mipsasm', require$$110);
+  hljs.registerLanguage('mizar', require$$111);
+  hljs.registerLanguage('perl', require$$112);
+  hljs.registerLanguage('mojolicious', require$$113);
+  hljs.registerLanguage('monkey', require$$114);
+  hljs.registerLanguage('moonscript', require$$115);
+  hljs.registerLanguage('n1ql', require$$116);
+  hljs.registerLanguage('nestedtext', require$$117);
+  hljs.registerLanguage('nginx', require$$118);
+  hljs.registerLanguage('nim', require$$119);
+  hljs.registerLanguage('nix', require$$120);
+  hljs.registerLanguage('node-repl', require$$121);
+  hljs.registerLanguage('nsis', require$$122);
+  hljs.registerLanguage('objectivec', require$$123);
+  hljs.registerLanguage('ocaml', require$$124);
+  hljs.registerLanguage('openscad', require$$125);
+  hljs.registerLanguage('oxygene', require$$126);
+  hljs.registerLanguage('parser3', require$$127);
+  hljs.registerLanguage('pf', require$$128);
+  hljs.registerLanguage('pgsql', require$$129);
+  hljs.registerLanguage('php', require$$130);
+  hljs.registerLanguage('php-template', require$$131);
+  hljs.registerLanguage('plaintext', require$$132);
+  hljs.registerLanguage('pony', require$$133);
+  hljs.registerLanguage('powershell', require$$134);
+  hljs.registerLanguage('processing', require$$135);
+  hljs.registerLanguage('profile', require$$136);
+  hljs.registerLanguage('prolog', require$$137);
+  hljs.registerLanguage('properties', require$$138);
+  hljs.registerLanguage('protobuf', require$$139);
+  hljs.registerLanguage('puppet', require$$140);
+  hljs.registerLanguage('purebasic', require$$141);
+  hljs.registerLanguage('python', require$$142);
+  hljs.registerLanguage('python-repl', require$$143);
+  hljs.registerLanguage('q', require$$144);
+  hljs.registerLanguage('qml', require$$145);
+  hljs.registerLanguage('r', require$$146);
+  hljs.registerLanguage('reasonml', require$$147);
+  hljs.registerLanguage('rib', require$$148);
+  hljs.registerLanguage('roboconf', require$$149);
+  hljs.registerLanguage('routeros', require$$150);
+  hljs.registerLanguage('rsl', require$$151);
+  hljs.registerLanguage('ruleslanguage', require$$152);
+  hljs.registerLanguage('rust', require$$153);
+  hljs.registerLanguage('sas', require$$154);
+  hljs.registerLanguage('scala', require$$155);
+  hljs.registerLanguage('scheme', require$$156);
+  hljs.registerLanguage('scilab', require$$157);
+  hljs.registerLanguage('scss', require$$158);
+  hljs.registerLanguage('shell', require$$159);
+  hljs.registerLanguage('smali', require$$160);
+  hljs.registerLanguage('smalltalk', require$$161);
+  hljs.registerLanguage('sml', require$$162);
+  hljs.registerLanguage('sqf', require$$163);
+  hljs.registerLanguage('sql', require$$164);
+  hljs.registerLanguage('stan', require$$165);
+  hljs.registerLanguage('stata', require$$166);
+  hljs.registerLanguage('step21', require$$167);
+  hljs.registerLanguage('stylus', require$$168);
+  hljs.registerLanguage('subunit', require$$169);
+  hljs.registerLanguage('swift', require$$170);
+  hljs.registerLanguage('taggerscript', require$$171);
+  hljs.registerLanguage('yaml', require$$172);
+  hljs.registerLanguage('tap', require$$173);
+  hljs.registerLanguage('tcl', require$$174);
+  hljs.registerLanguage('thrift', require$$175);
+  hljs.registerLanguage('tp', require$$176);
+  hljs.registerLanguage('twig', require$$177);
+  hljs.registerLanguage('typescript', require$$178);
+  hljs.registerLanguage('vala', require$$179);
+  hljs.registerLanguage('vbnet', require$$180);
+  hljs.registerLanguage('vbscript', require$$181);
+  hljs.registerLanguage('vbscript-html', require$$182);
+  hljs.registerLanguage('verilog', require$$183);
+  hljs.registerLanguage('vhdl', require$$184);
+  hljs.registerLanguage('vim', require$$185);
+  hljs.registerLanguage('wasm', require$$186);
+  hljs.registerLanguage('wren', require$$187);
+  hljs.registerLanguage('x86asm', require$$188);
+  hljs.registerLanguage('xl', require$$189);
+  hljs.registerLanguage('xquery', require$$190);
+  hljs.registerLanguage('zephir', require$$191);
+  hljs.HighlightJS = hljs;
+  hljs.default = hljs;
+  var lib = hljs;
+
+  var HighlightJS = lib;
 
   const IDENT_RE = '[A-Za-z$_][0-9A-Za-z$_]*';
   const KEYWORDS = ["as", // for exports
@@ -39108,11 +39658,11 @@ export default {
     };
   }
 
-  lib.registerLanguage('javascript', javascript);
+  HighlightJS.registerLanguage('javascript', javascript);
   Vue.component('owl-table', OwlTable);
   Vue.component('owl-code-example', OwlCodeExaple);
   Vue.use(OwlUI);
-  Vue.prototype.$hljs = lib;
+  Vue.prototype.$hljs = HighlightJS;
   new Vue({
     router: router,
     render: h => h(App)
