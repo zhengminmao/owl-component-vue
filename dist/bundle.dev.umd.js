@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 (function (factory) {
   typeof define === 'function' && define.amd ? define(factory) :
   factory();
@@ -12977,7 +12977,7 @@ export default {
 
   var Message$1 = {
   render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("Message 消息")]),_vm._v(" "),_c('h3',[_vm._v("基本用法")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code1}},[_c('owl-button',{on:{"click":function($event){return _vm.showMessage('info')}}},[_vm._v("弹出info消息")]),_vm._v(" "),_c('br'),_c('br'),_vm._v(" "),_c('owl-button',{attrs:{"type":"success"},on:{"click":function($event){return _vm.showMessage('success')}}},[_vm._v("弹出success消息")]),_vm._v(" "),_c('br'),_c('br'),_vm._v(" "),_c('owl-button',{attrs:{"type":"error"},on:{"click":function($event){return _vm.showMessage('error')}}},[_vm._v("弹出error消息")]),_vm._v(" "),_c('br'),_c('br'),_vm._v(" "),_c('owl-button',{on:{"click":function($event){return _vm.showMessage('loading')}}},[_vm._v("弹出loading消息")])],1),_vm._v(" "),_c('h3',[_vm._v("自定义关闭时间")]),_vm._v(" "),_c('owl-code-example',{attrs:{"code":_vm.code2}},[_c('owl-button',{attrs:{"search":"","loading":_vm.loading},on:{"click":_vm.showMessage1}},[_vm._v("搜索")])],1),_vm._v(" "),_c('h3',[_vm._v("快捷指令")]),_vm._v(" "),_c('p',[_vm._v("可以使用以下快捷指令打开相对应的消息类型。当参数有三个时，分别时内容，key和时间，如果是两个则是内容和时间")]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('h3',[_vm._v("属性")]),_vm._v(" "),_c('owl-table',{attrs:{"data":_vm.list,"columns":_vm.columns}})],1)},
-  staticRenderFns: [function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('code',[_vm._v("this.$message.info(content, key, duration)"),_c('br'),_vm._v("this.$message.info(content, key, duration)"),_c('br'),_vm._v("this.$message.error(content, key, duration)"),_c('br'),_vm._v("this.$message.loading(content, key, duration)")])}],
+  staticRenderFns: [function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('code',[_vm._v("this.$message.success(content, key, duration)"),_c('br'),_vm._v("this.$message.info(content, key, duration)"),_c('br'),_vm._v("this.$message.error(content, key, duration)"),_c('br'),_vm._v("this.$message.loading(content, key, duration)")])}],
     data(){
       return {
         loading: false,
@@ -13866,6 +13866,10 @@ export default {
         validator: function validator(val) {
           return ['line', 'border'].indexOf(val) !== -1;
         }
+      },
+      borderBottomColor: {
+        require: false,
+        type: String
       }
     },
     data: function data() {
@@ -13894,9 +13898,11 @@ export default {
         deep: true
       },
       value: function value(val) {
+        if (this.type == 'border') return;
         var wrapDom = this.$refs.wrapDom;
         if (!wrapDom || !wrapDom.children) return;
         var itemDom = wrapDom.querySelector("#id-".concat(val));
+        if (!itemDom) return;
         this.line.width = itemDom.clientWidth;
         this.line.left = itemDom.offsetLeft;
 
@@ -13911,6 +13917,7 @@ export default {
     },
     methods: {
       changeClient: function changeClient() {
+        if (this.type == 'border') return;
         var wrapDom = this.$refs.wrapDom;
         if (!wrapDom || !wrapDom.children) return;
         var itemDom = wrapDom.querySelector("#id-".concat(this.value));
@@ -13965,7 +13972,6 @@ export default {
             "class": 'line',
             style: {
               transform: "translateX(".concat(this.line.left, "px)"),
-              'transform-origin': '0 50%',
               width: this.line.width + 'px'
             }
           }));
@@ -13974,7 +13980,8 @@ export default {
         children.push(h('div', {
           "class": 'category-wrap',
           style: {
-            'justify-content': this.justify
+            'justify-content': this.justify,
+            'border-bottom-color': this.borderBottomColor
           },
           ref: 'wrapDom'
         }, tabs));

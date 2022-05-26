@@ -17,7 +17,7 @@
     </owl-code-example>
     <h3>快捷指令</h3>
     <p>可以使用以下快捷指令打开相对应的消息类型。当参数有三个时，分别时内容，key和时间，如果是两个则是内容和时间</p>
-    <code>this.$message.info(content, key, duration)<br/>this.$message.info(content, key, duration)<br/>this.$message.error(content, key, duration)<br/>this.$message.loading(content, key, duration)</code>
+    <code>this.$message.success(content, key, duration)<br/>this.$message.info(content, key, duration)<br/>this.$message.error(content, key, duration)<br/>this.$message.loading(content, key, duration)</code>
     <h3>属性</h3>
     <owl-table :data="list" :columns="columns" />
   </div>
